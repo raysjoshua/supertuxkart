@@ -293,6 +293,8 @@ extern "C" {
 #include "utils/translation.hpp"
 #include "io/rich_presence.hpp"
 
+#include "audio/wwise_init.hpp"
+
 #include <IrrlichtDevice.h>
 
 static void cleanSuperTuxKart();
@@ -1833,6 +1835,7 @@ void clearGlobalVariables()
     RaceManager::clear();
     ProjectileManager::clear();
     RaceEventManager::clear();
+    wwise_manager = NULL;
     music_manager = NULL;
     irr_driver = NULL;
 #ifdef ENABLE_WIIUSE
@@ -1929,6 +1932,7 @@ void initRest()
 #endif
 
     music_manager = new MusicManager();
+    wwise_manager = new WWise();
     SFXManager::create();
     // The order here can be important, e.g. KartPropertiesManager needs
     // defaultKartProperties, which are defined in stk_config.
@@ -1964,6 +1968,7 @@ void initRest()
 
     track_manager->loadTrackList();
     music_manager->addMusicToTracks();
+    wwise_manager->InitSoundEngine();
 
     GUIEngine::addLoadingIcon(irr_driver->getTexture(FileManager::GUI_ICON,
                                                      "notes.png"      ) );
@@ -2708,6 +2713,7 @@ static void cleanSuperTuxKart()
     // (since SFX commands can contain music information, which are
     // deleted by the music manager).
     delete music_manager;
+    delete wwise_manager;
 
     // Race manager needs to be deleted after sfx manager as it checks for
     // the kart size structure from race manager
