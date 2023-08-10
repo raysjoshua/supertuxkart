@@ -11,5 +11,7 @@
 class WWise {
 public:
 	bool InitSoundEngine();
+	void ProcessAudio();
+	void TermSoundEngine();
 };
 extern WWise* wwise_manager;

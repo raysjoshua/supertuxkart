@@ -59,9 +59,12 @@
 #include "utils/translation.hpp"
 #include "io/rich_presence.hpp"
 
+#include "audio/wwise_init.hpp"
+
 #include <thread>
 
 #include <IrrlichtDevice.h>
+
 
 #ifndef WIN32
 #include <unistd.h>
@@ -561,6 +564,8 @@ void MainLoop::run()
 
         if (!m_abort)
         {
+            if(wwise_manager != NULL) wwise_manager->ProcessAudio();
+
             float frame_duration = num_steps * dt;
             if (!GUIEngine::isNoGraphics())
             {

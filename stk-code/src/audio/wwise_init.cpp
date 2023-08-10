@@ -98,3 +98,31 @@ bool  WWise::InitSoundEngine() {
 
 	return true;
 }
+
+void WWise::ProcessAudio() {
+	AK::SoundEngine::RenderAudio();
+}
+
+void WWise::TermSoundEngine() {
+	#ifndef AK_OPTIMIZED
+		//
+		// Terminate Communication Services. Should be done first
+		//
+		AK::Comm::Term();
+	#endif // AK_OPTIMIZED
+
+	AK::MusicEngine::Term();
+	AK::SoundEngine::Term();
+
+	// Terminate the streaming device and streaming manager
+	// CAkFilePackageLowLevelIOBlocking::Term() destroys its associated streaming device 
+	// that lives in the Stream Manager, and unregisters itself as the File Location Resolver.
+
+	g_lowLevelIO.Term();
+
+	if (AK::IAkStreamMgr::Get())
+		AK::IAkStreamMgr::Get()->Destroy();
+
+	// Terminate the Memory Manager
+	AK::MemoryMgr::Term();
+}

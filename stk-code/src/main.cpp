@@ -2713,6 +2713,8 @@ static void cleanSuperTuxKart()
     // (since SFX commands can contain music information, which are
     // deleted by the music manager).
     delete music_manager;
+
+    wwise_manager->TermSoundEngine();
     delete wwise_manager;
 
     // Race manager needs to be deleted after sfx manager as it checks for
