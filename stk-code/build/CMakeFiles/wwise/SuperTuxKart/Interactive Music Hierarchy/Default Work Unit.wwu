@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Red Earth_2" ID="{6B3159F8-C742-465B-B04C-B88E180DBD97}" ShortID="806766152">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="100048.979591837"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Red Earth_2" ID="{81AF0D24-A93A-48F6-B713-3F71CF28CBAD}" ShortID="698444887">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Red Earth_2" ID="{277C9C24-B69B-415A-B64F-E4872A655F46}">
+									<Language>SFX</Language>
+									<AudioFile>Red Earth_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="321385310"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{877555C9-F410-41B1-8717-3F95DA30CBCA}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{4EECC5B6-524E-4E8B-9DE7-07D6D1C68A0D}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Red Earth_2" ID="{15B50971-E9D5-42C5-8E08-022A75DC212B}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="100048.979591837"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Red Earth_2" ID="{277C9C24-B69B-415A-B64F-E4872A655F46}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{B7F7FF46-3EF2-412D-BE2A-8E8D09DD5088}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{5031B68D-19DE-4858-8FEE-E24769D9F7DB}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="100048.979591837"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

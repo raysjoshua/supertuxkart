@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2479442773	play_theme			\Default Work Unit\play_theme	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	321385310	Red Earth_2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Red Earth_2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Red Earth_2\Red Earth_2		17648704
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\</ProjectRoot>
+		<SourceFilesRoot>D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\supertuxkart\stk-code\build\CMakeFiles\GeneratedSoundBanks\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="902550164" Language="SFX" Hash="1133438155">
+			<ObjectPath>\SoundBanks\Default Work Unit\theme_music</ObjectPath>
+			<ShortName>theme_music</ShortName>
+			<Path>theme_music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2479442773" Name="play_theme" ObjectPath="\Events\Default Work Unit\play_theme">
+					<IncludedMemoryFiles>
+						<File Id="321385310" Language="SFX">
+							<ShortName>Red Earth_2.wav</ShortName>
+							<Path>SFX\Red Earth_2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1958929096">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

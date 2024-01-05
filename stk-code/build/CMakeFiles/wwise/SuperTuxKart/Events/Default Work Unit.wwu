@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="play_theme" ID="{A64AABEC-C876-4205-BA28-9F0141FB7A14}">
+					<ChildrenList>
+						<Action Name="" ID="{8EDDBEFE-8EFC-46FA-8AA5-D9CCF903C4F9}" ShortID="757429722">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Red Earth_2" ID="{6B3159F8-C742-465B-B04C-B88E180DBD97}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
