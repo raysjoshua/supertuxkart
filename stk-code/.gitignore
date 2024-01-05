@@ -13,6 +13,7 @@ build/CMakeFiles/*.sln
 build/CMakeFiles/*.txt
 build/CMakeFiles/*.cmake
 build/CMakeFiles/debug/*
+build/CMakeFiles/x64/*
 
 stk-editor/
 .vscode/
