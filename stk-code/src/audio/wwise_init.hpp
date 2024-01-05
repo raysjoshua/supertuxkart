@@ -7,10 +7,12 @@
 #include <AK/MusicEngine/Common/AkMusicEngine.h>
 #include <AK/SpatialAudio/Common/AkSpatialAudio.h> 
 #include <assert.h>
+#include <string>
 
 class WWise {
 public:
 	bool InitSoundEngine();
+	void PostEvent(char* Event);
 	void ProcessAudio();
 	void TermSoundEngine();
 };

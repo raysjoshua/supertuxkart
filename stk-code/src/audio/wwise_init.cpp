@@ -15,6 +15,14 @@
 	#include <AK/Comm/AkCommunication.h>
 
 #endif // AK_OPTIMIZED
+#include <string>
+
+AkGameObjectID MY_DEFAULT_LISTENER = 0;
+
+#define BANKNAME_INIT L"Init.bnk"
+#define BANKNAME_THEME_MUSIC L"theme_music.bnk"
+
+const AkGameObjectID GAME_OBJECT_ID_MENU = 100;
 
 
 CAkFilePackageLowLevelIOBlocking g_lowLevelIO;
@@ -96,7 +104,26 @@ bool  WWise::InitSoundEngine() {
 	#endif // AK_OPTIMIZED
 
 
+    // Loading Sound banks
+	g_lowLevelIO.SetBasePath(AKTEXT("./GeneratedSoundBanks/"));
+	AK::StreamMgr::SetCurrentLanguage( AKTEXT("English(US)"));
+	AkBankID bankID;
+
+	AKRESULT eResult = AK::SoundEngine::LoadBank(BANKNAME_INIT, bankID);
+	assert(eResult == AK_Success);
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_THEME_MUSIC, bankID);
+	assert(eResult == AK_Success);
+
+	AK::SoundEngine::RegisterGameObj(GAME_OBJECT_ID_MENU, "Menu");
+
+	AK::SoundEngine::RegisterGameObj(MY_DEFAULT_LISTENER, "My Default Listener");
+	AK::SoundEngine::SetDefaultListeners(&MY_DEFAULT_LISTENER, 1);
+
 	return true;
+}
+
+void WWise::PostEvent(char* Event) {
+	AK::SoundEngine::PostEvent(Event, GAME_OBJECT_ID_MENU);
 }
 
 void WWise::ProcessAudio() {

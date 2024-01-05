@@ -1969,6 +1969,7 @@ void initRest()
     track_manager->loadTrackList();
     music_manager->addMusicToTracks();
     wwise_manager->InitSoundEngine();
+    wwise_manager->PostEvent("play_theme");
 
     GUIEngine::addLoadingIcon(irr_driver->getTexture(FileManager::GUI_ICON,
                                                      "notes.png"      ) );

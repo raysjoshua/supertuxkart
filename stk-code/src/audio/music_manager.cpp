@@ -34,6 +34,7 @@
 #include "io/file_manager.hpp"
 #include "utils/stk_process.hpp"
 #include "utils/string_utils.hpp"
+#include "audio/wwise_init.hpp"
 
 MusicManager* music_manager= NULL;
 
