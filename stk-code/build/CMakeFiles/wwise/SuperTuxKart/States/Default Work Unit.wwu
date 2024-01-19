@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C7C0552A-CDD3-4A10-9E87-ECBA78250C71}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{C7C0552A-CDD3-4A10-9E87-ECBA78250C71}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C7C0552A-CDD3-4A10-9E87-ECBA78250C71}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="engine_size" ID="{25C9AE19-3BCE-4130-918F-CA187D9DD897}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{1A1CE96D-5758-4412-B242-9BC9BD8EEE67}"/>
+						<State Name="large" ID="{59CEB2A6-DA2E-4B02-ADA4-1CA5DCCDCBD7}"/>
+						<State Name="small" ID="{70C88AD9-961F-4408-89BB-E13B319E9FA1}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="kart_aesthetic" ID="{7C088765-CA93-487D-815D-379F417E83BE}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{0456EFD5-2EA5-4850-A1CB-9F84E5BEA858}"/>
+						<State Name="imaginary" ID="{06A58A0E-55CC-4163-8051-8D5D175C22F1}"/>
+						<State Name="racecar" ID="{B0F40281-A16E-49E8-BAFE-14C219D095A9}"/>
+						<State Name="hot_rod" ID="{6664854D-52E6-49FB-BCAF-EC7134650B2C}"/>
+						<State Name="jalopy" ID="{609D7962-51F1-4B98-A2D3-382F670347DC}"/>
+						<State Name="just_frame" ID="{8C8CB8F8-F1BA-4180-98A1-2840EBB7CE6B}"/>
+						<State Name="hovercraft" ID="{16189458-22C1-4646-B941-BE9692B571A7}"/>
+						<State Name="snow_mobile" ID="{BCF49E52-8FC7-4D13-B293-093712EA83BD}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="terrain" ID="{655EDFF6-D5B0-4602-B484-E6F08091C985}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{194FCBA6-195A-4FB5-9E08-AD34D9804FEE}"/>
+						<State Name="asphalt" ID="{77AFED81-4C67-4C0C-B5A6-E7CBDE90415F}"/>
+						<State Name="cobblestone" ID="{CF0646DA-6C70-4675-8D40-78EB7300C826}"/>
+						<State Name="dirt" ID="{CD2C3A0E-AB2B-490C-8783-5AD2BF2059F2}"/>
+						<State Name="sand" ID="{339B174E-F44D-4910-A6B2-795ED24A442B}"/>
+						<State Name="wood" ID="{3ADB4FA1-8C17-486C-831E-83FBB3F353DF}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

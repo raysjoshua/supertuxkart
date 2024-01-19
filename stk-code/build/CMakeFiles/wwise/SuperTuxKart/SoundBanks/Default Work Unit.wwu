@@ -6,6 +6,13 @@
 				<SoundBank Name="theme_music" ID="{94600884-5D29-4BA7-92AC-1D7A5248FD16}">
 					<ObjectInclusionList>
 						<ObjectRef Name="play_theme" ID="{A64AABEC-C876-4205-BA28-9F0141FB7A14}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="stop_skid" ID="{27840A65-95EB-43E4-9AB5-DF2970B35E85}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_terrain" ID="{A4E6092D-BBC2-4643-9D0E-2E3A263002D3}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_horn" ID="{00BEA74D-6857-4AFD-8C9E-917AB5A167A9}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_skid" ID="{7B4A18D5-38EB-4B35-A2A5-2140157F266E}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_engine" ID="{A184863A-C216-4CF8-9EBA-5261E308B75F}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="stop_engine" ID="{3BBB8767-2C90-4DF1-92FC-12EDBC89668B}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="stop_terrain" ID="{39D8DD5D-355D-4F73-AFF5-3B257595FD34}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
