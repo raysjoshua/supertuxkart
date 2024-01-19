@@ -1,21 +1,41 @@
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
-	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
-	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
-	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
-	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
-	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
-	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
-	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
-	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
-	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
-	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
-	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
-	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
-	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3377597412	gear_ratio			\Default Work Unit\gear_ratio	
+
+Switch	ID	Name	Switch Group			Notes
+	678209053	two	gear_ratio			
+	912956111	three	gear_ratio			
+	1064933119	one	gear_ratio			
+	1874288895	Idle	gear_ratio			
+	2611770117	five	gear_ratio			
+	2863728729	four	gear_ratio			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	354267144	terrain			\Default Work Unit\terrain	
+	3824012689	engine_size			\Default Work Unit\engine_size	
+	4090128184	kart_aesthetic			\Default Work Unit\kart_aesthetic	
+
+State	ID	Name	State Group			Notes
+	748895195	None	terrain			
+	803837735	sand	terrain			
+	2058049674	wood	terrain			
+	2195636714	dirt	terrain			
+	2383988601	cobblestone	terrain			
+	4169408098	asphalt	terrain			
+	748895195	None	engine_size			
+	1846755610	small	engine_size			
+	4284352190	large	engine_size			
+	748895195	None	kart_aesthetic			
+	842138401	just_frame	kart_aesthetic			
+	1113099008	imaginary	kart_aesthetic			
+	1189297449	hovercraft	kart_aesthetic			
+	1296800905	snow_mobile	kart_aesthetic			
+	1784722732	jalopy	kart_aesthetic			
+	2855864004	racecar	kart_aesthetic			
+	3430491968	hot_rod	kart_aesthetic			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
+	2199896603	Kart			\Default Work Unit\Master Audio Bus\Kart	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes

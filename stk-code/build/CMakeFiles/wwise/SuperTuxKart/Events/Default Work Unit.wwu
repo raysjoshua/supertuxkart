@@ -14,6 +14,112 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Kart" ID="{7E6FBCE7-E328-4D90-8A0E-498C36C63EA9}" ShortID="973736440">
+					<ChildrenList>
+						<Folder Name="Engine" ID="{D9D09998-37AD-4420-83CF-89CD4DCEF850}" ShortID="381143243">
+							<ChildrenList>
+								<Event Name="play_engine" ID="{A184863A-C216-4CF8-9EBA-5261E308B75F}">
+									<ChildrenList>
+										<Action Name="" ID="{D385B1E0-B4B6-424B-975E-9772773A7EDA}" ShortID="273317287">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="engine" ID="{0F0D932A-B0A8-419A-BF14-17C9278E8B93}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="stop_engine" ID="{3BBB8767-2C90-4DF1-92FC-12EDBC89668B}">
+									<ChildrenList>
+										<Action Name="" ID="{744DFE04-5473-4073-8BEA-2183A587D308}" ShortID="799564766">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="engine" ID="{0F0D932A-B0A8-419A-BF14-17C9278E8B93}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Horn" ID="{97002FE3-8843-4C23-B7B7-6AC66176CFD4}" ShortID="113709935">
+							<ChildrenList>
+								<Event Name="play_horn" ID="{00BEA74D-6857-4AFD-8C9E-917AB5A167A9}">
+									<ChildrenList>
+										<Action Name="" ID="{96A2FC82-7BDB-425D-AB68-652B2F348441}" ShortID="380270621">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="horn" ID="{070EC8F3-C79A-4FF9-8B55-08CB1E7C4481}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Skid" ID="{7755B3E1-0706-45FD-A932-15197745110E}" ShortID="1012523972">
+							<ChildrenList>
+								<Event Name="stop_skid" ID="{27840A65-95EB-43E4-9AB5-DF2970B35E85}">
+									<ChildrenList>
+										<Action Name="" ID="{1935AF99-7C5F-4B48-AB8C-32DA664D8890}" ShortID="724602965">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="skid" ID="{9B270FD5-202F-4C3E-AC70-76909F0BC7C6}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="play_skid" ID="{7B4A18D5-38EB-4B35-A2A5-2140157F266E}">
+									<ChildrenList>
+										<Action Name="" ID="{5A764C03-887E-4104-9163-92F97C72D58E}" ShortID="853702150">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="skid" ID="{9B270FD5-202F-4C3E-AC70-76909F0BC7C6}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Terrain" ID="{ACCD215E-C475-4A6F-BB83-C521B056071F}" ShortID="594506100">
+							<ChildrenList>
+								<Event Name="play_terrain" ID="{A4E6092D-BBC2-4643-9D0E-2E3A263002D3}">
+									<ChildrenList>
+										<Action Name="" ID="{C6FE5D8B-9718-4C5F-B769-89D223C90A02}" ShortID="390662496">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="terrain" ID="{B7E4ACE1-DACF-4E91-AE52-2D675906B5A7}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="stop_terrain" ID="{39D8DD5D-355D-4F73-AFF5-3B257595FD34}">
+									<ChildrenList>
+										<Action Name="" ID="{63A882F6-DB98-49CB-A900-F5848380C4F5}" ShortID="527582043">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="terrain" ID="{B7E4ACE1-DACF-4E91-AE52-2D675906B5A7}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

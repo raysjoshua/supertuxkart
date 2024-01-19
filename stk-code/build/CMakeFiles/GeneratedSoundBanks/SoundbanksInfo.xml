@@ -11,11 +11,301 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="902550164" Language="SFX" Hash="1133438155">
+		<SoundBank Id="902550164" Language="SFX" Hash="1736748967">
 			<ObjectPath>\SoundBanks\Default Work Unit\theme_music</ObjectPath>
 			<ShortName>theme_music</ShortName>
 			<Path>theme_music.bnk</Path>
 			<IncludedEvents>
+				<Event Id="639345804" Name="play_engine" ObjectPath="\Events\Default Work Unit\Kart\Engine\play_engine">
+					<IncludedMemoryFiles>
+						<File Id="190544656" Language="SFX">
+							<ShortName>Industry Tool Air Escaping From Air Compressor Quick Burst 36.wav</ShortName>
+							<Path>SFX\Industry Tool Air Escaping From Air Compressor Quick Burst 36_10C4C929.wem</Path>
+						</File>
+						<File Id="274440068" Language="SFX">
+							<ShortName>Engine_Light_Fast.wav</ShortName>
+							<Path>SFX\Engine_Light_Fast_D79FB2B7.wem</Path>
+						</File>
+						<File Id="303444677" Language="SFX">
+							<ShortName>Engine_Heavy_Medium.wav</ShortName>
+							<Path>SFX\Engine_Heavy_Medium_D79FB2B7.wem</Path>
+						</File>
+						<File Id="453377722" Language="SFX">
+							<ShortName>Engine_Heavy_Slow.wav</ShortName>
+							<Path>SFX\Engine_Heavy_Slow_D79FB2B7.wem</Path>
+						</File>
+						<File Id="510607462" Language="SFX">
+							<ShortName>Engine_Light_Medium.wav</ShortName>
+							<Path>SFX\Engine_Light_Medium_D79FB2B7.wem</Path>
+						</File>
+						<File Id="731493536" Language="SFX">
+							<ShortName>Engine_Heavy_Fast.wav</ShortName>
+							<Path>SFX\Engine_Heavy_Fast_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1041486758" Language="SFX">
+							<ShortName>Engine_Light_Slow.wav</ShortName>
+							<Path>SFX\Engine_Light_Slow_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{70C88AD9-961F-4408-89BB-E13B319E9FA1}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{59CEB2A6-DA2E-4B02-ADA4-1CA5DCCDCBD7}">
+							<DefaultSwitchValue>{71A0EB03-E1CC-4188-999C-798709DC9CC2}</DefaultSwitchValue>
+							<Media>
+								<File Id="303444677"/>
+								<File Id="453377722"/>
+								<File Id="731493536"/>
+							</Media>
+							<Children>
+								<SwitchContainer SwitchValue="{4940E201-B9CF-4C18-B9CA-C6ECC6EA6311}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{ECC63A72-A84D-4B53-9C8B-84F84F29D76A}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{83495883-AE35-4345-902D-F8CE82FE0305}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{38E97FC5-BF67-4BF2-9943-8BD212970292}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{FC9069F5-E941-4B67-8A0A-5E8FD751BCAC}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{70C88AD9-961F-4408-89BB-E13B319E9FA1}">
+							<DefaultSwitchValue>{71A0EB03-E1CC-4188-999C-798709DC9CC2}</DefaultSwitchValue>
+							<Media>
+								<File Id="274440068"/>
+								<File Id="510607462"/>
+								<File Id="1041486758"/>
+							</Media>
+							<Children>
+								<SwitchContainer SwitchValue="{4940E201-B9CF-4C18-B9CA-C6ECC6EA6311}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{ECC63A72-A84D-4B53-9C8B-84F84F29D76A}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{83495883-AE35-4345-902D-F8CE82FE0305}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{38E97FC5-BF67-4BF2-9943-8BD212970292}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{FC9069F5-E941-4B67-8A0A-5E8FD751BCAC}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2956245481" Name="play_horn" ObjectPath="\Events\Default Work Unit\Kart\Horn\play_horn">
+					<IncludedMemoryFiles>
+						<File Id="912990630" Language="SFX">
+							<ShortName>honk.wav</ShortName>
+							<Path>SFX\honk_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{B0F40281-A16E-49E8-BAFE-14C219D095A9}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{06A58A0E-55CC-4163-8051-8D5D175C22F1}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6664854D-52E6-49FB-BCAF-EC7134650B2C}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BCF49E52-8FC7-4D13-B293-093712EA83BD}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{16189458-22C1-4646-B941-BE9692B571A7}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{609D7962-51F1-4B98-A2D3-382F670347DC}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B0F40281-A16E-49E8-BAFE-14C219D095A9}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0456EFD5-2EA5-4850-A1CB-9F84E5BEA858}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8C8CB8F8-F1BA-4180-98A1-2840EBB7CE6B}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="301964555" Name="play_skid" ObjectPath="\Events\Default Work Unit\Kart\Skid\play_skid">
+					<IncludedMemoryFiles>
+						<File Id="189731322" Language="SFX">
+							<ShortName>Terrain_Dirt.wav</ShortName>
+							<Path>SFX\Terrain_Dirt_A54919C4.wem</Path>
+						</File>
+						<File Id="298409511" Language="SFX">
+							<ShortName>Terrain_Wood-cm_2.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_2_10C4C929.wem</Path>
+						</File>
+						<File Id="307533153" Language="SFX">
+							<ShortName>Terrain_Wood-cm_1.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_1_10C4C929.wem</Path>
+						</File>
+						<File Id="504215093" Language="SFX">
+							<ShortName>Terrain_Wood-cm_4.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_4_10C4C929.wem</Path>
+						</File>
+						<File Id="519840127" Language="SFX">
+							<ShortName>skid-asphalt-cobblestone.wav</ShortName>
+							<Path>SFX\skid-asphalt-cobblestone_152BC4E2.wem</Path>
+						</File>
+						<File Id="731744806" Language="SFX">
+							<ShortName>Terrain_Wood-cm.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_10C4C929.wem</Path>
+						</File>
+						<File Id="805696895" Language="SFX">
+							<ShortName>Terrain_Wood-cm_3.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{CD2C3A0E-AB2B-490C-8783-5AD2BF2059F2}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{CD2C3A0E-AB2B-490C-8783-5AD2BF2059F2}">
+							<Media>
+								<File Id="189731322"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{339B174E-F44D-4910-A6B2-795ED24A442B}">
+							<Media>
+								<File Id="189731322"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{77AFED81-4C67-4C0C-B5A6-E7CBDE90415F}">
+							<Media>
+								<File Id="519840127"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3ADB4FA1-8C17-486C-831E-83FBB3F353DF}">
+							<Media>
+								<File Id="298409511"/>
+								<File Id="307533153"/>
+								<File Id="504215093"/>
+								<File Id="731744806"/>
+								<File Id="805696895"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{194FCBA6-195A-4FB5-9E08-AD34D9804FEE}">
+							<Media>
+								<File Id="519840127"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CF0646DA-6C70-4675-8D40-78EB7300C826}">
+							<Media>
+								<File Id="519840127"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1760369021" Name="play_terrain" ObjectPath="\Events\Default Work Unit\Kart\Terrain\play_terrain">
+					<IncludedMemoryFiles>
+						<File Id="189731322" Language="SFX">
+							<ShortName>Terrain_Dirt.wav</ShortName>
+							<Path>SFX\Terrain_Dirt_A54919C4.wem</Path>
+						</File>
+						<File Id="298409511" Language="SFX">
+							<ShortName>Terrain_Wood-cm_2.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_2_10C4C929.wem</Path>
+						</File>
+						<File Id="307533153" Language="SFX">
+							<ShortName>Terrain_Wood-cm_1.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_1_10C4C929.wem</Path>
+						</File>
+						<File Id="504215093" Language="SFX">
+							<ShortName>Terrain_Wood-cm_4.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_4_10C4C929.wem</Path>
+						</File>
+						<File Id="731744806" Language="SFX">
+							<ShortName>Terrain_Wood-cm.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_10C4C929.wem</Path>
+						</File>
+						<File Id="805696895" Language="SFX">
+							<ShortName>Terrain_Wood-cm_3.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{CD2C3A0E-AB2B-490C-8783-5AD2BF2059F2}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{CD2C3A0E-AB2B-490C-8783-5AD2BF2059F2}">
+							<Media>
+								<File Id="189731322"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{339B174E-F44D-4910-A6B2-795ED24A442B}">
+							<Media>
+								<File Id="189731322"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{77AFED81-4C67-4C0C-B5A6-E7CBDE90415F}">
+							<Media>
+								<File Id="189731322"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3ADB4FA1-8C17-486C-831E-83FBB3F353DF}">
+							<Media>
+								<File Id="298409511"/>
+								<File Id="307533153"/>
+								<File Id="504215093"/>
+								<File Id="731744806"/>
+								<File Id="805696895"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{194FCBA6-195A-4FB5-9E08-AD34D9804FEE}">
+							<Media>
+								<File Id="189731322"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CF0646DA-6C70-4675-8D40-78EB7300C826}">
+							<Media>
+								<File Id="189731322"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="2479442773" Name="play_theme" ObjectPath="\Events\Default Work Unit\play_theme">
 					<IncludedMemoryFiles>
 						<File Id="321385310" Language="SFX">
@@ -24,9 +314,58 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="37214798" Name="stop_engine" ObjectPath="\Events\Default Work Unit\Kart\Engine\stop_engine"/>
+				<Event Id="796395057" Name="stop_skid" ObjectPath="\Events\Default Work Unit\Kart\Skid\stop_skid"/>
+				<Event Id="422983091" Name="stop_terrain" ObjectPath="\Events\Default Work Unit\Kart\Terrain\stop_terrain"/>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3519441192" Name="velocity" ObjectPath="\Game Parameters\Default Work Unit\player\velocity"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="354267144" Name="terrain" ObjectPath="\States\Default Work Unit\terrain" GUID="{655EDFF6-D5B0-4602-B484-E6F08091C985}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\terrain\None" GUID="{194FCBA6-195A-4FB5-9E08-AD34D9804FEE}"/>
+						<State Id="4169408098" Name="asphalt" ObjectPath="\States\Default Work Unit\terrain\asphalt" GUID="{77AFED81-4C67-4C0C-B5A6-E7CBDE90415F}"/>
+						<State Id="2383988601" Name="cobblestone" ObjectPath="\States\Default Work Unit\terrain\cobblestone" GUID="{CF0646DA-6C70-4675-8D40-78EB7300C826}"/>
+						<State Id="2195636714" Name="dirt" ObjectPath="\States\Default Work Unit\terrain\dirt" GUID="{CD2C3A0E-AB2B-490C-8783-5AD2BF2059F2}"/>
+						<State Id="803837735" Name="sand" ObjectPath="\States\Default Work Unit\terrain\sand" GUID="{339B174E-F44D-4910-A6B2-795ED24A442B}"/>
+						<State Id="2058049674" Name="wood" ObjectPath="\States\Default Work Unit\terrain\wood" GUID="{3ADB4FA1-8C17-486C-831E-83FBB3F353DF}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3824012689" Name="engine_size" ObjectPath="\States\Default Work Unit\engine_size" GUID="{25C9AE19-3BCE-4130-918F-CA187D9DD897}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\engine_size\None" GUID="{1A1CE96D-5758-4412-B242-9BC9BD8EEE67}"/>
+						<State Id="4284352190" Name="large" ObjectPath="\States\Default Work Unit\engine_size\large" GUID="{59CEB2A6-DA2E-4B02-ADA4-1CA5DCCDCBD7}"/>
+						<State Id="1846755610" Name="small" ObjectPath="\States\Default Work Unit\engine_size\small" GUID="{70C88AD9-961F-4408-89BB-E13B319E9FA1}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4090128184" Name="kart_aesthetic" ObjectPath="\States\Default Work Unit\kart_aesthetic" GUID="{7C088765-CA93-487D-815D-379F417E83BE}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\kart_aesthetic\None" GUID="{0456EFD5-2EA5-4850-A1CB-9F84E5BEA858}"/>
+						<State Id="1113099008" Name="imaginary" ObjectPath="\States\Default Work Unit\kart_aesthetic\imaginary" GUID="{06A58A0E-55CC-4163-8051-8D5D175C22F1}"/>
+						<State Id="2855864004" Name="racecar" ObjectPath="\States\Default Work Unit\kart_aesthetic\racecar" GUID="{B0F40281-A16E-49E8-BAFE-14C219D095A9}"/>
+						<State Id="3430491968" Name="hot_rod" ObjectPath="\States\Default Work Unit\kart_aesthetic\hot_rod" GUID="{6664854D-52E6-49FB-BCAF-EC7134650B2C}"/>
+						<State Id="1784722732" Name="jalopy" ObjectPath="\States\Default Work Unit\kart_aesthetic\jalopy" GUID="{609D7962-51F1-4B98-A2D3-382F670347DC}"/>
+						<State Id="842138401" Name="just_frame" ObjectPath="\States\Default Work Unit\kart_aesthetic\just_frame" GUID="{8C8CB8F8-F1BA-4180-98A1-2840EBB7CE6B}"/>
+						<State Id="1189297449" Name="hovercraft" ObjectPath="\States\Default Work Unit\kart_aesthetic\hovercraft" GUID="{16189458-22C1-4646-B941-BE9692B571A7}"/>
+						<State Id="1296800905" Name="snow_mobile" ObjectPath="\States\Default Work Unit\kart_aesthetic\snow_mobile" GUID="{BCF49E52-8FC7-4D13-B293-093712EA83BD}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="3377597412" Name="gear_ratio" ObjectPath="\Switches\Default Work Unit\gear_ratio" GUID="{3511835E-076D-44ED-8559-C99DD5BD0EE2}">
+					<Switches>
+						<Switch Id="678209053" Name="two" ObjectPath="\Switches\Default Work Unit\gear_ratio\two" GUID="{83495883-AE35-4345-902D-F8CE82FE0305}"/>
+						<Switch Id="1064933119" Name="one" ObjectPath="\Switches\Default Work Unit\gear_ratio\one" GUID="{ECC63A72-A84D-4B53-9C8B-84F84F29D76A}"/>
+						<Switch Id="912956111" Name="three" ObjectPath="\Switches\Default Work Unit\gear_ratio\three" GUID="{38E97FC5-BF67-4BF2-9943-8BD212970292}"/>
+						<Switch Id="1874288895" Name="Idle" ObjectPath="\Switches\Default Work Unit\gear_ratio\Idle" GUID="{71A0EB03-E1CC-4188-999C-798709DC9CC2}"/>
+						<Switch Id="2863728729" Name="four" ObjectPath="\Switches\Default Work Unit\gear_ratio\four" GUID="{4940E201-B9CF-4C18-B9CA-C6ECC6EA6311}"/>
+						<Switch Id="2611770117" Name="five" ObjectPath="\Switches\Default Work Unit\gear_ratio\five" GUID="{FC9069F5-E941-4B67-8A0A-5E8FD751BCAC}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1958929096">
+		<SoundBank Id="1355168291" Language="SFX" Hash="71176897">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

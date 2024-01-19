@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1446A205-8C66-48FA-B3B4-8A5F97723F5A}" SchemaVersion="103">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{1446A205-8C66-48FA-B3B4-8A5F97723F5A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1446A205-8C66-48FA-B3B4-8A5F97723F5A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="player" ID="{D4BE8D56-0BE7-4655-B618-95C2CB162FFC}" ShortID="941905934">
+					<ChildrenList>
+						<GameParameter Name="velocity" ID="{CAEAF9B1-482F-4239-99C6-88F258042DEF}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="45"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
