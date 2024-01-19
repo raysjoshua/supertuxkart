@@ -126,6 +126,16 @@ void WWise::PostEvent(char* Event) {
 	AK::SoundEngine::PostEvent(Event, GAME_OBJECT_ID_MENU);
 }
 
+void WWise::SetGameSyncState(char* Group, char* State) {
+	AKRESULT eResult = AK::SoundEngine::SetState(Group, State);
+	assert(eResult == AK_Success);
+}
+
+void WWise::SetGameSyncParameter(char* Group, AkRtpcValue Value) {
+	AKRESULT eResult = AK::SoundEngine::SetRTPCValue(Group, Value, GAME_OBJECT_ID_MENU);
+	assert(eResult == AK_Success);
+}
+
 void WWise::ProcessAudio() {
 	AK::SoundEngine::RenderAudio();
 }

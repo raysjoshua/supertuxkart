@@ -105,9 +105,11 @@ public:
     virtual void      reallySetMasterVolumeNow(float volue) OVERRIDE;
     virtual void      onSoundEnabledBack() OVERRIDE;
     virtual void      setRolloff(float rolloff) OVERRIDE;
+    virtual void      setToPlaying();
+    virtual void      setToStopped();
     // ------------------------------------------------------------------------
     /** Returns if this sfx is looped or not. */
-    virtual bool      isLooped()  OVERRIDE { return m_loop; }
+    virtual bool      isLooped()  OVERRIDE { return m_loop;}
     // ------------------------------------------------------------------------
     /** Returns the status of this sfx. */
     virtual SFXStatus getStatus()  OVERRIDE { return m_status; }

@@ -43,6 +43,8 @@
 #include "utils/string_utils.hpp"
 #include "utils/translation.hpp"
 
+#include "audio/wwise_init.hpp"
+
 #include <iostream>
 #include <stdexcept>
 #include <string>
@@ -573,8 +575,13 @@ void KartProperties::getAllData(const XMLNode * root)
                 m_engine_sfx_type = "engine_small";
             }
         }
-        else if (s == "large") m_engine_sfx_type = "engine_large";
-        else if (s == "small") m_engine_sfx_type = "engine_small";
+        else if (s == "large") {
+            wwise_manager->SetGameSyncState("engine_size","large");
+            m_engine_sfx_type = "engine_large";
+        }
+        else if (s == "small") {
+            m_engine_sfx_type = "engine_small";
+        }
         else
         {
             if (SFXManager::get()->soundExist(s))
@@ -587,6 +594,7 @@ void KartProperties::getAllData(const XMLNode * root)
                            "Kart '%s' has an invalid engine '%s'.",
                            m_name.c_str(), s.c_str());
                 m_engine_sfx_type = "engine_small";
+                wwise_manager->SetGameSyncState("engine_size", "small");
             }
         }
 

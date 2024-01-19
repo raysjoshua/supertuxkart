@@ -84,7 +84,8 @@ public:
     virtual void       setRolloff(float rolloff)            = 0;
     virtual SFXBuffer* getBuffer() const                    = 0;
     virtual SFXStatus  getStatus()                          = 0;
-
+    virtual void       setToPlaying()                       = 0;
+    virtual void       setToStopped()                       = 0;
 };   // SFXBase
 
 

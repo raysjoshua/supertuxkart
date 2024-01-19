@@ -336,6 +336,13 @@ void SFXOpenAL::reallyResumeNow()
     }
 }   // reallyResumeNow
 
+void SFXOpenAL::setToPlaying() {
+    m_status = SFX_PLAYING;
+}
+
+void SFXOpenAL::setToStopped() {
+    m_status = SFX_STOPPED;
+}
 //-----------------------------------------------------------------------------
 /** This actually queues up the sfx in the sfx manager. It will be started
  *  from a separate thread later (in this frame).

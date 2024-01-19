@@ -99,6 +99,7 @@
 #include <limits>
 #include <cmath>
 
+#include "audio/wwise_init.hpp"
 
 #if defined(WIN32) && !defined(__CYGWIN__)  && !defined(__MINGW32__)
    // Disable warning for using 'this' in base member initializer list
@@ -272,8 +273,12 @@ Kart::~Kart()
             SFXManager::get()->deleteSFX(m_custom_sounds[n]);
     }*/
 
-    if (m_engine_sound)
+    wwise_manager->PostEvent("stop_engine");
+    if (m_engine_sound) {
         m_engine_sound->deleteSFX();
+    }
+
+    wwise_manager->PostEvent("stop_skid");
     if (m_skid_sound)
         m_skid_sound->deleteSFX();
 
@@ -320,7 +325,7 @@ void Kart::reset()
     // Add karts back in case that they have been removed (i.e. in battle
     // mode) - but only if they actually have a body (e.g. ghost karts
     // don't have one).
-    if(m_body)
+    if (m_body)
     {
         Physics::get()->removeKart(this);
         Physics::get()->addKart(this);
@@ -329,7 +334,7 @@ void Kart::reset()
     m_min_nitro_ticks = 0;
     m_energy_to_min_ratio = 0;
     m_consumption_per_tick = stk_config->ticks2Time(1) *
-                             m_kart_properties->getNitroConsumption();
+        m_kart_properties->getNitroConsumption();
 
     // Reset star effect in case that it is currently being shown.
     if (m_stars_effect)
@@ -342,10 +347,10 @@ void Kart::reset()
 
     // If the controller was replaced (e.g. replaced by end controller),
     // restore the original controller.
-    if(m_saved_controller)
+    if (m_saved_controller)
     {
         delete m_controller;
-        m_controller       = m_saved_controller;
+        m_controller = m_saved_controller;
         m_saved_controller = NULL;
     }
     m_kart_model->setAnimation(KartModel::AF_DEFAULT);
@@ -363,34 +368,34 @@ void Kart::reset()
 
     unsetSquash();
 
-    m_last_used_powerup    = PowerupManager::POWERUP_NOTHING;
-    m_race_position        = m_initial_position;
-    m_finished_race        = false;
-    m_eliminated           = false;
-    m_finish_time          = 0.0f;
-    m_bubblegum_ticks      = 0;
+    m_last_used_powerup = PowerupManager::POWERUP_NOTHING;
+    m_race_position = m_initial_position;
+    m_finished_race = false;
+    m_eliminated = false;
+    m_finish_time = 0.0f;
+    m_bubblegum_ticks = 0;
     m_bubblegum_torque_sign = true;
-    m_invulnerable_ticks   = 0;
-    m_min_nitro_ticks      = 0;
-    m_energy_to_min_ratio  = 0;
-    m_collected_energy     = 0;
-    m_bounce_back_ticks    = 0;
-    m_brake_ticks          = 0;
-    m_ticks_last_crash     = 0;
-    m_ticks_last_zipper    = 0;
-    m_speed                = 0.0f;
-    m_current_lean         = 0.0f;
-    m_falling_time         = 0.0f;
+    m_invulnerable_ticks = 0;
+    m_min_nitro_ticks = 0;
+    m_energy_to_min_ratio = 0;
+    m_collected_energy = 0;
+    m_bounce_back_ticks = 0;
+    m_brake_ticks = 0;
+    m_ticks_last_crash = 0;
+    m_ticks_last_zipper = 0;
+    m_speed = 0.0f;
+    m_current_lean = 0.0f;
+    m_falling_time = 0.0f;
     m_view_blocked_by_plunger = 0;
     m_has_caught_nolok_bubblegum = false;
-    m_is_jumping           = false;
-    m_flying               = false;
-    m_startup_boost        = 0.0f;
+    m_is_jumping = false;
+    m_flying = false;
+    m_startup_boost = 0.0f;
 
     if (m_node)
         m_node->setScale(core::vector3df(1.0f, 1.0f, 1.0f));
 
-    for (int i=0;i<m_xyz_history_size;i++)
+    for (int i = 0;i < m_xyz_history_size;i++)
     {
         m_previous_xyz[i] = getXYZ();
         m_previous_xyz_times[i] = 0.0f;
@@ -399,23 +404,28 @@ void Kart::reset()
 
     // In case that the kart was in the air, in which case its
     // linear damping is 0
-    if(m_body)
+    if (m_body)
         m_body->setDamping(m_kart_properties->getStabilityChassisLinearDamping(),
-                           m_kart_properties->getStabilityChassisAngularDamping());
+            m_kart_properties->getStabilityChassisAngularDamping());
 
-    if(m_terrain_sound)
+    wwise_manager->PostEvent("stop_terrain");
+    if (m_terrain_sound)
     {
         m_terrain_sound->deleteSFX();
         m_terrain_sound = NULL;
     }
-    if(m_previous_terrain_sound)
+    if (m_previous_terrain_sound)
     {
         m_previous_terrain_sound->deleteSFX();
         m_previous_terrain_sound = NULL;
     }
 
-    if(m_engine_sound)
+    wwise_manager->PostEvent("stop_terrain");
+    wwise_manager->PostEvent("stop_engine");
+    if (m_engine_sound) {
+        
         m_engine_sound->stop();
+    }
 
     m_controls.reset();
     m_slipstream->reset();
@@ -843,7 +853,8 @@ void Kart::startEngineSFX()
 
     m_engine_sound->setSpeed(0.6f);
     m_engine_sound->setLoop(true);
-    m_engine_sound->play();
+    wwise_manager->PostEvent("play_engine");
+    //m_engine_sound->play();
 }   // startEngineSFX
 
 //-----------------------------------------------------------------------------
@@ -1331,9 +1342,12 @@ void Kart::eliminate()
 
     m_kart_gfx->setCreationRateAbsolute(KartGFX::KGFX_TERRAIN, 0);
     m_kart_gfx->setGFXInvisible();
+    
+    wwise_manager->PostEvent("stop_engine");
 
-    if (m_engine_sound)
+    if (m_engine_sound) {
         m_engine_sound->stop();
+    }
 
     m_eliminated = true;
 
@@ -1828,6 +1842,8 @@ void Kart::updateSpeed()
     {
         m_speed          = 0;
     }
+
+    wwise_manager->SetGameSyncParameter("velocity", m_speed);
 }   // updateSpeed
 
 //-----------------------------------------------------------------------------
@@ -1977,6 +1993,7 @@ void Kart::handleMaterialSFX()
             m_terrain_sound = SFXManager::get()->createSoundSource(sound_name);
             m_terrain_sound->play();
             m_terrain_sound->setLoop(true);
+            wwise_manager->PostEvent("play_terrain");
         }
         else
         {
@@ -2150,6 +2167,7 @@ void Kart::handleMaterialGFX(float dt)
         m_terrain_sound = SFXManager::get()->createSoundSource(s);
         m_terrain_sound->play();
         m_terrain_sound->setLoop(false);
+        wwise_manager->PostEvent("play_terrain");
     }
 
 }   // handleMaterialGFX
@@ -2271,8 +2289,11 @@ void Kart::updateNitro(int ticks)
 
     if (increase_speed)
     {
-        if(m_nitro_sound->getStatus() != SFXBase::SFX_PLAYING && !rewinding)
+        if (m_nitro_sound->getStatus() != SFXBase::SFX_PLAYING && !rewinding) {
+
+       
             m_nitro_sound->play();
+        }
 
         m_max_speed->increaseMaxSpeed(MaxSpeed::MS_INCREASE_NITRO,
             m_kart_properties->getNitroMaxSpeedIncrease(),
@@ -2515,13 +2536,7 @@ void Kart::playCrashSFX(const Material* m, AbstractKart *k)
  */
 void Kart::beep()
 {
-    // If the custom horn can't play (isn't defined) then play the default one
-    if (!playCustomSFX(SFXManager::CUSTOM_HORN) &&
-        !RewindManager::get()->isRewinding())
-    {
-        getNextEmitter()->play(getSmoothedXYZ(), m_horn_sound);
-    }
-
+    wwise_manager->PostEvent("play_horn");
 } // beep
 
 // -----------------------------------------------------------------------------
@@ -2620,15 +2635,21 @@ void Kart::updatePhysics(int ticks)
 
     m_skidding->update(ticks, isOnGround(), m_controls.getSteer(),
                        m_controls.getSkidControl());
-    if( ( m_skidding->getSkidState() == Skidding::SKID_ACCUMULATE_LEFT ||
-          m_skidding->getSkidState() == Skidding::SKID_ACCUMULATE_RIGHT  ) &&
-       !m_skidding->isJumping()                                              )
+    if ((m_skidding->getSkidState() == Skidding::SKID_ACCUMULATE_LEFT ||
+        m_skidding->getSkidState() == Skidding::SKID_ACCUMULATE_RIGHT) &&
+        !m_skidding->isJumping())
     {
-        if(m_skid_sound && m_skid_sound->getStatus()!=SFXBase::SFX_PLAYING)
-            m_skid_sound->play(getSmoothedXYZ());
+        if (m_skid_sound && m_skid_sound->getStatus() != SFXBase::SFX_PLAYING) {
+            wwise_manager->PostEvent("play_skid");
+            m_skid_sound->play(getSmoothedXYZ());// Can't Fix Logic. Will swapp out with an empty sound. 
+        }
+        if (m_skid_sound) {
+            m_skid_sound->setToPlaying();
+        }
     }
     else if(m_skid_sound && m_skid_sound->getStatus()==SFXBase::SFX_PLAYING)
     {
+        wwise_manager->PostEvent("stop_skid");
         m_skid_sound->stop();
     }
 
@@ -2991,7 +3012,7 @@ void Kart::loadData(RaceManager::KartType type, bool is_animated_model)
 
 #ifdef DEBUG
     if (m_node)
-        m_node->setName( (getIdent()+"(lod-node)").c_str() );
+        m_node->setName((getIdent() + "(lod-node)").c_str());
 #endif
 
     // Attachment must be created after attachModel, since only then the
@@ -3029,12 +3050,22 @@ void Kart::loadData(RaceManager::KartType type, bool is_animated_model)
         m_stars_effect.reset(new Stars(this));
 
     // Clear previous sound if exists when changeKart
-    if (m_engine_sound)
+
+    wwise_manager->PostEvent("stop_engine");
+    if (m_engine_sound) {
         m_engine_sound->deleteSFX();
+    }
     m_engine_sound = SFXManager::get()->createSoundSource(m_kart_properties->getEngineSfxType());
+    if (m_kart_properties->getEngineSfxType()._Equal("engine_large")) {
+        wwise_manager->SetGameSyncState("engine_size", "large");
+    }
+    if (m_kart_properties->getEngineSfxType()._Equal("engine_small")) {
+        wwise_manager->SetGameSyncState("engine_size", "small");
+    }
     if (!m_engine_sound)
         Log::error("Kart","Could not allocate a sfx object for the kart. Further errors may ensue!");
 
+    wwise_manager->PostEvent("stop_skid");
     if (m_skid_sound)
     {
         m_skid_sound->deleteSFX();

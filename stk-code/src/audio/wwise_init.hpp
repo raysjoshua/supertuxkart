@@ -13,6 +13,8 @@ class WWise {
 public:
 	bool InitSoundEngine();
 	void PostEvent(char* Event);
+	void SetGameSyncState(char* Group, char* State);
+	void SetGameSyncParameter(char* Group, AkRtpcValue Value);
 	void ProcessAudio();
 	void TermSoundEngine();
 };
