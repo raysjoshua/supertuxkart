@@ -31,6 +31,7 @@
 #include "physics/physics.hpp"
 #include "utils/log.hpp"
 #include "utils/string_utils.hpp"
+#include "audio/wwise_init.hpp"
 
 /** Creates a kart.
  *  \param ident The identifier of the kart.
@@ -54,6 +55,7 @@ AbstractKart::AbstractKart(const std::string& ident,
     }
     else
         loadKartProperties(ident, handicap, ri);
+    wwise_manager->RegisterGameObject(world_kart_id, ident.c_str());
 }   // AbstractKart
 
 // ----------------------------------------------------------------------------
@@ -64,6 +66,8 @@ AbstractKart::~AbstractKart()
         m_kart_animation->handleResetRace();
         delete m_kart_animation;
     }
+    wwise_manager->UnRegisterGameObject(m_world_kart_id);
+    wwise_manager->UnRegisterGameListener(m_world_kart_id);
 }   // ~AbstractKart
 
 // ----------------------------------------------------------------------------

@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="play_theme" ID="{A64AABEC-C876-4205-BA28-9F0141FB7A14}">
-					<ChildrenList>
-						<Action Name="" ID="{8EDDBEFE-8EFC-46FA-8AA5-D9CCF903C4F9}" ShortID="757429722">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Red Earth_2" ID="{6B3159F8-C742-465B-B04C-B88E180DBD97}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Kart" ID="{7E6FBCE7-E328-4D90-8A0E-498C36C63EA9}" ShortID="973736440">
 					<ChildrenList>
 						<Folder Name="Engine" ID="{D9D09998-37AD-4420-83CF-89CD4DCEF850}" ShortID="381143243">
@@ -87,6 +76,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="play_skid_ignition" ID="{34790967-B5B1-41BC-85ED-0EAC130DE5B5}">
+									<ChildrenList>
+										<Action Name="" ID="{8E217AA2-B59A-4875-864F-A97C5F60E0BB}" ShortID="194400039">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="skid_ignition" ID="{D9518FE3-D651-4490-9E9B-31C4FB0265A9}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Terrain" ID="{ACCD215E-C475-4A6F-BB83-C521B056071F}" ShortID="594506100">
@@ -118,8 +118,63 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Slipstream" ID="{B1EEE891-9D8B-440F-96EA-51AF350709B0}" ShortID="399086035">
+							<ChildrenList>
+								<Event Name="play_slipstream" ID="{2E8A9539-F22D-4317-9F56-E07F9D94A2F5}">
+									<ChildrenList>
+										<Action Name="" ID="{19AD2A1A-A8D2-4167-BEF0-F21487DE3770}" ShortID="293426555">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="slipstream" ID="{119F1378-5069-4509-A833-0C0578AD9075}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="stop_slipstream" ID="{513042A9-9DBF-475E-9D6F-286E5F5B97CA}">
+									<ChildrenList>
+										<Action Name="" ID="{60093CC7-9755-4546-89BE-54E63A1ED423}" ShortID="282734434">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="slipstream" ID="{119F1378-5069-4509-A833-0C0578AD9075}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="OST" ID="{30AC33E2-5F46-4C31-B6D5-E22F5FF349E6}" ShortID="382705531">
+					<ChildrenList>
+						<Event Name="play_theme" ID="{A64AABEC-C876-4205-BA28-9F0141FB7A14}">
+							<ChildrenList>
+								<Action Name="" ID="{8EDDBEFE-8EFC-46FA-8AA5-D9CCF903C4F9}" ShortID="757429722">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Red Earth_2" ID="{6B3159F8-C742-465B-B04C-B88E180DBD97}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="play_crash" ID="{B2E60C85-70F8-4423-BB71-488CBBA31672}">
+					<ChildrenList>
+						<Action Name="" ID="{7D846C01-3AA5-494C-A2F4-EAB76110573D}" ShortID="896690387">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="crash" ID="{D834A031-4D99-4AA8-820E-C544978CF9EE}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

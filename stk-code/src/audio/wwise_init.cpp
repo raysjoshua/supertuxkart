@@ -7,6 +7,7 @@
 #include <AkFilePackageLowLevelIOBlocking.h>
 #include <AK/MusicEngine/Common/AkMusicEngine.h>
 #include <AK/SpatialAudio/Common/AkSpatialAudio.h> 
+#include <AK/SoundEngine/Common/AkTypes.h>
 #include <assert.h>
 
 #include "wwise_init.hpp"
@@ -116,23 +117,51 @@ bool  WWise::InitSoundEngine() {
 
 	AK::SoundEngine::RegisterGameObj(GAME_OBJECT_ID_MENU, "Menu");
 
-	AK::SoundEngine::RegisterGameObj(MY_DEFAULT_LISTENER, "My Default Listener");
-	AK::SoundEngine::SetDefaultListeners(&MY_DEFAULT_LISTENER, 1);
 
 	return true;
 }
 
-void WWise::PostEvent(char* Event) {
+
+void WWise::RegisterGameListener(AkGameObjectID ID) {
+	AK::SoundEngine::SetDefaultListeners(&ID, 1);
+}
+
+void WWise::UnRegisterGameListener(AkGameObjectID ID) {
+	AK::SoundEngine::RemoveDefaultListener(ID);
+}
+
+void WWise::RegisterGameObject(int ID, const char* object) {
+	AK::SoundEngine::RegisterGameObj(ID, object);
+}
+
+void WWise::UnRegisterGameObject(int ID) {
+	AK::SoundEngine::UnregisterGameObj(ID);
+}
+
+void WWise::PostEvent(int ID, const char* Event) {
+	AK::SoundEngine::PostEvent(Event, ID);
+}
+
+void WWise::PostEventUI(const char* Event) {
 	AK::SoundEngine::PostEvent(Event, GAME_OBJECT_ID_MENU);
 }
 
-void WWise::SetGameSyncState(char* Group, char* State) {
-	AKRESULT eResult = AK::SoundEngine::SetState(Group, State);
+void WWise::SetGameObjectPosition(const int ID, const float X, const float Y, const float Z ) {
+	AkSoundPosition soundPos;
+	soundPos.SetPosition(X, Y, Z);
+	soundPos.SetOrientation(1, 0, 0, 0, 1, 0);
+
+	AKRESULT eResult = AK::SoundEngine::SetPosition(ID, soundPos);
 	assert(eResult == AK_Success);
 }
 
-void WWise::SetGameSyncParameter(char* Group, AkRtpcValue Value) {
-	AKRESULT eResult = AK::SoundEngine::SetRTPCValue(Group, Value, GAME_OBJECT_ID_MENU);
+void WWise::SetGameSyncSwitch(const char* Group,const char* State, const int ID) {
+	AKRESULT eResult = AK::SoundEngine::SetSwitch(Group, State, ID);
+	assert(eResult == AK_Success);
+}
+
+void WWise::SetGameSyncParameter(const char* Group, const AkRtpcValue Value, const int ID) {
+	AKRESULT eResult = AK::SoundEngine::SetRTPCValue(Group, Value,ID );
 	assert(eResult == AK_Success);
 }
 

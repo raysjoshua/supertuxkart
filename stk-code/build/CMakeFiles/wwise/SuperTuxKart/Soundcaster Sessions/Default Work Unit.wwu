@@ -6,27 +6,23 @@
 				<SoundcasterSession Name="Test" ID="{2BDD7F36-1195-4347-A52D-0DAFF4A0483C}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="play_skid" ID="{7B4A18D5-38EB-4B35-A2A5-2140157F266E}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="stop_skid" ID="{27840A65-95EB-43E4-9AB5-DF2970B35E85}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}"/>
-							<Position X="1" Y="0"/>
+							<ObjectRef Name="slipstream" ID="{119F1378-5069-4509-A833-0C0578AD9075}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
+							<Position X="0" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="velocity" ID="{CAEAF9B1-482F-4239-99C6-88F258042DEF}"/>
-							<Value>10.374</Value>
+							<Value>1.9</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="large" ID="{59CEB2A6-DA2E-4B02-ADA4-1CA5DCCDCBD7}"/>
-						<CurrentStateRef Name="None" ID="{194FCBA6-195A-4FB5-9E08-AD34D9804FEE}"/>
-						<CurrentStateRef Name="None" ID="{0456EFD5-2EA5-4850-A1CB-9F84E5BEA858}"/>
-					</CurrentStateList>
+					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="large" ID="{F69548F2-F885-4465-8EE0-967A25F924AA}"/>
+						<CurrentSwitchRef Name="middle" ID="{1051A02E-C450-4FA7-B9D7-4D34A5E11B8B}"/>
 						<CurrentSwitchRef Name="five" ID="{FC9069F5-E941-4B67-8A0A-5E8FD751BCAC}"/>
+						<CurrentSwitchRef Name="asphalt" ID="{1AB94222-29B6-49E1-829D-F89F3B1EEC83}"/>
+						<CurrentSwitchRef Name="hot_rod" ID="{34E44567-F867-4FF8-8CE7-99C4313BA6F5}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

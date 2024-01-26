@@ -68,6 +68,11 @@
    <sfx filename="ugh.ogg"              volume="1.0" positional="false" />
    <sfx filename="wee.ogg"              volume="1.0" positional="false" />
    <sfx filename="WilhelmScream.ogg"    volume="1.0" positional="true" rolloff="0.10" />
+   <sfx filename="wood.ogg"             volume="0.4" positional="true" rolloff="0.2"  />
+   <sfx filename="dirt.ogg"             volume="0.4" positional="true" rolloff="0.2"  />
+   <sfx filename="sand.ogg"             volume="0.4" positional="true" rolloff="0.2"  />
+   <sfx filename="cobblestone.ogg"      volume="0.4" positional="true" rolloff="0.2"  />
+   <sfx filename="asphalt.ogg"      volume="0.4" positional="true" rolloff="0.2"  />
    <sfx filename="wooden_bridge.ogg"    volume="0.4" positional="true" rolloff="0.2"  />
 </sfx-config>
 

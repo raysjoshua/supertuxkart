@@ -44,6 +44,8 @@
 #include <SMeshBuffer.h>
 #include <SMesh.h>
 
+#include "audio/wwise_init.hpp"
+
 #ifndef SERVER_ONLY
 #include <ge_main.hpp>
 #include <ge_render_info.hpp>
@@ -70,6 +72,7 @@ SlipStream::SlipStream(AbstractKart* kart)
     m_node_fast = NULL;
     m_bonus_node = NULL;
     m_length = 0.0f;
+    m_slip_level = 0;
 
 #ifndef SERVER_ONLY
     if (!GUIEngine::isNoGraphics())
@@ -985,12 +988,18 @@ void SlipStream::update(int ticks)
             continue;
         }
         // Real test 1: if in inner slipstream quad of other kart
-        if(m_target_kart->getSlipstream()->m_slipstream_inner_quad
-                                         ->pointInside(lc))
+        if (m_target_kart->getSlipstream()->m_slipstream_inner_quad
+            ->pointInside(lc))
         {
             is_inner_sstreaming = true;
-            is_sstreaming       = true;
-            target_value[i]     = 2000.0f - delta.length2();
+            is_sstreaming = true;
+            target_value[i] = 2000.0f - delta.length2();
+
+            if (m_slip_level < 3) {
+                wwise_manager->SetGameSyncSwitch("slipstream", "inner", m_kart->getWorldKartId());
+                wwise_manager->PostEvent(m_kart->getWorldKartId(), "play_slipstream");
+                m_slip_level = 3;
+            }
             continue;
         }
         if(UserConfigParams::m_slipstream_debug &&
@@ -1004,6 +1013,11 @@ void SlipStream::update(int ticks)
         {
             is_sstreaming     = true;
             target_value[i]     = 1000.0f - delta.length2();
+            if (m_slip_level < 2) {
+                wwise_manager->SetGameSyncSwitch("slipstream", "middle", m_kart->getWorldKartId());
+                wwise_manager->PostEvent(m_kart->getWorldKartId(), "play_slipstream");
+                m_slip_level = 2;
+            }
             continue;
         }
         else if (m_previous_target_id >= 0 && (int) i==m_previous_target_id)
@@ -1020,6 +1034,11 @@ void SlipStream::update(int ticks)
                                          ->pointInside(lc))
         {
             is_outer_sstreaming     = true;
+            if (m_slip_level < 1) {
+                wwise_manager->SetGameSyncSwitch("slipstream", "edge", m_kart->getWorldKartId());
+                wwise_manager->PostEvent(m_kart->getWorldKartId(), "play_slipstream");
+                m_slip_level = 1;
+            }
             continue;
         }
     }   // for i < num_karts
@@ -1065,6 +1084,12 @@ void SlipStream::update(int ticks)
         m_bonus_active = true;
         m_speed_increase_duration = stk_config->time2Ticks(m_bonus_time);
         m_speed_increase_ticks = World::getWorld()->getTicksSinceStart();
+        if (m_slip_level > 0) {
+            wwise_manager->SetGameSyncSwitch("slipstream", "release", m_kart->getWorldKartId());
+            wwise_manager->PostEvent(m_kart->getWorldKartId(), "stop_slipstream");
+            m_slip_level = 0;
+        }
+
     }
 
     if(!is_sstreaming)
@@ -1092,6 +1117,11 @@ void SlipStream::update(int ticks)
             updateBonusTexture();
         }
 #endif
+        if (m_slip_level > 0) {
+            wwise_manager->SetGameSyncSwitch("slipstream", "release", m_kart->getWorldKartId());
+            wwise_manager->PostEvent(m_kart->getWorldKartId(), "stop_slipstream");
+            m_slip_level = 0;
+        }
         return;
     }   // if !is_sstreaming
 

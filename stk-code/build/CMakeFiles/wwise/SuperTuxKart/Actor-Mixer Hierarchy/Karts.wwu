@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<ActorMixer Name="Kart" ID="{8473D81B-D2F7-4F9B-8442-E7E8B13244AE}" ShortID="264264114">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>1</Value>
@@ -12,6 +13,59 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{BB304DD9-AB33-4715-834E-22ABF6C0F8C8}" ShortID="488893938">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{6C5E8EE4-B7EC-43F2-BA30-A1BB422E01B8}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Exp1</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>39.43299</XPos>
+															<YPos>-200</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
 						</Reference>
@@ -24,7 +78,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-36</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -33,13 +87,13 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="small" ID="{70C88AD9-961F-4408-89BB-E13B319E9FA1}" WorkUnitID="{C7C0552A-CDD3-4A10-9E87-ECBA78250C71}"/>
+									<ObjectRef Name="small" ID="{87A4DFC3-5F4B-414C-B827-DE5DF7B45291}" WorkUnitID="{8D03E79D-5D82-4E7A-A867-D8ACBCA97331}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="engine_size" ID="{25C9AE19-3BCE-4130-918F-CA187D9DD897}" WorkUnitID="{C7C0552A-CDD3-4A10-9E87-ECBA78250C71}"/>
+									<ObjectRef Name="engine_size" ID="{A0A685D3-2A2C-42E9-B6A2-BE880D051203}" WorkUnitID="{8D03E79D-5D82-4E7A-A867-D8ACBCA97331}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -134,6 +188,11 @@
 										<Sound Name="idle" ID="{6B661BB7-28A7-4713-9751-CB54ACB783A9}" ShortID="791036344">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1237,17 +1296,17 @@
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
-										<SwitchRef Name="large" ID="{59CEB2A6-DA2E-4B02-ADA4-1CA5DCCDCBD7}"/>
-										<ItemList>
-											<ItemRef Name="gears shift" ID="{7C010AE3-4706-4826-8623-01D25762AFDB}"/>
-											<ItemRef Name="large" ID="{F42E251E-DA89-4697-94CA-FCA297A347B3}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="small" ID="{70C88AD9-961F-4408-89BB-E13B319E9FA1}"/>
+										<SwitchRef Name="small" ID="{87A4DFC3-5F4B-414C-B827-DE5DF7B45291}"/>
 										<ItemList>
 											<ItemRef Name="gears shift" ID="{7C010AE3-4706-4826-8623-01D25762AFDB}"/>
 											<ItemRef Name="small" ID="{F9A78067-0CE5-4BD2-9164-ADAD995B917C}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="large" ID="{F69548F2-F885-4465-8EE0-967A25F924AA}"/>
+										<ItemList>
+											<ItemRef Name="gears shift" ID="{7C010AE3-4706-4826-8623-01D25762AFDB}"/>
+											<ItemRef Name="large" ID="{F42E251E-DA89-4697-94CA-FCA297A347B3}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
@@ -1259,13 +1318,13 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="racecar" ID="{B0F40281-A16E-49E8-BAFE-14C219D095A9}" WorkUnitID="{C7C0552A-CDD3-4A10-9E87-ECBA78250C71}"/>
+									<ObjectRef Name="racecar" ID="{30D5772A-DA0B-403C-BC2A-8D3BDB65CA24}" WorkUnitID="{8D03E79D-5D82-4E7A-A867-D8ACBCA97331}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="kart_aesthetic" ID="{7C088765-CA93-487D-815D-379F417E83BE}" WorkUnitID="{C7C0552A-CDD3-4A10-9E87-ECBA78250C71}"/>
+									<ObjectRef Name="kart_aesthetic" ID="{4EC8EEE7-45BF-4E6D-8618-840E6BB6F961}" WorkUnitID="{8D03E79D-5D82-4E7A-A867-D8ACBCA97331}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1302,49 +1361,43 @@
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
-										<SwitchRef Name="imaginary" ID="{06A58A0E-55CC-4163-8051-8D5D175C22F1}"/>
+										<SwitchRef Name="snow_mobile" ID="{5CF86529-A9FA-4D0B-BC57-F09F83DB52A2}"/>
 										<ItemList>
 											<ItemRef Name="horn" ID="{05538098-4840-4FAB-A279-11365E16052E}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="hot_rod" ID="{6664854D-52E6-49FB-BCAF-EC7134650B2C}"/>
+										<SwitchRef Name="racecar" ID="{30D5772A-DA0B-403C-BC2A-8D3BDB65CA24}"/>
 										<ItemList>
 											<ItemRef Name="horn" ID="{05538098-4840-4FAB-A279-11365E16052E}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="snow_mobile" ID="{BCF49E52-8FC7-4D13-B293-093712EA83BD}"/>
+										<SwitchRef Name="jalopy" ID="{EE4F212F-8021-484F-861F-168C80DEAECB}"/>
 										<ItemList>
 											<ItemRef Name="horn" ID="{05538098-4840-4FAB-A279-11365E16052E}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="hovercraft" ID="{16189458-22C1-4646-B941-BE9692B571A7}"/>
+										<SwitchRef Name="hot_rod" ID="{34E44567-F867-4FF8-8CE7-99C4313BA6F5}"/>
 										<ItemList>
 											<ItemRef Name="horn" ID="{05538098-4840-4FAB-A279-11365E16052E}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="jalopy" ID="{609D7962-51F1-4B98-A2D3-382F670347DC}"/>
+										<SwitchRef Name="just_frame" ID="{F805DD88-3769-480E-8397-28D1995E4FC1}"/>
 										<ItemList>
 											<ItemRef Name="horn" ID="{05538098-4840-4FAB-A279-11365E16052E}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="racecar" ID="{B0F40281-A16E-49E8-BAFE-14C219D095A9}"/>
+										<SwitchRef Name="hovercraft" ID="{6CFED2DF-C6EB-4215-A246-5550E3AAAB5A}"/>
 										<ItemList>
 											<ItemRef Name="horn" ID="{05538098-4840-4FAB-A279-11365E16052E}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="None" ID="{0456EFD5-2EA5-4850-A1CB-9F84E5BEA858}"/>
-										<ItemList>
-											<ItemRef Name="horn" ID="{05538098-4840-4FAB-A279-11365E16052E}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="just_frame" ID="{8C8CB8F8-F1BA-4180-98A1-2840EBB7CE6B}"/>
+										<SwitchRef Name="imaginary" ID="{185091E9-97E7-4180-A9F0-BB547BEEC344}"/>
 										<ItemList>
 											<ItemRef Name="horn" ID="{05538098-4840-4FAB-A279-11365E16052E}"/>
 										</ItemList>
@@ -1359,6 +1412,7 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -1407,13 +1461,13 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="dirt" ID="{CD2C3A0E-AB2B-490C-8783-5AD2BF2059F2}" WorkUnitID="{C7C0552A-CDD3-4A10-9E87-ECBA78250C71}"/>
+									<ObjectRef Name="dirt" ID="{A4841158-2899-43C2-84C2-447CE73D881F}" WorkUnitID="{8D03E79D-5D82-4E7A-A867-D8ACBCA97331}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="terrain" ID="{655EDFF6-D5B0-4602-B484-E6F08091C985}" WorkUnitID="{C7C0552A-CDD3-4A10-9E87-ECBA78250C71}"/>
+									<ObjectRef Name="terrain" ID="{048E34B7-58B7-4535-B919-5182E1871D40}" WorkUnitID="{8D03E79D-5D82-4E7A-A867-D8ACBCA97331}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1595,7 +1649,7 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>5</Flags>
 																<SegmentShape>Constant</SegmentShape>
 															</Point>
@@ -1778,37 +1832,31 @@
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
-										<SwitchRef Name="dirt" ID="{CD2C3A0E-AB2B-490C-8783-5AD2BF2059F2}"/>
-										<ItemList>
-											<ItemRef Name="dirt" ID="{02C710CC-9877-4C98-AEE1-5DE8FCC3EF44}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="sand" ID="{339B174E-F44D-4910-A6B2-795ED24A442B}"/>
-										<ItemList>
-											<ItemRef Name="sand" ID="{B80F1A84-6856-4E4A-AE40-56D9E49024BC}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="asphalt" ID="{77AFED81-4C67-4C0C-B5A6-E7CBDE90415F}"/>
+										<SwitchRef Name="asphalt" ID="{1AB94222-29B6-49E1-829D-F89F3B1EEC83}"/>
 										<ItemList>
 											<ItemRef Name="asphalt" ID="{718042E6-A49D-4AA4-A5C2-9115E6D6FD7D}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="wood" ID="{3ADB4FA1-8C17-486C-831E-83FBB3F353DF}"/>
+										<SwitchRef Name="wood" ID="{BA634345-9BFD-4CBC-ABC7-766267EA74C1}"/>
 										<ItemList>
 											<ItemRef Name="wood" ID="{EFE94FEB-B011-42BE-B596-547DC37230A6}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="None" ID="{194FCBA6-195A-4FB5-9E08-AD34D9804FEE}"/>
+										<SwitchRef Name="sand" ID="{8F972B4C-96C7-4BB4-9622-C68C41EE48D8}"/>
 										<ItemList>
-											<ItemRef Name="asphalt" ID="{718042E6-A49D-4AA4-A5C2-9115E6D6FD7D}"/>
+											<ItemRef Name="sand" ID="{B80F1A84-6856-4E4A-AE40-56D9E49024BC}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="cobblestone" ID="{CF0646DA-6C70-4675-8D40-78EB7300C826}"/>
+										<SwitchRef Name="dirt" ID="{A4841158-2899-43C2-84C2-447CE73D881F}"/>
+										<ItemList>
+											<ItemRef Name="dirt" ID="{02C710CC-9877-4C98-AEE1-5DE8FCC3EF44}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="cobblestone" ID="{08482FAD-9176-4DFE-BDDE-410C4FED5D39}"/>
 										<ItemList>
 											<ItemRef Name="cobblestone" ID="{964D76AE-88FB-4FA9-A219-AD088F1AE559}"/>
 										</ItemList>
@@ -1823,6 +1871,7 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -1830,7 +1879,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-96</Value>
+										<Value>1</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{4F75B2B3-7BE8-4DD6-AAA1-761790D82366}" ShortID="475246768">
@@ -1870,20 +1919,22 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
 								</Reference>
-								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="dirt" ID="{CD2C3A0E-AB2B-490C-8783-5AD2BF2059F2}" WorkUnitID="{C7C0552A-CDD3-4A10-9E87-ECBA78250C71}"/>
-								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="terrain" ID="{655EDFF6-D5B0-4602-B484-E6F08091C985}" WorkUnitID="{C7C0552A-CDD3-4A10-9E87-ECBA78250C71}"/>
+									<ObjectRef Name="terrain" ID="{048E34B7-58B7-4535-B919-5182E1871D40}" WorkUnitID="{8D03E79D-5D82-4E7A-A867-D8ACBCA97331}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="asphalt" ID="{8397C1D0-3142-48C0-A8CE-56BD8FE34A84}" ShortID="775261581">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1917,6 +1968,11 @@
 								<Sound Name="cobblestone" ID="{83387C58-2041-40B6-8E02-9AD697EDA722}" ShortID="970195132">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2059,7 +2115,7 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>5</Flags>
 																<SegmentShape>Constant</SegmentShape>
 															</Point>
@@ -2242,39 +2298,33 @@
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
-										<SwitchRef Name="dirt" ID="{CD2C3A0E-AB2B-490C-8783-5AD2BF2059F2}"/>
+										<SwitchRef Name="asphalt" ID="{1AB94222-29B6-49E1-829D-F89F3B1EEC83}"/>
 										<ItemList>
-											<ItemRef Name="dirt" ID="{66A5D918-5CB4-4BCE-9A22-72150972E4E5}"/>
+											<ItemRef Name="asphalt" ID="{8397C1D0-3142-48C0-A8CE-56BD8FE34A84}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="sand" ID="{339B174E-F44D-4910-A6B2-795ED24A442B}"/>
-										<ItemList>
-											<ItemRef Name="sand" ID="{DB13B429-D143-46D7-8388-21ABFF2F089A}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="asphalt" ID="{77AFED81-4C67-4C0C-B5A6-E7CBDE90415F}"/>
-										<ItemList>
-											<ItemRef Name="dirt" ID="{66A5D918-5CB4-4BCE-9A22-72150972E4E5}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="wood" ID="{3ADB4FA1-8C17-486C-831E-83FBB3F353DF}"/>
+										<SwitchRef Name="wood" ID="{BA634345-9BFD-4CBC-ABC7-766267EA74C1}"/>
 										<ItemList>
 											<ItemRef Name="wood" ID="{6045948A-D592-40D4-84F8-16D4DDF88A2A}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="None" ID="{194FCBA6-195A-4FB5-9E08-AD34D9804FEE}"/>
+										<SwitchRef Name="sand" ID="{8F972B4C-96C7-4BB4-9622-C68C41EE48D8}"/>
 										<ItemList>
 											<ItemRef Name="dirt" ID="{66A5D918-5CB4-4BCE-9A22-72150972E4E5}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="cobblestone" ID="{CF0646DA-6C70-4675-8D40-78EB7300C826}"/>
+										<SwitchRef Name="dirt" ID="{A4841158-2899-43C2-84C2-447CE73D881F}"/>
 										<ItemList>
 											<ItemRef Name="dirt" ID="{66A5D918-5CB4-4BCE-9A22-72150972E4E5}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="cobblestone" ID="{08482FAD-9176-4DFE-BDDE-410C4FED5D39}"/>
+										<ItemList>
+											<ItemRef Name="asphalt" ID="{8397C1D0-3142-48C0-A8CE-56BD8FE34A84}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
@@ -2282,6 +2332,9 @@
 						</SwitchContainer>
 						<RandomSequenceContainer Name="nitro" ID="{98751250-BEF8-4CE7-A7B8-82B73060C1BF}" ShortID="1043855878">
 							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 							</PropertyList>
 							<ReferenceList>
@@ -2292,9 +2345,47 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="nitro-blast" ID="{F8C1CBA8-03A1-422E-9A97-3C89AD29D9B8}" ShortID="196667267">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="nitro-blast" ID="{EF0B20EF-D320-4FAF-AB15-489F136789AC}">
+											<Language>SFX</Language>
+											<AudioFile>nitro-blast.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="383516566"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="nitro-blast" ID="{EF0B20EF-D320-4FAF-AB15-489F136789AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="crash" ID="{D834A031-4D99-4AA8-820E-C544978CF9EE}" ShortID="967767397">
+							<PropertyList>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
@@ -2304,8 +2395,225 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="crash" ID="{7C4CECB2-2B40-4217-A463-C9CAC1586535}" ShortID="129824995">
+								<Sound Name="crash_1" ID="{59EDB21E-9D26-4038-B563-9F9D3DDB33D9}" ShortID="625398282">
 									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="crash_1" ID="{9AAE7DD5-3C9F-409D-94D8-70F503F07FA1}">
+											<Language>SFX</Language>
+											<AudioFile>crash_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1001570438"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="crash_1" ID="{9AAE7DD5-3C9F-409D-94D8-70F503F07FA1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="crash_2" ID="{8778F7B0-025B-4E80-8039-7B67C0A3D553}" ShortID="196569539">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="crash_2" ID="{6BBACA2B-37CC-4B66-AEA5-8031EC8BCD95}">
+											<Language>SFX</Language>
+											<AudioFile>crash_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="373430340"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="crash_2" ID="{6BBACA2B-37CC-4B66-AEA5-8031EC8BCD95}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="crash_3" ID="{C274D4A3-B4BE-4534-B776-D0FEBAE4A229}" ShortID="522596712">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="crash_3" ID="{E51F3652-B13C-4A87-8EF6-7D1C29AEAC5F}">
+											<Language>SFX</Language>
+											<AudioFile>crash_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="40575190"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="crash_3" ID="{E51F3652-B13C-4A87-8EF6-7D1C29AEAC5F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<Sound Name="skid_ignition" ID="{D9518FE3-D651-4490-9E9B-31C4FB0265A9}" ShortID="849355961">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="skid_ignition" ID="{55CFACD7-EA2E-4ECB-A264-E0FEB4AF7756}">
+									<Language>SFX</Language>
+									<AudioFile>skid_ignition.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="642949619"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="skid_ignition" ID="{55CFACD7-EA2E-4ECB-A264-E0FEB4AF7756}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<SwitchContainer Name="slipstream" ID="{119F1378-5069-4509-A833-0C0578AD9075}" ShortID="670793201">
+							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="release" ID="{48199F1A-AC68-4DA3-AA1C-E93155129D60}" WorkUnitID="{8D03E79D-5D82-4E7A-A867-D8ACBCA97331}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="slipstream" ID="{815B6F51-C225-4496-8E70-5A0AB0483A48}" WorkUnitID="{8D03E79D-5D82-4E7A-A867-D8ACBCA97331}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="outer" ID="{31BDF964-AAFD-44B0-B722-4BB74F5A691C}" ShortID="727847551">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>39</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Slipstream" ID="{A072708E-A3B4-4300-A40A-9B2742303241}">
+											<Language>SFX</Language>
+											<AudioFile>Slipstream.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="237181032"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Slipstream" ID="{A072708E-A3B4-4300-A40A-9B2742303241}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="middle" ID="{C64C7934-35D1-4ADF-A1F4-A0B411D58754}" ShortID="681188372">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>23</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{CB380B8F-E5A1-4818-A850-49584CD469DF}" ShortID="413366664">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{5FD6C621-6682-4EBB-9540-BB7B93E7C55E}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Exp1</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>39.43299</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
 										</Reference>
@@ -2313,11 +2621,162 @@
 											<ObjectRef Name="Kart" ID="{FAEC4812-B9F6-439E-84BE-B5EB49BE44F6}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Slipstream" ID="{F5767BB5-67F1-45DE-BE39-DE67A9DDE292}">
+											<Language>SFX</Language>
+											<AudioFile>Slipstream.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="237181032"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
 									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Slipstream" ID="{F5767BB5-67F1-45DE-BE39-DE67A9DDE292}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="inner" ID="{E296A432-FD56-4517-89C1-42E15960439E}" ShortID="895849316">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{0DCD6148-910B-44CA-8208-EB8C38A58D76}" ShortID="665877660">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{410382AB-ADA3-4C92-98B2-FB94A5F267CB}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Exp1</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>39.43299</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Kart" ID="{FAEC4812-B9F6-439E-84BE-B5EB49BE44F6}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Slipstream" ID="{FB53F14A-3F6F-43F1-99C9-040FB854DE79}">
+											<Language>SFX</Language>
+											<AudioFile>Slipstream.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="237181032"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Slipstream" ID="{FB53F14A-3F6F-43F1-99C9-040FB854DE79}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
-						</RandomSequenceContainer>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="inner" ID="{E296A432-FD56-4517-89C1-42E15960439E}"/>
+										<PropertyList>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>3</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="middle" ID="{C64C7934-35D1-4ADF-A1F4-A0B411D58754}"/>
+										<PropertyList>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>3</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="outer" ID="{31BDF964-AAFD-44B0-B722-4BB74F5A691C}"/>
+										<PropertyList>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>3</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="inner" ID="{D333902A-D392-46DF-ADAD-E878979506D8}"/>
+										<ItemList>
+											<ItemRef Name="inner" ID="{E296A432-FD56-4517-89C1-42E15960439E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="middle" ID="{1051A02E-C450-4FA7-B9D7-4D34A5E11B8B}"/>
+										<ItemList>
+											<ItemRef Name="middle" ID="{C64C7934-35D1-4ADF-A1F4-A0B411D58754}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="edge" ID="{FE0FA8DF-A577-447E-BCD7-9295B6D1F3F7}"/>
+										<ItemList>
+											<ItemRef Name="outer" ID="{31BDF964-AAFD-44B0-B722-4BB74F5A691C}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

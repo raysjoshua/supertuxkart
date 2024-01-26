@@ -34,6 +34,7 @@
 #include "physics/btKart.hpp"
 #include "tracks/track.hpp"
 #include "utils/log.hpp"
+#include "audio/wwise_init.hpp"
 
 /** Constructor of the skidding object.
  */
@@ -83,6 +84,7 @@ void Skidding::reset()
     m_smoothing_time = 0.0f;
     m_smoothing_dt = -1.0f;
     m_skid_bonus_end_ticks = -1;
+    m_skid_previous_skid_level = 0;
 
     btVector3 rot(0, 0, 0);
     // Only access the vehicle if the kart is not a ghost
@@ -275,6 +277,7 @@ float Skidding::updateGraphics(float dt)
         level = 2;
     }
 
+    // TODO: 
     if (level == 0 && m_graphical_remaining_jump_time <= 0.0f &&
         m_skid_state != SKID_NONE)
     {
@@ -287,6 +290,12 @@ float Skidding::updateGraphics(float dt)
         m_kart->getKartGFX()->setSkidLevel(level);
         m_kart->getKartGFX()->updateSkidLight(level);
     }
+
+    // Detect Skid Level Growth
+    if (level > m_skid_previous_skid_level) {
+        wwise_manager->PostEvent(m_kart->getWorldKartId(), "play_skid_ignition");
+    }
+    m_skid_previous_skid_level = level;
 
     if (bonus_time > 0 || level == 1 || level == 2)
     {
@@ -544,6 +553,7 @@ void Skidding::update(int ticks, bool is_on_ground,
                 {
                     unsigned int bonus_cat = (level == 1) ? MaxSpeed::MS_INCREASE_SKIDDING :
                                                             MaxSpeed::MS_INCREASE_RED_SKIDDING;
+                    // TODO: Skidding Boost
                     m_kart->m_max_speed->
                         instantSpeedIncrease(bonus_cat,
                                bonus_speed, bonus_speed/2,

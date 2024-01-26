@@ -20,15 +20,47 @@
     <material name="stkflag_blueBooster_a.png" shader="alphatest"  has-gravity="Y"/>
     <material name="stkflag_redBooster_a.png" shader="alphatest"  has-gravity="Y"/>
     <material name="stk_generic_gridA.png" shader="alphatest" has-gravity="Y"/>
-    <material name="stktex_generic_cobbleStoneA.png" has-gravity="Y" graphical-effect="normal_map" normal-map="stktex_generic_cobbleStoneA_Normal.png"/>
-    <material name="stk_generic_dirtRoad_a.png" has-gravity="Y" graphical-effect="normal_map" normal-map="stk_generic_dirtRoad_a_Normal.png"/>
-    <material name="stk_generic_sandRoad_a.png" has-gravity="Y"/>
-    <material name="stktex_pupleCarpet_a.png" has-gravity="Y"/>
-    
-    <material name="stktex_generic_WoodA.png" has-gravity="Y">
-      <sfx filename="wooden_bridge.ogg" rolloff="0.60" min_speed="9.00" max_speed="22.00" min_pitch="1.00" max_pitch="1.70" positional="Y" volume="1.00"/>
+    <material name="stktex_generic_cobbleStoneA.png" has-gravity="Y" graphical-effect="normal_map" normal-map="stktex_generic_cobbleStoneA_Normal.png">
+      <sfx filename="cobblestone.ogg" 
+        rolloff="0.60" 
+        min_speed="9.00" 
+        max_speed="22.00"
+        min_pitch="1.00" 
+        max_pitch="1.70" 
+        positional="Y" 
+        volume="1.00"/>
     </material>
-
+    <material name="stk_generic_dirtRoad_a.png" has-gravity="Y" graphical-effect="normal_map" normal-map="stk_generic_dirtRoad_a_Normal.png">
+      <sfx filename="dirt.ogg" 
+        rolloff="0.60" 
+        min_speed="9.00" 
+        max_speed="22.00" 
+        min_pitch="1.00"
+        max_pitch="1.70"
+        positional="Y" 
+        volume="1.00"/>
+    </material>
+    <material name="stk_generic_sandRoad_a.png" has-gravity="Y">
+      <sfx filename="sand.ogg" 
+        rolloff="0.60" 
+        min_speed="9.00" 
+        max_speed="22.00" 
+        min_pitch="1.00" 
+        max_pitch="1.70" 
+        positional="Y" 
+        volume="1.00"/>
+    </material>
+    <material name="stktex_pupleCarpet_a.png" has-gravity="Y"/>
+    <material name="stktex_generic_WoodA.png" has-gravity="Y">
+      <sfx filename="wood.ogg" 
+        rolloff="0.60" 
+        min_speed="9.00" 
+        max_speed="22.00" 
+        min_pitch="1.00" 
+        max_pitch="1.70" 
+        positional="Y" 
+        volume="1.00"/>
+    </material>
     <!-- End of global sticking textures -->
 
 

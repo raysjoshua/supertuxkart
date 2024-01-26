@@ -61,6 +61,40 @@
 						</Curve>
 					</SwitchOnRTPC>
 				</SwitchGroup>
+				<SwitchGroup Name="engine_size" ID="{A0A685D3-2A2C-42E9-B6A2-BE880D051203}">
+					<ChildrenList>
+						<Switch Name="large" ID="{F69548F2-F885-4465-8EE0-967A25F924AA}"/>
+						<Switch Name="small" ID="{87A4DFC3-5F4B-414C-B827-DE5DF7B45291}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="kart_aesthetic" ID="{4EC8EEE7-45BF-4E6D-8618-840E6BB6F961}">
+					<ChildrenList>
+						<Switch Name="hot_rod" ID="{34E44567-F867-4FF8-8CE7-99C4313BA6F5}"/>
+						<Switch Name="hovercraft" ID="{6CFED2DF-C6EB-4215-A246-5550E3AAAB5A}"/>
+						<Switch Name="imaginary" ID="{185091E9-97E7-4180-A9F0-BB547BEEC344}"/>
+						<Switch Name="jalopy" ID="{EE4F212F-8021-484F-861F-168C80DEAECB}"/>
+						<Switch Name="just_frame" ID="{F805DD88-3769-480E-8397-28D1995E4FC1}"/>
+						<Switch Name="racecar" ID="{30D5772A-DA0B-403C-BC2A-8D3BDB65CA24}"/>
+						<Switch Name="snow_mobile" ID="{5CF86529-A9FA-4D0B-BC57-F09F83DB52A2}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="terrain" ID="{048E34B7-58B7-4535-B919-5182E1871D40}">
+					<ChildrenList>
+						<Switch Name="asphalt" ID="{1AB94222-29B6-49E1-829D-F89F3B1EEC83}"/>
+						<Switch Name="cobblestone" ID="{08482FAD-9176-4DFE-BDDE-410C4FED5D39}"/>
+						<Switch Name="dirt" ID="{A4841158-2899-43C2-84C2-447CE73D881F}"/>
+						<Switch Name="sand" ID="{8F972B4C-96C7-4BB4-9622-C68C41EE48D8}"/>
+						<Switch Name="wood" ID="{BA634345-9BFD-4CBC-ABC7-766267EA74C1}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="slipstream" ID="{815B6F51-C225-4496-8E70-5A0AB0483A48}">
+					<ChildrenList>
+						<Switch Name="edge" ID="{FE0FA8DF-A577-447E-BCD7-9295B6D1F3F7}"/>
+						<Switch Name="inner" ID="{D333902A-D392-46DF-ADAD-E878979506D8}"/>
+						<Switch Name="middle" ID="{1051A02E-C450-4FA7-B9D7-4D34A5E11B8B}"/>
+						<Switch Name="release" ID="{48199F1A-AC68-4DA3-AA1C-E93155129D60}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

@@ -12,9 +12,15 @@
 class WWise {
 public:
 	bool InitSoundEngine();
-	void PostEvent(char* Event);
-	void SetGameSyncState(char* Group, char* State);
-	void SetGameSyncParameter(char* Group, AkRtpcValue Value);
+	void RegisterGameObject(int ID, const char* object);
+	void UnRegisterGameObject(int ID);
+	void SetGameObjectPosition(const int ID, const float X, const float Y, const float Z);
+	void RegisterGameListener(AkGameObjectID ID);
+	void UnRegisterGameListener(AkGameObjectID ID);
+	void PostEvent(int ID, const char* Event);
+	void PostEventUI(const char* Event);
+	void SetGameSyncSwitch(const char* Group, const char* State, const int ID);
+	void SetGameSyncParameter(const char* Group, const AkRtpcValue Value, const int ID);
 	void ProcessAudio();
 	void TermSoundEngine();
 };

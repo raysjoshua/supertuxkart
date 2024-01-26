@@ -77,6 +77,8 @@ private:
     /** For debugging: a simple quad to display where inner slipstream works. */
     std::shared_ptr<SP::SPDynamicDrawCall> m_debug_dc2;
 
+    int          m_slip_level;
+
     /** The length of the slipstream cylinder. This is used to scale
      *  the actual scene node correctly. Shared between node and node_fast */
     float         m_length;

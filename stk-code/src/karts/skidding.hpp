@@ -24,6 +24,7 @@
 #include "utils/no_copy.hpp"
 #include "utils/types.hpp"
 
+
 class BareNetworkString;
 class Kart;
 class ShowCurve;
@@ -76,6 +77,8 @@ private:
     float m_smoothing_dt;
 
     int m_skid_bonus_end_ticks;
+
+    int m_skid_previous_skid_level;
 
 public:
     /** SKID_NONE: Kart is currently not skidding.

@@ -90,6 +90,7 @@
 
 #include <IrrlichtDevice.h>
 #include <ISceneManager.h>
+#include "audio/wwise_init.hpp"
 
 World* World::m_world[PT_COUNT];
 
@@ -498,6 +499,7 @@ std::shared_ptr<AbstractKart> World::createKart
     case RaceManager::KT_PLAYER:
     {
         int local_player_count = 99999;
+        wwise_manager->RegisterGameListener(new_kart->getWorldKartId());
         if (NetworkConfig::get()->isNetworking() &&
             NetworkConfig::get()->isClient())
         {
