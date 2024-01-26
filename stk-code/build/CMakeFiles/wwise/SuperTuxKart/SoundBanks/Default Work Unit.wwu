@@ -9,6 +9,7 @@
 						<ObjectRef Name="play_theme" ID="{A64AABEC-C876-4205-BA28-9F0141FB7A14}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_slipstream" ID="{2E8A9539-F22D-4317-9F56-E07F9D94A2F5}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="stop_skid" ID="{27840A65-95EB-43E4-9AB5-DF2970B35E85}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_crash" ID="{B2E60C85-70F8-4423-BB71-488CBBA31672}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_terrain" ID="{A4E6092D-BBC2-4643-9D0E-2E3A263002D3}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="stop_slipstream" ID="{513042A9-9DBF-475E-9D6F-286E5F5B97CA}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_horn" ID="{00BEA74D-6857-4AFD-8C9E-917AB5A167A9}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
