@@ -1,0 +1,4 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3430733157	pause_sfx			\Default Work Unit\UI\pause_sfx	
+	4118937608	resume_sfx			\Default Work Unit\UI\resume_sfx	
+

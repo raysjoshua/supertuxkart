@@ -22,6 +22,8 @@ AkGameObjectID MY_DEFAULT_LISTENER = 0;
 
 #define BANKNAME_INIT L"Init.bnk"
 #define BANKNAME_THEME_MUSIC L"theme_music.bnk"
+#define BANKNAME_KART L"kart_soundbank.bnk"
+#define BANKNAME_UI L"ui_soundbank.bnk"
 
 const AkGameObjectID GAME_OBJECT_ID_MENU = 100;
 
@@ -113,6 +115,12 @@ bool  WWise::InitSoundEngine() {
 	AKRESULT eResult = AK::SoundEngine::LoadBank(BANKNAME_INIT, bankID);
 	assert(eResult == AK_Success);
 	eResult = AK::SoundEngine::LoadBank(BANKNAME_THEME_MUSIC, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_KART, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_UI, bankID);
 	assert(eResult == AK_Success);
 
 	AK::SoundEngine::RegisterGameObj(GAME_OBJECT_ID_MENU, "Menu");

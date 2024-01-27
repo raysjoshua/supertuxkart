@@ -6,8 +6,20 @@
 				<SoundcasterSession Name="Test" ID="{2BDD7F36-1195-4347-A52D-0DAFF4A0483C}">
 					<ModuleList>
 						<Module>
+							<ObjectRef Name="play_engine" ID="{A184863A-C216-4CF8-9EBA-5261E308B75F}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="slipstream" ID="{119F1378-5069-4509-A833-0C0578AD9075}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
 							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="pause_sfx" ID="{E5CF81AF-8056-4618-A26E-2CD2B5AE2D24}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="resume_sfx" ID="{D4B7EB6A-2DE4-4B40-8909-9D2078384CD6}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}"/>
+							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -19,7 +31,7 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="large" ID="{F69548F2-F885-4465-8EE0-967A25F924AA}"/>
-						<CurrentSwitchRef Name="middle" ID="{1051A02E-C450-4FA7-B9D7-4D34A5E11B8B}"/>
+						<CurrentSwitchRef Name="edge" ID="{FE0FA8DF-A577-447E-BCD7-9295B6D1F3F7}"/>
 						<CurrentSwitchRef Name="five" ID="{FC9069F5-E941-4B67-8A0A-5E8FD751BCAC}"/>
 						<CurrentSwitchRef Name="asphalt" ID="{1AB94222-29B6-49E1-829D-F89F3B1EEC83}"/>
 						<CurrentSwitchRef Name="hot_rod" ID="{34E44567-F867-4FF8-8CE7-99C4313BA6F5}"/>

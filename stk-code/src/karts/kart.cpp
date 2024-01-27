@@ -218,7 +218,7 @@ void Kart::initSound()
             m_emitters[i]->setVolume(factor);
         if (m_skid_sound)
             m_skid_sound->setVolume(factor);
-        m_nitro_sound->setVolume(factor);
+        m_nitro_sound->setVolume(0);
     }   // if getNumLocalPlayers > 1
 }   // initSound
 
@@ -273,12 +273,11 @@ Kart::~Kart()
             SFXManager::get()->deleteSFX(m_custom_sounds[n]);
     }*/
 
-    wwise_manager->PostEvent(getWorldKartId(), "stop_engine");
+    wwise_manager->PostEvent(getWorldKartId(), "stop_kart");
     if (m_engine_sound) {
         m_engine_sound->deleteSFX();
     }
 
-    wwise_manager->PostEvent(getWorldKartId(),  "stop_skid");
     if (m_skid_sound)
         m_skid_sound->deleteSFX();
 
@@ -286,7 +285,6 @@ Kart::~Kart()
         m_emitters[i]->deleteSFX();
 
     m_nitro_sound ->deleteSFX();
-    wwise_manager->PostEvent(getWorldKartId(), "stop_nitro");
     if(m_terrain_sound)          m_terrain_sound->deleteSFX();
     if(m_previous_terrain_sound) m_previous_terrain_sound->deleteSFX();
     if(m_collision_particles)    delete m_collision_particles;
@@ -1345,7 +1343,7 @@ void Kart::eliminate()
     m_kart_gfx->setGFXInvisible();
     
     wwise_manager->PostEvent(getWorldKartId(),  "stop_engine");
-
+    wwise_manager->PostEvent(getWorldKartId(), "stop_kart");
     if (m_engine_sound) {
         m_engine_sound->stop();
     }
@@ -2526,7 +2524,8 @@ void Kart::playCrashSFX(const Material* m, AbstractKart *k)
             // it's not already playing.
             if (isShielded() || (k != NULL && k->isShielded()))
             {
-                crash_sound_emitter->play(getSmoothedXYZ(), m_boing_sound);
+                //crash_sound_emitter->play(getSmoothedXYZ(), m_boing_sound);
+                wwise_manager->PostEvent(getWorldKartId(), "play_boing");
             }
             else
             {

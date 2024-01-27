@@ -11,12 +11,44 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="902550164" Language="SFX" Hash="1955914190">
+		<SoundBank Id="902550164" Language="SFX" Hash="4280991535">
 			<ObjectPath>\SoundBanks\Default Work Unit\theme_music</ObjectPath>
 			<ShortName>theme_music</ShortName>
 			<Path>theme_music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="303595419" Name="play_crash" ObjectPath="\Events\Default Work Unit\play_crash">
+				<Event Id="2479442773" Name="play_theme" ObjectPath="\Events\Default Work Unit\OST\play_theme">
+					<IncludedMemoryFiles>
+						<File Id="321385310" Language="SFX">
+							<ShortName>Red Earth_2.wav</ShortName>
+							<Path>SFX\Red Earth_2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="914509970">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1447697833" Language="SFX" Hash="2746640495">
+			<ObjectPath>\SoundBanks\Default Work Unit\kart_soundbank</ObjectPath>
+			<ShortName>kart_soundbank</ShortName>
+			<Path>kart_soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3698997709" Name="play_boing" ObjectPath="\Events\Default Work Unit\SFX\Kart\Crashes\play_boing">
+					<IncludedMemoryFiles>
+						<File Id="286478457" Language="SFX">
+							<ShortName>boing.wav</ShortName>
+							<Path>SFX\boing_10C4C929.wem</Path>
+						</File>
+						<File Id="352309195" Language="SFX">
+							<ShortName>boing_1.wav</ShortName>
+							<Path>SFX\boing_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="303595419" Name="play_crash" ObjectPath="\Events\Default Work Unit\SFX\Kart\Crashes\play_crash">
 					<IncludedMemoryFiles>
 						<File Id="40575190" Language="SFX">
 							<ShortName>crash_3.wav</ShortName>
@@ -32,7 +64,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="639345804" Name="play_engine" ObjectPath="\Events\Default Work Unit\Kart\Engine\play_engine">
+				<Event Id="639345804" Name="play_engine" ObjectPath="\Events\Default Work Unit\SFX\Kart\Engine\play_engine">
 					<IncludedMemoryFiles>
 						<File Id="190544656" Language="SFX">
 							<ShortName>Industry Tool Air Escaping From Air Compressor Quick Burst 36.wav</ShortName>
@@ -137,7 +169,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2956245481" Name="play_horn" ObjectPath="\Events\Default Work Unit\Kart\Horn\play_horn">
+				<Event Id="2956245481" Name="play_horn" ObjectPath="\Events\Default Work Unit\SFX\Kart\Horn\play_horn">
 					<IncludedMemoryFiles>
 						<File Id="912990630" Language="SFX">
 							<ShortName>honk.wav</ShortName>
@@ -183,7 +215,15 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="301964555" Name="play_skid" ObjectPath="\Events\Default Work Unit\Kart\Skid\play_skid">
+				<Event Id="3869115962" Name="play_nitro" ObjectPath="\Events\Default Work Unit\SFX\Kart\Nitro\play_nitro">
+					<IncludedMemoryFiles>
+						<File Id="383516566" Language="SFX">
+							<ShortName>nitro-blast.wav</ShortName>
+							<Path>SFX\nitro-blast_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="301964555" Name="play_skid" ObjectPath="\Events\Default Work Unit\SFX\Kart\Skid\play_skid">
 					<IncludedMemoryFiles>
 						<File Id="189731322" Language="SFX">
 							<ShortName>Terrain_Dirt.wav</ShortName>
@@ -247,7 +287,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="4097573723" Name="play_skid_ignition" ObjectPath="\Events\Default Work Unit\Kart\Skid\play_skid_ignition">
+				<Event Id="4097573723" Name="play_skid_ignition" ObjectPath="\Events\Default Work Unit\SFX\Kart\Skid\play_skid_ignition">
 					<IncludedMemoryFiles>
 						<File Id="642949619" Language="SFX">
 							<ShortName>skid_ignition.wav</ShortName>
@@ -255,7 +295,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3609174416" Name="play_slipstream" ObjectPath="\Events\Default Work Unit\Kart\Slipstream\play_slipstream">
+				<Event Id="3609174416" Name="play_slipstream" ObjectPath="\Events\Default Work Unit\SFX\Kart\Slipstream\play_slipstream">
 					<IncludedMemoryFiles>
 						<File Id="237181032" Language="SFX">
 							<ShortName>Slipstream.wav</ShortName>
@@ -281,7 +321,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1760369021" Name="play_terrain" ObjectPath="\Events\Default Work Unit\Kart\Terrain\play_terrain">
+				<Event Id="1760369021" Name="play_terrain" ObjectPath="\Events\Default Work Unit\SFX\Kart\Terrain\play_terrain">
 					<IncludedMemoryFiles>
 						<File Id="189731322" Language="SFX">
 							<ShortName>Terrain_Dirt.wav</ShortName>
@@ -344,18 +384,11 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2479442773" Name="play_theme" ObjectPath="\Events\Default Work Unit\OST\play_theme">
-					<IncludedMemoryFiles>
-						<File Id="321385310" Language="SFX">
-							<ShortName>Red Earth_2.wav</ShortName>
-							<Path>SFX\Red Earth_2_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="37214798" Name="stop_engine" ObjectPath="\Events\Default Work Unit\Kart\Engine\stop_engine"/>
-				<Event Id="796395057" Name="stop_skid" ObjectPath="\Events\Default Work Unit\Kart\Skid\stop_skid"/>
-				<Event Id="2383295434" Name="stop_slipstream" ObjectPath="\Events\Default Work Unit\Kart\Slipstream\stop_slipstream"/>
-				<Event Id="422983091" Name="stop_terrain" ObjectPath="\Events\Default Work Unit\Kart\Terrain\stop_terrain"/>
+				<Event Id="37214798" Name="stop_engine" ObjectPath="\Events\Default Work Unit\SFX\Kart\Engine\stop_engine"/>
+				<Event Id="3825390024" Name="stop_nitro" ObjectPath="\Events\Default Work Unit\SFX\Kart\Nitro\stop_nitro"/>
+				<Event Id="796395057" Name="stop_skid" ObjectPath="\Events\Default Work Unit\SFX\Kart\Skid\stop_skid"/>
+				<Event Id="2383295434" Name="stop_slipstream" ObjectPath="\Events\Default Work Unit\SFX\Kart\Slipstream\stop_slipstream"/>
+				<Event Id="422983091" Name="stop_terrain" ObjectPath="\Events\Default Work Unit\SFX\Kart\Terrain\stop_terrain"/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="3519441192" Name="velocity" ObjectPath="\Game Parameters\Default Work Unit\player\velocity"/>
@@ -407,10 +440,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2499364497">
-			<ObjectPath>Init</ObjectPath>
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
+		<SoundBank Id="2454045173" Language="SFX" Hash="2606214142">
+			<ObjectPath>\SoundBanks\Default Work Unit\ui_soundbank</ObjectPath>
+			<ShortName>ui_soundbank</ShortName>
+			<Path>ui_soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3430733157" Name="pause_sfx" ObjectPath="\Events\Default Work Unit\UI\pause_sfx"/>
+				<Event Id="4118937608" Name="resume_sfx" ObjectPath="\Events\Default Work Unit\UI\resume_sfx"/>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

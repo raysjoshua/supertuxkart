@@ -40,6 +40,8 @@
 #include <limits>
 #include <math.h>
 
+#include "audio/wwise_init.hpp"
+
 // Define this if the profiler should also collect data of the sfx manager
 #undef ENABLE_PROFILING_FOR_SFX_MANAGER
 #ifndef ENABLE_PROFILING_FOR_SFX_MANAGER
@@ -906,6 +908,8 @@ void SFXManager::pauseAll()
 {
     if (!sfxAllowed()) return;
     queue(SFX_PAUSE_ALL);
+    wwise_manager->PostEventUI("pause_sfx");
+    // TODO On Pause
 }   // pauseAll
 
 //----------------------------------------------------------------------------
@@ -932,6 +936,7 @@ void SFXManager::resumeAll()
     // ignore unpausing if sound is disabled
     if (!sfxAllowed()) return;
     queue(SFX_RESUME_ALL);
+    wwise_manager->PostEventUI("resume_sfx");
 }   // resumeAll
 
 //----------------------------------------------------------------------------

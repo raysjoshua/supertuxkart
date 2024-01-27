@@ -10,7 +10,18 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Kart" ID="{FAEC4812-B9F6-439E-84BE-B5EB49BE44F6}">
+						<Bus Name="UI" ID="{EF21AA77-8A10-4D84-A5A9-005302D1C021}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="SFX" ID="{5C7F20BF-D2E8-4C32-B205-F5AE7100785C}">
+							<ChildrenList>
+								<Bus Name="Kart" ID="{FAEC4812-B9F6-439E-84BE-B5EB49BE44F6}">
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="OST" ID="{8CD172B3-174C-450F-9605-8C864E979F7D}">
 							<ObjectLists/>
 						</Bus>
 					</ChildrenList>

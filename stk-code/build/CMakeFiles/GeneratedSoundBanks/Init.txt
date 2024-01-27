@@ -10,8 +10,11 @@ Switch	ID	Name	Switch Group			Notes
 	2863728729	four	gear_ratio			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	611937389	OST			\Default Work Unit\Master Audio Bus\OST	
 	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
-	2199896603	Kart			\Default Work Unit\Master Audio Bus\Kart	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	2199896603	Kart			\Default Work Unit\Master Audio Bus\SFX\Kart	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes
