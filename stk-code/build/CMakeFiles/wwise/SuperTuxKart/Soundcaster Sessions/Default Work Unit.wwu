@@ -21,6 +21,10 @@
 							<ObjectRef Name="resume_sfx" ID="{D4B7EB6A-2DE4-4B40-8909-9D2078384CD6}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}"/>
 							<Position X="2" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="stop_kart" ID="{C3D5AD65-DEF7-450D-BA9D-F4B5CC6775C1}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>

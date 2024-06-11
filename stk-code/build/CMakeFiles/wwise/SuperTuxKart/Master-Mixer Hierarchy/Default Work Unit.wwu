@@ -11,6 +11,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="UI" ID="{EF21AA77-8A10-4D84-A5A9-005302D1C021}">
+							<PropertyList>
+								<Property Name="HdrEnable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="SFX" ID="{5C7F20BF-D2E8-4C32-B205-F5AE7100785C}">

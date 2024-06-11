@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A9F61F67-B965-4C76-8968-0D8D5BCF3C8F}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="UI" ID="{A9F61F67-B965-4C76-8968-0D8D5BCF3C8F}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="UI" ID="{54DFDDDD-6DE1-432B-AF79-58C0217EA14D}" ShortID="176501450">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{EF21AA77-8A10-4D84-A5A9-005302D1C021}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="menu_traverse" ID="{3B9B9D52-AFC8-4559-AF43-8D73450C1BEA}" ShortID="15523308">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E6B4AC2A-9C97-4EC2-BCCF-BF1A63F92183}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Technology Radio Button Clicking 01" ID="{8D7EABF9-3A8A-46A7-BA8A-3FBB6CAA0548}">
+									<Language>SFX</Language>
+									<AudioFile>Technology Radio Button Clicking 01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="312498465"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Technology Radio Button Clicking 01" ID="{8D7EABF9-3A8A-46A7-BA8A-3FBB6CAA0548}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="menu_decline" ID="{E309374E-B875-46F0-B562-C2F47968F160}" ShortID="488803372">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Technology Electronic Button Beep Digital Camera 04" ID="{A3010C64-3184-49B6-BA98-B23EE1400D9E}">
+									<Language>SFX</Language>
+									<AudioFile>Technology Electronic Button Beep Digital Camera 04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="325253848"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Technology Electronic Button Beep Digital Camera 04" ID="{A3010C64-3184-49B6-BA98-B23EE1400D9E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="menu_select" ID="{100C2231-F3E4-4FE6-8876-17D67E06950D}" ShortID="811379285">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6A9BABD5-3F73-4888-BF76-9248B175C6B6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Technology Radio Button Clicking 07" ID="{3D6A4377-9DAA-404A-B737-072820A2432B}">
+									<Language>SFX</Language>
+									<AudioFile>Technology Radio Button Clicking 07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="715239341"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Technology Radio Button Clicking 07" ID="{3D6A4377-9DAA-404A-B737-072820A2432B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

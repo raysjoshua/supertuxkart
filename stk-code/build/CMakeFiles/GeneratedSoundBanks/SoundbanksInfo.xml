@@ -26,7 +26,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="914509970">
+		<SoundBank Id="1355168291" Language="SFX" Hash="948588646">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -440,12 +440,36 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2454045173" Language="SFX" Hash="2606214142">
+		<SoundBank Id="2454045173" Language="SFX" Hash="3602961810">
 			<ObjectPath>\SoundBanks\Default Work Unit\ui_soundbank</ObjectPath>
 			<ShortName>ui_soundbank</ShortName>
 			<Path>ui_soundbank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3430733157" Name="pause_sfx" ObjectPath="\Events\Default Work Unit\UI\pause_sfx"/>
+				<Event Id="3294774032" Name="play_menu_decline" ObjectPath="\Events\Default Work Unit\UI\play_menu_decline">
+					<IncludedMemoryFiles>
+						<File Id="325253848" Language="SFX">
+							<ShortName>Technology Electronic Button Beep Digital Camera 04.wav</ShortName>
+							<Path>SFX\Technology Electronic Button Beep Digital Camera 04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2167056030" Name="play_menu_select" ObjectPath="\Events\Default Work Unit\UI\play_menu_select">
+					<IncludedMemoryFiles>
+						<File Id="715239341" Language="SFX">
+							<ShortName>Technology Radio Button Clicking 07.wav</ShortName>
+							<Path>SFX\Technology Radio Button Clicking 07_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1315894320" Name="play_menu_traverse" ObjectPath="\Events\Default Work Unit\UI\play_menu_traverse">
+					<IncludedMemoryFiles>
+						<File Id="312498465" Language="SFX">
+							<ShortName>Technology Radio Button Clicking 01.wav</ShortName>
+							<Path>SFX\Technology Radio Button Clicking 01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4118937608" Name="resume_sfx" ObjectPath="\Events\Default Work Unit\UI\resume_sfx"/>
 			</IncludedEvents>
 		</SoundBank>
