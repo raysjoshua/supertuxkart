@@ -499,7 +499,7 @@ std::shared_ptr<AbstractKart> World::createKart
     case RaceManager::KT_PLAYER:
     {
         int local_player_count = 99999;
-        wwise_manager->RegisterGameListener(new_kart->getWorldKartId());
+        wwise_manager->RegisterDefaultListener(new_kart->getWorldKartId());
         if (NetworkConfig::get()->isNetworking() &&
             NetworkConfig::get()->isClient())
         {

@@ -908,7 +908,7 @@ void SFXManager::pauseAll()
 {
     if (!sfxAllowed()) return;
     queue(SFX_PAUSE_ALL);
-    wwise_manager->PostEventUI("pause_sfx");
+    //wwise_manager->PostEventUI("pause_sfx");
     // TODO On Pause
 }   // pauseAll
 

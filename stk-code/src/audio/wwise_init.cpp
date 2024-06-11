@@ -25,7 +25,10 @@ AkGameObjectID MY_DEFAULT_LISTENER = 0;
 #define BANKNAME_KART L"kart_soundbank.bnk"
 #define BANKNAME_UI L"ui_soundbank.bnk"
 
-const AkGameObjectID GAME_OBJECT_ID_MENU = 100;
+const AkGameObjectID MENU_EMITTER = 1000;
+const AkGameObjectID MENU_LISTENER = 1001;
+const AkGameObjectID GAME_OBJECT_EMITTER = 1002;
+const AkGameObjectID GAME_OBJECT_LISTENER = 1003;
 
 
 CAkFilePackageLowLevelIOBlocking g_lowLevelIO;
@@ -123,19 +126,30 @@ bool  WWise::InitSoundEngine() {
 	eResult = AK::SoundEngine::LoadBank(BANKNAME_UI, bankID);
 	assert(eResult == AK_Success);
 
-	AK::SoundEngine::RegisterGameObj(GAME_OBJECT_ID_MENU, "Menu");
+	// Register Game Emitter/Listeners
 
+	AK::SoundEngine::RegisterGameObj(MENU_LISTENER, "Menu-Listener");
+	AK::SoundEngine::SetListeners(MENU_LISTENER, &MENU_LISTENER, 1);
 
+	AK::SoundEngine::RegisterGameObj(GAME_OBJECT_LISTENER, "GAME_OBJECT_LISTENER");
+	AK::SoundEngine::SetListeners(GAME_OBJECT_LISTENER, &GAME_OBJECT_LISTENER, 1);
 	return true;
 }
 
 
-void WWise::RegisterGameListener(AkGameObjectID ID) {
-	AK::SoundEngine::SetDefaultListeners(&ID, 1);
+void WWise::RegisterDefaultListener(AkGameObjectID ID) {
+	AK::SoundEngine::SetListeners(ID, &ID, 1);
 }
 
-void WWise::UnRegisterGameListener(AkGameObjectID ID) {
-	AK::SoundEngine::RemoveDefaultListener(ID);
+void WWise::UnRegisterDefaultListener(AkGameObjectID ID) {
+	//AK::SoundEngine::RemoveDefaultListener(ID);
+}
+
+
+void WWise::RegisterGameEmitterListener(const char* Emitter, AkGameObjectID EmitterID, const char* Listener, AkGameObjectID ListenerID) {
+	AK::SoundEngine::RegisterGameObj(EmitterID, Emitter);
+	AK::SoundEngine::RegisterGameObj(ListenerID, Listener);
+	AK::SoundEngine::SetListeners(EmitterID, &ListenerID, 1);
 }
 
 void WWise::RegisterGameObject(int ID, const char* object) {
@@ -151,7 +165,7 @@ void WWise::PostEvent(int ID, const char* Event) {
 }
 
 void WWise::PostEventUI(const char* Event) {
-	AK::SoundEngine::PostEvent(Event, GAME_OBJECT_ID_MENU);
+	AK::SoundEngine::PostEvent(Event, MENU_LISTENER);
 }
 
 void WWise::SetGameObjectPosition(const int ID, const float X, const float Y, const float Z ) {

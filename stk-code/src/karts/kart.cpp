@@ -272,8 +272,8 @@ Kart::~Kart()
         if (m_custom_sounds[n] != NULL)
             SFXManager::get()->deleteSFX(m_custom_sounds[n]);
     }*/
+   
 
-    wwise_manager->PostEvent(getWorldKartId(), "stop_kart");
     if (m_engine_sound) {
         m_engine_sound->deleteSFX();
     }

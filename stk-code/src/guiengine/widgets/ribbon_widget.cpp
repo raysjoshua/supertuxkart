@@ -36,6 +36,8 @@
 #include <IGUIButton.h>
 #include <ITexture.h>
 
+#include "audio/wwise_init.hpp"
+
 using namespace GUIEngine;
 using namespace irr::core;
 using namespace irr::gui;
@@ -634,6 +636,7 @@ EventPropagation RibbonWidget::upPressed(const int playerID)
 // ----------------------------------------------------------------------------
 EventPropagation RibbonWidget::moveToNextItem(const bool horizontally, const bool reverse, const int playerID)
 {
+    wwise_manager->PostEventUI("play_menu_traverse");
     EventPropagation result = propagationType(horizontally);
 
     // Do nothing and do not block navigating out of the widget
@@ -744,9 +747,8 @@ void RibbonWidget::selectNextActiveWidget(const bool horizontally, const bool re
 EventPropagation RibbonWidget::focused(const int playerID)
 {
     Widget::focused(playerID);
-
     if (m_active_children.size() < 1) return EVENT_LET; // empty ribbon
-
+    wwise_manager->PostEventUI("play_menu_traverse");
     if (m_ribbon_type == RIBBON_COMBO || m_ribbon_type == RIBBON_TABS ||
         m_ribbon_type == RIBBON_VERTICAL_TABS)
     {
@@ -819,6 +821,7 @@ EventPropagation RibbonWidget::mouseHovered(Widget* child,
 
                 // Don't change selection on hover for others
                 m_selection[mousePlayerID] = i;
+                wwise_manager->PostEventUI("play_menu_traverse");
                 break;
             }
         }

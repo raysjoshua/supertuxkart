@@ -28,6 +28,8 @@
 #include <IGUIEnvironment.h>
 #include <IGUIFontBitmap.h>
 
+#include "audio/wwise_init.hpp"
+
 #include <sstream>
 
 using namespace GUIEngine;
@@ -603,6 +605,7 @@ EventPropagation ListWidget::rightPressed(const int playerID)
 
 void ListWidget::focusHeader(const NavigationDirection nav)
 {
+    // wwise_manager->PostEventUI("play_menu_traverse");
     if (m_header.empty() || getItemCount() == 0)
     {
         setSelectionID(nav == NAV_UP ? getItemCount() - 1 : 0);
@@ -622,7 +625,7 @@ EventPropagation ListWidget::moveToNextItem(const bool reverse)
 {
     // if widget is deactivated, do nothing
     if (m_deactivated) return EVENT_BLOCK;
-
+    wwise_manager->PostEventUI("play_menu_traverse");
     const bool stay_within_list = reverse ? getSelectionID() > 0 :
                                             getSelectionID() < getItemCount() - 1;
 

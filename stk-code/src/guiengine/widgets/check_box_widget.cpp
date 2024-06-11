@@ -20,6 +20,9 @@
 #include <IGUIElement.h>
 #include <IGUIEnvironment.h>
 #include <IGUIButton.h>
+
+#include "audio/wwise_init.hpp"
+
 using namespace GUIEngine;
 using namespace irr::core;
 using namespace irr;
@@ -54,7 +57,7 @@ EventPropagation CheckBoxWidget::transmitEvent(Widget* w,
                                                const int playerID)
 {
     assert(m_magic_number == 0xCAFEC001);
-
+    wwise_manager->PostEventUI("play_menu_select");
 
     /* toggle */
     m_state = !m_state;

@@ -66,8 +66,8 @@ AbstractKart::~AbstractKart()
         m_kart_animation->handleResetRace();
         delete m_kart_animation;
     }
+    wwise_manager->PostEvent(getWorldKartId(), "stop_kart");
     wwise_manager->UnRegisterGameObject(m_world_kart_id);
-    wwise_manager->UnRegisterGameListener(m_world_kart_id);
 }   // ~AbstractKart
 
 // ----------------------------------------------------------------------------

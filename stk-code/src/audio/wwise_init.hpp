@@ -15,8 +15,9 @@ public:
 	void RegisterGameObject(int ID, const char* object);
 	void UnRegisterGameObject(int ID);
 	void SetGameObjectPosition(const int ID, const float X, const float Y, const float Z);
-	void RegisterGameListener(AkGameObjectID ID);
-	void UnRegisterGameListener(AkGameObjectID ID);
+	void RegisterDefaultListener(AkGameObjectID ID);
+	void UnRegisterDefaultListener(AkGameObjectID ID);
+	void RegisterGameEmitterListener(const char* Emitter, AkGameObjectID EmitterID, const char* Listener, AkGameObjectID ListenerID);
 	void PostEvent(int ID, const char* Event);
 	void PostEventUI(const char* Event);
 	void SetGameSyncSwitch(const char* Group, const char* State, const int ID);
