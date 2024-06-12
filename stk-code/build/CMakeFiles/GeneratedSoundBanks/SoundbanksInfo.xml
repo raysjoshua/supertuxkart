@@ -440,7 +440,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2454045173" Language="SFX" Hash="1395600746">
+		<SoundBank Id="2454045173" Language="SFX" Hash="1278414174">
 			<ObjectPath>\SoundBanks\Default Work Unit\ui_soundbank</ObjectPath>
 			<ShortName>ui_soundbank</ShortName>
 			<Path>ui_soundbank.bnk</Path>
