@@ -33,6 +33,7 @@
 #include "modes/profile_world.hpp"
 #include "utils/log.hpp"
 #include "utils/stk_process.hpp"
+#include "audio/wwise_init.hpp"
 
 #include <cstring>
 
@@ -188,6 +189,8 @@ void StateManager::escapePressed()
         if (getCurrentScreen() != NULL &&
             getCurrentScreen()->onEscapePressed()) popMenu();
     }
+    wwise_manager->PostEventUI("play_menu_select");
+
 }   // escapePressed
 
 // ----------------------------------------------------------------------------

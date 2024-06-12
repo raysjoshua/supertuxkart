@@ -31,7 +31,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1447697833" Language="SFX" Hash="2746640495">
+		<SoundBank Id="1447697833" Language="SFX" Hash="2168858596">
 			<ObjectPath>\SoundBanks\Default Work Unit\kart_soundbank</ObjectPath>
 			<ShortName>kart_soundbank</ShortName>
 			<Path>kart_soundbank.bnk</Path>
@@ -440,13 +440,13 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2454045173" Language="SFX" Hash="3602961810">
+		<SoundBank Id="2454045173" Language="SFX" Hash="1395600746">
 			<ObjectPath>\SoundBanks\Default Work Unit\ui_soundbank</ObjectPath>
 			<ShortName>ui_soundbank</ShortName>
 			<Path>ui_soundbank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3430733157" Name="pause_sfx" ObjectPath="\Events\Default Work Unit\UI\pause_sfx"/>
-				<Event Id="3294774032" Name="play_menu_decline" ObjectPath="\Events\Default Work Unit\UI\play_menu_decline">
+				<Event Id="3294774032" Name="play_menu_decline" ObjectPath="\Events\Default Work Unit\UI\Menu\play_menu_decline">
 					<IncludedMemoryFiles>
 						<File Id="325253848" Language="SFX">
 							<ShortName>Technology Electronic Button Beep Digital Camera 04.wav</ShortName>
@@ -454,7 +454,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2167056030" Name="play_menu_select" ObjectPath="\Events\Default Work Unit\UI\play_menu_select">
+				<Event Id="2167056030" Name="play_menu_select" ObjectPath="\Events\Default Work Unit\UI\Menu\play_menu_select">
 					<IncludedMemoryFiles>
 						<File Id="715239341" Language="SFX">
 							<ShortName>Technology Radio Button Clicking 07.wav</ShortName>
@@ -462,7 +462,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1315894320" Name="play_menu_traverse" ObjectPath="\Events\Default Work Unit\UI\play_menu_traverse">
+				<Event Id="1315894320" Name="play_menu_traverse" ObjectPath="\Events\Default Work Unit\UI\Menu\play_menu_traverse">
 					<IncludedMemoryFiles>
 						<File Id="312498465" Language="SFX">
 							<ShortName>Technology Radio Button Clicking 01.wav</ShortName>
@@ -470,7 +470,9 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3313483209" Name="resume_menu_sounds" ObjectPath="\Events\Default Work Unit\UI\Menu\resume_menu_sounds"/>
 				<Event Id="4118937608" Name="resume_sfx" ObjectPath="\Events\Default Work Unit\UI\resume_sfx"/>
+				<Event Id="3136720908" Name="stop_menu_sounds" ObjectPath="\Events\Default Work Unit\UI\Menu\stop_menu_sounds"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
