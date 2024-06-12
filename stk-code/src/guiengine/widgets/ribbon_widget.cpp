@@ -748,7 +748,6 @@ EventPropagation RibbonWidget::focused(const int playerID)
 {
     Widget::focused(playerID);
     if (m_active_children.size() < 1) return EVENT_LET; // empty ribbon
-    wwise_manager->PostEventUI("play_menu_traverse");
     if (m_ribbon_type == RIBBON_COMBO || m_ribbon_type == RIBBON_TABS ||
         m_ribbon_type == RIBBON_VERTICAL_TABS)
     {
@@ -897,6 +896,8 @@ EventPropagation RibbonWidget::onActivationInput(const int playerID)
         }
     }
 
+
+    wwise_manager->PostEventUI("play_menu_select");
     return EVENT_LET;
 }
 
