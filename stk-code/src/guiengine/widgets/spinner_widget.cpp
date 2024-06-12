@@ -24,6 +24,7 @@
 #include "io/file_manager.hpp"
 #include "utils/string_utils.hpp"
 #include "utils/log.hpp"
+#include "audio/wwise_init.hpp"
 
 #include <IGUIElement.h>
 #include <IGUIEnvironment.h>
@@ -300,8 +301,10 @@ EventPropagation SpinnerWidget::rightPressed(const int playerID)
     // if right arrow is selected, let event handler move to next widget
     if (m_right_selected)
         return EVENT_BLOCK;
-    else
+    else {
         setSelectedButton(/* right*/ true);
+        wwise_manager->PostEventUI("play_menu_traverse");
+    }
 
     return EVENT_BLOCK_BUT_HANDLED;
 } // rightPressed
@@ -314,12 +317,14 @@ EventPropagation SpinnerWidget::leftPressed(const int playerID)
 
     // if widget is deactivated, do nothing
     if (m_deactivated) return EVENT_BLOCK;
-
+    
     // if left arrow is selected, let event handler move to next widget
     if (m_left_selected)
         return EVENT_BLOCK;
-    else
+    else {
         setSelectedButton(/* right*/ false);
+        wwise_manager->PostEventUI("play_menu_traverse");
+    }
 
     return EVENT_BLOCK_BUT_HANDLED;
 } // leftPressed
