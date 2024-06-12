@@ -35,6 +35,7 @@ using namespace gui;
 #include "utils/string_utils.hpp"
 #include "utils/translation.hpp"
 #include "utils/vs.hpp"
+#include "audio/wwise_init.hpp"
 
 namespace GUIEngine
 {
@@ -271,8 +272,13 @@ void Widget::setFocusForPlayer(const int playerID)
     this->focused(playerID);
 
     Screen* screen = GUIEngine::getCurrentScreen();
-    if(screen)
+    if (screen) {
         screen->onFocusChanged(previous_focus, this, playerID);
+        if (previous_focus != NULL) {
+           wwise_manager->PostEventUI("play_menu_traverse");
+        }
+    }
+
 }
 
 // -----------------------------------------------------------------------------
