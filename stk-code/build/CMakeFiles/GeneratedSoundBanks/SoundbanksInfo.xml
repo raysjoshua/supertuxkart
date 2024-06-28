@@ -7,11 +7,16 @@
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
-	<DialogueEvents/>
+	<DialogueEvents>
+		<DialogueEvent Id="151375842" Name="Adiumy" ObjectPath="\Dynamic Dialogue\Characters\Adiumy">
+			<Argument Id="436743010" Name="character" ObjectPath="\Switches\Default Work Unit\character"/>
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+	</DialogueEvents>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="902550164" Language="SFX" Hash="4280991535">
+		<SoundBank Id="902550164" Language="SFX" Hash="3705103346">
 			<ObjectPath>\SoundBanks\Default Work Unit\theme_music</ObjectPath>
 			<ShortName>theme_music</ShortName>
 			<Path>theme_music.bnk</Path>
@@ -26,12 +31,113 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="948588646">
+		<SoundBank Id="975145466" Language="SFX" Hash="9987635">
+			<ObjectPath>\SoundBanks\Default Work Unit\vox_soundbank</ObjectPath>
+			<ShortName>vox_soundbank</ShortName>
+			<Path>vox_soundbank.bnk</Path>
+			<IncludedDialogueEvents>
+				<DialogueEvent Id="151375842" Name="Adiumy" ObjectPath="\Dynamic Dialogue\Characters\Adiumy"/>
+			</IncludedDialogueEvents>
+			<IncludedMemoryFiles>
+				<File Id="37494101" Language="SFX">
+					<ShortName>get up on your feet soft h1.wav</ShortName>
+					<Path>SFX\get up on your feet soft h1_10C4C929.wem</Path>
+				</File>
+				<File Id="80278261" Language="SFX">
+					<ShortName>burning in my soul mid h2.wav</ShortName>
+					<Path>SFX\burning in my soul mid h2_10C4C929.wem</Path>
+				</File>
+				<File Id="282000893" Language="SFX">
+					<ShortName>just keep your body moving hard h2.wav</ShortName>
+					<Path>SFX\just keep your body moving hard h2_10C4C929.wem</Path>
+				</File>
+				<File Id="294500837" Language="SFX">
+					<ShortName>i will give you love mid.wav</ShortName>
+					<Path>SFX\i will give you love mid_10C4C929.wem</Path>
+				</File>
+				<File Id="474507031" Language="SFX">
+					<ShortName>dont take to long to heat up hard.wav</ShortName>
+					<Path>SFX\dont take to long to heat up hard_10C4C929.wem</Path>
+				</File>
+				<File Id="568191178" Language="SFX">
+					<ShortName>i believe in you mid h2.wav</ShortName>
+					<Path>SFX\i believe in you mid h2_10C4C929.wem</Path>
+				</File>
+				<File Id="609772751" Language="SFX">
+					<ShortName>and i dont wanna let go mid.wav</ShortName>
+					<Path>SFX\and i dont wanna let go mid_10C4C929.wem</Path>
+				</File>
+				<File Id="812620029" Language="SFX">
+					<ShortName>everything you are mid h1.wav</ShortName>
+					<Path>SFX\everything you are mid h1_10C4C929.wem</Path>
+				</File>
+				<File Id="829130139" Language="SFX">
+					<ShortName>i'll give it all to you hard h2.wav</ShortName>
+					<Path>SFX\i'll give it all to you hard h2_10C4C929.wem</Path>
+				</File>
+				<File Id="847740968" Language="SFX">
+					<ShortName>if you wanna be my man mid h2.wav</ShortName>
+					<Path>SFX\if you wanna be my man mid h2_10C4C929.wem</Path>
+				</File>
+				<File Id="926553174" Language="SFX">
+					<ShortName>i can feel the rhythm soft h2.wav</ShortName>
+					<Path>SFX\i can feel the rhythm soft h2_10C4C929.wem</Path>
+				</File>
+				<File Id="938073284" Language="SFX">
+					<ShortName>all night hard h1.wav</ShortName>
+					<Path>SFX\all night hard h1_10C4C929.wem</Path>
+				</File>
+				<File Id="973098404" Language="SFX">
+					<ShortName>and boogy hard h1.wav</ShortName>
+					<Path>SFX\and boogy hard h1_10C4C929.wem</Path>
+				</File>
+				<File Id="990885038" Language="SFX">
+					<ShortName>if you wanna love me mid h1.wav</ShortName>
+					<Path>SFX\if you wanna love me mid h1_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<SwitchGroups>
+				<SwitchGroup Id="436743010" Name="character" ObjectPath="\Switches\Default Work Unit\character" GUID="{77EBA123-0997-4FB6-89FA-B8748451363A}">
+					<Switches>
+						<Switch Id="151375842" Name="adiumy" ObjectPath="\Switches\Default Work Unit\character\adiumy" GUID="{6AF608C2-DD94-4497-A4F4-590AF3567D56}"/>
+						<Switch Id="2045744183" Name="amanda" ObjectPath="\Switches\Default Work Unit\character\amanda" GUID="{5D8D4C75-DD87-4603-93D6-60DE6F3C5B07}"/>
+						<Switch Id="2851410461" Name="emule" ObjectPath="\Switches\Default Work Unit\character\emule" GUID="{D2419445-1878-47B0-9FA7-4F112E614843}"/>
+						<Switch Id="4185678630" Name="gavroche" ObjectPath="\Switches\Default Work Unit\character\gavroche" GUID="{A4FD76B3-BB3D-4C25-8459-2F7A3B3ADA4F}"/>
+						<Switch Id="529329031" Name="gnu" ObjectPath="\Switches\Default Work Unit\character\gnu" GUID="{68D41E89-EB87-4540-B95C-37C33D3FB971}"/>
+						<Switch Id="2405476487" Name="godette" ObjectPath="\Switches\Default Work Unit\character\godette" GUID="{6580C90E-D897-4046-ACA1-5D0FA0B9A0D8}"/>
+						<Switch Id="388384866" Name="hexley" ObjectPath="\Switches\Default Work Unit\character\hexley" GUID="{63F86BD9-B994-4247-8730-3839B1D13191}"/>
+						<Switch Id="2047618277" Name="kiki" ObjectPath="\Switches\Default Work Unit\character\kiki" GUID="{AA29194B-2F44-43C2-9D76-69C9FF75A540}"/>
+						<Switch Id="890366933" Name="konqi" ObjectPath="\Switches\Default Work Unit\character\konqi" GUID="{61B0D28E-FE42-4B5C-ABEB-6825C1AF6246}"/>
+						<Switch Id="368225470" Name="nolok" ObjectPath="\Switches\Default Work Unit\character\nolok" GUID="{A52BDCC8-0CA9-45E2-900C-CB22B72CC066}"/>
+						<Switch Id="2442174629" Name="pepper" ObjectPath="\Switches\Default Work Unit\character\pepper" GUID="{B748AF11-EE95-4D85-8E79-124E61B17415}"/>
+						<Switch Id="250783334" Name="pidgen" ObjectPath="\Switches\Default Work Unit\character\pidgen" GUID="{7A6BDFFC-5257-443D-B6A5-2FCF7A816456}"/>
+						<Switch Id="1502504269" Name="puffy" ObjectPath="\Switches\Default Work Unit\character\puffy" GUID="{1F0F464C-36F0-471D-AF25-B64597A3A14D}"/>
+						<Switch Id="736727190" Name="sara" ObjectPath="\Switches\Default Work Unit\character\sara" GUID="{AEE17AB9-FDA6-4C05-A805-3E1209F7AD57}"/>
+						<Switch Id="3527788783" Name="suzanne" ObjectPath="\Switches\Default Work Unit\character\suzanne" GUID="{AB4C21B4-583F-48B7-8E4C-A4720D5614DF}"/>
+						<Switch Id="644653876" Name="tux" ObjectPath="\Switches\Default Work Unit\character\tux" GUID="{A454DEA9-2DA6-4D0E-800A-3FEA40400128}"/>
+						<Switch Id="2049291418" Name="wilbur" ObjectPath="\Switches\Default Work Unit\character\wilbur" GUID="{2546BF89-D025-422D-AE74-3A4B9E50F614}"/>
+						<Switch Id="644065429" Name="xue" ObjectPath="\Switches\Default Work Unit\character\xue" GUID="{E90376C3-98F0-4953-865C-C64AB32C1B5F}"/>
+						<Switch Id="784127654" Name="null" ObjectPath="\Switches\Default Work Unit\character\null" GUID="{39F72E4A-3724-494B-8EC6-D53428C5B3C0}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization" GUID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}">
+					<Switches>
+						<Switch Id="2967220276" Name="onselection" ObjectPath="\Switches\Default Work Unit\vocalization\onselection" GUID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+						<Switch Id="2716678721" Name="victory" ObjectPath="\Switches\Default Work Unit\vocalization\victory" GUID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+						<Switch Id="1593864692" Name="defeat" ObjectPath="\Switches\Default Work Unit\vocalization\defeat" GUID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+						<Switch Id="3839776389" Name="expletive_positive" ObjectPath="\Switches\Default Work Unit\vocalization\expletive_positive" GUID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+						<Switch Id="784127654" Name="null" ObjectPath="\Switches\Default Work Unit\vocalization\null" GUID="{9723A29B-41FB-456E-A025-26CDF694A075}"/>
+						<Switch Id="3211381965" Name="explitive_negative" ObjectPath="\Switches\Default Work Unit\vocalization\explitive_negative" GUID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2494149695">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1447697833" Language="SFX" Hash="2168858596">
+		<SoundBank Id="1447697833" Language="SFX" Hash="3173227957">
 			<ObjectPath>\SoundBanks\Default Work Unit\kart_soundbank</ObjectPath>
 			<ShortName>kart_soundbank</ShortName>
 			<Path>kart_soundbank.bnk</Path>
@@ -440,7 +546,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2454045173" Language="SFX" Hash="1278414174">
+		<SoundBank Id="2454045173" Language="SFX" Hash="823310956">
 			<ObjectPath>\SoundBanks\Default Work Unit\ui_soundbank</ObjectPath>
 			<ShortName>ui_soundbank</ShortName>
 			<Path>ui_soundbank.bnk</Path>

@@ -11922,12 +11922,6 @@
 				<PhysicalFolder Path="Interactive Music Hierarchy">
 					<WorkUnit Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" PersistMode="Standalone"/>
 				</PhysicalFolder>
-				<PhysicalFolder Path="Interactive Music Hierarchy\Menu">
-					<WorkUnit Name="Menu" ID="{A4156185-C707-4399-A0ED-0402CDCF5222}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Interactive Music Hierarchy\TrackMusic">
-					<WorkUnit Name="TrackMusic" ID="{DD2BE616-CF1F-45AE-89F6-24A9505DC181}" PersistMode="Standalone"/>
-				</PhysicalFolder>
 				<PhysicalFolder Path="Master-Mixer Hierarchy">
 					<WorkUnit Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" PersistMode="Standalone"/>
 				</PhysicalFolder>

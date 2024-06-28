@@ -12,6 +12,7 @@
 								<Property Name="RTPCRamping" Type="int16" Value="1"/>
 							</PropertyList>
 						</GameParameter>
+						<GameParameter Name="character" ID="{71F3CBA5-0194-4864-A574-F28E5AFE545C}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

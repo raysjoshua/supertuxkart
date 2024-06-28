@@ -187,9 +187,12 @@ void StateManager::escapePressed()
     else
     {
         if (getCurrentScreen() != NULL &&
-            getCurrentScreen()->onEscapePressed()) popMenu();
+            getCurrentScreen()->onEscapePressed()) {
+            popMenu();
+            wwise_manager->PostEventUI("play_menu_select");
+        }
     }
-    wwise_manager->PostEventUI("play_menu_select");
+    
 
 }   // escapePressed
 

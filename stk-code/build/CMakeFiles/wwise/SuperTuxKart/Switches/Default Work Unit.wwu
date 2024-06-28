@@ -95,6 +95,39 @@
 						<Switch Name="release" ID="{48199F1A-AC68-4DA3-AA1C-E93155129D60}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="character" ID="{77EBA123-0997-4FB6-89FA-B8748451363A}">
+					<ChildrenList>
+						<Switch Name="adiumy" ID="{6AF608C2-DD94-4497-A4F4-590AF3567D56}"/>
+						<Switch Name="amanda" ID="{5D8D4C75-DD87-4603-93D6-60DE6F3C5B07}"/>
+						<Switch Name="emule" ID="{D2419445-1878-47B0-9FA7-4F112E614843}"/>
+						<Switch Name="gavroche" ID="{A4FD76B3-BB3D-4C25-8459-2F7A3B3ADA4F}"/>
+						<Switch Name="gnu" ID="{68D41E89-EB87-4540-B95C-37C33D3FB971}"/>
+						<Switch Name="godette" ID="{6580C90E-D897-4046-ACA1-5D0FA0B9A0D8}"/>
+						<Switch Name="hexley" ID="{63F86BD9-B994-4247-8730-3839B1D13191}"/>
+						<Switch Name="kiki" ID="{AA29194B-2F44-43C2-9D76-69C9FF75A540}"/>
+						<Switch Name="konqi" ID="{61B0D28E-FE42-4B5C-ABEB-6825C1AF6246}"/>
+						<Switch Name="nolok" ID="{A52BDCC8-0CA9-45E2-900C-CB22B72CC066}"/>
+						<Switch Name="pepper" ID="{B748AF11-EE95-4D85-8E79-124E61B17415}"/>
+						<Switch Name="pidgen" ID="{7A6BDFFC-5257-443D-B6A5-2FCF7A816456}"/>
+						<Switch Name="puffy" ID="{1F0F464C-36F0-471D-AF25-B64597A3A14D}"/>
+						<Switch Name="sara" ID="{AEE17AB9-FDA6-4C05-A805-3E1209F7AD57}"/>
+						<Switch Name="suzanne" ID="{AB4C21B4-583F-48B7-8E4C-A4720D5614DF}"/>
+						<Switch Name="tux" ID="{A454DEA9-2DA6-4D0E-800A-3FEA40400128}"/>
+						<Switch Name="wilbur" ID="{2546BF89-D025-422D-AE74-3A4B9E50F614}"/>
+						<Switch Name="xue" ID="{E90376C3-98F0-4953-865C-C64AB32C1B5F}"/>
+						<Switch Name="null" ID="{39F72E4A-3724-494B-8EC6-D53428C5B3C0}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}">
+					<ChildrenList>
+						<Switch Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+						<Switch Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+						<Switch Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+						<Switch Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+						<Switch Name="null" ID="{9723A29B-41FB-456E-A025-26CDF694A075}"/>
+						<Switch Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

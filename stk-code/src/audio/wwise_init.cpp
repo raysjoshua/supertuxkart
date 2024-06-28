@@ -8,6 +8,8 @@
 #include <AK/MusicEngine/Common/AkMusicEngine.h>
 #include <AK/SpatialAudio/Common/AkSpatialAudio.h> 
 #include <AK/SoundEngine/Common/AkTypes.h>
+#include <AK/SoundEngine/Common/AkDynamicDialogue.h>
+#include <AK/SoundEngine/Common/AkDynamicSequence.h>
 #include <assert.h>
 
 #include "wwise_init.hpp"
@@ -23,6 +25,7 @@ AkGameObjectID MY_DEFAULT_LISTENER = 0;
 #define BANKNAME_INIT L"Init.bnk"
 #define BANKNAME_THEME_MUSIC L"theme_music.bnk"
 #define BANKNAME_KART L"kart_soundbank.bnk"
+#define BANKNAME_VOX L"vox_soundbank.bnk"
 #define BANKNAME_UI L"ui_soundbank.bnk"
 
 const AkGameObjectID MENU_EMITTER = 1000;
@@ -79,7 +82,7 @@ bool  WWise::InitSoundEngine() {
 
 	if (AK::SoundEngine::Init(&initSettings, &platformInitSettings) != AK_Success) 
 	{
-		assert(!"Could not initialize the Sound Engine");
+		assert(!"Could not initialize the Sound Fngine");
 		return false;
 	}
 
@@ -121,6 +124,9 @@ bool  WWise::InitSoundEngine() {
 	assert(eResult == AK_Success);
 
 	eResult = AK::SoundEngine::LoadBank(BANKNAME_KART, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_VOX, bankID);
 	assert(eResult == AK_Success);
 
 	eResult = AK::SoundEngine::LoadBank(BANKNAME_UI, bankID);
@@ -166,6 +172,46 @@ void WWise::PostEvent(int ID, const char* Event) {
 
 void WWise::PostEventUI(const char* Event) {
 	AK::SoundEngine::PostEvent(Event, MENU_LISTENER);
+}
+
+
+void WWise::PostDialogue(const char* Event, const char* argPath[], const int pathDepth) {
+	PostDialogue(MENU_LISTENER, Event, argPath, pathDepth);
+}
+
+void WWise::PostDialogue(AkGameObjectID ID, const char* Event, const char* argPath[], const int pathDepth) {
+	{
+		// Open a dynamic sequence using the appropriate game object.
+
+		AkPlayingID sequenceID = AK::SoundEngine::DynamicSequence::Open(ID);
+
+		// Add a single dialogue event to the playlist of the dynamic sequence. 
+
+		{
+			// Resolve dialogue event into an audio node ID based on the specified argument path.
+
+			AkUniqueID nodeID =
+				AK::SoundEngine::DynamicDialogue::ResolveDialogueEvent(Event, argPath, pathDepth);
+
+			// Add audio node ID to dynamic sequence playlist.
+
+			AK::SoundEngine::DynamicSequence::Playlist* pPlaylist =
+				AK::SoundEngine::DynamicSequence::LockPlaylist(sequenceID);
+
+			pPlaylist->Enqueue(nodeID);
+
+			AK::SoundEngine::DynamicSequence::UnlockPlaylist(sequenceID);
+		}
+
+		// Play the dynamic sequence.
+
+		AK::SoundEngine::DynamicSequence::Play(sequenceID);
+
+		// Close the dynamic sequence. The dynamic sequence will play until finished and then
+		// deallocate itself automatically. 
+
+		AK::SoundEngine::DynamicSequence::Close(sequenceID);
+	}
 }
 
 void WWise::SetGameObjectPosition(const int ID, const float X, const float Y, const float Z ) {

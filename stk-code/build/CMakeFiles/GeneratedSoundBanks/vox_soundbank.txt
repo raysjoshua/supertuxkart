@@ -1,0 +1,50 @@
+Dialogue Event	ID	Name			Wwise Object Path	Notes
+	151375842	Adiumy			\Characters\Adiumy	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	436743010	character			\Default Work Unit\character	
+	2803840768	vocalization			\Default Work Unit\vocalization	
+
+Switch	ID	Name	Switch Group			Notes
+	151375842	adiumy	character			
+	250783334	pidgen	character			
+	368225470	nolok	character			
+	388384866	hexley	character			
+	529329031	gnu	character			
+	644065429	xue	character			
+	644653876	tux	character			
+	736727190	sara	character			
+	784127654	null	character			
+	890366933	konqi	character			
+	1502504269	puffy	character			
+	2045744183	amanda	character			
+	2047618277	kiki	character			
+	2049291418	wilbur	character			
+	2405476487	godette	character			
+	2442174629	pepper	character			
+	2851410461	emule	character			
+	3527788783	suzanne	character			
+	4185678630	gavroche	character			
+	784127654	null	vocalization			
+	1593864692	defeat	vocalization			
+	2716678721	victory	vocalization			
+	2967220276	onselection	vocalization			
+	3211381965	explitive_negative	vocalization			
+	3839776389	expletive_positive	vocalization			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	37494101	get up on your feet soft h1	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\get up on your feet soft h1_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_Victory\get up on your feet soft h1		114318
+	80278261	burning in my soul mid h2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\burning in my soul mid h2_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_Defeat\burning in my soul mid h2		291040
+	282000893	just keep your body moving hard h2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\just keep your body moving hard h2_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_Victory\just keep your body moving hard h2		139356
+	294500837	i will give you love mid	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\i will give you love mid_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_Explitive\Negative\i will give you love mid		219218
+	474507031	dont take to long to heat up hard	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\dont take to long to heat up hard_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_Defeat\dont take to long to heat up hard		156726
+	568191178	i believe in you mid h2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\i believe in you mid h2_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_Victory\i believe in you mid h2		135222
+	609772751	and i dont wanna let go mid	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\and i dont wanna let go mid_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_OnSelection\and i dont wanna let go mid		164092
+	812620029	everything you are mid h1	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\everything you are mid h1_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_Defeat\everything you are mid h1		124060
+	829130139	i'll give it all to you hard h2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\i'll give it all to you hard h2_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_Explitive\Negative\i'll give it all to you hard h2		232874
+	847740968	if you wanna be my man mid h2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\if you wanna be my man mid h2_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_Explitive\Positive\if you wanna be my man mid h2		145490
+	926553174	i can feel the rhythm soft h2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\i can feel the rhythm soft h2_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_Victory\i can feel the rhythm soft h2		138752
+	938073284	all night hard h1	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\all night hard h1_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_OnSelection\all night hard h1		165808
+	973098404	and boogy hard h1	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\and boogy hard h1_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_OnSelection\and boogy hard h1		112482
+	990885038	if you wanna love me mid h1	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\if you wanna love me mid h1_10C4C929.wem		\Actor-Mixer Hierarchy\Characters\Characters\Char_Switch\adiumy_Explitive\Positive\if you wanna love me mid h1		128264
+

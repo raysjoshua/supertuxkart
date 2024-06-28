@@ -52,25 +52,25 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	40575190	crash_3	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\crash_3_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\crash\crash_3		145100
-	189731322	dirt	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Dirt_46AE9C66.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\dirt		585322
+	189731322	dirt	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Dirt_46AE9C66.wem		\Actor-Mixer Hierarchy\Karts\Kart\skid\dirt		585322
 	190544656	airburst	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Industry Tool Air Escaping From Air Compressor Quick Burst 36_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\gears shift\airburst		159652
 	237181032	outer	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Slipstream_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\slipstream\outer		288832
 	274440068	fast	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Engine_Light_Fast_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\small\fast		745362
 	286478457	boing	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\boing_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\boing\boing		64492
-	298409511	Terrain_Wood-cm_2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_2_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\wood\Terrain_Wood-cm_2		12598
+	298409511	Terrain_Wood-cm_2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_2_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\skid\wood\Terrain_Wood-cm_2		12598
 	303444677	medium	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Engine_Heavy_Medium_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\large\medium		1044544
-	307533153	Terrain_Wood-cm_1	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_1_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\wood\Terrain_Wood-cm_1		14098
+	307533153	Terrain_Wood-cm_1	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_1_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\skid\wood\Terrain_Wood-cm_1		14098
 	352309195	boing_1	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\boing_1_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\boing\boing_1		82166
 	373430340	crash_2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\crash_2_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\crash\crash_2		149568
 	383516566	nitro-blast	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\nitro-blast_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\nitro\nitro-blast		242752
 	453377722	slow	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Engine_Heavy_Slow_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\large\slow		606184
-	504215093	Terrain_Wood-cm_4	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_4_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\wood\Terrain_Wood-cm_4		14098
+	504215093	Terrain_Wood-cm_4	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_4_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\skid\wood\Terrain_Wood-cm_4		14098
 	510607462	medium	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Engine_Light_Medium_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\small\medium		749744
-	519840127	asphalt	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\skid-asphalt-cobblestone_213626A2.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\asphalt		223396
+	519840127	asphalt	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\skid-asphalt-cobblestone_213626A2.wem		\Actor-Mixer Hierarchy\Karts\Kart\skid\asphalt		223396
 	642949619	skid_ignition	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\skid_ignition_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\skid_ignition		57400
 	731493536	fast	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Engine_Heavy_Fast_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\large\fast		753728
-	731744806	Terrain_Wood-cm	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\wood\Terrain_Wood-cm		12598
-	805696895	Terrain_Wood-cm_3	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_3_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\wood\Terrain_Wood-cm_3		14840
+	731744806	Terrain_Wood-cm	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\skid\wood\Terrain_Wood-cm		12598
+	805696895	Terrain_Wood-cm_3	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_3_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\skid\wood\Terrain_Wood-cm_3		14840
 	912990630	horn	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\honk_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\horn\horn		28608
 	1001570438	crash_1	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\crash_1_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\crash\crash_1		117632
 	1041486758	slow	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Engine_Light_Slow_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\small\slow		617464

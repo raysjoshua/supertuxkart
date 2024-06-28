@@ -32,6 +32,7 @@
 #include "states_screens/kart_selection.hpp"
 #include "utils/string_utils.hpp"
 #include "utils/translation.hpp"
+#include "audio/wwise_init.hpp"
 
 #include <IGUIEnvironment.h>
 
@@ -452,7 +453,15 @@ void PlayerKartWidget::markAsReady()
     delete m_player_ident_spinner;
     m_player_ident_spinner = NULL;
 
-    SFXManager::get()->quickSound( "wee" );
+    
+    // SFXManager::get()->quickSound( "wee" );
+
+    const char* argPath[2] = { 
+        "adiumy",              
+        "vocalization"
+    };          
+    wwise_manager->PostDialogue("Adiumy",argPath, 2);
+
 
     m_model_view->setRotateTo(30.0f, 1.0f);
 

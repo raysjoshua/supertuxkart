@@ -50,6 +50,7 @@
 #include "states_screens/state_manager.hpp"
 #include "utils/string_utils.hpp"
 #include "utils/translation.hpp"
+#include "audio/wwise_init.hpp"
 
 #include <IrrlichtDevice.h>
 
@@ -496,7 +497,6 @@ void RacePausedDialog::init()
 {
     m_touch_controls = UserConfigParams::m_multitouch_controls;
     updateTouchDeviceIcon();
-    
 }   // init
 
 // ----------------------------------------------------------------------------
