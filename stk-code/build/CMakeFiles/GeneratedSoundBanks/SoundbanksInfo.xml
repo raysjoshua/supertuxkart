@@ -8,8 +8,7 @@
 		<ExternalSourcesOutputRoot>D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents>
-		<DialogueEvent Id="151375842" Name="Adiumy" ObjectPath="\Dynamic Dialogue\Characters\Adiumy">
-			<Argument Id="436743010" Name="character" ObjectPath="\Switches\Default Work Unit\character"/>
+		<DialogueEvent Id="151375842" Name="adiumy" ObjectPath="\Dynamic Dialogue\Characters\adiumy">
 			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
 		</DialogueEvent>
 	</DialogueEvents>
@@ -31,12 +30,12 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="975145466" Language="SFX" Hash="9987635">
+		<SoundBank Id="975145466" Language="SFX" Hash="4275842943">
 			<ObjectPath>\SoundBanks\Default Work Unit\vox_soundbank</ObjectPath>
 			<ShortName>vox_soundbank</ShortName>
 			<Path>vox_soundbank.bnk</Path>
 			<IncludedDialogueEvents>
-				<DialogueEvent Id="151375842" Name="Adiumy" ObjectPath="\Dynamic Dialogue\Characters\Adiumy"/>
+				<DialogueEvent Id="151375842" Name="adiumy" ObjectPath="\Dynamic Dialogue\Characters\adiumy"/>
 			</IncludedDialogueEvents>
 			<IncludedMemoryFiles>
 				<File Id="37494101" Language="SFX">
@@ -97,29 +96,6 @@
 				</File>
 			</IncludedMemoryFiles>
 			<SwitchGroups>
-				<SwitchGroup Id="436743010" Name="character" ObjectPath="\Switches\Default Work Unit\character" GUID="{77EBA123-0997-4FB6-89FA-B8748451363A}">
-					<Switches>
-						<Switch Id="151375842" Name="adiumy" ObjectPath="\Switches\Default Work Unit\character\adiumy" GUID="{6AF608C2-DD94-4497-A4F4-590AF3567D56}"/>
-						<Switch Id="2045744183" Name="amanda" ObjectPath="\Switches\Default Work Unit\character\amanda" GUID="{5D8D4C75-DD87-4603-93D6-60DE6F3C5B07}"/>
-						<Switch Id="2851410461" Name="emule" ObjectPath="\Switches\Default Work Unit\character\emule" GUID="{D2419445-1878-47B0-9FA7-4F112E614843}"/>
-						<Switch Id="4185678630" Name="gavroche" ObjectPath="\Switches\Default Work Unit\character\gavroche" GUID="{A4FD76B3-BB3D-4C25-8459-2F7A3B3ADA4F}"/>
-						<Switch Id="529329031" Name="gnu" ObjectPath="\Switches\Default Work Unit\character\gnu" GUID="{68D41E89-EB87-4540-B95C-37C33D3FB971}"/>
-						<Switch Id="2405476487" Name="godette" ObjectPath="\Switches\Default Work Unit\character\godette" GUID="{6580C90E-D897-4046-ACA1-5D0FA0B9A0D8}"/>
-						<Switch Id="388384866" Name="hexley" ObjectPath="\Switches\Default Work Unit\character\hexley" GUID="{63F86BD9-B994-4247-8730-3839B1D13191}"/>
-						<Switch Id="2047618277" Name="kiki" ObjectPath="\Switches\Default Work Unit\character\kiki" GUID="{AA29194B-2F44-43C2-9D76-69C9FF75A540}"/>
-						<Switch Id="890366933" Name="konqi" ObjectPath="\Switches\Default Work Unit\character\konqi" GUID="{61B0D28E-FE42-4B5C-ABEB-6825C1AF6246}"/>
-						<Switch Id="368225470" Name="nolok" ObjectPath="\Switches\Default Work Unit\character\nolok" GUID="{A52BDCC8-0CA9-45E2-900C-CB22B72CC066}"/>
-						<Switch Id="2442174629" Name="pepper" ObjectPath="\Switches\Default Work Unit\character\pepper" GUID="{B748AF11-EE95-4D85-8E79-124E61B17415}"/>
-						<Switch Id="250783334" Name="pidgen" ObjectPath="\Switches\Default Work Unit\character\pidgen" GUID="{7A6BDFFC-5257-443D-B6A5-2FCF7A816456}"/>
-						<Switch Id="1502504269" Name="puffy" ObjectPath="\Switches\Default Work Unit\character\puffy" GUID="{1F0F464C-36F0-471D-AF25-B64597A3A14D}"/>
-						<Switch Id="736727190" Name="sara" ObjectPath="\Switches\Default Work Unit\character\sara" GUID="{AEE17AB9-FDA6-4C05-A805-3E1209F7AD57}"/>
-						<Switch Id="3527788783" Name="suzanne" ObjectPath="\Switches\Default Work Unit\character\suzanne" GUID="{AB4C21B4-583F-48B7-8E4C-A4720D5614DF}"/>
-						<Switch Id="644653876" Name="tux" ObjectPath="\Switches\Default Work Unit\character\tux" GUID="{A454DEA9-2DA6-4D0E-800A-3FEA40400128}"/>
-						<Switch Id="2049291418" Name="wilbur" ObjectPath="\Switches\Default Work Unit\character\wilbur" GUID="{2546BF89-D025-422D-AE74-3A4B9E50F614}"/>
-						<Switch Id="644065429" Name="xue" ObjectPath="\Switches\Default Work Unit\character\xue" GUID="{E90376C3-98F0-4953-865C-C64AB32C1B5F}"/>
-						<Switch Id="784127654" Name="null" ObjectPath="\Switches\Default Work Unit\character\null" GUID="{39F72E4A-3724-494B-8EC6-D53428C5B3C0}"/>
-					</Switches>
-				</SwitchGroup>
 				<SwitchGroup Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization" GUID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}">
 					<Switches>
 						<Switch Id="2967220276" Name="onselection" ObjectPath="\Switches\Default Work Unit\vocalization\onselection" GUID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>

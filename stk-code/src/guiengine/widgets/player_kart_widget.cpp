@@ -453,14 +453,10 @@ void PlayerKartWidget::markAsReady()
     delete m_player_ident_spinner;
     m_player_ident_spinner = NULL;
 
-    
-    // SFXManager::get()->quickSound( "wee" );
-
     const char* argPath[2] = { 
-        "adiumy",              
-        "vocalization"
+        "onselection"
     };          
-    wwise_manager->PostDialogue("Adiumy",argPath, 2);
+    wwise_manager->PostDialogue(m_kart_internal_name.c_str(),argPath, 1);
 
 
     m_model_view->setRotateTo(30.0f, 1.0f);

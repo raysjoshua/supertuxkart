@@ -3,73 +3,1047 @@
 	<DynamicDialogue>
 		<WorkUnit Name="Characters" ID="{BE7560BD-87F5-4294-A296-C23924081EB6}" PersistMode="Standalone">
 			<ChildrenList>
-				<DialogueEvent Name="Adiumy" ID="{F1FCC382-E0E3-4E93-B2E4-962107288477}">
+				<DialogueEvent Name="adiumy" ID="{F1FCC382-E0E3-4E93-B2E4-962107288477}">
 					<ArgumentList>
-						<ArgumentRef Name="character" ID="{77EBA123-0997-4FB6-89FA-B8748451363A}"/>
 						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
 					</ArgumentList>
 					<EntryList>
 						<Entry>
 							<Path>
-								<PathElementRef Name="adiumy" ID="{6AF608C2-DD94-4497-A4F4-590AF3567D56}"/>
-								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="adiumy_Victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="adiumy" ID="{6AF608C2-DD94-4497-A4F4-590AF3567D56}"/>
-								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="adiumy_OnSelection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="adiumy" ID="{6AF608C2-DD94-4497-A4F4-590AF3567D56}"/>
-								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="adiumy_Victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="adiumy" ID="{6AF608C2-DD94-4497-A4F4-590AF3567D56}"/>
-								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="adiumy_Defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="adiumy" ID="{6AF608C2-DD94-4497-A4F4-590AF3567D56}"/>
 								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="Positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="adiumy" ID="{6AF608C2-DD94-4497-A4F4-590AF3567D56}"/>
-								<PathElementRef Name="null" ID="{9723A29B-41FB-456E-A025-26CDF694A075}"/>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
 							</Path>
 							<AudioNodeInfo>
-								<NoObject Platform="Linked"/>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="adiumy" ID="{6AF608C2-DD94-4497-A4F4-590AF3567D56}"/>
 								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="Negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_01" ID="{0A332230-FC6D-474E-AAA1-E6A92D23698A}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_02" ID="{21F84848-2FEE-4AD1-8128-553391C43E7B}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_03" ID="{C7AB30C2-572F-4B11-8597-29E1D094D104}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_04" ID="{2C725E78-5FCD-4F3D-93B0-C11970F51E18}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_05" ID="{D8C169DD-3A92-4DA5-AA5A-77DB0834F1CE}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_06" ID="{7E49175D-5029-41F7-8249-2B1C52420BCA}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_07" ID="{D162F2E8-931E-4387-B3EF-4502B0164F43}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_08" ID="{07A5786B-83B6-4629-B3D6-1EEEC1E7850A}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_09" ID="{B02A4FF8-73D4-4B31-AC28-7319489A22A9}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_10" ID="{21BC3309-7990-43CA-AB41-603EFB0B8AF5}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_11" ID="{5C0E663F-10F6-4CFD-A210-8349AD76ABC8}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_12" ID="{B50AECD9-67AC-4E85-AF12-446CF14987AE}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_13" ID="{B456E32E-09FA-4991-BCF5-23D4AA7C1724}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_14" ID="{84FE1B72-8392-4850-9051-476F7A8BFC1B}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_15" ID="{B5AEBEC3-62C3-460C-9380-49E65675939A}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_16" ID="{F7530B44-71A1-48A7-A52C-AC3572B09825}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_17" ID="{5FECFFA0-AA19-467C-A452-0154B6546F2E}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+				<DialogueEvent Name="adiumy_18" ID="{39B29C3A-E8D3-4D20-9FC6-A6749090972A}">
+					<ArgumentList>
+						<ArgumentRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_defeat" ID="{4408541F-DAB1-43CF-9F4D-12BADD65F9CF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_negative" ID="{A66B9CD1-7212-4788-8673-C915B08E7DD1}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_onselection" ID="{1DB3300A-B2ED-4531-A6BD-0B0D7B193768}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="victory" ID="{B540BF58-3A43-42B4-AB3E-00D2C55B3FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_victory" ID="{8C897C4C-9396-4F77-A005-885F5708523F}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="adiumy_expletive_positive" ID="{939EEEFF-AE1C-44BE-8870-553490B75241}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

@@ -166,8 +166,11 @@
 				<List Name="BatchRenameSettings">
 					<PluginInnerObject Name="" ID="{57A853F3-AC8B-470A-B7EF-F845C3366275}" PluginName="BatchRenameSettings" CompanyID="0" PluginID="992">
 						<PropertyList>
-							<Property Name="EnableInsert" Type="bool" Value="True"/>
-							<Property Name="InsertToInsert" Type="string" Value="adiumy_"/>
+							<Property Name="InsertAtPosition" Type="int32" Value="7"/>
+							<Property Name="InsertToInsert" Type="string" Value="expletive_"/>
+							<Property Name="ReplaceEnableMatchCase" Type="bool" Value="True"/>
+							<Property Name="ReplaceFindWhat" Type="string" Value="gnu"/>
+							<Property Name="ReplaceReplaceWith" Type="string" Value="godette"/>
 							<Property Name="insertFrom" Type="int16" Value="0"/>
 						</PropertyList>
 					</PluginInnerObject>

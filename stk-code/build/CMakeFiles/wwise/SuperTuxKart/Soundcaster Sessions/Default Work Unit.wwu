@@ -39,7 +39,7 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="large" ID="{F69548F2-F885-4465-8EE0-967A25F924AA}"/>
-						<CurrentSwitchRef Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+						<CurrentSwitchRef Name="onselection" ID="{5A78EBA6-972C-4065-97A7-863F54917BC8}"/>
 						<CurrentSwitchRef Name="edge" ID="{FE0FA8DF-A577-447E-BCD7-9295B6D1F3F7}"/>
 						<CurrentSwitchRef Name="five" ID="{FC9069F5-E941-4B67-8A0A-5E8FD751BCAC}"/>
 						<CurrentSwitchRef Name="asphalt" ID="{1AB94222-29B6-49E1-829D-F89F3B1EEC83}"/>
