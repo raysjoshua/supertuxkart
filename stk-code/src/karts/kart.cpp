@@ -949,7 +949,7 @@ void Kart::finishedRace(float time, bool from_server)
 
     const bool is_linear_race =
         RaceManager::get()->getMinorMode() == RaceManager::MINOR_MODE_NORMAL_RACE ||
-        RaceManager::get()->getMinorMode() == RaceManager::MINOR_MODE_TIME_TRIAL  ||
+        RaceManager::get()->getMinorMode() == RaceManager::MINOR_MODE_TIME_TRIAL ||
         RaceManager::get()->getMinorMode() == RaceManager::MINOR_MODE_FOLLOW_LEADER;
     if (NetworkConfig::get()->isNetworking() && !from_server)
     {
@@ -973,24 +973,24 @@ void Kart::finishedRace(float time, bool from_server)
                 setController(ec);
                 // Seamless endcontroller replay
                 RewindManager::get()->addRewindInfoEventFunction(new
-                RewindInfoEventFunction(
-                    World::getWorld()->getTicksSinceStart(),
-                    /*undo_function*/[old_controller, this]()
-                    {
-                        if (m_network_finish_check_ticks == -1)
-                            return;
+                    RewindInfoEventFunction(
+                        World::getWorld()->getTicksSinceStart(),
+                        /*undo_function*/[old_controller, this]()
+                        {
+                            if (m_network_finish_check_ticks == -1)
+                                return;
 
-                        m_controller = old_controller;
-                    },
-                    /*replay_function*/[ec, old_controller, this]()
-                    {
-                        if (m_network_finish_check_ticks == -1)
-                            return;
+                            m_controller = old_controller;
+                        },
+                        /*replay_function*/[ec, old_controller, this]()
+                        {
+                            if (m_network_finish_check_ticks == -1)
+                                return;
 
-                        m_saved_controller = old_controller;
-                        ec->reset();
-                        m_controller = ec;
-                    }));
+                            m_saved_controller = old_controller;
+                            ec->reset();
+                            m_controller = ec;
+                        }));
             }
             return;
         }
@@ -1001,6 +1001,9 @@ void Kart::finishedRace(float time, bool from_server)
         m_network_confirmed_finish_ticks =
             World::getWorld()->getTicksSinceStart();
     }
+
+    const char* argPath[1] = { "onselection" };
+   // wwise_manager->PostDialogue(getName(), argPath, 1);
 
     m_finished_race = true;
 
@@ -1142,23 +1145,50 @@ void Kart::collectedItem(ItemState *item_state)
     switch (type)
     {
     case Item::ITEM_BANANA:
+    {
+        const char* argPath[2] = {
+            "expletive_negative"
+        };
+        wwise_manager->PostDialogue(this->getName().c_str(), argPath, 1);
         m_attachment->hitBanana(item_state);
         break;
+    }
     case Item::ITEM_NITRO_SMALL:
+    {
+        const char* argPath[2] = {
+            "expletive_positive"
+        };
+        wwise_manager->PostDialogue(this->getName().c_str(), argPath, 1);
         m_collected_energy += m_kart_properties->getNitroSmallContainer();
         break;
+    }
     case Item::ITEM_NITRO_BIG:
+    {
+        const char* argPath[2] = {
+            "expletive_positive"
+        };
+        wwise_manager->PostDialogue(this->getName().c_str(), argPath, 1);
         m_collected_energy += m_kart_properties->getNitroBigContainer();
         break;
-    case Item::ITEM_BONUS_BOX  :
-        {
-            m_powerup->hitBonusBox(*item_state);
-            break;
-        }
+    }
+    case Item::ITEM_BONUS_BOX:
+    {
+        const char* argPath[2] = {
+            "expletive_positive"
+        };
+        wwise_manager->PostDialogue(this->getName().c_str(), argPath, 1);
+        m_powerup->hitBonusBox(*item_state);
+        break;
+    }
     case Item::ITEM_BUBBLEGUM:
-        m_has_caught_nolok_bubblegum = 
-            (item_state->getPreviousOwner()&&
-             item_state->getPreviousOwner()->getIdent() == "nolok");
+    {
+        const char* argPath[2] = {
+            "expletive_negative"
+        };
+        wwise_manager->PostDialogue(this->getName().c_str(), argPath, 1);
+        m_has_caught_nolok_bubblegum =
+            (item_state->getPreviousOwner() &&
+                item_state->getPreviousOwner()->getIdent() == "nolok");
 
         // slow down
         m_bubblegum_ticks = (int16_t)stk_config->time2Ticks(
@@ -1167,7 +1197,7 @@ void Kart::collectedItem(ItemState *item_state)
             ((World::getWorld()->getTicksSinceStart() / 10) % 2 == 0) ?
             true : false;
         m_max_speed->setSlowdown(MaxSpeed::MS_DECREASE_BUBBLE,
-            m_kart_properties->getBubblegumSpeedFraction() ,
+            m_kart_properties->getBubblegumSpeedFraction(),
             stk_config->time2Ticks(m_kart_properties->getBubblegumFadeInTime()),
             m_bubblegum_ticks);
         if (!RewindManager::get()->isRewinding())
@@ -1176,6 +1206,7 @@ void Kart::collectedItem(ItemState *item_state)
         // Play appropriate custom character sound
         playCustomSFX(SFXManager::CUSTOM_GOO);
         break;
+    }
     default        : break;
     }   // switch TYPE
 

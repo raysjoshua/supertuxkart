@@ -1,7 +1,27 @@
 Switch Group	ID	Name			Wwise Object Path	Notes
+	436743010	character			\Default Work Unit\character	
 	3377597412	gear_ratio			\Default Work Unit\gear_ratio	
 
 Switch	ID	Name	Switch Group			Notes
+	151375842	adiumy	character			
+	250783334	pidgen	character			
+	368225470	nolok	character			
+	388384866	hexley	character			
+	529329031	gnu	character			
+	644065429	xue	character			
+	644653876	tux	character			
+	736727190	sara	character			
+	784127654	null	character			
+	890366933	konqi	character			
+	1502504269	puffy	character			
+	2045744183	amanda	character			
+	2047618277	kiki	character			
+	2049291418	wilbur	character			
+	2405476487	godette	character			
+	2442174629	pepper	character			
+	2851410461	emule	character			
+	3527788783	suzanne	character			
+	4185678630	gavroche	character			
 	678209053	two	gear_ratio			
 	912956111	three	gear_ratio			
 	1064933119	one	gear_ratio			
@@ -16,6 +36,12 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
 	2199896603	Kart			\Default Work Unit\Master Audio Bus\SFX\Kart	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3930136735	Dialogue			\Default Work Unit\Master Audio Bus\Dialogue	
+
+Effect plug-ins	ID	Name	Type				Notes
+	432196972	Wwise Meter (Custom)	Wwise Meter			
+	761303489	Wwise Gain (Custom)	Wwise Gain			
+	795595431	Wwise Meter (Custom)	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

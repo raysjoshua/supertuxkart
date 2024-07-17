@@ -8,6 +8,7 @@
 #include <AK/SpatialAudio/Common/AkSpatialAudio.h> 
 #include <assert.h>
 #include <string>
+#include <irrString.h>
 
 class WWise {
 public:
@@ -20,6 +21,7 @@ public:
 	void RegisterGameEmitterListener(const char* Emitter, AkGameObjectID EmitterID, const char* Listener, AkGameObjectID ListenerID);
 	void PostEvent(int ID, const char* Event);
 	void PostEventUI(const char* Event);
+	void PostDialogue(const irr::core::stringw Event, const char* argPath[], const int pathDepth);
 	void PostDialogue(const char* Event, const char* argPath[], const int pathDepth);
 	void PostDialogue(AkGameObjectID ID, const char* Event, const char* argPath[], const int pathDepth);
 	void SetGameSyncSwitch(const char* Group, const char* State, const int ID);

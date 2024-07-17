@@ -386,7 +386,7 @@ void LocalPlayerController::handleZipper(bool play_sound)
     if (play_sound || (m_wee_sound->getStatus() != SFXBase::SFX_PLAYING &&
                        m_kart->getMaterial()!=m_kart->getLastMaterial()      ) )
     {
-        m_wee_sound->play();
+          m_wee_sound->play();
     }
 
 #ifndef SERVER_ONLY
@@ -427,6 +427,7 @@ void LocalPlayerController::collectedItem(const ItemState &item_state,
             //More sounds are played by the kart class
             //See Kart::collectedItem()
             m_kart->playSound(m_ugh_sound);
+            //TODO: ADD Expletive
             break;
         default:
             m_kart->playSound(m_grab_sound);

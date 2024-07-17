@@ -117,6 +117,56 @@
 						<Switch Name="xue" ID="{E90376C3-98F0-4953-865C-C64AB32C1B5F}"/>
 						<Switch Name="null" ID="{39F72E4A-3724-494B-8EC6-D53428C5B3C0}"/>
 					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="character" ID="{71F3CBA5-0194-4864-A574-F28E5AFE545C}"/>
+						<Curve Name="" ID="{93B3D9C7-68F5-4170-ACF8-08F25DE5ED07}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>10.40788</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>15.61181</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>22.22222</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>30.2391</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>36.99015</XPos>
+									<YPos>5</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>41.9128</XPos>
+									<YPos>6</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
 				</SwitchGroup>
 				<SwitchGroup Name="vocalization" ID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}">
 					<ChildrenList>
@@ -125,7 +175,7 @@
 						<Switch Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
 						<Switch Name="expletive_positive" ID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
 						<Switch Name="null" ID="{9723A29B-41FB-456E-A025-26CDF694A075}"/>
-						<Switch Name="explitive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+						<Switch Name="expletive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

@@ -68,7 +68,7 @@
 #include "tracks/track_manager.hpp"
 #include "utils/string_utils.hpp"
 #include "utils/translation.hpp"
-
+#include "audio/wwise_init.hpp"
 #include <algorithm>
 
 /** Constructor, initialises internal data structures.
@@ -120,6 +120,14 @@ void RaceResultGUI::init()
             {
                 in_first_place = kart->getPosition() == 1;
             }
+
+            const char* argPath[1] = { "defeat" };
+            if (in_first_place) {
+                argPath[0] = { "victory" };
+            }
+            const irr::core::stringw temp = kart->getName().subString(0, kart->getName().size(), true);
+            wwise_manager->PostDialogue(temp.c_str(), argPath, 1);
+            //delete[] argPath;
         }
     }
 

@@ -103,7 +103,7 @@ bool StoryModeStatus::isLocked(const std::string& feature)
 //-----------------------------------------------------------------------------
 void StoryModeStatus::computeActive(bool first_call)
 {
-    int old_points = m_points;
+    int old_points = 10000;
     m_points = 0;
     m_next_unlock_points = 0;
     m_easy_challenges = 0;
@@ -170,7 +170,7 @@ void StoryModeStatus::computeActive(bool first_call)
     // Update the previous number of points
     // On game launch, set it to the number of points the player has
     if (old_points != m_points)
-        m_points_before = (first_call) ? m_points : old_points;
+        m_points_before = (first_call) ? 10000 : old_points;
 
     unlockFeatureByList();
 

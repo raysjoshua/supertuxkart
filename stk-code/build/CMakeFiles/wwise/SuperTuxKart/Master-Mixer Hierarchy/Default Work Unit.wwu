@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{96851947-F0CC-448A-AA38-DFD0DDA21028}" WorkUnitID="{0313C8D6-E0E0-4E7B-938A-669C9CE6CE5E}"/>
@@ -21,6 +28,13 @@
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="SFX" ID="{5C7F20BF-D2E8-4C32-B205-F5AE7100785C}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Meter (Custom)" ID="{C0361DD0-41D3-4C1D-88BB-490ACE658603}" ShortID="432196972" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+									</Custom>
+								</Reference>
+							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="Kart" ID="{FAEC4812-B9F6-439E-84BE-B5EB49BE44F6}">
 									<ObjectLists/>
@@ -29,6 +43,25 @@
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="OST" ID="{8CD172B3-174C-450F-9605-8C864E979F7D}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Dialogue" ID="{D34B238A-64F4-492C-91C9-4C414170E021}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Meter (Custom)" ID="{DE46FC5F-F948-4AD0-8E65-EA463F16640B}" ShortID="795595431" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Gain (Custom)" ID="{43DEADCD-FC55-4D78-8CB8-997AE0FE57A6}" ShortID="761303489" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+											<PropertyList>
+												<Property Name="FullBandGain" Type="Real32" Value="12"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
 							<ObjectLists/>
 						</Bus>
 					</ChildrenList>

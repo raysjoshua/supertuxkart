@@ -455,7 +455,8 @@ void PlayerKartWidget::markAsReady()
 
     const char* argPath[2] = { 
         "onselection"
-    };          
+    };         
+    // this->m_kart_internal_name
     wwise_manager->PostDialogue(m_kart_internal_name.c_str(),argPath, 1);
 
 

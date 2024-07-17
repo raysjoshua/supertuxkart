@@ -11,6 +11,60 @@
 		<DialogueEvent Id="151375842" Name="adiumy" ObjectPath="\Dynamic Dialogue\Characters\adiumy">
 			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
 		</DialogueEvent>
+		<DialogueEvent Id="2045744183" Name="amanda" ObjectPath="\Dynamic Dialogue\Characters\amanda">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="46025460" Name="beastie" ObjectPath="\Dynamic Dialogue\Characters\beastie">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="2851410461" Name="emule" ObjectPath="\Dynamic Dialogue\Characters\emule">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="4185678630" Name="gavroche" ObjectPath="\Dynamic Dialogue\Characters\gavroche">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="529329031" Name="gnu" ObjectPath="\Dynamic Dialogue\Characters\gnu">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="388384866" Name="hexley" ObjectPath="\Dynamic Dialogue\Characters\hexley">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="2047618277" Name="kiki" ObjectPath="\Dynamic Dialogue\Characters\kiki">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="890366933" Name="konqi" ObjectPath="\Dynamic Dialogue\Characters\konqi">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="368225470" Name="nolok" ObjectPath="\Dynamic Dialogue\Characters\nolok">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="2442174629" Name="pepper" ObjectPath="\Dynamic Dialogue\Characters\pepper">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="183672786" Name="pidgin" ObjectPath="\Dynamic Dialogue\Characters\pidgin">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="1502504269" Name="puffy" ObjectPath="\Dynamic Dialogue\Characters\puffy">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="4226982424" Name="sara_the_racer" ObjectPath="\Dynamic Dialogue\Characters\sara_the_racer">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="2420090408" Name="sara_the_wizard" ObjectPath="\Dynamic Dialogue\Characters\sara_the_wizard">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="3527788783" Name="suzanne" ObjectPath="\Dynamic Dialogue\Characters\suzanne">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="644653876" Name="tux" ObjectPath="\Dynamic Dialogue\Characters\tux">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="1780849610" Name="wilber" ObjectPath="\Dynamic Dialogue\Characters\wilber">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
+		<DialogueEvent Id="644065429" Name="xue" ObjectPath="\Dynamic Dialogue\Characters\xue">
+			<Argument Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization"/>
+		</DialogueEvent>
 	</DialogueEvents>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
@@ -30,69 +84,335 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="975145466" Language="SFX" Hash="4275842943">
+		<SoundBank Id="975145466" Language="English(US)" Hash="1784462633">
 			<ObjectPath>\SoundBanks\Default Work Unit\vox_soundbank</ObjectPath>
 			<ShortName>vox_soundbank</ShortName>
-			<Path>vox_soundbank.bnk</Path>
+			<Path>English(US)\vox_soundbank.bnk</Path>
 			<IncludedDialogueEvents>
 				<DialogueEvent Id="151375842" Name="adiumy" ObjectPath="\Dynamic Dialogue\Characters\adiumy"/>
+				<DialogueEvent Id="2045744183" Name="amanda" ObjectPath="\Dynamic Dialogue\Characters\amanda"/>
+				<DialogueEvent Id="46025460" Name="beastie" ObjectPath="\Dynamic Dialogue\Characters\beastie"/>
+				<DialogueEvent Id="2851410461" Name="emule" ObjectPath="\Dynamic Dialogue\Characters\emule"/>
+				<DialogueEvent Id="4185678630" Name="gavroche" ObjectPath="\Dynamic Dialogue\Characters\gavroche"/>
+				<DialogueEvent Id="529329031" Name="gnu" ObjectPath="\Dynamic Dialogue\Characters\gnu"/>
+				<DialogueEvent Id="388384866" Name="hexley" ObjectPath="\Dynamic Dialogue\Characters\hexley"/>
+				<DialogueEvent Id="2047618277" Name="kiki" ObjectPath="\Dynamic Dialogue\Characters\kiki"/>
+				<DialogueEvent Id="890366933" Name="konqi" ObjectPath="\Dynamic Dialogue\Characters\konqi"/>
+				<DialogueEvent Id="368225470" Name="nolok" ObjectPath="\Dynamic Dialogue\Characters\nolok"/>
+				<DialogueEvent Id="2442174629" Name="pepper" ObjectPath="\Dynamic Dialogue\Characters\pepper"/>
+				<DialogueEvent Id="183672786" Name="pidgin" ObjectPath="\Dynamic Dialogue\Characters\pidgin"/>
+				<DialogueEvent Id="1502504269" Name="puffy" ObjectPath="\Dynamic Dialogue\Characters\puffy"/>
+				<DialogueEvent Id="4226982424" Name="sara_the_racer" ObjectPath="\Dynamic Dialogue\Characters\sara_the_racer"/>
+				<DialogueEvent Id="2420090408" Name="sara_the_wizard" ObjectPath="\Dynamic Dialogue\Characters\sara_the_wizard"/>
+				<DialogueEvent Id="3527788783" Name="suzanne" ObjectPath="\Dynamic Dialogue\Characters\suzanne"/>
+				<DialogueEvent Id="644653876" Name="tux" ObjectPath="\Dynamic Dialogue\Characters\tux"/>
+				<DialogueEvent Id="1780849610" Name="wilber" ObjectPath="\Dynamic Dialogue\Characters\wilber"/>
+				<DialogueEvent Id="644065429" Name="xue" ObjectPath="\Dynamic Dialogue\Characters\xue"/>
 			</IncludedDialogueEvents>
 			<IncludedMemoryFiles>
-				<File Id="37494101" Language="SFX">
-					<ShortName>get up on your feet soft h1.wav</ShortName>
-					<Path>SFX\get up on your feet soft h1_10C4C929.wem</Path>
+				<File Id="43714991" Language="English(US)">
+					<ShortName>Print - Lover_02-06.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_02-06_10C4C929.wem</Path>
 				</File>
-				<File Id="80278261" Language="SFX">
-					<ShortName>burning in my soul mid h2.wav</ShortName>
-					<Path>SFX\burning in my soul mid h2_10C4C929.wem</Path>
+				<File Id="53848238" Language="English(US)">
+					<ShortName>Print - Saint_02-20.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_02-20_10C4C929.wem</Path>
 				</File>
-				<File Id="282000893" Language="SFX">
-					<ShortName>just keep your body moving hard h2.wav</ShortName>
-					<Path>SFX\just keep your body moving hard h2_10C4C929.wem</Path>
+				<File Id="61145673" Language="English(US)">
+					<ShortName>Print - Lover_02-08.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_02-08_10C4C929.wem</Path>
 				</File>
-				<File Id="294500837" Language="SFX">
-					<ShortName>i will give you love mid.wav</ShortName>
-					<Path>SFX\i will give you love mid_10C4C929.wem</Path>
+				<File Id="62432514" Language="English(US)">
+					<ShortName>Print - Saint_02-25.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_02-25_10C4C929.wem</Path>
 				</File>
-				<File Id="474507031" Language="SFX">
-					<ShortName>dont take to long to heat up hard.wav</ShortName>
-					<Path>SFX\dont take to long to heat up hard_10C4C929.wem</Path>
+				<File Id="64162916" Language="English(US)">
+					<ShortName>Print - Saint_03-28.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_03-28_10C4C929.wem</Path>
 				</File>
-				<File Id="568191178" Language="SFX">
-					<ShortName>i believe in you mid h2.wav</ShortName>
-					<Path>SFX\i believe in you mid h2_10C4C929.wem</Path>
+				<File Id="66467882" Language="English(US)">
+					<ShortName>Print - Lover_03-23.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_03-23_10C4C929.wem</Path>
 				</File>
-				<File Id="609772751" Language="SFX">
-					<ShortName>and i dont wanna let go mid.wav</ShortName>
-					<Path>SFX\and i dont wanna let go mid_10C4C929.wem</Path>
+				<File Id="67565914" Language="English(US)">
+					<ShortName>Print - Lover_02-04.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_02-04_10C4C929.wem</Path>
 				</File>
-				<File Id="812620029" Language="SFX">
-					<ShortName>everything you are mid h1.wav</ShortName>
-					<Path>SFX\everything you are mid h1_10C4C929.wem</Path>
+				<File Id="70889724" Language="English(US)">
+					<ShortName>Print - Jerk_01-16.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_01-16_10C4C929.wem</Path>
 				</File>
-				<File Id="829130139" Language="SFX">
-					<ShortName>i'll give it all to you hard h2.wav</ShortName>
-					<Path>SFX\i'll give it all to you hard h2_10C4C929.wem</Path>
+				<File Id="76702570" Language="English(US)">
+					<ShortName>Print - Saint_03-13.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_03-13_10C4C929.wem</Path>
 				</File>
-				<File Id="847740968" Language="SFX">
-					<ShortName>if you wanna be my man mid h2.wav</ShortName>
-					<Path>SFX\if you wanna be my man mid h2_10C4C929.wem</Path>
+				<File Id="78556378" Language="English(US)">
+					<ShortName>Print - Saint_02-08.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_02-08_10C4C929.wem</Path>
 				</File>
-				<File Id="926553174" Language="SFX">
-					<ShortName>i can feel the rhythm soft h2.wav</ShortName>
-					<Path>SFX\i can feel the rhythm soft h2_10C4C929.wem</Path>
+				<File Id="82109089" Language="English(US)">
+					<ShortName>Print - Lover_03-27.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_03-27_10C4C929.wem</Path>
 				</File>
-				<File Id="938073284" Language="SFX">
-					<ShortName>all night hard h1.wav</ShortName>
-					<Path>SFX\all night hard h1_10C4C929.wem</Path>
+				<File Id="83131691" Language="English(US)">
+					<ShortName>Print - Jerk_01-08.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_01-08_10C4C929.wem</Path>
 				</File>
-				<File Id="973098404" Language="SFX">
-					<ShortName>and boogy hard h1.wav</ShortName>
-					<Path>SFX\and boogy hard h1_10C4C929.wem</Path>
+				<File Id="85330650" Language="English(US)">
+					<ShortName>Print - Jerk_02-27.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_02-27_10C4C929.wem</Path>
 				</File>
-				<File Id="990885038" Language="SFX">
-					<ShortName>if you wanna love me mid h1.wav</ShortName>
-					<Path>SFX\if you wanna love me mid h1_10C4C929.wem</Path>
+				<File Id="144332336" Language="English(US)">
+					<ShortName>Print - Jerk_02-29.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_02-29_10C4C929.wem</Path>
+				</File>
+				<File Id="162587477" Language="English(US)">
+					<ShortName>Print - Saint_03-09.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_03-09_10C4C929.wem</Path>
+				</File>
+				<File Id="163067411" Language="English(US)">
+					<ShortName>Print - Lover_03-15.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_03-15_10C4C929.wem</Path>
+				</File>
+				<File Id="165599549" Language="English(US)">
+					<ShortName>Print - Saint_03-17.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_03-17_10C4C929.wem</Path>
+				</File>
+				<File Id="171405230" Language="English(US)">
+					<ShortName>Print - Lover_02-22.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_02-22_10C4C929.wem</Path>
+				</File>
+				<File Id="203550806" Language="English(US)">
+					<ShortName>Print - Jerk_02-09.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_02-09_10C4C929.wem</Path>
+				</File>
+				<File Id="208480735" Language="English(US)">
+					<ShortName>Print - Jerk_02-13.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_02-13_10C4C929.wem</Path>
+				</File>
+				<File Id="236624349" Language="English(US)">
+					<ShortName>Print - Lover_02-25.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_02-25_10C4C929.wem</Path>
+				</File>
+				<File Id="237602330" Language="English(US)">
+					<ShortName>Print - Lover_02-14.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_02-14_10C4C929.wem</Path>
+				</File>
+				<File Id="244368648" Language="English(US)">
+					<ShortName>Print - Lover_02-02.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_02-02_10C4C929.wem</Path>
+				</File>
+				<File Id="259677272" Language="English(US)">
+					<ShortName>Print - Saint_02-18.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_02-18_10C4C929.wem</Path>
+				</File>
+				<File Id="259699931" Language="English(US)">
+					<ShortName>Print - Lover_02-24.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_02-24_10C4C929.wem</Path>
+				</File>
+				<File Id="266661474" Language="English(US)">
+					<ShortName>Print - Saint_03-05.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_03-05_10C4C929.wem</Path>
+				</File>
+				<File Id="282736479" Language="English(US)">
+					<ShortName>Print - Saint_03-21.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_03-21_10C4C929.wem</Path>
+				</File>
+				<File Id="297540154" Language="English(US)">
+					<ShortName>Print - Saint_02-12.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_02-12_10C4C929.wem</Path>
+				</File>
+				<File Id="298970150" Language="English(US)">
+					<ShortName>Print - Lover_03-19.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_03-19_10C4C929.wem</Path>
+				</File>
+				<File Id="301051961" Language="English(US)">
+					<ShortName>Print - Jerk_02-25.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_02-25_10C4C929.wem</Path>
+				</File>
+				<File Id="307109558" Language="English(US)">
+					<ShortName>Print - Saint_02-06.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_02-06_10C4C929.wem</Path>
+				</File>
+				<File Id="347298584" Language="English(US)">
+					<ShortName>Print - Lover_03-05.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_03-05_10C4C929.wem</Path>
+				</File>
+				<File Id="348842381" Language="English(US)">
+					<ShortName>Print - Lover_02-12.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_02-12_10C4C929.wem</Path>
+				</File>
+				<File Id="369344127" Language="English(US)">
+					<ShortName>Print - Saint_03-27.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_03-27_10C4C929.wem</Path>
+				</File>
+				<File Id="388234671" Language="English(US)">
+					<ShortName>Print - Lover_02-20.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_02-20_10C4C929.wem</Path>
+				</File>
+				<File Id="395758009" Language="English(US)">
+					<ShortName>Print - Lover_03-09.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_03-09_10C4C929.wem</Path>
+				</File>
+				<File Id="397370907" Language="English(US)">
+					<ShortName>Print - Lover_03-13.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_03-13_10C4C929.wem</Path>
+				</File>
+				<File Id="399463432" Language="English(US)">
+					<ShortName>Print - Jerk_01-18.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_01-18_10C4C929.wem</Path>
+				</File>
+				<File Id="447754127" Language="English(US)">
+					<ShortName>Print - Jerk_01-04.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_01-04_10C4C929.wem</Path>
+				</File>
+				<File Id="472934590" Language="English(US)">
+					<ShortName>Print - Jerk_02-11.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_02-11_10C4C929.wem</Path>
+				</File>
+				<File Id="474189949" Language="English(US)">
+					<ShortName>Print - Jerk_01-14.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_01-14_10C4C929.wem</Path>
+				</File>
+				<File Id="478391706" Language="English(US)">
+					<ShortName>Print - Saint_02-16.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_02-16_10C4C929.wem</Path>
+				</File>
+				<File Id="538314258" Language="English(US)">
+					<ShortName>Print - Saint_03-15.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_03-15_10C4C929.wem</Path>
+				</File>
+				<File Id="551243673" Language="English(US)">
+					<ShortName>Print - Lover_02-16.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_02-16_10C4C929.wem</Path>
+				</File>
+				<File Id="556420769" Language="English(US)">
+					<ShortName>Print - Jerk_01-12.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_01-12_10C4C929.wem</Path>
+				</File>
+				<File Id="592214314" Language="English(US)">
+					<ShortName>Print - Saint_03-11.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_03-11_10C4C929.wem</Path>
+				</File>
+				<File Id="600428362" Language="English(US)">
+					<ShortName>Print - Jerk_02-19.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_02-19_10C4C929.wem</Path>
+				</File>
+				<File Id="606990160" Language="English(US)">
+					<ShortName>Print - Saint_02-02.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_02-02_10C4C929.wem</Path>
+				</File>
+				<File Id="634834930" Language="English(US)">
+					<ShortName>Print - Jerk_01-20.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_01-20_10C4C929.wem</Path>
+				</File>
+				<File Id="641086257" Language="English(US)">
+					<ShortName>Print - Lover_03-32.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_03-32_10C4C929.wem</Path>
+				</File>
+				<File Id="643335122" Language="English(US)">
+					<ShortName>Print - Lover_03-17.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_03-17_10C4C929.wem</Path>
+				</File>
+				<File Id="676848691" Language="English(US)">
+					<ShortName>Print - Saint_03-23.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_03-23_10C4C929.wem</Path>
+				</File>
+				<File Id="719909245" Language="English(US)">
+					<ShortName>Print - Saint_02-14.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_02-14_10C4C929.wem</Path>
+				</File>
+				<File Id="721350005" Language="English(US)">
+					<ShortName>Print - Lover_02-18.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_02-18_10C4C929.wem</Path>
+				</File>
+				<File Id="734127738" Language="English(US)">
+					<ShortName>Print - Jerk_01-10.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_01-10_10C4C929.wem</Path>
+				</File>
+				<File Id="752213241" Language="English(US)">
+					<ShortName>Print - Jerk_02-23.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_02-23_10C4C929.wem</Path>
+				</File>
+				<File Id="799992327" Language="English(US)">
+					<ShortName>Print - Saint_02-24.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_02-24_10C4C929.wem</Path>
+				</File>
+				<File Id="822558070" Language="English(US)">
+					<ShortName>Print - Saint_03-25.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_03-25_10C4C929.wem</Path>
+				</File>
+				<File Id="827203209" Language="English(US)">
+					<ShortName>Print - Jerk_02-30.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_02-30_10C4C929.wem</Path>
+				</File>
+				<File Id="847825510" Language="English(US)">
+					<ShortName>Print - Lover_03-29.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_03-29_10C4C929.wem</Path>
+				</File>
+				<File Id="854295543" Language="English(US)">
+					<ShortName>Print - Lover_03-07.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_03-07_10C4C929.wem</Path>
+				</File>
+				<File Id="857543251" Language="English(US)">
+					<ShortName>Print - Saint_02-10.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_02-10_10C4C929.wem</Path>
+				</File>
+				<File Id="863688493" Language="English(US)">
+					<ShortName>Print - Saint_03-07.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_03-07_10C4C929.wem</Path>
+				</File>
+				<File Id="908753490" Language="English(US)">
+					<ShortName>Print - Jerk_01-22.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_01-22_10C4C929.wem</Path>
+				</File>
+				<File Id="910025851" Language="English(US)">
+					<ShortName>Print - Jerk_01-02.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_01-02_10C4C929.wem</Path>
+				</File>
+				<File Id="910165920" Language="English(US)">
+					<ShortName>Print - Lover_03-11.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_03-11_10C4C929.wem</Path>
+				</File>
+				<File Id="926329526" Language="English(US)">
+					<ShortName>Print - Jerk_02-17.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_02-17_10C4C929.wem</Path>
+				</File>
+				<File Id="960266850" Language="English(US)">
+					<ShortName>Print - Jerk_02-21.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_02-21_10C4C929.wem</Path>
+				</File>
+				<File Id="976418783" Language="English(US)">
+					<ShortName>Print - Saint_02-04.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_02-04_10C4C929.wem</Path>
+				</File>
+				<File Id="979706672" Language="English(US)">
+					<ShortName>Print - Jerk_02-05.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_02-05_10C4C929.wem</Path>
+				</File>
+				<File Id="1005118053" Language="English(US)">
+					<ShortName>Print - Jerk_02-15.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_02-15_10C4C929.wem</Path>
+				</File>
+				<File Id="1019594424" Language="English(US)">
+					<ShortName>Print - Lover_03-21.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_03-21_10C4C929.wem</Path>
+				</File>
+				<File Id="1021219465" Language="English(US)">
+					<ShortName>Print - Saint_02-22.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_02-22_10C4C929.wem</Path>
+				</File>
+				<File Id="1025633297" Language="English(US)">
+					<ShortName>Print - Saint_03-19.wav</ShortName>
+					<Path>Voices\English(US)\Print - Saint_03-19_10C4C929.wem</Path>
+				</File>
+				<File Id="1046967536" Language="English(US)">
+					<ShortName>Print - Lover_02-10.wav</ShortName>
+					<Path>Voices\English(US)\Print - Lover_02-10_10C4C929.wem</Path>
+				</File>
+				<File Id="1059654171" Language="English(US)">
+					<ShortName>Print - Jerk_01-06.wav</ShortName>
+					<Path>Voices\English(US)\Print - Jerk_01-06_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<SwitchGroups>
@@ -103,12 +423,12 @@
 						<Switch Id="1593864692" Name="defeat" ObjectPath="\Switches\Default Work Unit\vocalization\defeat" GUID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
 						<Switch Id="3839776389" Name="expletive_positive" ObjectPath="\Switches\Default Work Unit\vocalization\expletive_positive" GUID="{A81F382C-E5D7-4B6D-AFC8-6786C9BD8BE3}"/>
 						<Switch Id="784127654" Name="null" ObjectPath="\Switches\Default Work Unit\vocalization\null" GUID="{9723A29B-41FB-456E-A025-26CDF694A075}"/>
-						<Switch Id="3211381965" Name="explitive_negative" ObjectPath="\Switches\Default Work Unit\vocalization\explitive_negative" GUID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+						<Switch Id="4005545353" Name="expletive_negative" ObjectPath="\Switches\Default Work Unit\vocalization\expletive_negative" GUID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2494149695">
+		<SoundBank Id="1355168291" Language="SFX" Hash="211241458">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

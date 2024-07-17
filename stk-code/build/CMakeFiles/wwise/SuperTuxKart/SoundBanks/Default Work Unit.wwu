@@ -46,7 +46,6 @@
 				<SoundBank Name="vox_soundbank" ID="{A7D45315-1094-4C61-919D-11A96897F15F}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Characters" ID="{BE7560BD-87F5-4294-A296-C23924081EB6}" WorkUnitID="{BE7560BD-87F5-4294-A296-C23924081EB6}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="adiumy" ID="{F1FCC382-E0E3-4E93-B2E4-962107288477}" WorkUnitID="{BE7560BD-87F5-4294-A296-C23924081EB6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
