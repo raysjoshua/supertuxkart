@@ -175,6 +175,19 @@ void WWise::PostEventUI(const char* Event) {
 	AK::SoundEngine::PostEvent(Event, MENU_LISTENER);
 }
 
+void WWise::PostNegativeExpletive(const irr::core::stringw Event, AkGameObjectID ID) {
+	const char* argPath[2] = {
+		"expletive_negative"
+	};
+	PostDialogue(ID,Event, argPath, 1);
+}
+
+void WWise::PostPositiveExpletive(const irr::core::stringw Event, AkGameObjectID ID) {
+	const char* argPath[2] = {
+		"expletive_positive"
+	};
+	PostDialogue(ID, Event, argPath, 1);
+}
 
 void WWise::PostDialogue(const irr::core::stringw Event, const char* argPath[], const int pathDepth) {
 	size_t size = 100;
@@ -186,6 +199,14 @@ void WWise::PostDialogue(const irr::core::stringw Event, const char* argPath[], 
 
 void WWise::PostDialogue(const char* Event, const char* argPath[], const int pathDepth) {
 	PostDialogue(MENU_LISTENER, Event, argPath, pathDepth);
+}
+
+void WWise::PostDialogue(AkGameObjectID ID, const irr::core::stringw Event, const char* argPath[], const int pathDepth) {
+	size_t size = 100;
+	char* name = (char*)malloc(size);
+	size = std::wcstombs(name, Event.c_str(), size);
+	PostDialogue(ID, name, argPath, pathDepth);
+	free(name);
 }
 
 void WWise::PostDialogue(AkGameObjectID ID, const char* Event, const char* argPath[], const int pathDepth) {

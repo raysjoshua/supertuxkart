@@ -49,6 +49,7 @@
 #include "utils/log.hpp"
 #include "utils/string_utils.hpp"
 #include "utils/translation.hpp"
+#include "audio/wwise_init.hpp"
 
 #include "input/device_manager.hpp"
 #include "input/gamepad_device.hpp"
@@ -420,14 +421,17 @@ void LocalPlayerController::collectedItem(const ItemState &item_state,
     }
     else
     {
-        switch(item_state.getType())
+        switch (item_state.getType())
         {
         case Item::ITEM_BANANA:
         case Item::ITEM_BUBBLEGUM:
-            //More sounds are played by the kart class
-            //See Kart::collectedItem()
-            m_kart->playSound(m_ugh_sound);
-            //TODO: ADD Expletive
+            {
+                //More sounds are played by the kart class
+                //See Kart::collectedItem()F
+                // m_kart->playSound(m_ugh_sound);
+                wwise_manager->PostNegativeExpletive( this->getName(), m_kart->getWorldKartId());
+                //TODO: ADD Expletive
+            }
             break;
         default:
             m_kart->playSound(m_grab_sound);

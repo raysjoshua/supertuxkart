@@ -45,6 +45,8 @@
 #include "utils/profiler.hpp"
 #include "utils/stk_process.hpp"
 
+#include "audio/wwise_init.hpp"
+
 #include <IVideoDriver.h>
 
 //=============================================================================
@@ -379,7 +381,11 @@ void Physics::update(int ticks)
             if(type != PowerupManager::POWERUP_BOWLING || !target_kart->isInvulnerable())
             {
                 Flyable *f = p->getUserPointer(0)->getPointerFlyable();
-                f->hit(target_kart);
+                if (f->hit(target_kart)) {
+                    if (target_kart->getController()->isLocalPlayerController()) {
+                        wwise_manager->PostNegativeExpletive(target_kart->getName(), target_kart->getWorldKartId());
+                    }
+                }
 
                 // Check for achievements
                 AbstractKart * kart = World::getWorld()->getKart(f->getOwnerId());

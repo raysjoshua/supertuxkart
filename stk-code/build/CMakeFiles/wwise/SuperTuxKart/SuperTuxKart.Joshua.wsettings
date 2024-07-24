@@ -68,7 +68,7 @@
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
-				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value="AAAAAAAAAAAZ8cwC/H8AAAEAAAAAAAAAW/B9+Px/AAAgSgmecAIAAIApr45wAgAA/v////////8AAAAAAAAAAAAAAAAAAAAArfbMAvx/AAAAKa+OcAIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAChKCZ5wAgAAEe7MAvx/AACAKa+OcAIAAA=="/>
+				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value="AAAAAAAAAACxR8f6/H8AAAAAnY5wAgAAYJk4LnECAADwHHmvcAIAAAAAAAAAAAAAgCBeLnECAACxR8f6/H8AAAAAAAAAAAAAYJk4LnECAADwHHmvcAIAAAAAAAAAAAAAMF55r3ACAACxR8f6/H8AAAEAAAAAAAAAAACkjnACAABQFUyRcAIAAA=="/>
 				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>
@@ -119,7 +119,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_2_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ80l4iTKeH6FFmy+ddpQr442/IH9c6NIyTLIF9a5xAHhc"/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_0" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="6z76zcVZsU2bmUNRTs/2fw=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="aAi1Th2sfUWHrl1P7IwNYgP52AEQkbFLtVK8UG4akuDXkP+8MNn5S4sQFDNavCmPYfoCz8+3MEy7w12IAXFmgOs++s3FWbFNm5lDUU7P9n9ioHo42biYTqk8tVMy2xZy"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="CdOJCRfpJEOdI6803jkgkmWvAzDQtrVHnHAamsQCRIDiM6wwRl8xTLbV4i9f80nmNhlUs3IgVk6N0B+l1qW/Cw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_0" Type="string" Value=""/>

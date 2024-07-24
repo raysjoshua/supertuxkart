@@ -21,8 +21,11 @@ public:
 	void RegisterGameEmitterListener(const char* Emitter, AkGameObjectID EmitterID, const char* Listener, AkGameObjectID ListenerID);
 	void PostEvent(int ID, const char* Event);
 	void PostEventUI(const char* Event);
+	void PostNegativeExpletive(const irr::core::stringw Event, AkGameObjectID ID);
+	void PostPositiveExpletive(const irr::core::stringw Event, AkGameObjectID ID);
 	void PostDialogue(const irr::core::stringw Event, const char* argPath[], const int pathDepth);
 	void PostDialogue(const char* Event, const char* argPath[], const int pathDepth);
+	void PostDialogue(AkGameObjectID ID, const irr::core::stringw Event, const char* argPath[], const int pathDepth);
 	void PostDialogue(AkGameObjectID ID, const char* Event, const char* argPath[], const int pathDepth);
 	void SetGameSyncSwitch(const char* Group, const char* State, const int ID);
 	void SetGameSyncParameter(const char* Group, const AkRtpcValue Value, const int ID);

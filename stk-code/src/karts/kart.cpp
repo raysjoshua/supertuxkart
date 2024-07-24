@@ -1146,46 +1146,41 @@ void Kart::collectedItem(ItemState *item_state)
     {
     case Item::ITEM_BANANA:
     {
-        const char* argPath[2] = {
-            "expletive_negative"
-        };
-        wwise_manager->PostDialogue(this->getName().c_str(), argPath, 1);
+        if (getController()->isLocalPlayerController()) {
+            wwise_manager->PostNegativeExpletive(this->getName(), this->getWorldKartId());
+        }
         m_attachment->hitBanana(item_state);
         break;
     }
     case Item::ITEM_NITRO_SMALL:
     {
-        const char* argPath[2] = {
-            "expletive_positive"
-        };
-        wwise_manager->PostDialogue(this->getName().c_str(), argPath, 1);
+        if (getController()->isLocalPlayerController()) {
+            wwise_manager->PostPositiveExpletive(this->getName(), this->getWorldKartId());
+        }
         m_collected_energy += m_kart_properties->getNitroSmallContainer();
         break;
     }
     case Item::ITEM_NITRO_BIG:
     {
-        const char* argPath[2] = {
-            "expletive_positive"
-        };
-        wwise_manager->PostDialogue(this->getName().c_str(), argPath, 1);
+        if (getController()->isLocalPlayerController()) {
+            wwise_manager->PostPositiveExpletive(this->getName(), this->getWorldKartId());
+        }
         m_collected_energy += m_kart_properties->getNitroBigContainer();
         break;
     }
     case Item::ITEM_BONUS_BOX:
     {
-        const char* argPath[2] = {
-            "expletive_positive"
-        };
-        wwise_manager->PostDialogue(this->getName().c_str(), argPath, 1);
+        if (getController()->isLocalPlayerController()) {
+            wwise_manager->PostPositiveExpletive(this->getName(), this->getWorldKartId());
+        }
         m_powerup->hitBonusBox(*item_state);
         break;
     }
     case Item::ITEM_BUBBLEGUM:
     {
-        const char* argPath[2] = {
-            "expletive_negative"
-        };
-        wwise_manager->PostDialogue(this->getName().c_str(), argPath, 1);
+        if (getController()->isLocalPlayerController()) {
+            wwise_manager->PostNegativeExpletive(this->getName(), this->getWorldKartId());
+        }
         m_has_caught_nolok_bubblegum =
             (item_state->getPreviousOwner() &&
                 item_state->getPreviousOwner()->getIdent() == "nolok");
@@ -1911,6 +1906,12 @@ bool Kart::setSquash(float time, float slowdown)
     m_max_speed->setSlowdown(MaxSpeed::MS_DECREASE_SQUASH, slowdown,
                              stk_config->time2Ticks(0.1f), 
                              stk_config->time2Ticks(time));
+
+
+    if (getController()->isLocalPlayerController()) {
+        wwise_manager->PostNegativeExpletive(this->getName(), this->getWorldKartId());
+    }
+
     return true;
 }   // setSquash
 
@@ -2564,6 +2565,9 @@ void Kart::playCrashSFX(const Material* m, AbstractKart *k)
 
                 //SFXBuffer* buffer = m_crash_sounds[idx];
                 //crash_sound_emitter->play(getSmoothedXYZ(), buffer);
+                if (getController()->isLocalPlayerController()) {
+                    wwise_manager->PostNegativeExpletive(this->getName(), this->getWorldKartId());
+                }
                 wwise_manager->PostEvent(getWorldKartId(), "play_crash");
             }
         }    // if lin_vel > 0.555
