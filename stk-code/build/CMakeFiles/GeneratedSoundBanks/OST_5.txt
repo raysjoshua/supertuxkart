@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	692669111	play_penguin_party			\Default Work Unit\OST\soundtrack\play_05\play_penguin_party	
+	1044799224	play_race_win_theme			\Default Work Unit\OST\soundtrack\play_05\play_race_win_theme	
+	1223220284	play_race_summary			\Default Work Unit\OST\soundtrack\play_05\play_race_summary	
+	2035495614	play_ravenbridge_mansion_fast			\Default Work Unit\OST\soundtrack\play_05\play_ravenbridge_mansion_fast	
+	2235970825	play_ravenbridge_mansion			\Default Work Unit\OST\soundtrack\play_05\play_ravenbridge_mansion	
+	3682020954	play_SkyVibe_HighFrequency			\Default Work Unit\OST\soundtrack\play_05\play_SkyVibe_HighFrequency	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	55034077	race_win_theme	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\race_win_theme_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\race_win_theme\race_win_theme\race_win_theme		2508868
+	554026248	Penguin_Party	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\Penguin_Party_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Penguin_Party\Penguin_Party\Penguin_Party		17463664
+	644014150	race_summary	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\race_summary_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\race_summary\race_summary\race_summary		4515908
+	704654515	SkyVibe-HighFrequency	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\SkyVibe-HighFrequency_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SkyVibe-HighFrequency\SkyVibe-HighFrequency\SkyVibe-HighFrequency		34862852
+	756955866	ravenbridge_mansion	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\ravenbridge_mansion_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\ravenbridge_mansion\ravenbridge_mansion\ravenbridge_mansion		13003392
+	989170871	ravenbridge_mansion_fast	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\ravenbridge_mansion_fast_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\ravenbridge_mansion_fast\ravenbridge_mansion_fast\ravenbridge_mansion_fast		12136384
+

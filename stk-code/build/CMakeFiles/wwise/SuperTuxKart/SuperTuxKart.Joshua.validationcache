@@ -5,10 +5,10 @@
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Triggers\Default Work Unit.wwu" DateLow="1718209611" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Switches\Default Work Unit.wwu" DateLow="1721878457" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\SuperTuxKart.wproj" DateLow="1719535872" DateHigh="0"/>
-	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\SuperTuxKart.Joshua.wsettings" DateLow="1721889233" DateHigh="0"/>
+	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\SuperTuxKart.Joshua.wsettings" DateLow="1721959652" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\States\Default Work Unit.wwu" DateLow="1719536850" DateHigh="0"/>
-	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1721878457" DateHigh="0"/>
-	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\SoundBanks\Default Work Unit.wwu" DateLow="1721808175" DateHigh="0"/>
+	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1721893087" DateHigh="0"/>
+	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\SoundBanks\Default Work Unit.wwu" DateLow="1721959565" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Queries\Factory Queries.wwu" DateLow="1718209611" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Queries\Default Work Unit.wwu" DateLow="1718209611" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Presets\Factory Spatial Audio.wwu" DateLow="1718209611" DateHigh="0"/>
@@ -18,11 +18,11 @@
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Mixing Sessions\Default Work Unit.wwu" DateLow="1721790279" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Metadata\Default Work Unit.wwu" DateLow="1718209611" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1721808175" DateHigh="0"/>
-	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1721889232" DateHigh="0"/>
+	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1721957478" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1680669000" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Game Parameters\Factory Motion.wwu" DateLow="1680669000" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Game Parameters\Default Work Unit.wwu" DateLow="1721185398" DateHigh="0"/>
-	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Events\Default Work Unit.wwu" DateLow="1721888424" DateHigh="0"/>
+	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Events\Default Work Unit.wwu" DateLow="1721959565" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Effects\Factory Reflect.wwu" DateLow="1680669000" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Effects\Factory McDSP Effects.wwu" DateLow="1680668999" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Effects\Factory Mastering Suite.wwu" DateLow="1680669001" DateHigh="0"/>
@@ -44,7 +44,7 @@
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Audio Devices\Default Work Unit.wwu" DateLow="1718209611" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Attenuations\Default Work Unit.wwu" DateLow="1718209611" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Actor-Mixer Hierarchy\UI.wwu" DateLow="1718209611" DateHigh="0"/>
-	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Actor-Mixer Hierarchy\Karts.wwu" DateLow="1718209611" DateHigh="0"/>
+	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Actor-Mixer Hierarchy\Karts.wwu" DateLow="1721893087" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1680668986" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1680669000" DateHigh="0"/>
 	<ValidationCacheItem File="D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1691640282" DateHigh="0"/>

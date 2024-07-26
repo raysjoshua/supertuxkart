@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	80184193	play_cocoa_river_fast			\Default Work Unit\OST\soundtrack\play_02\play_cocoa_river_fast	
+	109277865	play_farm_f			\Default Work Unit\OST\soundtrack\play_02\play_farm_f	
+	754201999	play_egypt			\Default Work Unit\OST\soundtrack\play_02\play_egypt	
+	1513284948	play_cocoa_river			\Default Work Unit\OST\soundtrack\play_02\play_cocoa_river	
+	2723657086	play_demonhill			\Default Work Unit\OST\soundtrack\play_02\play_demonhill	
+	2745602830	play_farm			\Default Work Unit\OST\soundtrack\play_02\play_farm	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	25532095	egypt	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\egypt_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\egypt\egypt\egypt		20847288
+	404199879	farm_f	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\farm_f_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\farm_f\farm_f\farm_f		11642464
+	494658889	farm	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\farm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\farm\farm\farm		12846852
+	915744459	demonhill	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\demonhill_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\demonhill\demonhill\demonhill		23572544
+	936119943	cocoa_river	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\cocoa_river_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\cocoa_river\cocoa_river\cocoa_river		12375136
+	1061253606	cocoa_river_fast	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\cocoa_river_fast_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\cocoa_river_fast\cocoa_river_fast\cocoa_river_fast		11491288
+

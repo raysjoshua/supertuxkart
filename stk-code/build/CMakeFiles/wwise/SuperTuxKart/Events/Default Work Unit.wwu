@@ -52,2020 +52,2063 @@
 						</Event>
 						<Folder Name="soundtrack" ID="{DC1BE3B9-A854-476D-9C10-1EF97F510920}" ShortID="806554997">
 							<ChildrenList>
-								<Event Name="pause_Snowy" ID="{C75B2891-FC74-432A-B588-088122073B0C}">
-									<ChildrenList>
-										<Action Name="" ID="{F36D635A-6BEB-48C8-A32B-D8554020617E}" ShortID="904761033">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Snowy" ID="{AEE3B7EE-EF7C-429D-8BCB-1EB67C52EB6B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_theGreatFair" ID="{3516F34F-9302-4B76-9D72-EA362F18D243}">
-									<ChildrenList>
-										<Action Name="" ID="{92A9C40D-0723-4B12-9EF1-0C9E03D446D5}" ShortID="340805063">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="theGreatFair" ID="{C0AAC8EE-F788-44A7-99A3-A41303251F15}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_SkyVibe_HighFrequency" ID="{BD45C832-4234-4BC6-9F87-793707AE916D}">
-									<ChildrenList>
-										<Action Name="" ID="{20CE3AFB-7528-45C6-A325-9E6087CC5042}" ShortID="240191954">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SkyVibe-HighFrequency" ID="{956BB25E-B1B8-4A74-94E1-D4AB824F295D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_snowmountain" ID="{A9CACE27-8BD8-4CAF-8B2B-12FC4602FB8D}">
-									<ChildrenList>
-										<Action Name="" ID="{7526366F-2834-45AA-8B89-7EE287D394FD}" ShortID="273980382">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="snowmountain" ID="{60D4DB97-6E11-4750-AD42-572BA112962C}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_subsea" ID="{25E7BEF8-8428-4A13-8BAC-F48829A7789E}">
-									<ChildrenList>
-										<Action Name="" ID="{AE9E6F53-3DA4-4E5B-AB46-42C0EFA710D6}" ShortID="834025094">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="subsea" ID="{F6531820-AC09-4388-81E6-99498444C162}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_alien_signal" ID="{99B08E2A-3EFE-45ED-9067-759BA59BF7EE}">
-									<ChildrenList>
-										<Action Name="" ID="{E21F54C4-1A93-4256-92A8-F52FDA9FA242}" ShortID="935294794">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="alien_signal" ID="{BE06DF2B-791F-4070-A178-9C8165BFEDA8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_race_win_theme" ID="{043F767E-9AA5-40E4-BB3F-BD802B54EB6B}">
-									<ChildrenList>
-										<Action Name="" ID="{58F56E2A-2819-4F05-8F1A-F55C78F7332E}" ShortID="897681399">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="race_win_theme" ID="{3DEBEF9E-FB6A-4CDF-B291-FCA29D10983E}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_ravenbridge_mansion" ID="{128DF529-2EEC-4A5D-8E72-368ECAB9EA82}">
-									<ChildrenList>
-										<Action Name="" ID="{A8181F14-2A82-4B1E-89A2-6D8E953EC845}" ShortID="728970794">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="ravenbridge_mansion" ID="{1249427B-25C7-4460-A986-FD8E422FC2D5}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_ravenbridge_mansion_fast" ID="{92419B76-1C55-43CA-9095-A687E75B9FB9}">
-									<ChildrenList>
-										<Action Name="" ID="{0D7088E4-655E-47FC-B05E-412608088D2D}" ShortID="356917197">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="ravenbridge_mansion_fast" ID="{6D8F4530-4ECD-41BE-962D-F223C35C2F07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_penguin_party" ID="{6423747C-B2B3-4CA4-87A1-75E297E7AB03}">
-									<ChildrenList>
-										<Action Name="" ID="{FD83ACCA-58F1-4F42-B434-221071915599}" ShortID="199726762">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Penguin_Party" ID="{09BCF0F3-2F12-4676-9812-7BEFE61079A9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_race_summary" ID="{DC4EC8DC-244B-42F4-86DE-A09463B2B634}">
-									<ChildrenList>
-										<Action Name="" ID="{E6F0AB24-4926-419C-8987-077533ABCF38}" ShortID="715063444">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="race_summary" ID="{6DD22C42-E5F4-4263-BE91-2FB534536E07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_alien_signal" ID="{B24F01E0-95AE-4580-9B07-DC3FFD3EDF0D}">
-									<ChildrenList>
-										<Action Name="" ID="{95FF8E29-CF08-4D2E-847C-4C49E80F4A86}" ShortID="710586683">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="alien_signal" ID="{BE06DF2B-791F-4070-A178-9C8165BFEDA8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_Boom_boom_boom" ID="{DA663629-BB56-45EA-85B4-68314EDFBD3B}">
-									<ChildrenList>
-										<Action Name="" ID="{BB003B0F-DAE0-44A0-AFA6-7B8D62122B4B}" ShortID="584007975">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Boom_boom_boom" ID="{1F1282BB-CE03-47C8-B2F4-E5D4077B45FD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_celtic" ID="{5910615F-2B56-46A7-84B5-DCC869E5FAA1}">
-									<ChildrenList>
-										<Action Name="" ID="{285F2BA8-7098-41DC-8C3C-AE3C11D836AE}" ShortID="173780582">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="celtic" ID="{ED1743FF-AD42-497E-8407-352D9C0D93F2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_egypt" ID="{1813EFB1-4B30-46C1-8704-989D8F7B9BE5}">
-									<ChildrenList>
-										<Action Name="" ID="{E01AECE0-52AE-4E9E-93C7-1F52A668DC5B}" ShortID="559893733">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="egypt" ID="{20A8A77A-DBF7-4FF8-96C6-51CB0D84143B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_farm" ID="{57A722DE-CCB4-4B54-8364-5E44013EB8FA}">
-									<ChildrenList>
-										<Action Name="" ID="{ADDF6E95-4BF7-491D-9834-1A96B6298816}" ShortID="879399191">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="farm" ID="{4B234DB0-2816-4B7A-9E86-CF4F24D46E5D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_farm_f" ID="{0AE70CE5-FC78-4C3C-8AA5-1E0A41416DA7}">
-									<ChildrenList>
-										<Action Name="" ID="{141A3DD2-13E9-4034-B72C-B5C6F278BEF3}" ShortID="872531733">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="farm_f" ID="{93FE9841-5483-433B-B00A-074871BBB57D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_bay" ID="{A26A9AB9-E521-4F38-8708-F9F97371DAFC}">
-									<ChildrenList>
-										<Action Name="" ID="{CE313B4F-AF32-4762-8BEE-9EC5DDF226BF}" ShortID="629323608">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="bay" ID="{A3A1CCBC-F1F2-4649-AD8D-C7E56432ED0D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_celtic_fast" ID="{3352346D-4D81-4DA6-8C84-9C4F111D3C2C}">
-									<ChildrenList>
-										<Action Name="" ID="{A928219F-5B2A-4930-8630-7F4A731E1511}" ShortID="317831018">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="celtic_fast" ID="{644508FE-D58F-4B79-9781-E4125D528E43}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_cocoa_river" ID="{EE9452A5-B8CA-429F-886A-D2E72CB5B668}">
-									<ChildrenList>
-										<Action Name="" ID="{53E9481E-2B5A-4330-9FE5-6F65B6509EEF}" ShortID="909817692">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="cocoa_river" ID="{C1DA522E-E80A-4644-8870-DBD35A2D7267}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_demonhill" ID="{F71362EC-648E-4149-A3D4-4427E27A3679}">
-									<ChildrenList>
-										<Action Name="" ID="{64C37BCA-BAFE-4AD1-B4F7-9A6098780842}" ShortID="432260056">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="demonhill" ID="{1D327D92-2814-47E7-855B-26B9F3824268}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_garden" ID="{5FEAE7E3-320C-4F80-90CD-F74C02D57BF8}">
-									<ChildrenList>
-										<Action Name="" ID="{1F38AEA8-3824-4233-BDEF-CBE3A161D111}" ShortID="160227018">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="garden" ID="{B617A443-0F04-4E39-95B7-A0E431E6B518}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_cocoa_river_fast" ID="{9C787081-A119-458C-8818-18BF66B2BCC9}">
-									<ChildrenList>
-										<Action Name="" ID="{58A70884-86F7-4485-B097-6C9D57AC247D}" ShortID="320652525">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="cocoa_river_fast" ID="{AFCFE691-F396-4482-BAE7-754B9F1293FE}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_kart_grand_prix" ID="{0EE06FC2-E870-4D7E-91BA-C44E3CBEEC93}">
-									<ChildrenList>
-										<Action Name="" ID="{55E7AE05-A8E2-4089-B959-DB499A7FD8D6}" ShortID="953561808">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="kart_grand_prix" ID="{880F27B2-DACE-404C-B0A8-44674E10ADFD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_hacienda" ID="{3DEF45C5-9295-4E04-8215-6B338836CB54}">
-									<ChildrenList>
-										<Action Name="" ID="{24B49CAE-35F7-48F2-BA5C-7951C3A3B05A}" ShortID="122877908">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="hacienda" ID="{80A52EA1-50B2-48C3-B89D-0C6226E3F4D2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_jumping_to_the_stars_remake" ID="{7815D162-4777-4FC5-85DA-6C242BB56B4A}">
-									<ChildrenList>
-										<Action Name="" ID="{27FEC84A-96A7-49A7-92D0-8A990ADA796A}" ShortID="251917169">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="jumping_to_the_stars_remake" ID="{72904B87-10AC-44C8-B45E-4933F2790392}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_landing_in_gran_paradiso_fast" ID="{BAD56CE7-45C7-4E8C-AB73-A69D5D9FBBE7}">
-									<ChildrenList>
-										<Action Name="" ID="{F7375442-2BDB-485F-B683-5CC875D14C80}" ShortID="943154009">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="landing_in_gran_paradiso_fast" ID="{AC1694D3-ED5B-4193-AC0F-348B31AC25B1}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_Lava" ID="{33D92FB7-A626-446D-ADF5-F56B41D57CA4}">
-									<ChildrenList>
-										<Action Name="" ID="{0C70C8FD-3B93-4FA9-A098-3BD3C33F093D}" ShortID="104749244">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Lava" ID="{88CAC850-BCA3-4246-B28E-A02393E95E8A}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_menutheme" ID="{E31DDC1F-F321-4625-903C-3C565F730299}">
-									<ChildrenList>
-										<Action Name="" ID="{BA93FD3B-ADC8-49BD-AB97-5DABB33DBEF2}" ShortID="392479044">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="menutheme" ID="{6B8F1E94-0911-456B-9E42-992C2E5439E9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_overworld" ID="{BD124798-517F-4CFA-A2FD-535054EB3909}">
-									<ChildrenList>
-										<Action Name="" ID="{9241005B-E1A0-41F8-932B-C72EF45B4700}" ShortID="550937500">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="overworld" ID="{081E6916-B4DA-4C87-A229-7DCB85CD1CEC}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_jumping_to_the_stars_remake_fast" ID="{7E9939C6-6BE8-4C46-B4EC-5F3EF9AF46FA}">
-									<ChildrenList>
-										<Action Name="" ID="{278428C5-E363-4722-A2D8-2146EC897C23}" ShortID="272380035">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="jumping_to_the_stars_remake_fast" ID="{5AEC01BB-9886-4177-98DC-1303D50E6A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_klabauter_dance" ID="{9C699AF3-5B1A-41E0-B66A-CDC2D48E2D7F}">
-									<ChildrenList>
-										<Action Name="" ID="{9DC22F68-C2FB-444D-A0AA-FF1D9A5960A6}" ShortID="1006786375">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="klabauter_dance" ID="{1218D8A4-01A6-49C6-B3EA-2E0504A3ED65}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_landing_in_gran_paradiso" ID="{7B41D429-6125-451C-8DE0-8D20FD8B3FA4}">
-									<ChildrenList>
-										<Action Name="" ID="{896C4A91-04C9-481E-8572-B98E57A7128C}" ShortID="351964218">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="landing_in_gran_paradiso" ID="{1B2E3CEB-4F08-44CE-A567-4CE4903359EA}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_lose_theme" ID="{888C8061-3A8E-45C0-8762-192397C5ADA8}">
-									<ChildrenList>
-										<Action Name="" ID="{5E04BD4D-8570-44B3-A598-3480056B2C65}" ShortID="197143487">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="lose_theme" ID="{F5746639-271C-4A32-8A42-556BD996B656}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_Snowy" ID="{83271809-1BEB-4F08-A2C7-23AE46D4E1FB}">
-									<ChildrenList>
-										<Action Name="" ID="{238E70DE-E6D7-4D22-9F4D-FBED698F24E2}" ShortID="356096918">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Snowy" ID="{AEE3B7EE-EF7C-429D-8BCB-1EB67C52EB6B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_SkyVibe_HighFrequency" ID="{156847B3-3F86-43A5-92FC-4B2A17358A36}">
-									<ChildrenList>
-										<Action Name="" ID="{6FF428AE-1E1A-4CF9-BFB0-C5F4BC39F515}" ShortID="765828246">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SkyVibe-HighFrequency" ID="{956BB25E-B1B8-4A74-94E1-D4AB824F295D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_celtic" ID="{68D00426-D12D-485F-BAC7-4720C66559F5}">
-									<ChildrenList>
-										<Action Name="" ID="{163E41BC-35A6-40D8-BB19-2AB431A92791}" ShortID="663718148">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="celtic" ID="{ED1743FF-AD42-497E-8407-352D9C0D93F2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_celtic" ID="{D40B1491-3F43-496C-9621-D01561399954}">
-									<ChildrenList>
-										<Action Name="" ID="{5A65A647-9091-4DCC-BC2B-10BD2464380F}" ShortID="156020753">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="celtic" ID="{ED1743FF-AD42-497E-8407-352D9C0D93F2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_egypt" ID="{0731F9D7-622A-48E4-885C-28615B1248A5}">
-									<ChildrenList>
-										<Action Name="" ID="{6421A6BB-B9EB-48F5-99E1-3947A96018CA}" ShortID="706731650">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="egypt" ID="{20A8A77A-DBF7-4FF8-96C6-51CB0D84143B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_cocoa_river_fast" ID="{3AD8B116-A0B2-4B03-B557-88EA097E62FF}">
-									<ChildrenList>
-										<Action Name="" ID="{2DC64AED-1171-4B73-BC6F-A4E9F1E44DCB}" ShortID="46632278">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="cocoa_river_fast" ID="{AFCFE691-F396-4482-BAE7-754B9F1293FE}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_farm" ID="{21B5C9E7-B72E-4C2B-8020-922CFB3A9548}">
-									<ChildrenList>
-										<Action Name="" ID="{2330CB40-CBAA-4CD7-9AA5-4FF22EC8DCF4}" ShortID="69168093">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="farm" ID="{4B234DB0-2816-4B7A-9E86-CF4F24D46E5D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_garden" ID="{79EBF02A-2C4F-4406-8345-23F80D72F585}">
-									<ChildrenList>
-										<Action Name="" ID="{0773CD34-1256-468F-97EE-28E0B918EB5E}" ShortID="317137534">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="garden" ID="{B617A443-0F04-4E39-95B7-A0E431E6B518}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_landing_in_gran_paradiso" ID="{2D4A785A-8213-48FD-B7B1-68C6762CBB14}">
-									<ChildrenList>
-										<Action Name="" ID="{2E21B80E-9AE3-4379-A2DF-96BE304B89E5}" ShortID="613357168">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="landing_in_gran_paradiso" ID="{1B2E3CEB-4F08-44CE-A567-4CE4903359EA}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_jumping_to_the_stars_remake" ID="{085510AD-9A6A-4561-8EE4-8C4DD7AEE99B}">
-									<ChildrenList>
-										<Action Name="" ID="{D06EDAA2-1466-45C2-8232-0D25078E5FD4}" ShortID="75949091">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="jumping_to_the_stars_remake" ID="{72904B87-10AC-44C8-B45E-4933F2790392}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_farm_f" ID="{9874A8B3-A044-417A-9604-84173E39E81B}">
-									<ChildrenList>
-										<Action Name="" ID="{776A4E3C-22C0-41F6-ACD6-2B4805705613}" ShortID="481906801">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="farm_f" ID="{93FE9841-5483-433B-B00A-074871BBB57D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_theGreatFair_fast" ID="{865A4C0D-269B-43D8-9133-2A3279DAB1CD}">
-									<ChildrenList>
-										<Action Name="" ID="{14E7FA86-0E0B-4B9E-9D07-D7C2F9469877}" ShortID="220352393">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="theGreatFair_fast" ID="{13B3818E-146A-4686-9CBF-536746B9F722}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_ravenbridge_mansion_fast" ID="{D6D3686C-DA2A-4893-89F5-138B56586812}">
-									<ChildrenList>
-										<Action Name="" ID="{57CEE19B-D2D9-4861-B359-15D841161EFE}" ShortID="679002969">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="ravenbridge_mansion_fast" ID="{6D8F4530-4ECD-41BE-962D-F223C35C2F07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_West" ID="{E3BA0D81-804E-4C58-90F3-2DE5763E25C2}">
-									<ChildrenList>
-										<Action Name="" ID="{B6BE2D1B-19DF-4BA0-9139-E5A434A568AD}" ShortID="677857092">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="West" ID="{F2DFCFB3-FBFA-41A2-84EB-0723B38314A8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_alien_signal" ID="{D61532BD-1B28-4507-B01F-C6BD7193ABAB}">
-									<ChildrenList>
-										<Action Name="" ID="{5E09CC4C-6AE5-4211-97F6-31034B55B12E}" ShortID="496400424">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="alien_signal" ID="{BE06DF2B-791F-4070-A178-9C8165BFEDA8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_hacienda" ID="{826440DB-01CD-49D0-9394-6CE3DFEC8806}">
-									<ChildrenList>
-										<Action Name="" ID="{5141FD25-9CDC-49AC-9CF8-2B358DA2BC65}" ShortID="847391609">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="hacienda" ID="{80A52EA1-50B2-48C3-B89D-0C6226E3F4D2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_race_win_theme" ID="{1EB59965-1EE8-458E-973C-F2C0CC482DA5}">
-									<ChildrenList>
-										<Action Name="" ID="{FB76B46D-20C3-44A5-811D-8143D0930DD7}" ShortID="468918904">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="race_win_theme" ID="{3DEBEF9E-FB6A-4CDF-B291-FCA29D10983E}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_lose_theme" ID="{97276F40-9F47-4555-ADA4-34AAD91BC8FA}">
-									<ChildrenList>
-										<Action Name="" ID="{A6D3F0F3-6BE1-4C03-904A-14403174C3C4}" ShortID="827336834">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="lose_theme" ID="{F5746639-271C-4A32-8A42-556BD996B656}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_race_summary" ID="{1A90643A-7FED-4DDD-A184-681447C14F02}">
-									<ChildrenList>
-										<Action Name="" ID="{2CD5F19E-5BC9-4101-B809-AFCC5CBC3907}" ShortID="330039407">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="race_summary" ID="{6DD22C42-E5F4-4263-BE91-2FB534536E07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_demonhill" ID="{5F9C7BCA-AD72-4317-B683-1E8D2B6344F2}">
-									<ChildrenList>
-										<Action Name="" ID="{CC87797F-072F-4449-977D-C214FA3C6EDB}" ShortID="139227893">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="demonhill" ID="{1D327D92-2814-47E7-855B-26B9F3824268}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_win_theme" ID="{3AE9A1BF-0E60-4219-80DD-64BE485646A2}">
-									<ChildrenList>
-										<Action Name="" ID="{0BC76898-D8CD-4287-8C7D-61931307E9C4}" ShortID="688011874">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="win_theme" ID="{38B8497E-47DD-4FD4-889D-27D73CE22A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_bay" ID="{EBCE793B-5C44-4FC4-B716-9E8CB9E4A4FB}">
-									<ChildrenList>
-										<Action Name="" ID="{15403C64-FB67-48B8-A7DC-2D8677C3C4EB}" ShortID="363948996">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="bay" ID="{A3A1CCBC-F1F2-4649-AD8D-C7E56432ED0D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_Boom_boom_boom" ID="{69E617B6-60F2-429C-A338-A15A7DBBFA9F}">
-									<ChildrenList>
-										<Action Name="" ID="{725EB87F-6E38-4125-A52C-74CD89AE59BD}" ShortID="589317337">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Boom_boom_boom" ID="{1F1282BB-CE03-47C8-B2F4-E5D4077B45FD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_cocoa_river" ID="{BC52A4ED-3549-45FA-BEA0-7C5DF9E6A506}">
-									<ChildrenList>
-										<Action Name="" ID="{8903E1DE-5746-4669-8132-3F86ABB21468}" ShortID="1037103082">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="cocoa_river" ID="{C1DA522E-E80A-4644-8870-DBD35A2D7267}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_farm_f" ID="{5612E723-5197-4A88-8F92-83DF1C9733B3}">
-									<ChildrenList>
-										<Action Name="" ID="{D6E71869-E288-4D04-AC1E-58BD2F867D90}" ShortID="838988451">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="farm_f" ID="{93FE9841-5483-433B-B00A-074871BBB57D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_farm" ID="{A09E7249-D9EF-489A-839B-8466CBEC1130}">
-									<ChildrenList>
-										<Action Name="" ID="{43AB6CA0-516A-4741-A9E4-C8538006C0B0}" ShortID="621274045">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="farm" ID="{4B234DB0-2816-4B7A-9E86-CF4F24D46E5D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_garden" ID="{B3F5E0AD-BF0C-4821-96CE-F798EF8323B1}">
-									<ChildrenList>
-										<Action Name="" ID="{B753B359-30E8-4CC0-833F-92241F2DE123}" ShortID="85673001">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="garden" ID="{B617A443-0F04-4E39-95B7-A0E431E6B518}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_kart_grand_prix" ID="{4B9D9888-7E1C-4F06-987F-1B3743CFA7F7}">
-									<ChildrenList>
-										<Action Name="" ID="{F92605A7-9DDD-41C9-9B54-C18F2F118635}" ShortID="105849690">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="kart_grand_prix" ID="{880F27B2-DACE-404C-B0A8-44674E10ADFD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_landing_in_gran_paradiso_fast" ID="{C128E756-39F1-485A-A60D-2D2016CAF8EF}">
-									<ChildrenList>
-										<Action Name="" ID="{FAB46B61-7060-4F08-8976-27FC94E8BE5F}" ShortID="1031632357">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="landing_in_gran_paradiso_fast" ID="{AC1694D3-ED5B-4193-AC0F-348B31AC25B1}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_Lava" ID="{6F193D9D-0644-4871-9BFC-0B9FD6A7BE86}">
-									<ChildrenList>
-										<Action Name="" ID="{5F8BFBC2-8B0D-42AC-99E4-68C22150815D}" ShortID="922742061">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Lava" ID="{88CAC850-BCA3-4246-B28E-A02393E95E8A}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_overworld" ID="{2ED335AE-6D89-4C1D-87B9-2B05EBAEDF3C}">
-									<ChildrenList>
-										<Action Name="" ID="{E1ABB7D0-AF2F-4D5C-BB94-E66C36F067B8}" ShortID="613482767">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="overworld" ID="{081E6916-B4DA-4C87-A229-7DCB85CD1CEC}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_ravenbridge_mansion" ID="{CED0EC63-3561-47EC-B61E-AC6A7750F6C1}">
-									<ChildrenList>
-										<Action Name="" ID="{D1EBCF3D-F44C-4F4C-9B83-934432229374}" ShortID="973614566">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="ravenbridge_mansion" ID="{1249427B-25C7-4460-A986-FD8E422FC2D5}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_penguin_party" ID="{53517E7E-84ED-40B4-8A27-04720C8114F4}">
-									<ChildrenList>
-										<Action Name="" ID="{890141EE-01D7-413D-B634-615BFFBC7ED3}" ShortID="291949085">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Penguin_Party" ID="{09BCF0F3-2F12-4676-9812-7BEFE61079A9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_valley" ID="{E32F4D85-D691-426D-A82B-BA4FD3208F2D}">
-									<ChildrenList>
-										<Action Name="" ID="{1CC1A55E-3AC6-48E5-A40D-12259643F8E7}" ShortID="461339464">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="valley" ID="{A57247AD-ABC4-4DBE-8CE1-7E2F63CB3655}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_celtic_fast" ID="{A0407697-457D-4008-8C9B-2089CB8B9138}">
-									<ChildrenList>
-										<Action Name="" ID="{19B2E67B-ECB6-4BAC-A825-5501A99BFBA6}" ShortID="688347423">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="celtic_fast" ID="{644508FE-D58F-4B79-9781-E4125D528E43}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_subsea" ID="{A87A2AB7-0517-4787-B5D4-42F204071EBE}">
-									<ChildrenList>
-										<Action Name="" ID="{FC85AD63-F5BB-4927-8EA5-29C1D4D4B8D5}" ShortID="703243906">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="subsea" ID="{F6531820-AC09-4388-81E6-99498444C162}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_xeon6" ID="{D7124AAB-DF69-4212-B655-04D59E305386}">
-									<ChildrenList>
-										<Action Name="" ID="{1025726F-F446-4F8E-8691-970AE3D50C3B}" ShortID="28908328">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="xeon6" ID="{EA2F8CAE-375F-43F3-8BB4-68E33EC5B6D7}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_jumping_to_the_stars_remake" ID="{E80D3E22-4BCD-4670-A498-DEFC804AC379}">
-									<ChildrenList>
-										<Action Name="" ID="{F6329429-74E7-427D-AC93-63918412A78E}" ShortID="938992499">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="jumping_to_the_stars_remake" ID="{72904B87-10AC-44C8-B45E-4933F2790392}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_jumping_to_the_stars_remake_fast" ID="{82EBA267-F49E-4E82-902E-C047ECD4D254}">
-									<ChildrenList>
-										<Action Name="" ID="{E6690FD0-917E-49A6-8251-21981DB08398}" ShortID="745698105">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="jumping_to_the_stars_remake_fast" ID="{5AEC01BB-9886-4177-98DC-1303D50E6A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_menutheme" ID="{AFB5A1A8-64F6-49A0-9CEB-7F450A1CCA00}">
-									<ChildrenList>
-										<Action Name="" ID="{06196439-EF46-4AFE-9DF0-5F106A98A4A7}" ShortID="679902630">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="menutheme" ID="{6B8F1E94-0911-456B-9E42-992C2E5439E9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_cocoa_river" ID="{9DF13DF4-BF74-4254-B7C6-856AE3A898D9}">
-									<ChildrenList>
-										<Action Name="" ID="{49248762-4021-440A-B3B6-A77006706465}" ShortID="1024920213">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="cocoa_river" ID="{C1DA522E-E80A-4644-8870-DBD35A2D7267}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_egypt" ID="{98BB12CC-5E6A-4F5E-8146-BD50D531CF99}">
-									<ChildrenList>
-										<Action Name="" ID="{7652864A-8FA9-4D25-B49E-0454AD15022D}" ShortID="607406331">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="egypt" ID="{20A8A77A-DBF7-4FF8-96C6-51CB0D84143B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_theGreatFair" ID="{7E96AB8B-BB57-4CA5-805B-03FF1592D419}">
-									<ChildrenList>
-										<Action Name="" ID="{BB7A22BE-BD8E-4CF9-9778-72E8BE85A181}" ShortID="655877791">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="theGreatFair" ID="{C0AAC8EE-F788-44A7-99A3-A41303251F15}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_hacienda" ID="{6983F2CE-279A-4ECE-A6D6-4BB197EAA5E6}">
-									<ChildrenList>
-										<Action Name="" ID="{3ECCBEBE-E74C-43E9-81C1-B1D6244869DE}" ShortID="869484486">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="hacienda" ID="{80A52EA1-50B2-48C3-B89D-0C6226E3F4D2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_Boom_boom_boom" ID="{C2915434-2389-4814-8262-71F0D72478CA}">
-									<ChildrenList>
-										<Action Name="" ID="{62E3F572-FAD7-4A22-B141-B33335B7E85A}" ShortID="24789046">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Boom_boom_boom" ID="{1F1282BB-CE03-47C8-B2F4-E5D4077B45FD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_cocoa_river_fast" ID="{6B6F624B-6083-4151-A7B4-580A7058242F}">
-									<ChildrenList>
-										<Action Name="" ID="{4E6865DC-C618-4DE9-95CE-37EFFE2E0FC1}" ShortID="1002666900">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="cocoa_river_fast" ID="{AFCFE691-F396-4482-BAE7-754B9F1293FE}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_alien_signal" ID="{64F3AB7C-823D-4039-8D74-DD6A8AA0E5F9}">
-									<ChildrenList>
-										<Action Name="" ID="{75CC86CB-F624-4462-89C9-3D534C95B253}" ShortID="867947227">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="alien_signal" ID="{BE06DF2B-791F-4070-A178-9C8165BFEDA8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_bay" ID="{3DC05621-7D77-4F50-8B1B-D633F33A4A29}">
-									<ChildrenList>
-										<Action Name="" ID="{E9502191-5300-46A9-93ED-E6BCE1517438}" ShortID="148749233">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="bay" ID="{A3A1CCBC-F1F2-4649-AD8D-C7E56432ED0D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_demonhill" ID="{D8945931-7792-4F2E-AA27-33BB7052D50E}">
-									<ChildrenList>
-										<Action Name="" ID="{79335AFF-0BFC-48D6-A579-38283241F3DC}" ShortID="64555019">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="demonhill" ID="{1D327D92-2814-47E7-855B-26B9F3824268}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_klabauter_dance" ID="{4839593F-D74B-43F4-8829-33ED496C3F60}">
-									<ChildrenList>
-										<Action Name="" ID="{235B74E0-D2A7-486F-BBD9-05320D947190}" ShortID="514947469">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="klabauter_dance" ID="{1218D8A4-01A6-49C6-B3EA-2E0504A3ED65}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_snowmountain" ID="{5CD58272-05B9-480D-9CB8-40C621A48603}">
-									<ChildrenList>
-										<Action Name="" ID="{C3B960AF-F8EE-49BC-8072-C0012B34FC9D}" ShortID="417229992">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="snowmountain" ID="{60D4DB97-6E11-4750-AD42-572BA112962C}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="play_celtic_fast" ID="{91DAA07B-BF51-49CF-8931-D12DF8798F66}">
-									<ChildrenList>
-										<Action Name="" ID="{4150971C-DC5D-444F-8287-096554EE2420}" ShortID="21007688">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="celtic_fast" ID="{644508FE-D58F-4B79-9781-E4125D528E43}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_valley" ID="{6EC7F462-DC0D-4656-8F32-0DD9B87D84B6}">
-									<ChildrenList>
-										<Action Name="" ID="{95561958-5A79-4570-8E2F-5B8A6438FF92}" ShortID="475811752">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="valley" ID="{A57247AD-ABC4-4DBE-8CE1-7E2F63CB3655}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_landing_in_gran_paradiso" ID="{F775FFF2-4AA5-48D1-91D8-5561AB7D74C9}">
-									<ChildrenList>
-										<Action Name="" ID="{2D795103-6511-4483-8C65-D333556CAAEA}" ShortID="1044667200">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="landing_in_gran_paradiso" ID="{1B2E3CEB-4F08-44CE-A567-4CE4903359EA}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_West" ID="{21564EB4-4671-4B85-9941-D21B9518A765}">
-									<ChildrenList>
-										<Action Name="" ID="{ED816FF5-05B6-4258-8518-1422BE660704}" ShortID="180803145">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="West" ID="{F2DFCFB3-FBFA-41A2-84EB-0723B38314A8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_win_theme" ID="{FDC9C87F-88AD-4041-B740-6479D752C77F}">
-									<ChildrenList>
-										<Action Name="" ID="{B958FC85-2C6F-4DD1-955F-08CAB100B788}" ShortID="1048912069">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="win_theme" ID="{38B8497E-47DD-4FD4-889D-27D73CE22A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_landing_in_gran_paradiso_fast" ID="{4850B73A-3654-43E2-B2E8-AE68D19A5C8F}">
-									<ChildrenList>
-										<Action Name="" ID="{28B6B647-9159-4228-8A7B-D02E1F6B97B5}" ShortID="740959518">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="landing_in_gran_paradiso_fast" ID="{AC1694D3-ED5B-4193-AC0F-348B31AC25B1}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_xeon6" ID="{C0B559C1-CC06-487C-82C9-4294B4EA8841}">
-									<ChildrenList>
-										<Action Name="" ID="{AC16A9EB-824C-44C4-AA6A-7EFA72EC6586}" ShortID="279704201">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="xeon6" ID="{EA2F8CAE-375F-43F3-8BB4-68E33EC5B6D7}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_menutheme" ID="{4E1DAE62-5941-4DAF-835E-1B00D69025D8}">
-									<ChildrenList>
-										<Action Name="" ID="{38788C27-CB6F-4D25-A791-0AC8724B1969}" ShortID="197006273">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="menutheme" ID="{6B8F1E94-0911-456B-9E42-992C2E5439E9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_ravenbridge_mansion" ID="{2B64EE6F-823C-48AA-A28F-DC40A03491A1}">
-									<ChildrenList>
-										<Action Name="" ID="{EAA025D8-48A1-43E1-8BE5-8D52600E566E}" ShortID="744646405">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="ravenbridge_mansion" ID="{1249427B-25C7-4460-A986-FD8E422FC2D5}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_Snowy" ID="{112CC094-C0E0-4739-A27A-70F50763248C}">
-									<ChildrenList>
-										<Action Name="" ID="{9C145657-7E37-485B-A37F-4ADCE95E9E41}" ShortID="278709431">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Snowy" ID="{AEE3B7EE-EF7C-429D-8BCB-1EB67C52EB6B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_race_summary" ID="{DE0EB0FD-4EE8-4921-A4D4-372D3F1358F1}">
-									<ChildrenList>
-										<Action Name="" ID="{8DAB12D0-135B-4E90-A4AF-5BF37DA767F8}" ShortID="390509483">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="race_summary" ID="{6DD22C42-E5F4-4263-BE91-2FB534536E07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_jumping_to_the_stars_remake_fast" ID="{34C5DBBE-B417-4868-A191-9B4DE843F38D}">
-									<ChildrenList>
-										<Action Name="" ID="{5F7D19AC-A37D-4FFE-9B20-71A598349132}" ShortID="198622630">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="jumping_to_the_stars_remake_fast" ID="{5AEC01BB-9886-4177-98DC-1303D50E6A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_race_win_theme" ID="{A3C6205D-4EFE-4EC6-BFC1-007F84FE8C3C}">
-									<ChildrenList>
-										<Action Name="" ID="{A5BDAE16-3365-4A9A-9F59-75AF58873CA0}" ShortID="958952189">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="race_win_theme" ID="{3DEBEF9E-FB6A-4CDF-B291-FCA29D10983E}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_Lava" ID="{4506AB84-0850-44FA-B684-52C77E09A439}">
-									<ChildrenList>
-										<Action Name="" ID="{39BB4B35-96A1-4AE0-ABF6-9DC51FEA5511}" ShortID="485026924">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Lava" ID="{88CAC850-BCA3-4246-B28E-A02393E95E8A}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_lose_theme" ID="{16DFC083-D062-4EB8-9529-04B9594283BE}">
-									<ChildrenList>
-										<Action Name="" ID="{A0F91443-440E-4D6D-83B0-CA66D9DCB10B}" ShortID="864603334">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="lose_theme" ID="{F5746639-271C-4A32-8A42-556BD996B656}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_ravenbridge_mansion_fast" ID="{489DF9EE-96A2-4BEC-9850-07F21AF136CC}">
-									<ChildrenList>
-										<Action Name="" ID="{1DB9C5DC-817A-427E-A21F-B2347CFE16F8}" ShortID="25688653">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="ravenbridge_mansion_fast" ID="{6D8F4530-4ECD-41BE-962D-F223C35C2F07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_kart_grand_prix" ID="{AD6C37C1-57F4-4258-B4FA-1F541B53AE90}">
-									<ChildrenList>
-										<Action Name="" ID="{23DE2473-1776-4C81-AAC1-4A11C6548A01}" ShortID="542597635">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="kart_grand_prix" ID="{880F27B2-DACE-404C-B0A8-44674E10ADFD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_klabauter_dance" ID="{EAEAAF57-BCC1-4F7E-AE9A-CFAB9094AB49}">
-									<ChildrenList>
-										<Action Name="" ID="{ECA9CD53-A7C4-4FD7-86B3-C342E562E3B3}" ShortID="1058432088">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="klabauter_dance" ID="{1218D8A4-01A6-49C6-B3EA-2E0504A3ED65}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_SkyVibe_HighFrequency" ID="{C41708E2-B6D3-4800-8DFC-7188658EE11B}">
-									<ChildrenList>
-										<Action Name="" ID="{A07D9ABF-DA81-42CC-BDC8-25E11E3695BB}" ShortID="581145431">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SkyVibe-HighFrequency" ID="{956BB25E-B1B8-4A74-94E1-D4AB824F295D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_Penguin_Party" ID="{A77717F4-08BF-4AE9-BB10-40936B01AA3D}">
-									<ChildrenList>
-										<Action Name="" ID="{12745FFD-F24A-42DE-93E3-A11E8AFB2016}" ShortID="209256495">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Penguin_Party" ID="{09BCF0F3-2F12-4676-9812-7BEFE61079A9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_overworld" ID="{970ED7F4-4B67-4CED-9DD8-C2BAED6787B0}">
-									<ChildrenList>
-										<Action Name="" ID="{0FE53B34-3C2B-42A3-8532-7B89B9303016}" ShortID="149098166">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="overworld" ID="{081E6916-B4DA-4C87-A229-7DCB85CD1CEC}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_subsea" ID="{71174BA7-0BF5-4918-8560-DF814C255359}">
-									<ChildrenList>
-										<Action Name="" ID="{DEF86722-2F8B-47A4-AABD-24F2F231553E}" ShortID="260760047">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="subsea" ID="{F6531820-AC09-4388-81E6-99498444C162}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_theGreatFair" ID="{AFBF01D4-30EE-4E24-801D-C343A00318A2}">
-									<ChildrenList>
-										<Action Name="" ID="{4E92287D-2076-47DE-BAC0-A0A39CFF959B}" ShortID="601387902">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="theGreatFair" ID="{C0AAC8EE-F788-44A7-99A3-A41303251F15}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_snowmountain" ID="{1BFA5542-0E3E-4E95-B754-84932485B164}">
-									<ChildrenList>
-										<Action Name="" ID="{9BC66BA1-432B-4290-B8EC-E29D71473A79}" ShortID="643563028">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="snowmountain" ID="{60D4DB97-6E11-4750-AD42-572BA112962C}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="resume_theGreatFair_fast" ID="{927364D9-D897-40D8-BDC6-3C0E14781FB4}">
-									<ChildrenList>
-										<Action Name="" ID="{77AF8A7A-16BB-40D4-995A-D15D0D0EF906}" ShortID="50887585">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="9"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="theGreatFair_fast" ID="{13B3818E-146A-4686-9CBF-536746B9F722}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_xeon6" ID="{593E27E8-60FA-4889-8C85-DBF5A2C248D7}">
-									<ChildrenList>
-										<Action Name="" ID="{B4677301-D652-45DA-99C3-6A8327C31C1A}" ShortID="23132542">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="xeon6" ID="{EA2F8CAE-375F-43F3-8BB4-68E33EC5B6D7}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_valley" ID="{84CBCD1A-0663-4443-B58A-79E07B6D7ECE}">
-									<ChildrenList>
-										<Action Name="" ID="{01AEF240-4FBC-484F-9040-E5D93135E90E}" ShortID="543588966">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="valley" ID="{A57247AD-ABC4-4DBE-8CE1-7E2F63CB3655}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_win_theme" ID="{EE79AA5C-81BC-4185-A621-4166BC38133C}">
-									<ChildrenList>
-										<Action Name="" ID="{107D63C2-FAAA-4B85-825A-9C38D71A99CD}" ShortID="842213767">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="win_theme" ID="{38B8497E-47DD-4FD4-889D-27D73CE22A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_theGreatFair_fast" ID="{EA67E167-F602-422A-A625-CA3898AB6A06}">
-									<ChildrenList>
-										<Action Name="" ID="{D7B953FB-864C-4BB6-AAC9-0F7F672DC041}" ShortID="608526221">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="theGreatFair_fast" ID="{13B3818E-146A-4686-9CBF-536746B9F722}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="pause_West" ID="{A0D30AE0-547D-4374-A56F-3DD9CF1C00C8}">
-									<ChildrenList>
-										<Action Name="" ID="{74B531CD-ED98-42BF-AA61-95E2C1059FAE}" ShortID="496833267">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="7"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="West" ID="{F2DFCFB3-FBFA-41A2-84EB-0723B38314A8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_egypt" ID="{25DECD00-0AA4-4F5E-BEFD-A9C3E0BAB63A}">
-									<ChildrenList>
-										<Action Name="" ID="{8B3B7830-E097-4414-8B51-ED79C92BF525}" ShortID="725279385">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="egypt" ID="{20A8A77A-DBF7-4FF8-96C6-51CB0D84143B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_cocoa_river" ID="{7D1C66C5-0C76-4E17-BE7D-2F79931DFEC6}">
-									<ChildrenList>
-										<Action Name="" ID="{62A88D58-83F1-4BAD-85D4-5EA812730A74}" ShortID="640983557">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="cocoa_river" ID="{C1DA522E-E80A-4644-8870-DBD35A2D7267}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_bay" ID="{EE3B19B8-FC11-48F4-B172-91E8E3CA6F6C}">
-									<ChildrenList>
-										<Action Name="" ID="{02C1EBA9-830F-4F1E-8E28-9DC0909B71F7}" ShortID="217879995">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="bay" ID="{A3A1CCBC-F1F2-4649-AD8D-C7E56432ED0D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_farm_f" ID="{FC76D642-230A-45B7-A629-DDAC9E888A40}">
-									<ChildrenList>
-										<Action Name="" ID="{2C2447CC-1851-4B42-B073-29942EBC89D1}" ShortID="127964990">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="farm_f" ID="{93FE9841-5483-433B-B00A-074871BBB57D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_celtic" ID="{0BC62568-B993-44F9-9B3D-5F6F38767267}">
-									<ChildrenList>
-										<Action Name="" ID="{CB08D9F1-FBE5-405A-995C-9F9C158A7F79}" ShortID="98312569">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="celtic" ID="{ED1743FF-AD42-497E-8407-352D9C0D93F2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_celtic_fast" ID="{FEE3B36F-06C2-4D91-B87C-1B776DDE520E}">
-									<ChildrenList>
-										<Action Name="" ID="{62EED2AD-382D-4860-82F1-CC05D05FC4AD}" ShortID="138452535">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="celtic_fast" ID="{644508FE-D58F-4B79-9781-E4125D528E43}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_farm" ID="{83539DD0-67EE-406A-B035-4864E74B222B}">
-									<ChildrenList>
-										<Action Name="" ID="{996E0A93-6F17-410C-8D11-D6144D0BC6A0}" ShortID="695071204">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="farm" ID="{4B234DB0-2816-4B7A-9E86-CF4F24D46E5D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_garden" ID="{EC0A66E3-A13E-42BE-A662-E3E31556B874}">
-									<ChildrenList>
-										<Action Name="" ID="{6FA4A1AC-D824-4761-9FA6-2AA73FC8DA6C}" ShortID="451008720">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="garden" ID="{B617A443-0F04-4E39-95B7-A0E431E6B518}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_cocoa_river_fast" ID="{EB9C62D4-4156-463B-8B78-77B1CFB07E01}">
-									<ChildrenList>
-										<Action Name="" ID="{22215B01-8A60-4AFD-A3F7-E44BF3558313}" ShortID="270962725">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="cocoa_river_fast" ID="{AFCFE691-F396-4482-BAE7-754B9F1293FE}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_Boom_boom_boom" ID="{CE60C31F-49A6-4D29-9C82-88FA20DC5242}">
-									<ChildrenList>
-										<Action Name="" ID="{FF144D2D-D94D-4096-AB00-084F4554A1BA}" ShortID="354861184">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Boom_boom_boom" ID="{1F1282BB-CE03-47C8-B2F4-E5D4077B45FD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_demonhill" ID="{5FB3A73B-E5E7-4547-93F5-FA7D7A8F8E18}">
-									<ChildrenList>
-										<Action Name="" ID="{D1B40A43-C099-48E0-A485-DEE3F1D1197D}" ShortID="477599845">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="demonhill" ID="{1D327D92-2814-47E7-855B-26B9F3824268}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_Lava" ID="{BA1E1ED1-25FD-4CFA-8319-120162B6652E}">
-									<ChildrenList>
-										<Action Name="" ID="{5C06A3CE-49C2-4E0A-B711-CDB371C5F9A5}" ShortID="629250695">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Lava" ID="{88CAC850-BCA3-4246-B28E-A02393E95E8A}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_lose_theme" ID="{7D5DF595-4F18-4096-A5AF-2C9B82F2A724}">
-									<ChildrenList>
-										<Action Name="" ID="{EA83FEB2-E3C8-40FD-996C-F6AE1030BB86}" ShortID="215905013">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="lose_theme" ID="{F5746639-271C-4A32-8A42-556BD996B656}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_overworld" ID="{2BA00E82-F52C-4C64-88D8-68259EAE31CD}">
-									<ChildrenList>
-										<Action Name="" ID="{2801A0AE-F8F6-4540-94A0-657B498DD025}" ShortID="353984646">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="overworld" ID="{081E6916-B4DA-4C87-A229-7DCB85CD1CEC}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_landing_in_gran_paradiso_fast" ID="{3ED01F73-CE15-4C8A-9703-334A2AEC5338}">
-									<ChildrenList>
-										<Action Name="" ID="{AD99EE51-8BB7-41C4-BB57-B36FFE8874A7}" ShortID="700131428">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="landing_in_gran_paradiso_fast" ID="{AC1694D3-ED5B-4193-AC0F-348B31AC25B1}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_Penguin_Party" ID="{44855FE9-6412-44A5-9135-7E4A71D5F82A}">
-									<ChildrenList>
-										<Action Name="" ID="{D244B9BF-3655-4DE0-8584-FB41908CBE3B}" ShortID="772773140">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Penguin_Party" ID="{09BCF0F3-2F12-4676-9812-7BEFE61079A9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_race_summary" ID="{007DC372-5E81-4DE6-8850-35C9A235404E}">
-									<ChildrenList>
-										<Action Name="" ID="{32FF9489-C8C5-491D-B156-D83A29E0AD68}" ShortID="891669780">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="race_summary" ID="{6DD22C42-E5F4-4263-BE91-2FB534536E07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_race_win_theme" ID="{EE847FBA-E409-4971-8BF0-F430CF9EB204}">
-									<ChildrenList>
-										<Action Name="" ID="{378747E4-40CB-4D6F-9C01-68CB64BA844D}" ShortID="301947224">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="race_win_theme" ID="{3DEBEF9E-FB6A-4CDF-B291-FCA29D10983E}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_ravenbridge_mansion" ID="{58A6AB2D-B698-457C-8D53-8FF72701A1E8}">
-									<ChildrenList>
-										<Action Name="" ID="{D9A996FF-F8C1-40C1-86D9-C8CAD4F3C5F6}" ShortID="481093307">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="ravenbridge_mansion" ID="{1249427B-25C7-4460-A986-FD8E422FC2D5}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_menutheme" ID="{99A3412C-8792-43AE-AC06-51BF4969F9B0}">
-									<ChildrenList>
-										<Action Name="" ID="{C9D4DBF2-85B5-4380-9DA9-C3442CE6E815}" ShortID="153341934">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="menutheme" ID="{6B8F1E94-0911-456B-9E42-992C2E5439E9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_kart_grand_prix" ID="{C574E95B-0F16-418A-8047-27E90130438C}">
-									<ChildrenList>
-										<Action Name="" ID="{4ED0E488-5F8F-4D6A-A9DA-DCFF62066401}" ShortID="94389910">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="kart_grand_prix" ID="{880F27B2-DACE-404C-B0A8-44674E10ADFD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_hacienda" ID="{B5C7162C-9BBA-4FEE-9472-5960E1FEDE5A}">
-									<ChildrenList>
-										<Action Name="" ID="{3DE86861-32AC-493B-937D-962EE0DA6B06}" ShortID="550128878">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="hacienda" ID="{80A52EA1-50B2-48C3-B89D-0C6226E3F4D2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_landing_in_gran_paradiso" ID="{E70ADC8E-5D8B-415D-A844-7107CB2D9ACB}">
-									<ChildrenList>
-										<Action Name="" ID="{4E289B93-D138-4A6A-84C6-3FCBB46081A3}" ShortID="952431978">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="landing_in_gran_paradiso" ID="{1B2E3CEB-4F08-44CE-A567-4CE4903359EA}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_klabauter_dance" ID="{679248DF-7674-4D51-B07A-BA9A89A40FA4}">
-									<ChildrenList>
-										<Action Name="" ID="{F7EE509B-4E0F-48D9-B3A3-17065DC875C3}" ShortID="588778136">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="klabauter_dance" ID="{1218D8A4-01A6-49C6-B3EA-2E0504A3ED65}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_jumping_to_the_stars_remake" ID="{307B1D6B-6DD1-453F-80B8-8CE4EFDE69DD}">
-									<ChildrenList>
-										<Action Name="" ID="{E4BE3CE0-3EB6-43EF-947E-99EB63496DFD}" ShortID="599771462">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="jumping_to_the_stars_remake" ID="{72904B87-10AC-44C8-B45E-4933F2790392}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_jumping_to_the_stars_remake_fast" ID="{208F1F31-0811-4908-82A4-0662A4725EE4}">
-									<ChildrenList>
-										<Action Name="" ID="{A3B99B0A-44C1-4A33-85CF-E0A9633A8939}" ShortID="314323186">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="jumping_to_the_stars_remake_fast" ID="{5AEC01BB-9886-4177-98DC-1303D50E6A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_snowmountain" ID="{C87F736C-2011-457C-86AC-3443706CE028}">
-									<ChildrenList>
-										<Action Name="" ID="{D26901EA-2E8E-4F68-AC05-9AC4A8A07808}" ShortID="855998714">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="snowmountain" ID="{60D4DB97-6E11-4750-AD42-572BA112962C}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_ravenbridge_mansion_fast" ID="{D57E63E6-7D33-4A2A-8A6D-B2AA9A8BFBA6}">
-									<ChildrenList>
-										<Action Name="" ID="{199E89DB-B29F-419B-BB09-ABDF37FE1B5F}" ShortID="1038717869">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="ravenbridge_mansion_fast" ID="{6D8F4530-4ECD-41BE-962D-F223C35C2F07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_Snowy" ID="{7D5F11A4-196D-49F7-899A-9DF3BE993DC0}">
-									<ChildrenList>
-										<Action Name="" ID="{3A6AA296-F0EA-459F-9B29-8642F57A61D0}" ShortID="741764535">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Snowy" ID="{AEE3B7EE-EF7C-429D-8BCB-1EB67C52EB6B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_SkyVibe_HighFrequency" ID="{042D8F5C-5A77-4889-977F-32E30BBC33A7}">
-									<ChildrenList>
-										<Action Name="" ID="{C5C70A81-7CB5-4109-966D-DE74412E9563}" ShortID="914867601">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SkyVibe-HighFrequency" ID="{956BB25E-B1B8-4A74-94E1-D4AB824F295D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_theGreatFair_fast" ID="{C73B8DF0-86C1-4E9C-8D83-152FED9E1955}">
-									<ChildrenList>
-										<Action Name="" ID="{C95B8D2D-83A8-4D4F-AC90-37DC8E62BCE2}" ShortID="1003344304">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="theGreatFair_fast" ID="{13B3818E-146A-4686-9CBF-536746B9F722}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_West" ID="{2E73215A-3C33-4A88-BF54-F2007D3DE825}">
-									<ChildrenList>
-										<Action Name="" ID="{96E7C044-84E2-4477-A599-A2F3E95F27EE}" ShortID="224342197">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="West" ID="{F2DFCFB3-FBFA-41A2-84EB-0723B38314A8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_valley" ID="{479FE3FB-9158-4B28-B472-F1946BA1B781}">
-									<ChildrenList>
-										<Action Name="" ID="{59B1C06C-E0BB-4B4F-B8C1-145F76340FF5}" ShortID="736111126">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="valley" ID="{A57247AD-ABC4-4DBE-8CE1-7E2F63CB3655}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_subsea" ID="{755595AB-1F40-4931-A76F-EA9387E1C4D2}">
-									<ChildrenList>
-										<Action Name="" ID="{184C1C1F-5851-4391-8495-394EE23F2EF5}" ShortID="270578105">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="subsea" ID="{F6531820-AC09-4388-81E6-99498444C162}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_theGreatFair" ID="{47E5A80D-8B50-4D7F-BFB2-E51221D3A8D4}">
-									<ChildrenList>
-										<Action Name="" ID="{734D412B-F5DD-43E5-8DE9-615B5863C030}" ShortID="993611879">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="theGreatFair" ID="{C0AAC8EE-F788-44A7-99A3-A41303251F15}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_xeon6" ID="{644EF9A3-416D-4E86-8CE5-5F637F8D1D91}">
-									<ChildrenList>
-										<Action Name="" ID="{61F15E92-505D-4DC3-B582-E2805328F1AB}" ShortID="43637755">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="xeon6" ID="{EA2F8CAE-375F-43F3-8BB4-68E33EC5B6D7}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="stop_win_theme" ID="{102ECDDB-95A4-478E-9E72-E6476DBBDAD0}">
-									<ChildrenList>
-										<Action Name="" ID="{C782F623-192B-49D7-945C-049F0E54AE6B}" ShortID="313339115">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="win_theme" ID="{38B8497E-47DD-4FD4-889D-27D73CE22A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
+								<Folder Name="pause" ID="{E0A40810-9770-47DB-9BAD-A9D093B715C9}" ShortID="438470369">
+									<ChildrenList>
+										<Event Name="pause_Snowy" ID="{C75B2891-FC74-432A-B588-088122073B0C}">
+											<ChildrenList>
+												<Action Name="" ID="{F36D635A-6BEB-48C8-A32B-D8554020617E}" ShortID="904761033">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Snowy" ID="{AEE3B7EE-EF7C-429D-8BCB-1EB67C52EB6B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_theGreatFair" ID="{3516F34F-9302-4B76-9D72-EA362F18D243}">
+											<ChildrenList>
+												<Action Name="" ID="{92A9C40D-0723-4B12-9EF1-0C9E03D446D5}" ShortID="340805063">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="theGreatFair" ID="{C0AAC8EE-F788-44A7-99A3-A41303251F15}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_SkyVibe_HighFrequency" ID="{BD45C832-4234-4BC6-9F87-793707AE916D}">
+											<ChildrenList>
+												<Action Name="" ID="{20CE3AFB-7528-45C6-A325-9E6087CC5042}" ShortID="240191954">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SkyVibe-HighFrequency" ID="{956BB25E-B1B8-4A74-94E1-D4AB824F295D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_snowmountain" ID="{A9CACE27-8BD8-4CAF-8B2B-12FC4602FB8D}">
+											<ChildrenList>
+												<Action Name="" ID="{7526366F-2834-45AA-8B89-7EE287D394FD}" ShortID="273980382">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="snowmountain" ID="{60D4DB97-6E11-4750-AD42-572BA112962C}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_subsea" ID="{25E7BEF8-8428-4A13-8BAC-F48829A7789E}">
+											<ChildrenList>
+												<Action Name="" ID="{AE9E6F53-3DA4-4E5B-AB46-42C0EFA710D6}" ShortID="834025094">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="subsea" ID="{F6531820-AC09-4388-81E6-99498444C162}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_race_win_theme" ID="{043F767E-9AA5-40E4-BB3F-BD802B54EB6B}">
+											<ChildrenList>
+												<Action Name="" ID="{58F56E2A-2819-4F05-8F1A-F55C78F7332E}" ShortID="897681399">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="race_win_theme" ID="{3DEBEF9E-FB6A-4CDF-B291-FCA29D10983E}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_ravenbridge_mansion" ID="{128DF529-2EEC-4A5D-8E72-368ECAB9EA82}">
+											<ChildrenList>
+												<Action Name="" ID="{A8181F14-2A82-4B1E-89A2-6D8E953EC845}" ShortID="728970794">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="ravenbridge_mansion" ID="{1249427B-25C7-4460-A986-FD8E422FC2D5}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_ravenbridge_mansion_fast" ID="{92419B76-1C55-43CA-9095-A687E75B9FB9}">
+											<ChildrenList>
+												<Action Name="" ID="{0D7088E4-655E-47FC-B05E-412608088D2D}" ShortID="356917197">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="ravenbridge_mansion_fast" ID="{6D8F4530-4ECD-41BE-962D-F223C35C2F07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_penguin_party" ID="{6423747C-B2B3-4CA4-87A1-75E297E7AB03}">
+											<ChildrenList>
+												<Action Name="" ID="{FD83ACCA-58F1-4F42-B434-221071915599}" ShortID="199726762">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Penguin_Party" ID="{09BCF0F3-2F12-4676-9812-7BEFE61079A9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_race_summary" ID="{DC4EC8DC-244B-42F4-86DE-A09463B2B634}">
+											<ChildrenList>
+												<Action Name="" ID="{E6F0AB24-4926-419C-8987-077533ABCF38}" ShortID="715063444">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="race_summary" ID="{6DD22C42-E5F4-4263-BE91-2FB534536E07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_alien_signal" ID="{B24F01E0-95AE-4580-9B07-DC3FFD3EDF0D}">
+											<ChildrenList>
+												<Action Name="" ID="{95FF8E29-CF08-4D2E-847C-4C49E80F4A86}" ShortID="710586683">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="alien_signal" ID="{BE06DF2B-791F-4070-A178-9C8165BFEDA8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_Boom_boom_boom" ID="{DA663629-BB56-45EA-85B4-68314EDFBD3B}">
+											<ChildrenList>
+												<Action Name="" ID="{BB003B0F-DAE0-44A0-AFA6-7B8D62122B4B}" ShortID="584007975">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Boom_boom_boom" ID="{1F1282BB-CE03-47C8-B2F4-E5D4077B45FD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_celtic" ID="{5910615F-2B56-46A7-84B5-DCC869E5FAA1}">
+											<ChildrenList>
+												<Action Name="" ID="{285F2BA8-7098-41DC-8C3C-AE3C11D836AE}" ShortID="173780582">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="celtic" ID="{ED1743FF-AD42-497E-8407-352D9C0D93F2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_egypt" ID="{1813EFB1-4B30-46C1-8704-989D8F7B9BE5}">
+											<ChildrenList>
+												<Action Name="" ID="{E01AECE0-52AE-4E9E-93C7-1F52A668DC5B}" ShortID="559893733">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="egypt" ID="{20A8A77A-DBF7-4FF8-96C6-51CB0D84143B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_farm" ID="{57A722DE-CCB4-4B54-8364-5E44013EB8FA}">
+											<ChildrenList>
+												<Action Name="" ID="{ADDF6E95-4BF7-491D-9834-1A96B6298816}" ShortID="879399191">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="farm" ID="{4B234DB0-2816-4B7A-9E86-CF4F24D46E5D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_farm_f" ID="{0AE70CE5-FC78-4C3C-8AA5-1E0A41416DA7}">
+											<ChildrenList>
+												<Action Name="" ID="{141A3DD2-13E9-4034-B72C-B5C6F278BEF3}" ShortID="872531733">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="farm_f" ID="{93FE9841-5483-433B-B00A-074871BBB57D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_bay" ID="{A26A9AB9-E521-4F38-8708-F9F97371DAFC}">
+											<ChildrenList>
+												<Action Name="" ID="{CE313B4F-AF32-4762-8BEE-9EC5DDF226BF}" ShortID="629323608">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="bay" ID="{A3A1CCBC-F1F2-4649-AD8D-C7E56432ED0D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_celtic_fast" ID="{3352346D-4D81-4DA6-8C84-9C4F111D3C2C}">
+											<ChildrenList>
+												<Action Name="" ID="{A928219F-5B2A-4930-8630-7F4A731E1511}" ShortID="317831018">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="celtic_fast" ID="{644508FE-D58F-4B79-9781-E4125D528E43}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_cocoa_river" ID="{EE9452A5-B8CA-429F-886A-D2E72CB5B668}">
+											<ChildrenList>
+												<Action Name="" ID="{53E9481E-2B5A-4330-9FE5-6F65B6509EEF}" ShortID="909817692">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="cocoa_river" ID="{C1DA522E-E80A-4644-8870-DBD35A2D7267}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_demonhill" ID="{F71362EC-648E-4149-A3D4-4427E27A3679}">
+											<ChildrenList>
+												<Action Name="" ID="{64C37BCA-BAFE-4AD1-B4F7-9A6098780842}" ShortID="432260056">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="demonhill" ID="{1D327D92-2814-47E7-855B-26B9F3824268}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_garden" ID="{5FEAE7E3-320C-4F80-90CD-F74C02D57BF8}">
+											<ChildrenList>
+												<Action Name="" ID="{1F38AEA8-3824-4233-BDEF-CBE3A161D111}" ShortID="160227018">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="garden" ID="{B617A443-0F04-4E39-95B7-A0E431E6B518}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_cocoa_river_fast" ID="{9C787081-A119-458C-8818-18BF66B2BCC9}">
+											<ChildrenList>
+												<Action Name="" ID="{58A70884-86F7-4485-B097-6C9D57AC247D}" ShortID="320652525">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="cocoa_river_fast" ID="{AFCFE691-F396-4482-BAE7-754B9F1293FE}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_kart_grand_prix" ID="{0EE06FC2-E870-4D7E-91BA-C44E3CBEEC93}">
+											<ChildrenList>
+												<Action Name="" ID="{55E7AE05-A8E2-4089-B959-DB499A7FD8D6}" ShortID="953561808">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="kart_grand_prix" ID="{880F27B2-DACE-404C-B0A8-44674E10ADFD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_hacienda" ID="{3DEF45C5-9295-4E04-8215-6B338836CB54}">
+											<ChildrenList>
+												<Action Name="" ID="{24B49CAE-35F7-48F2-BA5C-7951C3A3B05A}" ShortID="122877908">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="hacienda" ID="{80A52EA1-50B2-48C3-B89D-0C6226E3F4D2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_jumping_to_the_stars_remake" ID="{7815D162-4777-4FC5-85DA-6C242BB56B4A}">
+											<ChildrenList>
+												<Action Name="" ID="{27FEC84A-96A7-49A7-92D0-8A990ADA796A}" ShortID="251917169">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="jumping_to_the_stars_remake" ID="{72904B87-10AC-44C8-B45E-4933F2790392}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_landing_in_gran_paradiso_fast" ID="{BAD56CE7-45C7-4E8C-AB73-A69D5D9FBBE7}">
+											<ChildrenList>
+												<Action Name="" ID="{F7375442-2BDB-485F-B683-5CC875D14C80}" ShortID="943154009">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="landing_in_gran_paradiso_fast" ID="{AC1694D3-ED5B-4193-AC0F-348B31AC25B1}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_Lava" ID="{33D92FB7-A626-446D-ADF5-F56B41D57CA4}">
+											<ChildrenList>
+												<Action Name="" ID="{0C70C8FD-3B93-4FA9-A098-3BD3C33F093D}" ShortID="104749244">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Lava" ID="{88CAC850-BCA3-4246-B28E-A02393E95E8A}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_menutheme" ID="{E31DDC1F-F321-4625-903C-3C565F730299}">
+											<ChildrenList>
+												<Action Name="" ID="{BA93FD3B-ADC8-49BD-AB97-5DABB33DBEF2}" ShortID="392479044">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="menutheme" ID="{6B8F1E94-0911-456B-9E42-992C2E5439E9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_overworld" ID="{BD124798-517F-4CFA-A2FD-535054EB3909}">
+											<ChildrenList>
+												<Action Name="" ID="{9241005B-E1A0-41F8-932B-C72EF45B4700}" ShortID="550937500">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="overworld" ID="{081E6916-B4DA-4C87-A229-7DCB85CD1CEC}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_jumping_to_the_stars_remake_fast" ID="{7E9939C6-6BE8-4C46-B4EC-5F3EF9AF46FA}">
+											<ChildrenList>
+												<Action Name="" ID="{278428C5-E363-4722-A2D8-2146EC897C23}" ShortID="272380035">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="jumping_to_the_stars_remake_fast" ID="{5AEC01BB-9886-4177-98DC-1303D50E6A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_klabauter_dance" ID="{9C699AF3-5B1A-41E0-B66A-CDC2D48E2D7F}">
+											<ChildrenList>
+												<Action Name="" ID="{9DC22F68-C2FB-444D-A0AA-FF1D9A5960A6}" ShortID="1006786375">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="klabauter_dance" ID="{1218D8A4-01A6-49C6-B3EA-2E0504A3ED65}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_landing_in_gran_paradiso" ID="{7B41D429-6125-451C-8DE0-8D20FD8B3FA4}">
+											<ChildrenList>
+												<Action Name="" ID="{896C4A91-04C9-481E-8572-B98E57A7128C}" ShortID="351964218">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="landing_in_gran_paradiso" ID="{1B2E3CEB-4F08-44CE-A567-4CE4903359EA}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_lose_theme" ID="{888C8061-3A8E-45C0-8762-192397C5ADA8}">
+											<ChildrenList>
+												<Action Name="" ID="{5E04BD4D-8570-44B3-A598-3480056B2C65}" ShortID="197143487">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="lose_theme" ID="{F5746639-271C-4A32-8A42-556BD996B656}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_xeon6" ID="{593E27E8-60FA-4889-8C85-DBF5A2C248D7}">
+											<ChildrenList>
+												<Action Name="" ID="{B4677301-D652-45DA-99C3-6A8327C31C1A}" ShortID="23132542">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="xeon6" ID="{EA2F8CAE-375F-43F3-8BB4-68E33EC5B6D7}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_valley" ID="{84CBCD1A-0663-4443-B58A-79E07B6D7ECE}">
+											<ChildrenList>
+												<Action Name="" ID="{01AEF240-4FBC-484F-9040-E5D93135E90E}" ShortID="543588966">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="valley" ID="{A57247AD-ABC4-4DBE-8CE1-7E2F63CB3655}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_win_theme" ID="{EE79AA5C-81BC-4185-A621-4166BC38133C}">
+											<ChildrenList>
+												<Action Name="" ID="{107D63C2-FAAA-4B85-825A-9C38D71A99CD}" ShortID="842213767">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="win_theme" ID="{38B8497E-47DD-4FD4-889D-27D73CE22A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_theGreatFair_fast" ID="{EA67E167-F602-422A-A625-CA3898AB6A06}">
+											<ChildrenList>
+												<Action Name="" ID="{D7B953FB-864C-4BB6-AAC9-0F7F672DC041}" ShortID="608526221">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="theGreatFair_fast" ID="{13B3818E-146A-4686-9CBF-536746B9F722}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="pause_West" ID="{A0D30AE0-547D-4374-A56F-3DD9CF1C00C8}">
+											<ChildrenList>
+												<Action Name="" ID="{74B531CD-ED98-42BF-AA61-95E2C1059FAE}" ShortID="496833267">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="7"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="West" ID="{F2DFCFB3-FBFA-41A2-84EB-0723B38314A8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="play_01" ID="{E2448274-780A-4268-9724-75885440ADA0}" ShortID="710714432">
+									<ChildrenList>
+										<Event Name="play_celtic" ID="{68D00426-D12D-485F-BAC7-4720C66559F5}">
+											<ChildrenList>
+												<Action Name="" ID="{163E41BC-35A6-40D8-BB19-2AB431A92791}" ShortID="663718148">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="celtic" ID="{ED1743FF-AD42-497E-8407-352D9C0D93F2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_bay" ID="{EBCE793B-5C44-4FC4-B716-9E8CB9E4A4FB}">
+											<ChildrenList>
+												<Action Name="" ID="{15403C64-FB67-48B8-A7DC-2D8677C3C4EB}" ShortID="363948996">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="bay" ID="{A3A1CCBC-F1F2-4649-AD8D-C7E56432ED0D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_Boom_boom_boom" ID="{69E617B6-60F2-429C-A338-A15A7DBBFA9F}">
+											<ChildrenList>
+												<Action Name="" ID="{725EB87F-6E38-4125-A52C-74CD89AE59BD}" ShortID="589317337">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Boom_boom_boom" ID="{1F1282BB-CE03-47C8-B2F4-E5D4077B45FD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_alien_signal" ID="{64F3AB7C-823D-4039-8D74-DD6A8AA0E5F9}">
+											<ChildrenList>
+												<Action Name="" ID="{75CC86CB-F624-4462-89C9-3D534C95B253}" ShortID="867947227">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="alien_signal" ID="{BE06DF2B-791F-4070-A178-9C8165BFEDA8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_celtic_fast" ID="{91DAA07B-BF51-49CF-8931-D12DF8798F66}">
+											<ChildrenList>
+												<Action Name="" ID="{4150971C-DC5D-444F-8287-096554EE2420}" ShortID="21007688">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="celtic_fast" ID="{644508FE-D58F-4B79-9781-E4125D528E43}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="play_02" ID="{EA180223-E712-4605-899C-0014CEDCA19E}" ShortID="666495017">
+									<ChildrenList>
+										<Event Name="play_cocoa_river_fast" ID="{3AD8B116-A0B2-4B03-B557-88EA097E62FF}">
+											<ChildrenList>
+												<Action Name="" ID="{2DC64AED-1171-4B73-BC6F-A4E9F1E44DCB}" ShortID="46632278">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="cocoa_river_fast" ID="{AFCFE691-F396-4482-BAE7-754B9F1293FE}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_demonhill" ID="{5F9C7BCA-AD72-4317-B683-1E8D2B6344F2}">
+											<ChildrenList>
+												<Action Name="" ID="{CC87797F-072F-4449-977D-C214FA3C6EDB}" ShortID="139227893">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="demonhill" ID="{1D327D92-2814-47E7-855B-26B9F3824268}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_cocoa_river" ID="{BC52A4ED-3549-45FA-BEA0-7C5DF9E6A506}">
+											<ChildrenList>
+												<Action Name="" ID="{8903E1DE-5746-4669-8132-3F86ABB21468}" ShortID="1037103082">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="cocoa_river" ID="{C1DA522E-E80A-4644-8870-DBD35A2D7267}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_farm_f" ID="{5612E723-5197-4A88-8F92-83DF1C9733B3}">
+											<ChildrenList>
+												<Action Name="" ID="{D6E71869-E288-4D04-AC1E-58BD2F867D90}" ShortID="838988451">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="farm_f" ID="{93FE9841-5483-433B-B00A-074871BBB57D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_farm" ID="{A09E7249-D9EF-489A-839B-8466CBEC1130}">
+											<ChildrenList>
+												<Action Name="" ID="{43AB6CA0-516A-4741-A9E4-C8538006C0B0}" ShortID="621274045">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="farm" ID="{4B234DB0-2816-4B7A-9E86-CF4F24D46E5D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_egypt" ID="{98BB12CC-5E6A-4F5E-8146-BD50D531CF99}">
+											<ChildrenList>
+												<Action Name="" ID="{7652864A-8FA9-4D25-B49E-0454AD15022D}" ShortID="607406331">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="egypt" ID="{20A8A77A-DBF7-4FF8-96C6-51CB0D84143B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="play_03" ID="{625AA1CC-94E9-4528-9196-A6F51F87BCB5}" ShortID="325620124">
+									<ChildrenList>
+										<Event Name="play_garden" ID="{B3F5E0AD-BF0C-4821-96CE-F798EF8323B1}">
+											<ChildrenList>
+												<Action Name="" ID="{B753B359-30E8-4CC0-833F-92241F2DE123}" ShortID="85673001">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="garden" ID="{B617A443-0F04-4E39-95B7-A0E431E6B518}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_kart_grand_prix" ID="{4B9D9888-7E1C-4F06-987F-1B3743CFA7F7}">
+											<ChildrenList>
+												<Action Name="" ID="{F92605A7-9DDD-41C9-9B54-C18F2F118635}" ShortID="105849690">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="kart_grand_prix" ID="{880F27B2-DACE-404C-B0A8-44674E10ADFD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_jumping_to_the_stars_remake" ID="{E80D3E22-4BCD-4670-A498-DEFC804AC379}">
+											<ChildrenList>
+												<Action Name="" ID="{F6329429-74E7-427D-AC93-63918412A78E}" ShortID="938992499">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="jumping_to_the_stars_remake" ID="{72904B87-10AC-44C8-B45E-4933F2790392}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_jumping_to_the_stars_remake_fast" ID="{82EBA267-F49E-4E82-902E-C047ECD4D254}">
+											<ChildrenList>
+												<Action Name="" ID="{E6690FD0-917E-49A6-8251-21981DB08398}" ShortID="745698105">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="jumping_to_the_stars_remake_fast" ID="{5AEC01BB-9886-4177-98DC-1303D50E6A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_hacienda" ID="{6983F2CE-279A-4ECE-A6D6-4BB197EAA5E6}">
+											<ChildrenList>
+												<Action Name="" ID="{3ECCBEBE-E74C-43E9-81C1-B1D6244869DE}" ShortID="869484486">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="hacienda" ID="{80A52EA1-50B2-48C3-B89D-0C6226E3F4D2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_klabauter_dance" ID="{4839593F-D74B-43F4-8829-33ED496C3F60}">
+											<ChildrenList>
+												<Action Name="" ID="{235B74E0-D2A7-486F-BBD9-05320D947190}" ShortID="514947469">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="klabauter_dance" ID="{1218D8A4-01A6-49C6-B3EA-2E0504A3ED65}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="play_04" ID="{A023928A-1BFB-4252-B4E3-AF11CDEAEDB5}" ShortID="704440593">
+									<ChildrenList>
+										<Event Name="play_lose_theme" ID="{97276F40-9F47-4555-ADA4-34AAD91BC8FA}">
+											<ChildrenList>
+												<Action Name="" ID="{A6D3F0F3-6BE1-4C03-904A-14403174C3C4}" ShortID="827336834">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="lose_theme" ID="{F5746639-271C-4A32-8A42-556BD996B656}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_Lava" ID="{6F193D9D-0644-4871-9BFC-0B9FD6A7BE86}">
+											<ChildrenList>
+												<Action Name="" ID="{5F8BFBC2-8B0D-42AC-99E4-68C22150815D}" ShortID="922742061">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Lava" ID="{88CAC850-BCA3-4246-B28E-A02393E95E8A}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_menutheme" ID="{AFB5A1A8-64F6-49A0-9CEB-7F450A1CCA00}">
+											<ChildrenList>
+												<Action Name="" ID="{06196439-EF46-4AFE-9DF0-5F106A98A4A7}" ShortID="679902630">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="menutheme" ID="{6B8F1E94-0911-456B-9E42-992C2E5439E9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_landing_in_gran_paradiso" ID="{2D4A785A-8213-48FD-B7B1-68C6762CBB14}">
+											<ChildrenList>
+												<Action Name="" ID="{2E21B80E-9AE3-4379-A2DF-96BE304B89E5}" ShortID="613357168">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="landing_in_gran_paradiso" ID="{1B2E3CEB-4F08-44CE-A567-4CE4903359EA}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_landing_in_gran_paradiso_fast" ID="{C128E756-39F1-485A-A60D-2D2016CAF8EF}">
+											<ChildrenList>
+												<Action Name="" ID="{FAB46B61-7060-4F08-8976-27FC94E8BE5F}" ShortID="1031632357">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="landing_in_gran_paradiso_fast" ID="{AC1694D3-ED5B-4193-AC0F-348B31AC25B1}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_overworld" ID="{2ED335AE-6D89-4C1D-87B9-2B05EBAEDF3C}">
+											<ChildrenList>
+												<Action Name="" ID="{E1ABB7D0-AF2F-4D5C-BB94-E66C36F067B8}" ShortID="613482767">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="overworld" ID="{081E6916-B4DA-4C87-A229-7DCB85CD1CEC}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="play_05" ID="{24A598D5-180E-4C91-AAC9-B4C125E30B93}" ShortID="597790325">
+									<ChildrenList>
+										<Event Name="play_SkyVibe_HighFrequency" ID="{156847B3-3F86-43A5-92FC-4B2A17358A36}">
+											<ChildrenList>
+												<Action Name="" ID="{6FF428AE-1E1A-4CF9-BFB0-C5F4BC39F515}" ShortID="765828246">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SkyVibe-HighFrequency" ID="{956BB25E-B1B8-4A74-94E1-D4AB824F295D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_ravenbridge_mansion_fast" ID="{D6D3686C-DA2A-4893-89F5-138B56586812}">
+											<ChildrenList>
+												<Action Name="" ID="{57CEE19B-D2D9-4861-B359-15D841161EFE}" ShortID="679002969">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="ravenbridge_mansion_fast" ID="{6D8F4530-4ECD-41BE-962D-F223C35C2F07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_ravenbridge_mansion" ID="{CED0EC63-3561-47EC-B61E-AC6A7750F6C1}">
+											<ChildrenList>
+												<Action Name="" ID="{D1EBCF3D-F44C-4F4C-9B83-934432229374}" ShortID="973614566">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="ravenbridge_mansion" ID="{1249427B-25C7-4460-A986-FD8E422FC2D5}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_race_win_theme" ID="{1EB59965-1EE8-458E-973C-F2C0CC482DA5}">
+											<ChildrenList>
+												<Action Name="" ID="{FB76B46D-20C3-44A5-811D-8143D0930DD7}" ShortID="468918904">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="race_win_theme" ID="{3DEBEF9E-FB6A-4CDF-B291-FCA29D10983E}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_race_summary" ID="{1A90643A-7FED-4DDD-A184-681447C14F02}">
+											<ChildrenList>
+												<Action Name="" ID="{2CD5F19E-5BC9-4101-B809-AFCC5CBC3907}" ShortID="330039407">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="race_summary" ID="{6DD22C42-E5F4-4263-BE91-2FB534536E07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_penguin_party" ID="{53517E7E-84ED-40B4-8A27-04720C8114F4}">
+											<ChildrenList>
+												<Action Name="" ID="{890141EE-01D7-413D-B634-615BFFBC7ED3}" ShortID="291949085">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Penguin_Party" ID="{09BCF0F3-2F12-4676-9812-7BEFE61079A9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="play_06" ID="{6E0D1443-0452-4D57-88DD-499E8804BE9D}" ShortID="642623433">
+									<ChildrenList>
+										<Event Name="play_theGreatFair_fast" ID="{865A4C0D-269B-43D8-9133-2A3279DAB1CD}">
+											<ChildrenList>
+												<Action Name="" ID="{14E7FA86-0E0B-4B9E-9D07-D7C2F9469877}" ShortID="220352393">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="theGreatFair_fast" ID="{13B3818E-146A-4686-9CBF-536746B9F722}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_theGreatFair" ID="{7E96AB8B-BB57-4CA5-805B-03FF1592D419}">
+											<ChildrenList>
+												<Action Name="" ID="{BB7A22BE-BD8E-4CF9-9778-72E8BE85A181}" ShortID="655877791">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="theGreatFair" ID="{C0AAC8EE-F788-44A7-99A3-A41303251F15}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_Snowy" ID="{83271809-1BEB-4F08-A2C7-23AE46D4E1FB}">
+											<ChildrenList>
+												<Action Name="" ID="{238E70DE-E6D7-4D22-9F4D-FBED698F24E2}" ShortID="356096918">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Snowy" ID="{AEE3B7EE-EF7C-429D-8BCB-1EB67C52EB6B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_subsea" ID="{A87A2AB7-0517-4787-B5D4-42F204071EBE}">
+											<ChildrenList>
+												<Action Name="" ID="{FC85AD63-F5BB-4927-8EA5-29C1D4D4B8D5}" ShortID="703243906">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="subsea" ID="{F6531820-AC09-4388-81E6-99498444C162}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_snowmountain" ID="{5CD58272-05B9-480D-9CB8-40C621A48603}">
+											<ChildrenList>
+												<Action Name="" ID="{C3B960AF-F8EE-49BC-8072-C0012B34FC9D}" ShortID="417229992">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="snowmountain" ID="{60D4DB97-6E11-4750-AD42-572BA112962C}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="play_07" ID="{F5CB9560-E34A-489C-9633-3AD765558D9A}" ShortID="161628955">
+									<ChildrenList>
+										<Event Name="play_West" ID="{E3BA0D81-804E-4C58-90F3-2DE5763E25C2}">
+											<ChildrenList>
+												<Action Name="" ID="{B6BE2D1B-19DF-4BA0-9139-E5A434A568AD}" ShortID="677857092">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="West" ID="{F2DFCFB3-FBFA-41A2-84EB-0723B38314A8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_win_theme" ID="{3AE9A1BF-0E60-4219-80DD-64BE485646A2}">
+											<ChildrenList>
+												<Action Name="" ID="{0BC76898-D8CD-4287-8C7D-61931307E9C4}" ShortID="688011874">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="win_theme" ID="{38B8497E-47DD-4FD4-889D-27D73CE22A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_valley" ID="{E32F4D85-D691-426D-A82B-BA4FD3208F2D}">
+											<ChildrenList>
+												<Action Name="" ID="{1CC1A55E-3AC6-48E5-A40D-12259643F8E7}" ShortID="461339464">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="valley" ID="{A57247AD-ABC4-4DBE-8CE1-7E2F63CB3655}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="play_xeon6" ID="{D7124AAB-DF69-4212-B655-04D59E305386}">
+											<ChildrenList>
+												<Action Name="" ID="{1025726F-F446-4F8E-8691-970AE3D50C3B}" ShortID="28908328">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="xeon6" ID="{EA2F8CAE-375F-43F3-8BB4-68E33EC5B6D7}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="play_08" ID="{A9169669-7D9F-4AA0-BFED-E0F7DA164F0A}" ShortID="506042630"/>
+								<Folder Name="play_09" ID="{926BEC10-B440-4E6B-A54B-AC911F5E97E8}" ShortID="217762306"/>
+								<Folder Name="play_10" ID="{62EE64DD-521C-4723-83C8-64CDA7C30D38}" ShortID="984041552"/>
+								<Folder Name="resume" ID="{9097696F-B150-4E4D-9E17-F11A7A000F43}" ShortID="860029646">
+									<ChildrenList>
+										<Event Name="resume_celtic" ID="{D40B1491-3F43-496C-9621-D01561399954}">
+											<ChildrenList>
+												<Action Name="" ID="{5A65A647-9091-4DCC-BC2B-10BD2464380F}" ShortID="156020753">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="celtic" ID="{ED1743FF-AD42-497E-8407-352D9C0D93F2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_egypt" ID="{0731F9D7-622A-48E4-885C-28615B1248A5}">
+											<ChildrenList>
+												<Action Name="" ID="{6421A6BB-B9EB-48F5-99E1-3947A96018CA}" ShortID="706731650">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="egypt" ID="{20A8A77A-DBF7-4FF8-96C6-51CB0D84143B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_farm" ID="{21B5C9E7-B72E-4C2B-8020-922CFB3A9548}">
+											<ChildrenList>
+												<Action Name="" ID="{2330CB40-CBAA-4CD7-9AA5-4FF22EC8DCF4}" ShortID="69168093">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="farm" ID="{4B234DB0-2816-4B7A-9E86-CF4F24D46E5D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_garden" ID="{79EBF02A-2C4F-4406-8345-23F80D72F585}">
+											<ChildrenList>
+												<Action Name="" ID="{0773CD34-1256-468F-97EE-28E0B918EB5E}" ShortID="317137534">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="garden" ID="{B617A443-0F04-4E39-95B7-A0E431E6B518}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_jumping_to_the_stars_remake" ID="{085510AD-9A6A-4561-8EE4-8C4DD7AEE99B}">
+											<ChildrenList>
+												<Action Name="" ID="{D06EDAA2-1466-45C2-8232-0D25078E5FD4}" ShortID="75949091">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="jumping_to_the_stars_remake" ID="{72904B87-10AC-44C8-B45E-4933F2790392}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_farm_f" ID="{9874A8B3-A044-417A-9604-84173E39E81B}">
+											<ChildrenList>
+												<Action Name="" ID="{776A4E3C-22C0-41F6-ACD6-2B4805705613}" ShortID="481906801">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="farm_f" ID="{93FE9841-5483-433B-B00A-074871BBB57D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_alien_signal" ID="{D61532BD-1B28-4507-B01F-C6BD7193ABAB}">
+											<ChildrenList>
+												<Action Name="" ID="{5E09CC4C-6AE5-4211-97F6-31034B55B12E}" ShortID="496400424">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="alien_signal" ID="{BE06DF2B-791F-4070-A178-9C8165BFEDA8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_hacienda" ID="{826440DB-01CD-49D0-9394-6CE3DFEC8806}">
+											<ChildrenList>
+												<Action Name="" ID="{5141FD25-9CDC-49AC-9CF8-2B358DA2BC65}" ShortID="847391609">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="hacienda" ID="{80A52EA1-50B2-48C3-B89D-0C6226E3F4D2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_celtic_fast" ID="{A0407697-457D-4008-8C9B-2089CB8B9138}">
+											<ChildrenList>
+												<Action Name="" ID="{19B2E67B-ECB6-4BAC-A825-5501A99BFBA6}" ShortID="688347423">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="celtic_fast" ID="{644508FE-D58F-4B79-9781-E4125D528E43}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_cocoa_river" ID="{9DF13DF4-BF74-4254-B7C6-856AE3A898D9}">
+											<ChildrenList>
+												<Action Name="" ID="{49248762-4021-440A-B3B6-A77006706465}" ShortID="1024920213">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="cocoa_river" ID="{C1DA522E-E80A-4644-8870-DBD35A2D7267}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_Boom_boom_boom" ID="{C2915434-2389-4814-8262-71F0D72478CA}">
+											<ChildrenList>
+												<Action Name="" ID="{62E3F572-FAD7-4A22-B141-B33335B7E85A}" ShortID="24789046">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Boom_boom_boom" ID="{1F1282BB-CE03-47C8-B2F4-E5D4077B45FD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_cocoa_river_fast" ID="{6B6F624B-6083-4151-A7B4-580A7058242F}">
+											<ChildrenList>
+												<Action Name="" ID="{4E6865DC-C618-4DE9-95CE-37EFFE2E0FC1}" ShortID="1002666900">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="cocoa_river_fast" ID="{AFCFE691-F396-4482-BAE7-754B9F1293FE}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_bay" ID="{3DC05621-7D77-4F50-8B1B-D633F33A4A29}">
+											<ChildrenList>
+												<Action Name="" ID="{E9502191-5300-46A9-93ED-E6BCE1517438}" ShortID="148749233">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="bay" ID="{A3A1CCBC-F1F2-4649-AD8D-C7E56432ED0D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_demonhill" ID="{D8945931-7792-4F2E-AA27-33BB7052D50E}">
+											<ChildrenList>
+												<Action Name="" ID="{79335AFF-0BFC-48D6-A579-38283241F3DC}" ShortID="64555019">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="demonhill" ID="{1D327D92-2814-47E7-855B-26B9F3824268}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_valley" ID="{6EC7F462-DC0D-4656-8F32-0DD9B87D84B6}">
+											<ChildrenList>
+												<Action Name="" ID="{95561958-5A79-4570-8E2F-5B8A6438FF92}" ShortID="475811752">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="valley" ID="{A57247AD-ABC4-4DBE-8CE1-7E2F63CB3655}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_landing_in_gran_paradiso" ID="{F775FFF2-4AA5-48D1-91D8-5561AB7D74C9}">
+											<ChildrenList>
+												<Action Name="" ID="{2D795103-6511-4483-8C65-D333556CAAEA}" ShortID="1044667200">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="landing_in_gran_paradiso" ID="{1B2E3CEB-4F08-44CE-A567-4CE4903359EA}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_West" ID="{21564EB4-4671-4B85-9941-D21B9518A765}">
+											<ChildrenList>
+												<Action Name="" ID="{ED816FF5-05B6-4258-8518-1422BE660704}" ShortID="180803145">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="West" ID="{F2DFCFB3-FBFA-41A2-84EB-0723B38314A8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_win_theme" ID="{FDC9C87F-88AD-4041-B740-6479D752C77F}">
+											<ChildrenList>
+												<Action Name="" ID="{B958FC85-2C6F-4DD1-955F-08CAB100B788}" ShortID="1048912069">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="win_theme" ID="{38B8497E-47DD-4FD4-889D-27D73CE22A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_landing_in_gran_paradiso_fast" ID="{4850B73A-3654-43E2-B2E8-AE68D19A5C8F}">
+											<ChildrenList>
+												<Action Name="" ID="{28B6B647-9159-4228-8A7B-D02E1F6B97B5}" ShortID="740959518">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="landing_in_gran_paradiso_fast" ID="{AC1694D3-ED5B-4193-AC0F-348B31AC25B1}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_xeon6" ID="{C0B559C1-CC06-487C-82C9-4294B4EA8841}">
+											<ChildrenList>
+												<Action Name="" ID="{AC16A9EB-824C-44C4-AA6A-7EFA72EC6586}" ShortID="279704201">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="xeon6" ID="{EA2F8CAE-375F-43F3-8BB4-68E33EC5B6D7}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_menutheme" ID="{4E1DAE62-5941-4DAF-835E-1B00D69025D8}">
+											<ChildrenList>
+												<Action Name="" ID="{38788C27-CB6F-4D25-A791-0AC8724B1969}" ShortID="197006273">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="menutheme" ID="{6B8F1E94-0911-456B-9E42-992C2E5439E9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_ravenbridge_mansion" ID="{2B64EE6F-823C-48AA-A28F-DC40A03491A1}">
+											<ChildrenList>
+												<Action Name="" ID="{EAA025D8-48A1-43E1-8BE5-8D52600E566E}" ShortID="744646405">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="ravenbridge_mansion" ID="{1249427B-25C7-4460-A986-FD8E422FC2D5}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_Snowy" ID="{112CC094-C0E0-4739-A27A-70F50763248C}">
+											<ChildrenList>
+												<Action Name="" ID="{9C145657-7E37-485B-A37F-4ADCE95E9E41}" ShortID="278709431">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Snowy" ID="{AEE3B7EE-EF7C-429D-8BCB-1EB67C52EB6B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_race_summary" ID="{DE0EB0FD-4EE8-4921-A4D4-372D3F1358F1}">
+											<ChildrenList>
+												<Action Name="" ID="{8DAB12D0-135B-4E90-A4AF-5BF37DA767F8}" ShortID="390509483">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="race_summary" ID="{6DD22C42-E5F4-4263-BE91-2FB534536E07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_jumping_to_the_stars_remake_fast" ID="{34C5DBBE-B417-4868-A191-9B4DE843F38D}">
+											<ChildrenList>
+												<Action Name="" ID="{5F7D19AC-A37D-4FFE-9B20-71A598349132}" ShortID="198622630">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="jumping_to_the_stars_remake_fast" ID="{5AEC01BB-9886-4177-98DC-1303D50E6A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_race_win_theme" ID="{A3C6205D-4EFE-4EC6-BFC1-007F84FE8C3C}">
+											<ChildrenList>
+												<Action Name="" ID="{A5BDAE16-3365-4A9A-9F59-75AF58873CA0}" ShortID="958952189">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="race_win_theme" ID="{3DEBEF9E-FB6A-4CDF-B291-FCA29D10983E}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_Lava" ID="{4506AB84-0850-44FA-B684-52C77E09A439}">
+											<ChildrenList>
+												<Action Name="" ID="{39BB4B35-96A1-4AE0-ABF6-9DC51FEA5511}" ShortID="485026924">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Lava" ID="{88CAC850-BCA3-4246-B28E-A02393E95E8A}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_lose_theme" ID="{16DFC083-D062-4EB8-9529-04B9594283BE}">
+											<ChildrenList>
+												<Action Name="" ID="{A0F91443-440E-4D6D-83B0-CA66D9DCB10B}" ShortID="864603334">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="lose_theme" ID="{F5746639-271C-4A32-8A42-556BD996B656}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_ravenbridge_mansion_fast" ID="{489DF9EE-96A2-4BEC-9850-07F21AF136CC}">
+											<ChildrenList>
+												<Action Name="" ID="{1DB9C5DC-817A-427E-A21F-B2347CFE16F8}" ShortID="25688653">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="ravenbridge_mansion_fast" ID="{6D8F4530-4ECD-41BE-962D-F223C35C2F07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_kart_grand_prix" ID="{AD6C37C1-57F4-4258-B4FA-1F541B53AE90}">
+											<ChildrenList>
+												<Action Name="" ID="{23DE2473-1776-4C81-AAC1-4A11C6548A01}" ShortID="542597635">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="kart_grand_prix" ID="{880F27B2-DACE-404C-B0A8-44674E10ADFD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_klabauter_dance" ID="{EAEAAF57-BCC1-4F7E-AE9A-CFAB9094AB49}">
+											<ChildrenList>
+												<Action Name="" ID="{ECA9CD53-A7C4-4FD7-86B3-C342E562E3B3}" ShortID="1058432088">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="klabauter_dance" ID="{1218D8A4-01A6-49C6-B3EA-2E0504A3ED65}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_SkyVibe_HighFrequency" ID="{C41708E2-B6D3-4800-8DFC-7188658EE11B}">
+											<ChildrenList>
+												<Action Name="" ID="{A07D9ABF-DA81-42CC-BDC8-25E11E3695BB}" ShortID="581145431">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SkyVibe-HighFrequency" ID="{956BB25E-B1B8-4A74-94E1-D4AB824F295D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_Penguin_Party" ID="{A77717F4-08BF-4AE9-BB10-40936B01AA3D}">
+											<ChildrenList>
+												<Action Name="" ID="{12745FFD-F24A-42DE-93E3-A11E8AFB2016}" ShortID="209256495">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Penguin_Party" ID="{09BCF0F3-2F12-4676-9812-7BEFE61079A9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_overworld" ID="{970ED7F4-4B67-4CED-9DD8-C2BAED6787B0}">
+											<ChildrenList>
+												<Action Name="" ID="{0FE53B34-3C2B-42A3-8532-7B89B9303016}" ShortID="149098166">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="overworld" ID="{081E6916-B4DA-4C87-A229-7DCB85CD1CEC}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_subsea" ID="{71174BA7-0BF5-4918-8560-DF814C255359}">
+											<ChildrenList>
+												<Action Name="" ID="{DEF86722-2F8B-47A4-AABD-24F2F231553E}" ShortID="260760047">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="subsea" ID="{F6531820-AC09-4388-81E6-99498444C162}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_theGreatFair" ID="{AFBF01D4-30EE-4E24-801D-C343A00318A2}">
+											<ChildrenList>
+												<Action Name="" ID="{4E92287D-2076-47DE-BAC0-A0A39CFF959B}" ShortID="601387902">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="theGreatFair" ID="{C0AAC8EE-F788-44A7-99A3-A41303251F15}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_snowmountain" ID="{1BFA5542-0E3E-4E95-B754-84932485B164}">
+											<ChildrenList>
+												<Action Name="" ID="{9BC66BA1-432B-4290-B8EC-E29D71473A79}" ShortID="643563028">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="snowmountain" ID="{60D4DB97-6E11-4750-AD42-572BA112962C}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="resume_theGreatFair_fast" ID="{927364D9-D897-40D8-BDC6-3C0E14781FB4}">
+											<ChildrenList>
+												<Action Name="" ID="{77AF8A7A-16BB-40D4-995A-D15D0D0EF906}" ShortID="50887585">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="9"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="theGreatFair_fast" ID="{13B3818E-146A-4686-9CBF-536746B9F722}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="stop" ID="{E52A6C2E-02BB-4077-89A6-DBCD41664937}" ShortID="1063737542">
+									<ChildrenList>
+										<Event Name="stop_Lava" ID="{BA1E1ED1-25FD-4CFA-8319-120162B6652E}">
+											<ChildrenList>
+												<Action Name="" ID="{5C06A3CE-49C2-4E0A-B711-CDB371C5F9A5}" ShortID="629250695">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Lava" ID="{88CAC850-BCA3-4246-B28E-A02393E95E8A}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_lose_theme" ID="{7D5DF595-4F18-4096-A5AF-2C9B82F2A724}">
+											<ChildrenList>
+												<Action Name="" ID="{EA83FEB2-E3C8-40FD-996C-F6AE1030BB86}" ShortID="215905013">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="lose_theme" ID="{F5746639-271C-4A32-8A42-556BD996B656}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_overworld" ID="{2BA00E82-F52C-4C64-88D8-68259EAE31CD}">
+											<ChildrenList>
+												<Action Name="" ID="{2801A0AE-F8F6-4540-94A0-657B498DD025}" ShortID="353984646">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="overworld" ID="{081E6916-B4DA-4C87-A229-7DCB85CD1CEC}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_egypt" ID="{25DECD00-0AA4-4F5E-BEFD-A9C3E0BAB63A}">
+											<ChildrenList>
+												<Action Name="" ID="{8B3B7830-E097-4414-8B51-ED79C92BF525}" ShortID="725279385">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="egypt" ID="{20A8A77A-DBF7-4FF8-96C6-51CB0D84143B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_cocoa_river" ID="{7D1C66C5-0C76-4E17-BE7D-2F79931DFEC6}">
+											<ChildrenList>
+												<Action Name="" ID="{62A88D58-83F1-4BAD-85D4-5EA812730A74}" ShortID="640983557">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="cocoa_river" ID="{C1DA522E-E80A-4644-8870-DBD35A2D7267}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_landing_in_gran_paradiso_fast" ID="{3ED01F73-CE15-4C8A-9703-334A2AEC5338}">
+											<ChildrenList>
+												<Action Name="" ID="{AD99EE51-8BB7-41C4-BB57-B36FFE8874A7}" ShortID="700131428">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="landing_in_gran_paradiso_fast" ID="{AC1694D3-ED5B-4193-AC0F-348B31AC25B1}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_Penguin_Party" ID="{44855FE9-6412-44A5-9135-7E4A71D5F82A}">
+											<ChildrenList>
+												<Action Name="" ID="{D244B9BF-3655-4DE0-8584-FB41908CBE3B}" ShortID="772773140">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Penguin_Party" ID="{09BCF0F3-2F12-4676-9812-7BEFE61079A9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_race_summary" ID="{007DC372-5E81-4DE6-8850-35C9A235404E}">
+											<ChildrenList>
+												<Action Name="" ID="{32FF9489-C8C5-491D-B156-D83A29E0AD68}" ShortID="891669780">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="race_summary" ID="{6DD22C42-E5F4-4263-BE91-2FB534536E07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_alien_signal" ID="{99B08E2A-3EFE-45ED-9067-759BA59BF7EE}">
+											<ChildrenList>
+												<Action Name="" ID="{E21F54C4-1A93-4256-92A8-F52FDA9FA242}" ShortID="935294794">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="alien_signal" ID="{BE06DF2B-791F-4070-A178-9C8165BFEDA8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_race_win_theme" ID="{EE847FBA-E409-4971-8BF0-F430CF9EB204}">
+											<ChildrenList>
+												<Action Name="" ID="{378747E4-40CB-4D6F-9C01-68CB64BA844D}" ShortID="301947224">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="race_win_theme" ID="{3DEBEF9E-FB6A-4CDF-B291-FCA29D10983E}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_ravenbridge_mansion" ID="{58A6AB2D-B698-457C-8D53-8FF72701A1E8}">
+											<ChildrenList>
+												<Action Name="" ID="{D9A996FF-F8C1-40C1-86D9-C8CAD4F3C5F6}" ShortID="481093307">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="ravenbridge_mansion" ID="{1249427B-25C7-4460-A986-FD8E422FC2D5}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_menutheme" ID="{99A3412C-8792-43AE-AC06-51BF4969F9B0}">
+											<ChildrenList>
+												<Action Name="" ID="{C9D4DBF2-85B5-4380-9DA9-C3442CE6E815}" ShortID="153341934">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="menutheme" ID="{6B8F1E94-0911-456B-9E42-992C2E5439E9}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_bay" ID="{EE3B19B8-FC11-48F4-B172-91E8E3CA6F6C}">
+											<ChildrenList>
+												<Action Name="" ID="{02C1EBA9-830F-4F1E-8E28-9DC0909B71F7}" ShortID="217879995">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="bay" ID="{A3A1CCBC-F1F2-4649-AD8D-C7E56432ED0D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_farm_f" ID="{FC76D642-230A-45B7-A629-DDAC9E888A40}">
+											<ChildrenList>
+												<Action Name="" ID="{2C2447CC-1851-4B42-B073-29942EBC89D1}" ShortID="127964990">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="farm_f" ID="{93FE9841-5483-433B-B00A-074871BBB57D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_kart_grand_prix" ID="{C574E95B-0F16-418A-8047-27E90130438C}">
+											<ChildrenList>
+												<Action Name="" ID="{4ED0E488-5F8F-4D6A-A9DA-DCFF62066401}" ShortID="94389910">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="kart_grand_prix" ID="{880F27B2-DACE-404C-B0A8-44674E10ADFD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_celtic" ID="{0BC62568-B993-44F9-9B3D-5F6F38767267}">
+											<ChildrenList>
+												<Action Name="" ID="{CB08D9F1-FBE5-405A-995C-9F9C158A7F79}" ShortID="98312569">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="celtic" ID="{ED1743FF-AD42-497E-8407-352D9C0D93F2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_hacienda" ID="{B5C7162C-9BBA-4FEE-9472-5960E1FEDE5A}">
+											<ChildrenList>
+												<Action Name="" ID="{3DE86861-32AC-493B-937D-962EE0DA6B06}" ShortID="550128878">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="hacienda" ID="{80A52EA1-50B2-48C3-B89D-0C6226E3F4D2}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_celtic_fast" ID="{FEE3B36F-06C2-4D91-B87C-1B776DDE520E}">
+											<ChildrenList>
+												<Action Name="" ID="{62EED2AD-382D-4860-82F1-CC05D05FC4AD}" ShortID="138452535">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="celtic_fast" ID="{644508FE-D58F-4B79-9781-E4125D528E43}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_landing_in_gran_paradiso" ID="{E70ADC8E-5D8B-415D-A844-7107CB2D9ACB}">
+											<ChildrenList>
+												<Action Name="" ID="{4E289B93-D138-4A6A-84C6-3FCBB46081A3}" ShortID="952431978">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="landing_in_gran_paradiso" ID="{1B2E3CEB-4F08-44CE-A567-4CE4903359EA}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_farm" ID="{83539DD0-67EE-406A-B035-4864E74B222B}">
+											<ChildrenList>
+												<Action Name="" ID="{996E0A93-6F17-410C-8D11-D6144D0BC6A0}" ShortID="695071204">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="farm" ID="{4B234DB0-2816-4B7A-9E86-CF4F24D46E5D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_garden" ID="{EC0A66E3-A13E-42BE-A662-E3E31556B874}">
+											<ChildrenList>
+												<Action Name="" ID="{6FA4A1AC-D824-4761-9FA6-2AA73FC8DA6C}" ShortID="451008720">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="garden" ID="{B617A443-0F04-4E39-95B7-A0E431E6B518}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_klabauter_dance" ID="{679248DF-7674-4D51-B07A-BA9A89A40FA4}">
+											<ChildrenList>
+												<Action Name="" ID="{F7EE509B-4E0F-48D9-B3A3-17065DC875C3}" ShortID="588778136">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="klabauter_dance" ID="{1218D8A4-01A6-49C6-B3EA-2E0504A3ED65}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_cocoa_river_fast" ID="{EB9C62D4-4156-463B-8B78-77B1CFB07E01}">
+											<ChildrenList>
+												<Action Name="" ID="{22215B01-8A60-4AFD-A3F7-E44BF3558313}" ShortID="270962725">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="cocoa_river_fast" ID="{AFCFE691-F396-4482-BAE7-754B9F1293FE}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_jumping_to_the_stars_remake" ID="{307B1D6B-6DD1-453F-80B8-8CE4EFDE69DD}">
+											<ChildrenList>
+												<Action Name="" ID="{E4BE3CE0-3EB6-43EF-947E-99EB63496DFD}" ShortID="599771462">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="jumping_to_the_stars_remake" ID="{72904B87-10AC-44C8-B45E-4933F2790392}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_Boom_boom_boom" ID="{CE60C31F-49A6-4D29-9C82-88FA20DC5242}">
+											<ChildrenList>
+												<Action Name="" ID="{FF144D2D-D94D-4096-AB00-084F4554A1BA}" ShortID="354861184">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Boom_boom_boom" ID="{1F1282BB-CE03-47C8-B2F4-E5D4077B45FD}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_demonhill" ID="{5FB3A73B-E5E7-4547-93F5-FA7D7A8F8E18}">
+											<ChildrenList>
+												<Action Name="" ID="{D1B40A43-C099-48E0-A485-DEE3F1D1197D}" ShortID="477599845">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="demonhill" ID="{1D327D92-2814-47E7-855B-26B9F3824268}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_jumping_to_the_stars_remake_fast" ID="{208F1F31-0811-4908-82A4-0662A4725EE4}">
+											<ChildrenList>
+												<Action Name="" ID="{A3B99B0A-44C1-4A33-85CF-E0A9633A8939}" ShortID="314323186">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="jumping_to_the_stars_remake_fast" ID="{5AEC01BB-9886-4177-98DC-1303D50E6A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_snowmountain" ID="{C87F736C-2011-457C-86AC-3443706CE028}">
+											<ChildrenList>
+												<Action Name="" ID="{D26901EA-2E8E-4F68-AC05-9AC4A8A07808}" ShortID="855998714">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="snowmountain" ID="{60D4DB97-6E11-4750-AD42-572BA112962C}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_ravenbridge_mansion_fast" ID="{D57E63E6-7D33-4A2A-8A6D-B2AA9A8BFBA6}">
+											<ChildrenList>
+												<Action Name="" ID="{199E89DB-B29F-419B-BB09-ABDF37FE1B5F}" ShortID="1038717869">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="ravenbridge_mansion_fast" ID="{6D8F4530-4ECD-41BE-962D-F223C35C2F07}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_Snowy" ID="{7D5F11A4-196D-49F7-899A-9DF3BE993DC0}">
+											<ChildrenList>
+												<Action Name="" ID="{3A6AA296-F0EA-459F-9B29-8642F57A61D0}" ShortID="741764535">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Snowy" ID="{AEE3B7EE-EF7C-429D-8BCB-1EB67C52EB6B}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_SkyVibe_HighFrequency" ID="{042D8F5C-5A77-4889-977F-32E30BBC33A7}">
+											<ChildrenList>
+												<Action Name="" ID="{C5C70A81-7CB5-4109-966D-DE74412E9563}" ShortID="914867601">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SkyVibe-HighFrequency" ID="{956BB25E-B1B8-4A74-94E1-D4AB824F295D}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_theGreatFair_fast" ID="{C73B8DF0-86C1-4E9C-8D83-152FED9E1955}">
+											<ChildrenList>
+												<Action Name="" ID="{C95B8D2D-83A8-4D4F-AC90-37DC8E62BCE2}" ShortID="1003344304">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="theGreatFair_fast" ID="{13B3818E-146A-4686-9CBF-536746B9F722}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_West" ID="{2E73215A-3C33-4A88-BF54-F2007D3DE825}">
+											<ChildrenList>
+												<Action Name="" ID="{96E7C044-84E2-4477-A599-A2F3E95F27EE}" ShortID="224342197">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="West" ID="{F2DFCFB3-FBFA-41A2-84EB-0723B38314A8}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_valley" ID="{479FE3FB-9158-4B28-B472-F1946BA1B781}">
+											<ChildrenList>
+												<Action Name="" ID="{59B1C06C-E0BB-4B4F-B8C1-145F76340FF5}" ShortID="736111126">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="valley" ID="{A57247AD-ABC4-4DBE-8CE1-7E2F63CB3655}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_subsea" ID="{755595AB-1F40-4931-A76F-EA9387E1C4D2}">
+											<ChildrenList>
+												<Action Name="" ID="{184C1C1F-5851-4391-8495-394EE23F2EF5}" ShortID="270578105">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="subsea" ID="{F6531820-AC09-4388-81E6-99498444C162}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_theGreatFair" ID="{47E5A80D-8B50-4D7F-BFB2-E51221D3A8D4}">
+											<ChildrenList>
+												<Action Name="" ID="{734D412B-F5DD-43E5-8DE9-615B5863C030}" ShortID="993611879">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="theGreatFair" ID="{C0AAC8EE-F788-44A7-99A3-A41303251F15}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_xeon6" ID="{644EF9A3-416D-4E86-8CE5-5F637F8D1D91}">
+											<ChildrenList>
+												<Action Name="" ID="{61F15E92-505D-4DC3-B582-E2805328F1AB}" ShortID="43637755">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="xeon6" ID="{EA2F8CAE-375F-43F3-8BB4-68E33EC5B6D7}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="stop_win_theme" ID="{102ECDDB-95A4-478E-9E72-E6476DBBDAD0}">
+											<ChildrenList>
+												<Action Name="" ID="{C782F623-192B-49D7-945C-049F0E54AE6B}" ShortID="313339115">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="win_theme" ID="{38B8497E-47DD-4FD4-889D-27D73CE22A85}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

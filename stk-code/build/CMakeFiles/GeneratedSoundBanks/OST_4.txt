@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1804103594	play_landing_in_gran_paradiso			\Default Work Unit\OST\soundtrack\play_04\play_landing_in_gran_paradiso	
+	1841649256	play_overworld			\Default Work Unit\OST\soundtrack\play_04\play_overworld	
+	3000966543	play_landing_in_gran_paradiso_fast			\Default Work Unit\OST\soundtrack\play_04\play_landing_in_gran_paradiso_fast	
+	3757523130	play_menutheme			\Default Work Unit\OST\soundtrack\play_04\play_menutheme	
+	4050924935	play_lose_theme			\Default Work Unit\OST\soundtrack\play_04\play_lose_theme	
+	4151061776	play_Lava			\Default Work Unit\OST\soundtrack\play_04\play_Lava	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	342416338	overworld	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\overworld_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\overworld\overworld\overworld		24035976
+	690274210	lose_theme	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\lose_theme_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\lose_theme\lose_theme\lose_theme		2508868
+	894081558	landing_in_gran_paradiso	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\landing_in_gran_paradiso_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\landing_in_gran_paradiso\landing_in_gran_paradiso\landing_in_gran_paradiso		11723812
+	914481864	landing_in_gran_paradiso_fast	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\landing_in_gran_paradiso_fast_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\landing_in_gran_paradiso_fast\landing_in_gran_paradiso_fast\landing_in_gran_paradiso_fast		10886484
+	919015356	menutheme	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\menutheme_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\menutheme\menutheme\menutheme		24484160
+	1056286411	Lava	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\Lava_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Lava\Lava\Lava		23297096
+

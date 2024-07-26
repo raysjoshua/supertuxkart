@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1103419735	play_West			\Default Work Unit\OST\soundtrack\play_07\play_West	
+	1112355422	play_xeon6			\Default Work Unit\OST\soundtrack\play_07\play_xeon6	
+	1598493083	play_valley			\Default Work Unit\OST\soundtrack\play_07\play_valley	
+	4224604142	play_win_theme			\Default Work Unit\OST\soundtrack\play_07\play_win_theme	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	166104001	win_theme	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\win_theme_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\win_theme\win_theme\win_theme		18407324
+	206331120	xeon6	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\xeon6_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\xeon6\xeon6\xeon6		27779784
+	253458876	valley	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\valley_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\valley\valley\valley		27990808
+	843709989	West	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\West_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\West\West\West		12096064
+

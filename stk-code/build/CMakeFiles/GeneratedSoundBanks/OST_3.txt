@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	258252846	play_jumping_to_the_stars_remake			\Default Work Unit\OST\soundtrack\play_03\play_jumping_to_the_stars_remake	
+	877422339	play_jumping_to_the_stars_remake_fast			\Default Work Unit\OST\soundtrack\play_03\play_jumping_to_the_stars_remake_fast	
+	1131943193	play_garden			\Default Work Unit\OST\soundtrack\play_03\play_garden	
+	2340828223	play_kart_grand_prix			\Default Work Unit\OST\soundtrack\play_03\play_kart_grand_prix	
+	2609827537	play_klabauter_dance			\Default Work Unit\OST\soundtrack\play_03\play_klabauter_dance	
+	4047899811	play_hacienda			\Default Work Unit\OST\soundtrack\play_03\play_hacienda	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	190498416	kart_grand_prix	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\kart_grand_prix_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\kart_grand_prix\kart_grand_prix\kart_grand_prix		17640068
+	215939699	hacienda	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\hacienda_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\hacienda\hacienda\hacienda		18777176
+	346263280	jumping_to_the_stars_remake_fast	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\jumping_to_the_stars_remake_fast_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\jumping_to_the_stars_remake_fast\jumping_to_the_stars_remake_fast\jumping_to_the_stars_remake_fast		12181648
+	523964949	garden	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\garden_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\garden\garden\garden		21919060
+	844801048	klabauter_dance	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\klabauter_dance_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\klabauter_dance\klabauter_dance\klabauter_dance		11649088
+	871730942	jumping_to_the_stars_remake	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\jumping_to_the_stars_remake_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\jumping_to_the_stars_remake\jumping_to_the_stars_remake\jumping_to_the_stars_remake		15029344
+

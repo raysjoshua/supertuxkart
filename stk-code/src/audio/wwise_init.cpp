@@ -25,10 +25,21 @@
 AkGameObjectID MY_DEFAULT_LISTENER = 0;
 
 #define BANKNAME_INIT L"Init.bnk"
-#define BANKNAME_THEME_MUSIC L"theme_music.bnk"
 #define BANKNAME_KART L"kart_soundbank.bnk"
+#define BANKNAME_OST_1 L"OST_1.bnk"
+#define BANKNAME_OST_2 L"OST_2.bnk"
+#define BANKNAME_OST_3 L"OST_3.bnk"
+#define BANKNAME_OST_4 L"OST_4.bnk"
+#define BANKNAME_OST_5 L"OST_5.bnk"
+#define BANKNAME_OST_6 L"OST_6.bnk"
+#define BANKNAME_OST_7 L"OST_7.bnk"
+#define BANKNAME_OST_8 L"OST_8.bnk"
+#define BANKNAME_OST_9 L"OST_9.bnk"
+#define BANKNAME_OST_10 L"OST_10.bnk"
+#define BANKNAME_OST_TRANSPORT L"OST_TRANSPORT.bnk"
 #define BANKNAME_VOX L"vox_soundbank.bnk"
 #define BANKNAME_UI L"ui_soundbank.bnk"
+#define BANKNAME_SFX L"sfx_soundbank.bnk"
 
 const AkGameObjectID OST_EMITTER = 1000;
 const AkGameObjectID OST_LISTENER = 1001;
@@ -124,16 +135,47 @@ bool  WWise::InitSoundEngine() {
 
 	AKRESULT eResult = AK::SoundEngine::LoadBank(BANKNAME_INIT, bankID);
 	assert(eResult == AK_Success);
-	eResult = AK::SoundEngine::LoadBank(BANKNAME_THEME_MUSIC, bankID);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_OST_1, bankID);
 	assert(eResult == AK_Success);
 
-	eResult = AK::SoundEngine::LoadBank(BANKNAME_KART, bankID);
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_OST_2, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_OST_3, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_OST_4, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_OST_5, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_OST_6, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_OST_7, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_OST_8, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_OST_9, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_OST_10, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_OST_TRANSPORT, bankID);
 	assert(eResult == AK_Success);
 
 	eResult = AK::SoundEngine::LoadBank(BANKNAME_VOX, bankID);
 	assert(eResult == AK_Success);
 
 	eResult = AK::SoundEngine::LoadBank(BANKNAME_UI, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_SFX, bankID);
 	assert(eResult == AK_Success);
 
 	// Register Game Emitter/Listeners

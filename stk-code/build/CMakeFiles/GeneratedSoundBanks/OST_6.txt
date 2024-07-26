@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	393692880	play_Snowy			\Default Work Unit\OST\soundtrack\play_06\play_Snowy	
+	554435329	play_subsea			\Default Work Unit\OST\soundtrack\play_06\play_subsea	
+	772412684	play_theGreatFair			\Default Work Unit\OST\soundtrack\play_06\play_theGreatFair	
+	2297863906	play_snowmountain			\Default Work Unit\OST\soundtrack\play_06\play_snowmountain	
+	3121753529	play_theGreatFair_fast			\Default Work Unit\OST\soundtrack\play_06\play_theGreatFair_fast	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	262140560	subsea	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\subsea_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\subsea\subsea\subsea		29917508
+	504727747	theGreatFair	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\theGreatFair_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\theGreatFair\theGreatFair\theGreatFair		12262864
+	898463555	theGreatFair_fast	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\theGreatFair_fast_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\theGreatFair_fast\theGreatFair_fast\theGreatFair_fast		11471716
+	968939512	Snowy	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\Snowy_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Snowy\Snowy\Snowy		10819264
+	1042292145	snowmountain	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\snowmountain_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snowmountain\snowmountain\snowmountain		24035908
+

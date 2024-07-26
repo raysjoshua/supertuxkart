@@ -12,33 +12,14 @@
 				</SoundBank>
 				<SoundBank Name="kart_soundbank" ID="{7337883B-478F-48FF-A015-18668BDC76F7}">
 					<ObjectInclusionList>
-						<ObjectRef Name="play_skid_ignition" ID="{34790967-B5B1-41BC-85ED-0EAC130DE5B5}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_boing" ID="{4FB9965A-8F7B-42CE-802A-1C33049A4ABC}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_slipstream" ID="{2E8A9539-F22D-4317-9F56-E07F9D94A2F5}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="stop_skid" ID="{27840A65-95EB-43E4-9AB5-DF2970B35E85}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_crash" ID="{B2E60C85-70F8-4423-BB71-488CBBA31672}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="stop_nitro" ID="{05D133AB-05D9-4452-B9A0-4F15FA0351B2}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_nitro" ID="{C2A46733-F347-4516-889A-5BB857AE86BD}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_terrain" ID="{A4E6092D-BBC2-4643-9D0E-2E3A263002D3}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="stop_slipstream" ID="{513042A9-9DBF-475E-9D6F-286E5F5B97CA}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_horn" ID="{00BEA74D-6857-4AFD-8C9E-917AB5A167A9}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_skid" ID="{7B4A18D5-38EB-4B35-A2A5-2140157F266E}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_engine" ID="{A184863A-C216-4CF8-9EBA-5261E308B75F}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="stop_engine" ID="{3BBB8767-2C90-4DF1-92FC-12EDBC89668B}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="stop_terrain" ID="{39D8DD5D-355D-4F73-AFF5-3B257595FD34}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX" ID="{3003AF65-B6D0-47B5-9C70-1A9AC4024480}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="ui_soundbank" ID="{946CA421-B281-4F73-91B0-E63BB535BCF7}">
 					<ObjectInclusionList>
-						<ObjectRef Name="stop_menu_sounds" ID="{A73F82D4-F401-42CC-AB64-CC99DBE19337}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_menu_select" ID="{CC379A54-7BB5-4305-A34A-00CB69629F66}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="pause_sfx" ID="{E5CF81AF-8056-4618-A26E-2CD2B5AE2D24}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_menu_traverse" ID="{5E8BAD2A-1F83-4627-9211-E2ACABBFAFB3}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_menu_decline" ID="{23ABA679-A6A0-4AD2-8A8E-8248F6C69391}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="resume_sfx" ID="{D4B7EB6A-2DE4-4B40-8909-9D2078384CD6}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="resume_menu_sounds" ID="{9DCCE8D0-A99E-4EC1-A6B7-694C33D884BE}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{0989D309-E917-4324-9D23-AF34DE392092}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -46,6 +27,92 @@
 				<SoundBank Name="vox_soundbank" ID="{A7D45315-1094-4C61-919D-11A96897F15F}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Characters" ID="{BE7560BD-87F5-4294-A296-C23924081EB6}" WorkUnitID="{BE7560BD-87F5-4294-A296-C23924081EB6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="OST_1" ID="{7150B8AE-DD9C-4A9E-A27D-9C6EB9A8BCDE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_01" ID="{E2448274-780A-4268-9724-75885440ADA0}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="OST_2" ID="{A79B2153-10CB-4AA0-99B0-15B222344C6D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_02" ID="{EA180223-E712-4605-899C-0014CEDCA19E}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="OST_3" ID="{8A7FF385-E6F0-44FC-A5D8-DAD5BB0B1842}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_03" ID="{625AA1CC-94E9-4528-9196-A6F51F87BCB5}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="OST_4" ID="{4E004E8E-E2F8-47BE-8760-AA458D23F8E8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_04" ID="{A023928A-1BFB-4252-B4E3-AF11CDEAEDB5}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="OST_5" ID="{2422527B-EED9-4F31-BB35-C0E62C791E84}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_05" ID="{24A598D5-180E-4C91-AAC9-B4C125E30B93}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="OST_6" ID="{40633DF0-8F65-42DD-A4AA-E7A939D51354}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_06" ID="{6E0D1443-0452-4D57-88DD-499E8804BE9D}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="OST_7" ID="{1637DF1C-64C9-42C2-832A-BC69D58ABC8D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_07" ID="{F5CB9560-E34A-489C-9633-3AD765558D9A}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="OST_8" ID="{5851B3A2-6734-4533-A089-4F706540A56F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_08" ID="{A9169669-7D9F-4AA0-BFED-E0F7DA164F0A}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="OST_9" ID="{FA81E7E4-CFF9-4E6F-B6D0-51D83B970AD7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_09" ID="{926BEC10-B440-4E6B-A54B-AC911F5E97E8}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="OST_10" ID="{BF453CF9-E867-47D2-8CB5-0E6735D71186}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_10" ID="{62EE64DD-521C-4723-83C8-64CDA7C30D38}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="OST_TRANSPORT" ID="{C9BCFCC6-3942-480C-97F8-E5BC775DFE0A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="stop_ost" ID="{D5A1A0D7-DE35-4153-AD9F-DDA773F3CECD}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="pause_ost" ID="{D2BD2FE7-0275-495C-95C2-8E9290302048}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="resume_ost" ID="{A8D72FE4-57E6-4A35-8F20-5D42F768BF9B}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="sfx_soundbank" ID="{20526613-DC79-4340-B4FF-B8898A0B937E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SFX" ID="{3003AF65-B6D0-47B5-9C70-1A9AC4024480}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
