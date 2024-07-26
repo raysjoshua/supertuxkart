@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="theme_music" ID="{94600884-5D29-4BA7-92AC-1D7A5248FD16}">
 					<ObjectInclusionList>
-						<ObjectRef Name="play_theme" ID="{A64AABEC-C876-4205-BA28-9F0141FB7A14}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="OST" ID="{30AC33E2-5F46-4C31-B6D5-E22F5FF349E6}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

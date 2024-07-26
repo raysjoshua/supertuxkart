@@ -39,9 +39,12 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3930136735	Dialogue			\Default Work Unit\Master Audio Bus\Dialogue	
 
 Effect plug-ins	ID	Name	Type				Notes
+	401525020	Wwise Meter (Custom)	Wwise Meter			
 	432196972	Wwise Meter (Custom)	Wwise Meter			
+	617532281	Wwise Meter (Custom)	Wwise Meter			
 	761303489	Wwise Gain (Custom)	Wwise Gain			
 	795595431	Wwise Meter (Custom)	Wwise Meter			
+	893526383	Wwise Peak Limiter (Custom)	Wwise Peak Limiter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

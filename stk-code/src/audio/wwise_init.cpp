@@ -8,6 +8,7 @@
 #include <AK/MusicEngine/Common/AkMusicEngine.h>
 #include <AK/SpatialAudio/Common/AkSpatialAudio.h> 
 #include <AK/SoundEngine/Common/AkTypes.h>
+#include <AK/SoundEngine/Common/AkQueryParameters.h>
 #include <AK/SoundEngine/Common/AkDynamicDialogue.h>
 #include <AK/SoundEngine/Common/AkDynamicSequence.h>
 #include <assert.h>
@@ -29,10 +30,12 @@ AkGameObjectID MY_DEFAULT_LISTENER = 0;
 #define BANKNAME_VOX L"vox_soundbank.bnk"
 #define BANKNAME_UI L"ui_soundbank.bnk"
 
-const AkGameObjectID MENU_EMITTER = 1000;
-const AkGameObjectID MENU_LISTENER = 1001;
-const AkGameObjectID GAME_OBJECT_EMITTER = 1002;
-const AkGameObjectID GAME_OBJECT_LISTENER = 1003;
+const AkGameObjectID OST_EMITTER = 1000;
+const AkGameObjectID OST_LISTENER = 1001;
+const AkGameObjectID MENU_EMITTER = 1002;
+const AkGameObjectID MENU_LISTENER = 1003;
+const AkGameObjectID GAME_OBJECT_EMITTER = 1004;
+const AkGameObjectID GAME_OBJECT_LISTENER = 1005;
 
 
 CAkFilePackageLowLevelIOBlocking g_lowLevelIO;
@@ -138,8 +141,13 @@ bool  WWise::InitSoundEngine() {
 	AK::SoundEngine::RegisterGameObj(MENU_LISTENER, "Menu-Listener");
 	AK::SoundEngine::SetListeners(MENU_LISTENER, &MENU_LISTENER, 1);
 
+	AK::SoundEngine::RegisterGameObj(OST_LISTENER, "OST_LISTENER");
+	AK::SoundEngine::SetListeners(OST_LISTENER, &OST_LISTENER, 1);
+
 	AK::SoundEngine::RegisterGameObj(GAME_OBJECT_LISTENER, "GAME_OBJECT_LISTENER");
 	AK::SoundEngine::SetListeners(GAME_OBJECT_LISTENER, &GAME_OBJECT_LISTENER, 1);
+
+
 	return true;
 }
 
@@ -174,6 +182,70 @@ void WWise::PostEvent(int ID, const char* Event) {
 void WWise::PostEventUI(const char* Event) {
 	AK::SoundEngine::PostEvent(Event, MENU_LISTENER);
 }
+
+void WWise::PostEventOST(const char* Event, Transport Action) {
+	wwise_manager->SetGameSyncSwitch("ost", Event, OST_LISTENER);
+	std::string event = Event;
+	switch (Action) {
+	case Transport::PLAY:
+		event = "play_" + event;
+		break;
+	case Transport::STOP:
+		event = "stop_" + event;
+		break;
+	case Transport::RESUME:
+		event = "resume_" + event;
+		break;
+	case Transport::PAUSE:
+		event = "pause_" + event;
+		break;
+	default:
+		event = "play_" + event;
+		break;
+	}
+	AK::SoundEngine::PostEvent(event.c_str(), OST_LISTENER);
+}
+
+bool WWise::IsOSTPlaying(const char* Event) {
+
+	AkUInt32 size = 100;
+	AkPlayingID argPath[100] = { 0 };
+	AKRESULT result = AK::SoundEngine::Query::GetPlayingIDsFromGameObject(OST_LISTENER, size, argPath);
+
+
+	for (int i = 0; i < size; i++)
+	{
+		AkPlayingID playingId = argPath[i];
+		AkUniqueID temp =  AK::SoundEngine::Query::GetEventIDFromPlayingID(playingId);
+		if (playingId > 0) {
+			return true;
+		}
+	}
+
+
+	return false;
+}
+
+bool WWise::IsOSTPlaying() {
+
+	AkUInt32 size = 100;
+	AkPlayingID argPath[100] = { 0 };
+	AKRESULT result = AK::SoundEngine::Query::GetPlayingIDsFromGameObject(OST_LISTENER, size, argPath);
+
+
+	for (int i = 0; i < size; i++)
+	{
+		AkPlayingID playingId = argPath[i];
+
+		if (playingId > 0) {
+			return true;
+		}
+	}
+
+
+	return false;
+}
+
 
 void WWise::PostNegativeExpletive(const irr::core::stringw Event, AkGameObjectID ID) {
 	const char* argPath[2] = {

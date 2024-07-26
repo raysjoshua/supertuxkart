@@ -7,13 +7,25 @@
 					<PropertyList>
 						<Property Name="BusVolume" Type="Real64">
 							<ValueList>
-								<Value>12</Value>
+								<Value>-1</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{96851947-F0CC-448A-AA38-DFD0DDA21028}" WorkUnitID="{0313C8D6-E0E0-4E7B-938A-669C9CE6CE5E}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Peak Limiter (Custom)" ID="{A4F048A2-2D09-431E-9C05-2D80105B6507}" ShortID="893526383" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+									<PropertyList>
+										<Property Name="LookAhead" Type="Real32" Value="0.012"/>
+										<Property Name="Ratio" Type="Real32" Value="1"/>
+										<Property Name="ReleaseTime" Type="Real32" Value="0.12"/>
+										<Property Name="Threshold" Type="Real32" Value="-39"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -37,15 +49,36 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="Kart" ID="{FAEC4812-B9F6-439E-84BE-B5EB49BE44F6}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise Meter (Custom)" ID="{6B13D687-2604-4FB8-8F75-371BBCCD752D}" ShortID="401525020" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="OST" ID="{8CD172B3-174C-450F-9605-8C864E979F7D}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Meter (Custom)" ID="{D1DA2BB7-C58E-4153-B342-D5DEB40E6CB3}" ShortID="617532281" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+									</Custom>
+								</Reference>
+							</ReferenceList>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="Dialogue" ID="{D34B238A-64F4-492C-91C9-4C414170E021}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0">
 									<Custom>

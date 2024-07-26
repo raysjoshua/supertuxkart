@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AC6813BC-3208-4E6F-8C23-DB718EEBCA3B}" SchemaVersion="103">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{AC6813BC-3208-4E6F-8C23-DB718EEBCA3B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AC6813BC-3208-4E6F-8C23-DB718EEBCA3B}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="New Mixing Session" ID="{ACE59963-C686-4C2F-8160-2511C362D871}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						<ObjectRef Name="Dialogue" ID="{D34B238A-64F4-492C-91C9-4C414170E021}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						<ObjectRef Name="OST" ID="{8CD172B3-174C-450F-9605-8C864E979F7D}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						<ObjectRef Name="SFX" ID="{5C7F20BF-D2E8-4C32-B205-F5AE7100785C}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						<ObjectRef Name="Kart" ID="{FAEC4812-B9F6-439E-84BE-B5EB49BE44F6}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						<ObjectRef Name="UI" ID="{EF21AA77-8A10-4D84-A5A9-005302D1C021}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

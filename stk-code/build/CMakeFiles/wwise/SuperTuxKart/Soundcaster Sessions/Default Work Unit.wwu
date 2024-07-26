@@ -43,6 +43,7 @@
 						<CurrentSwitchRef Name="edge" ID="{FE0FA8DF-A577-447E-BCD7-9295B6D1F3F7}"/>
 						<CurrentSwitchRef Name="five" ID="{FC9069F5-E941-4B67-8A0A-5E8FD751BCAC}"/>
 						<CurrentSwitchRef Name="asphalt" ID="{1AB94222-29B6-49E1-829D-F89F3B1EEC83}"/>
+						<CurrentSwitchRef Name="alien_signal" ID="{DCC64BC8-877E-4211-957A-D33CF33F2057}"/>
 						<CurrentSwitchRef Name="hot_rod" ID="{34E44567-F867-4FF8-8CE7-99C4313BA6F5}"/>
 						<CurrentSwitchRef Name="adiumy" ID="{6AF608C2-DD94-4497-A4F4-590AF3567D56}"/>
 					</CurrentSwitchList>

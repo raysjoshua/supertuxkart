@@ -44,6 +44,8 @@ class MusicInformation : public NoCopy
 private:
     stringw                  m_composer;
     stringw                  m_title;
+    std::string              m_filename_extensionless;
+    std::string              m_fast_filename_extensionless;
     std::string              m_normal_filename;
     std::string              m_fast_filename;
     std::vector<std::string> m_all_tracks;
@@ -121,6 +123,12 @@ public:
     // ------------------------------------------------------------------------
     /** Returns the title of the music. */
     const stringw& getTitle() const { return m_title; }
+    // ------------------------------------------------------------------------
+    /** Returns the filename of the normal speed music. */
+    const std::string& getFilenameExtensionless() const { return m_filename_extensionless; }
+    // ------------------------------------------------------------------------
+    /** Returns the filename of the normal speed music. */
+    const std::string& getFastFilenameExtensionless() const { return m_fast_filename_extensionless; }
     // ------------------------------------------------------------------------
     /** Returns the filename of the normal speed music. */
     const std::string& getNormalFilename() const { return m_normal_filename; }

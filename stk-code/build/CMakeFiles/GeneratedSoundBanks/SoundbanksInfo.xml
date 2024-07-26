@@ -69,19 +69,479 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="902550164" Language="SFX" Hash="3705103346">
+		<SoundBank Id="611937389" Language="SFX" Hash="3104449786">
+			<ObjectPath>\SoundBanks\Default Work Unit\OST</ObjectPath>
+			<ShortName>OST</ShortName>
+			<Path>OST.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1329990402" Name="play_alien_signal" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_alien_signal">
+					<IncludedMemoryFiles>
+						<File Id="787493600" Language="SFX">
+							<ShortName>alien_signal.wav</ShortName>
+							<Path>Voices\English(US)\alien_signal_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3160320222" Name="play_bay" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_bay">
+					<IncludedMemoryFiles>
+						<File Id="581057278" Language="SFX">
+							<ShortName>bay.wav</ShortName>
+							<Path>Voices\English(US)\bay_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="435196831" Name="play_Boom_boom_boom" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_Boom_boom_boom">
+					<IncludedMemoryFiles>
+						<File Id="1071231626" Language="SFX">
+							<ShortName>Boom_boom_boom.wav</ShortName>
+							<Path>Voices\English(US)\Boom_boom_boom_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2146806654" Name="play_celtic" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_celtic">
+					<IncludedMemoryFiles>
+						<File Id="546617322" Language="SFX">
+							<ShortName>celtic.wav</ShortName>
+							<Path>Voices\English(US)\celtic_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3259048339" Name="play_celtic_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_celtic_fast">
+					<IncludedMemoryFiles>
+						<File Id="457202729" Language="SFX">
+							<ShortName>celtic_fast.wav</ShortName>
+							<Path>Voices\English(US)\celtic_fast_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="902550164" Language="SFX" Hash="138809359">
 			<ObjectPath>\SoundBanks\Default Work Unit\theme_music</ObjectPath>
 			<ShortName>theme_music</ShortName>
 			<Path>theme_music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2479442773" Name="play_theme" ObjectPath="\Events\Default Work Unit\OST\play_theme">
+				<Event Id="783769788" Name="pause_alien_signal" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_alien_signal"/>
+				<Event Id="3243472316" Name="pause_bay" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_bay"/>
+				<Event Id="2999750289" Name="pause_Boom_boom_boom" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_Boom_boom_boom"/>
+				<Event Id="722412260" Name="pause_celtic" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_celtic"/>
+				<Event Id="3367546961" Name="pause_celtic_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_celtic_fast"/>
+				<Event Id="2617156494" Name="pause_cocoa_river" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_cocoa_river"/>
+				<Event Id="144176035" Name="pause_cocoa_river_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_cocoa_river_fast"/>
+				<Event Id="897653848" Name="pause_demonhill" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_demonhill"/>
+				<Event Id="15584125" Name="pause_egypt" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_egypt"/>
+				<Event Id="3351217004" Name="pause_farm" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_farm"/>
+				<Event Id="2550589479" Name="pause_farm_f" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_farm_f"/>
+				<Event Id="584315683" Name="pause_garden" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_garden"/>
+				<Event Id="1583892257" Name="pause_hacienda" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_hacienda"/>
+				<Event Id="2506832436" Name="pause_jumping_to_the_stars_remake" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_jumping_to_the_stars_remake"/>
+				<Event Id="3263599521" Name="pause_jumping_to_the_stars_remake_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_jumping_to_the_stars_remake_fast"/>
+				<Event Id="793238897" Name="pause_kart_grand_prix" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_kart_grand_prix"/>
+				<Event Id="3346483387" Name="pause_klabauter_dance" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_klabauter_dance"/>
+				<Event Id="427040212" Name="pause_landing_in_gran_paradiso" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_landing_in_gran_paradiso"/>
+				<Event Id="2778795265" Name="pause_landing_in_gran_paradiso_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_landing_in_gran_paradiso_fast"/>
+				<Event Id="1495784682" Name="pause_Lava" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_Lava"/>
+				<Event Id="1667596817" Name="pause_lose_theme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_lose_theme"/>
+				<Event Id="134121240" Name="pause_menutheme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_menutheme"/>
+				<Event Id="3748919518" Name="pause_ost" ObjectPath="\Events\Default Work Unit\OST\pause_ost"/>
+				<Event Id="2783905394" Name="pause_overworld" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_overworld"/>
+				<Event Id="1727549037" Name="pause_penguin_party" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_penguin_party"/>
+				<Event Id="1726034446" Name="pause_race_summary" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_race_summary"/>
+				<Event Id="959951798" Name="pause_race_win_theme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_race_win_theme"/>
+				<Event Id="192340007" Name="pause_ravenbridge_mansion" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_ravenbridge_mansion"/>
+				<Event Id="2073009164" Name="pause_ravenbridge_mansion_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_ravenbridge_mansion_fast"/>
+				<Event Id="859174252" Name="pause_SkyVibe_HighFrequency" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_SkyVibe_HighFrequency"/>
+				<Event Id="2584901820" Name="pause_snowmountain" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_snowmountain"/>
+				<Event Id="666999026" Name="pause_Snowy" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_Snowy"/>
+				<Event Id="1930011475" Name="pause_subsea" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_subsea"/>
+				<Event Id="2490196778" Name="pause_theGreatFair" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_theGreatFair"/>
+				<Event Id="827136015" Name="pause_theGreatFair_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_theGreatFair_fast"/>
+				<Event Id="3532508685" Name="pause_valley" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_valley"/>
+				<Event Id="4081029197" Name="pause_West" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_West"/>
+				<Event Id="3051889044" Name="pause_win_theme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_win_theme"/>
+				<Event Id="3830706692" Name="pause_xeon6" ObjectPath="\Events\Default Work Unit\OST\soundtrack\pause_xeon6"/>
+				<Event Id="1329990402" Name="play_alien_signal" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_alien_signal">
 					<IncludedMemoryFiles>
-						<File Id="321385310" Language="SFX">
-							<ShortName>Red Earth_2.wav</ShortName>
-							<Path>SFX\Red Earth_2_D79FB2B7.wem</Path>
+						<File Id="787493600" Language="SFX">
+							<ShortName>alien_signal.wav</ShortName>
+							<Path>Voices\English(US)\alien_signal_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3160320222" Name="play_bay" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_bay">
+					<IncludedMemoryFiles>
+						<File Id="581057278" Language="SFX">
+							<ShortName>bay.wav</ShortName>
+							<Path>Voices\English(US)\bay_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="435196831" Name="play_Boom_boom_boom" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_Boom_boom_boom">
+					<IncludedMemoryFiles>
+						<File Id="1071231626" Language="SFX">
+							<ShortName>Boom_boom_boom.wav</ShortName>
+							<Path>Voices\English(US)\Boom_boom_boom_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2146806654" Name="play_celtic" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_celtic">
+					<IncludedMemoryFiles>
+						<File Id="546617322" Language="SFX">
+							<ShortName>celtic.wav</ShortName>
+							<Path>Voices\English(US)\celtic_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3259048339" Name="play_celtic_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_celtic_fast">
+					<IncludedMemoryFiles>
+						<File Id="457202729" Language="SFX">
+							<ShortName>celtic_fast.wav</ShortName>
+							<Path>Voices\English(US)\celtic_fast_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1513284948" Name="play_cocoa_river" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_cocoa_river">
+					<IncludedMemoryFiles>
+						<File Id="936119943" Language="SFX">
+							<ShortName>cocoa_river.wav</ShortName>
+							<Path>Voices\English(US)\cocoa_river_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="80184193" Name="play_cocoa_river_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_cocoa_river_fast">
+					<IncludedMemoryFiles>
+						<File Id="1061253606" Language="SFX">
+							<ShortName>cocoa_river_fast.wav</ShortName>
+							<Path>Voices\English(US)\cocoa_river_fast_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2723657086" Name="play_demonhill" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_demonhill">
+					<IncludedMemoryFiles>
+						<File Id="915744459" Language="SFX">
+							<ShortName>demonhill.wav</ShortName>
+							<Path>Voices\English(US)\demonhill_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="754201999" Name="play_egypt" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_egypt">
+					<IncludedMemoryFiles>
+						<File Id="25532095" Language="SFX">
+							<ShortName>egypt.wav</ShortName>
+							<Path>Voices\English(US)\egypt_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2745602830" Name="play_farm" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_farm">
+					<IncludedMemoryFiles>
+						<File Id="494658889" Language="SFX">
+							<ShortName>farm.wav</ShortName>
+							<Path>Voices\English(US)\farm_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="109277865" Name="play_farm_f" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_farm_f">
+					<IncludedMemoryFiles>
+						<File Id="404199879" Language="SFX">
+							<ShortName>farm_f.wav</ShortName>
+							<Path>Voices\English(US)\farm_f_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1131943193" Name="play_garden" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_garden">
+					<IncludedMemoryFiles>
+						<File Id="523964949" Language="SFX">
+							<ShortName>garden.wav</ShortName>
+							<Path>Voices\English(US)\garden_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4047899811" Name="play_hacienda" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_hacienda">
+					<IncludedMemoryFiles>
+						<File Id="215939699" Language="SFX">
+							<ShortName>hacienda.wav</ShortName>
+							<Path>Voices\English(US)\hacienda_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="258252846" Name="play_jumping_to_the_stars_remake" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_jumping_to_the_stars_remake">
+					<IncludedMemoryFiles>
+						<File Id="871730942" Language="SFX">
+							<ShortName>jumping_to_the_stars_remake.wav</ShortName>
+							<Path>Voices\English(US)\jumping_to_the_stars_remake_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="877422339" Name="play_jumping_to_the_stars_remake_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_jumping_to_the_stars_remake_fast">
+					<IncludedMemoryFiles>
+						<File Id="346263280" Language="SFX">
+							<ShortName>jumping_to_the_stars_remake_fast.wav</ShortName>
+							<Path>Voices\English(US)\jumping_to_the_stars_remake_fast_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2340828223" Name="play_kart_grand_prix" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_kart_grand_prix">
+					<IncludedMemoryFiles>
+						<File Id="190498416" Language="SFX">
+							<ShortName>kart_grand_prix.wav</ShortName>
+							<Path>Voices\English(US)\kart_grand_prix_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2609827537" Name="play_klabauter_dance" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_klabauter_dance">
+					<IncludedMemoryFiles>
+						<File Id="844801048" Language="SFX">
+							<ShortName>klabauter_dance.wav</ShortName>
+							<Path>Voices\English(US)\klabauter_dance_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1804103594" Name="play_landing_in_gran_paradiso" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_landing_in_gran_paradiso">
+					<IncludedMemoryFiles>
+						<File Id="894081558" Language="SFX">
+							<ShortName>landing_in_gran_paradiso.wav</ShortName>
+							<Path>Voices\English(US)\landing_in_gran_paradiso_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3000966543" Name="play_landing_in_gran_paradiso_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_landing_in_gran_paradiso_fast">
+					<IncludedMemoryFiles>
+						<File Id="914481864" Language="SFX">
+							<ShortName>landing_in_gran_paradiso_fast.wav</ShortName>
+							<Path>Voices\English(US)\landing_in_gran_paradiso_fast_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4151061776" Name="play_Lava" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_Lava">
+					<IncludedMemoryFiles>
+						<File Id="1056286411" Language="SFX">
+							<ShortName>Lava.wav</ShortName>
+							<Path>Voices\English(US)\Lava_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4050924935" Name="play_lose_theme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_lose_theme">
+					<IncludedMemoryFiles>
+						<File Id="690274210" Language="SFX">
+							<ShortName>lose_theme.wav</ShortName>
+							<Path>Voices\English(US)\lose_theme_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3757523130" Name="play_menutheme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_menutheme">
+					<IncludedMemoryFiles>
+						<File Id="919015356" Language="SFX">
+							<ShortName>menutheme.wav</ShortName>
+							<Path>Voices\English(US)\menutheme_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1841649256" Name="play_overworld" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_overworld">
+					<IncludedMemoryFiles>
+						<File Id="342416338" Language="SFX">
+							<ShortName>overworld.wav</ShortName>
+							<Path>Voices\English(US)\overworld_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="692669111" Name="play_penguin_party" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_penguin_party">
+					<IncludedMemoryFiles>
+						<File Id="554026248" Language="SFX">
+							<ShortName>Penguin_Party.wav</ShortName>
+							<Path>Voices\English(US)\Penguin_Party_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1223220284" Name="play_race_summary" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_race_summary">
+					<IncludedMemoryFiles>
+						<File Id="644014150" Language="SFX">
+							<ShortName>race_summary.wav</ShortName>
+							<Path>Voices\English(US)\race_summary_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1044799224" Name="play_race_win_theme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_race_win_theme">
+					<IncludedMemoryFiles>
+						<File Id="55034077" Language="SFX">
+							<ShortName>race_win_theme.wav</ShortName>
+							<Path>Voices\English(US)\race_win_theme_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2235970825" Name="play_ravenbridge_mansion" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_ravenbridge_mansion">
+					<IncludedMemoryFiles>
+						<File Id="756955866" Language="SFX">
+							<ShortName>ravenbridge_mansion.wav</ShortName>
+							<Path>Voices\English(US)\ravenbridge_mansion_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2035495614" Name="play_ravenbridge_mansion_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_ravenbridge_mansion_fast">
+					<IncludedMemoryFiles>
+						<File Id="989170871" Language="SFX">
+							<ShortName>ravenbridge_mansion_fast.wav</ShortName>
+							<Path>Voices\English(US)\ravenbridge_mansion_fast_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3682020954" Name="play_SkyVibe_HighFrequency" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_SkyVibe_HighFrequency">
+					<IncludedMemoryFiles>
+						<File Id="704654515" Language="SFX">
+							<ShortName>SkyVibe-HighFrequency.wav</ShortName>
+							<Path>Voices\English(US)\SkyVibe-HighFrequency_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2297863906" Name="play_snowmountain" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_snowmountain">
+					<IncludedMemoryFiles>
+						<File Id="1042292145" Language="SFX">
+							<ShortName>snowmountain.wav</ShortName>
+							<Path>Voices\English(US)\snowmountain_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="393692880" Name="play_Snowy" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_Snowy">
+					<IncludedMemoryFiles>
+						<File Id="968939512" Language="SFX">
+							<ShortName>Snowy.wav</ShortName>
+							<Path>Voices\English(US)\Snowy_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="554435329" Name="play_subsea" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_subsea">
+					<IncludedMemoryFiles>
+						<File Id="262140560" Language="SFX">
+							<ShortName>subsea.wav</ShortName>
+							<Path>Voices\English(US)\subsea_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="772412684" Name="play_theGreatFair" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_theGreatFair">
+					<IncludedMemoryFiles>
+						<File Id="504727747" Language="SFX">
+							<ShortName>theGreatFair.wav</ShortName>
+							<Path>Voices\English(US)\theGreatFair_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3121753529" Name="play_theGreatFair_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_theGreatFair_fast">
+					<IncludedMemoryFiles>
+						<File Id="898463555" Language="SFX">
+							<ShortName>theGreatFair_fast.wav</ShortName>
+							<Path>Voices\English(US)\theGreatFair_fast_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1598493083" Name="play_valley" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_valley">
+					<IncludedMemoryFiles>
+						<File Id="253458876" Language="SFX">
+							<ShortName>valley.wav</ShortName>
+							<Path>Voices\English(US)\valley_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1103419735" Name="play_West" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_West">
+					<IncludedMemoryFiles>
+						<File Id="843709989" Language="SFX">
+							<ShortName>West.wav</ShortName>
+							<Path>Voices\English(US)\West_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4224604142" Name="play_win_theme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_win_theme">
+					<IncludedMemoryFiles>
+						<File Id="166104001" Language="SFX">
+							<ShortName>win_theme.wav</ShortName>
+							<Path>Voices\English(US)\win_theme_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1112355422" Name="play_xeon6" ObjectPath="\Events\Default Work Unit\OST\soundtrack\play_xeon6">
+					<IncludedMemoryFiles>
+						<File Id="206331120" Language="SFX">
+							<ShortName>xeon6.wav</ShortName>
+							<Path>Voices\English(US)\xeon6_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2152856003" Name="resume_alien_signal" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_alien_signal"/>
+				<Event Id="6111377" Name="resume_bay" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_bay"/>
+				<Event Id="3574088538" Name="resume_Boom_boom_boom" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_Boom_boom_boom"/>
+				<Event Id="4276336475" Name="resume_celtic" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_celtic"/>
+				<Event Id="1156956896" Name="resume_celtic_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_celtic_fast"/>
+				<Event Id="70365663" Name="resume_cocoa_river" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_cocoa_river"/>
+				<Event Id="1214501252" Name="resume_cocoa_river_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_cocoa_river_fast"/>
+				<Event Id="2877475885" Name="resume_demonhill" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_demonhill"/>
+				<Event Id="441798188" Name="resume_egypt" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_egypt"/>
+				<Event Id="3867940343" Name="resume_farm" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_farm"/>
+				<Event Id="3705291352" Name="resume_farm_f" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_farm_f"/>
+				<Event Id="4023452320" Name="resume_garden" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_garden"/>
+				<Event Id="177061558" Name="resume_hacienda" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_hacienda"/>
+				<Event Id="3608397501" Name="resume_jumping_to_the_stars_remake" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_jumping_to_the_stars_remake"/>
+				<Event Id="1219983410" Name="resume_jumping_to_the_stars_remake_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_jumping_to_the_stars_remake_fast"/>
+				<Event Id="2436983900" Name="resume_kart_grand_prix" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_kart_grand_prix"/>
+				<Event Id="3696114250" Name="resume_klabauter_dance" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_klabauter_dance"/>
+				<Event Id="2869013179" Name="resume_landing_in_gran_paradiso" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_landing_in_gran_paradiso"/>
+				<Event Id="741447168" Name="resume_landing_in_gran_paradiso_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_landing_in_gran_paradiso_fast"/>
+				<Event Id="1620290941" Name="resume_Lava" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_Lava"/>
+				<Event Id="2664387290" Name="resume_lose_theme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_lose_theme"/>
+				<Event Id="3343369141" Name="resume_menutheme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_menutheme"/>
+				<Event Id="4067913263" Name="resume_ost" ObjectPath="\Events\Default Work Unit\OST\resume_ost"/>
+				<Event Id="3268654099" Name="resume_overworld" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_overworld"/>
+				<Event Id="1727209216" Name="resume_Penguin_Party" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_Penguin_Party"/>
+				<Event Id="503318429" Name="resume_race_summary" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_race_summary"/>
+				<Event Id="1736893261" Name="resume_race_win_theme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_race_win_theme"/>
+				<Event Id="3253846026" Name="resume_ravenbridge_mansion" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_ravenbridge_mansion"/>
+				<Event Id="3813422511" Name="resume_ravenbridge_mansion_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_ravenbridge_mansion_fast"/>
+				<Event Id="1832220637" Name="resume_SkyVibe_HighFrequency" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_SkyVibe_HighFrequency"/>
+				<Event Id="3065612543" Name="resume_snowmountain" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_snowmountain"/>
+				<Event Id="2257116271" Name="resume_Snowy" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_Snowy"/>
+				<Event Id="2435240840" Name="resume_subsea" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_subsea"/>
+				<Event Id="1450133521" Name="resume_theGreatFair" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_theGreatFair"/>
+				<Event Id="887391174" Name="resume_theGreatFair_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_theGreatFair_fast"/>
+				<Event Id="2645983162" Name="resume_valley" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_valley"/>
+				<Event Id="989570838" Name="resume_West" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_West"/>
+				<Event Id="3035374837" Name="resume_win_theme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_win_theme"/>
+				<Event Id="29346437" Name="resume_xeon6" ObjectPath="\Events\Default Work Unit\OST\soundtrack\resume_xeon6"/>
+				<Event Id="2595894148" Name="stop_alien_signal" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_alien_signal"/>
+				<Event Id="1174132404" Name="stop_bay" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_bay"/>
+				<Event Id="4250953113" Name="stop_Boom_boom_boom" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_Boom_boom_boom"/>
+				<Event Id="1989954044" Name="stop_celtic" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_celtic"/>
+				<Event Id="2796073897" Name="stop_celtic_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_celtic_fast"/>
+				<Event Id="3665947062" Name="stop_cocoa_river" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_cocoa_river"/>
+				<Event Id="3426366891" Name="stop_cocoa_river_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_cocoa_river_fast"/>
+				<Event Id="2372488688" Name="stop_demonhill" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_demonhill"/>
+				<Event Id="636264373" Name="stop_egypt" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_egypt"/>
+				<Event Id="2259462164" Name="stop_farm" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_farm"/>
+				<Event Id="1947331711" Name="stop_farm_f" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_farm_f"/>
+				<Event Id="2065572907" Name="stop_garden" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_garden"/>
+				<Event Id="1854480585" Name="stop_hacienda" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_hacienda"/>
+				<Event Id="2778306716" Name="stop_jumping_to_the_stars_remake" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_jumping_to_the_stars_remake"/>
+				<Event Id="691105929" Name="stop_jumping_to_the_stars_remake_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_jumping_to_the_stars_remake_fast"/>
+				<Event Id="454367289" Name="stop_kart_grand_prix" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_kart_grand_prix"/>
+				<Event Id="1099910179" Name="stop_klabauter_dance" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_klabauter_dance"/>
+				<Event Id="3516401516" Name="stop_landing_in_gran_paradiso" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_landing_in_gran_paradiso"/>
+				<Event Id="2549833305" Name="stop_landing_in_gran_paradiso_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_landing_in_gran_paradiso_fast"/>
+				<Event Id="1256666194" Name="stop_Lava" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_Lava"/>
+				<Event Id="4277864729" Name="stop_lose_theme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_lose_theme"/>
+				<Event Id="2271744" Name="stop_menutheme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_menutheme"/>
+				<Event Id="603252214" Name="stop_ost" ObjectPath="\Events\Default Work Unit\OST\stop_ost"/>
+				<Event Id="2683982410" Name="stop_overworld" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_overworld"/>
+				<Event Id="2781595077" Name="stop_Penguin_Party" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_Penguin_Party"/>
+				<Event Id="1984080486" Name="stop_race_summary" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_race_summary"/>
+				<Event Id="737309742" Name="stop_race_win_theme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_race_win_theme"/>
+				<Event Id="2158535695" Name="stop_ravenbridge_mansion" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_ravenbridge_mansion"/>
+				<Event Id="3760735284" Name="stop_ravenbridge_mansion_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_ravenbridge_mansion_fast"/>
+				<Event Id="3738227396" Name="stop_SkyVibe_HighFrequency" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_SkyVibe_HighFrequency"/>
+				<Event Id="1115049636" Name="stop_snowmountain" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_snowmountain"/>
+				<Event Id="4203572234" Name="stop_Snowy" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_Snowy"/>
+				<Event Id="3626619403" Name="stop_subsea" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_subsea"/>
+				<Event Id="2981057442" Name="stop_theGreatFair" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_theGreatFair"/>
+				<Event Id="3468927623" Name="stop_theGreatFair_fast" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_theGreatFair_fast"/>
+				<Event Id="1149537397" Name="stop_valley" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_valley"/>
+				<Event Id="3526158437" Name="stop_West" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_West"/>
+				<Event Id="3665460876" Name="stop_win_theme" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_win_theme"/>
+				<Event Id="3853522812" Name="stop_xeon6" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop_xeon6"/>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="975145466" Language="English(US)" Hash="1784462633">
@@ -428,12 +888,12 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="211241458">
+		<SoundBank Id="1355168291" Language="SFX" Hash="845841456">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1447697833" Language="SFX" Hash="3173227957">
+		<SoundBank Id="1447697833" Language="SFX" Hash="3169718466">
 			<ObjectPath>\SoundBanks\Default Work Unit\kart_soundbank</ObjectPath>
 			<ShortName>kart_soundbank</ShortName>
 			<Path>kart_soundbank.bnk</Path>
@@ -787,6 +1247,7 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="37214798" Name="stop_engine" ObjectPath="\Events\Default Work Unit\SFX\Kart\Engine\stop_engine"/>
+				<Event Id="3860804282" Name="stop_kart" ObjectPath="\Events\Default Work Unit\SFX\Kart\stop_kart"/>
 				<Event Id="3825390024" Name="stop_nitro" ObjectPath="\Events\Default Work Unit\SFX\Kart\Nitro\stop_nitro"/>
 				<Event Id="796395057" Name="stop_skid" ObjectPath="\Events\Default Work Unit\SFX\Kart\Skid\stop_skid"/>
 				<Event Id="2383295434" Name="stop_slipstream" ObjectPath="\Events\Default Work Unit\SFX\Kart\Slipstream\stop_slipstream"/>
@@ -842,40 +1303,415 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2454045173" Language="SFX" Hash="823310956">
+		<SoundBank Id="2454045173" Language="SFX" Hash="3803626460">
 			<ObjectPath>\SoundBanks\Default Work Unit\ui_soundbank</ObjectPath>
 			<ShortName>ui_soundbank</ShortName>
 			<Path>ui_soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3430733157" Name="pause_sfx" ObjectPath="\Events\Default Work Unit\UI\pause_sfx"/>
-				<Event Id="3294774032" Name="play_menu_decline" ObjectPath="\Events\Default Work Unit\UI\Menu\play_menu_decline">
+				<Event Id="3698997709" Name="play_boing" ObjectPath="\Events\Default Work Unit\SFX\Kart\Crashes\play_boing">
 					<IncludedMemoryFiles>
-						<File Id="325253848" Language="SFX">
-							<ShortName>Technology Electronic Button Beep Digital Camera 04.wav</ShortName>
-							<Path>SFX\Technology Electronic Button Beep Digital Camera 04_10C4C929.wem</Path>
+						<File Id="286478457" Language="SFX">
+							<ShortName>boing.wav</ShortName>
+							<Path>SFX\boing_10C4C929.wem</Path>
+						</File>
+						<File Id="352309195" Language="SFX">
+							<ShortName>boing_1.wav</ShortName>
+							<Path>SFX\boing_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2167056030" Name="play_menu_select" ObjectPath="\Events\Default Work Unit\UI\Menu\play_menu_select">
+				<Event Id="303595419" Name="play_crash" ObjectPath="\Events\Default Work Unit\SFX\Kart\Crashes\play_crash">
 					<IncludedMemoryFiles>
-						<File Id="715239341" Language="SFX">
-							<ShortName>Technology Radio Button Clicking 07.wav</ShortName>
-							<Path>SFX\Technology Radio Button Clicking 07_10C4C929.wem</Path>
+						<File Id="40575190" Language="SFX">
+							<ShortName>crash_3.wav</ShortName>
+							<Path>SFX\crash_3_10C4C929.wem</Path>
+						</File>
+						<File Id="373430340" Language="SFX">
+							<ShortName>crash_2.wav</ShortName>
+							<Path>SFX\crash_2_10C4C929.wem</Path>
+						</File>
+						<File Id="1001570438" Language="SFX">
+							<ShortName>crash_1.wav</ShortName>
+							<Path>SFX\crash_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1315894320" Name="play_menu_traverse" ObjectPath="\Events\Default Work Unit\UI\Menu\play_menu_traverse">
+				<Event Id="639345804" Name="play_engine" ObjectPath="\Events\Default Work Unit\SFX\Kart\Engine\play_engine">
 					<IncludedMemoryFiles>
-						<File Id="312498465" Language="SFX">
-							<ShortName>Technology Radio Button Clicking 01.wav</ShortName>
-							<Path>SFX\Technology Radio Button Clicking 01_10C4C929.wem</Path>
+						<File Id="190544656" Language="SFX">
+							<ShortName>Industry Tool Air Escaping From Air Compressor Quick Burst 36.wav</ShortName>
+							<Path>SFX\Industry Tool Air Escaping From Air Compressor Quick Burst 36_10C4C929.wem</Path>
+						</File>
+						<File Id="274440068" Language="SFX">
+							<ShortName>Engine_Light_Fast.wav</ShortName>
+							<Path>SFX\Engine_Light_Fast_D79FB2B7.wem</Path>
+						</File>
+						<File Id="303444677" Language="SFX">
+							<ShortName>Engine_Heavy_Medium.wav</ShortName>
+							<Path>SFX\Engine_Heavy_Medium_D79FB2B7.wem</Path>
+						</File>
+						<File Id="453377722" Language="SFX">
+							<ShortName>Engine_Heavy_Slow.wav</ShortName>
+							<Path>SFX\Engine_Heavy_Slow_D79FB2B7.wem</Path>
+						</File>
+						<File Id="510607462" Language="SFX">
+							<ShortName>Engine_Light_Medium.wav</ShortName>
+							<Path>SFX\Engine_Light_Medium_D79FB2B7.wem</Path>
+						</File>
+						<File Id="731493536" Language="SFX">
+							<ShortName>Engine_Heavy_Fast.wav</ShortName>
+							<Path>SFX\Engine_Heavy_Fast_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1041486758" Language="SFX">
+							<ShortName>Engine_Light_Slow.wav</ShortName>
+							<Path>SFX\Engine_Light_Slow_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{87A4DFC3-5F4B-414C-B827-DE5DF7B45291}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{87A4DFC3-5F4B-414C-B827-DE5DF7B45291}">
+							<DefaultSwitchValue>{71A0EB03-E1CC-4188-999C-798709DC9CC2}</DefaultSwitchValue>
+							<Media>
+								<File Id="274440068"/>
+								<File Id="510607462"/>
+								<File Id="1041486758"/>
+							</Media>
+							<Children>
+								<SwitchContainer SwitchValue="{4940E201-B9CF-4C18-B9CA-C6ECC6EA6311}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{ECC63A72-A84D-4B53-9C8B-84F84F29D76A}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{83495883-AE35-4345-902D-F8CE82FE0305}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{38E97FC5-BF67-4BF2-9943-8BD212970292}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{FC9069F5-E941-4B67-8A0A-5E8FD751BCAC}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F69548F2-F885-4465-8EE0-967A25F924AA}">
+							<DefaultSwitchValue>{71A0EB03-E1CC-4188-999C-798709DC9CC2}</DefaultSwitchValue>
+							<Media>
+								<File Id="303444677"/>
+								<File Id="453377722"/>
+								<File Id="731493536"/>
+							</Media>
+							<Children>
+								<SwitchContainer SwitchValue="{4940E201-B9CF-4C18-B9CA-C6ECC6EA6311}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{ECC63A72-A84D-4B53-9C8B-84F84F29D76A}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{83495883-AE35-4345-902D-F8CE82FE0305}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{38E97FC5-BF67-4BF2-9943-8BD212970292}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{FC9069F5-E941-4B67-8A0A-5E8FD751BCAC}">
+									<Media>
+										<File Id="190544656"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2956245481" Name="play_horn" ObjectPath="\Events\Default Work Unit\SFX\Kart\Horn\play_horn">
+					<IncludedMemoryFiles>
+						<File Id="912990630" Language="SFX">
+							<ShortName>honk.wav</ShortName>
+							<Path>SFX\honk_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{30D5772A-DA0B-403C-BC2A-8D3BDB65CA24}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{5CF86529-A9FA-4D0B-BC57-F09F83DB52A2}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{30D5772A-DA0B-403C-BC2A-8D3BDB65CA24}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{EE4F212F-8021-484F-861F-168C80DEAECB}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{34E44567-F867-4FF8-8CE7-99C4313BA6F5}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F805DD88-3769-480E-8397-28D1995E4FC1}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6CFED2DF-C6EB-4215-A246-5550E3AAAB5A}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{185091E9-97E7-4180-A9F0-BB547BEEC344}">
+							<Media>
+								<File Id="912990630"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3869115962" Name="play_nitro" ObjectPath="\Events\Default Work Unit\SFX\Kart\Nitro\play_nitro">
+					<IncludedMemoryFiles>
+						<File Id="383516566" Language="SFX">
+							<ShortName>nitro-blast.wav</ShortName>
+							<Path>SFX\nitro-blast_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3313483209" Name="resume_menu_sounds" ObjectPath="\Events\Default Work Unit\UI\Menu\resume_menu_sounds"/>
-				<Event Id="4118937608" Name="resume_sfx" ObjectPath="\Events\Default Work Unit\UI\resume_sfx"/>
-				<Event Id="3136720908" Name="stop_menu_sounds" ObjectPath="\Events\Default Work Unit\UI\Menu\stop_menu_sounds"/>
+				<Event Id="301964555" Name="play_skid" ObjectPath="\Events\Default Work Unit\SFX\Kart\Skid\play_skid">
+					<IncludedMemoryFiles>
+						<File Id="189731322" Language="SFX">
+							<ShortName>Terrain_Dirt.wav</ShortName>
+							<Path>SFX\Terrain_Dirt_46AE9C66.wem</Path>
+						</File>
+						<File Id="298409511" Language="SFX">
+							<ShortName>Terrain_Wood-cm_2.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_2_10C4C929.wem</Path>
+						</File>
+						<File Id="307533153" Language="SFX">
+							<ShortName>Terrain_Wood-cm_1.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_1_10C4C929.wem</Path>
+						</File>
+						<File Id="504215093" Language="SFX">
+							<ShortName>Terrain_Wood-cm_4.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_4_10C4C929.wem</Path>
+						</File>
+						<File Id="519840127" Language="SFX">
+							<ShortName>skid-asphalt-cobblestone.wav</ShortName>
+							<Path>SFX\skid-asphalt-cobblestone_213626A2.wem</Path>
+						</File>
+						<File Id="731744806" Language="SFX">
+							<ShortName>Terrain_Wood-cm.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_10C4C929.wem</Path>
+						</File>
+						<File Id="805696895" Language="SFX">
+							<ShortName>Terrain_Wood-cm_3.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{A4841158-2899-43C2-84C2-447CE73D881F}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{1AB94222-29B6-49E1-829D-F89F3B1EEC83}">
+							<Media>
+								<File Id="519840127"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BA634345-9BFD-4CBC-ABC7-766267EA74C1}">
+							<Media>
+								<File Id="298409511"/>
+								<File Id="307533153"/>
+								<File Id="504215093"/>
+								<File Id="731744806"/>
+								<File Id="805696895"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8F972B4C-96C7-4BB4-9622-C68C41EE48D8}">
+							<Media>
+								<File Id="189731322"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A4841158-2899-43C2-84C2-447CE73D881F}">
+							<Media>
+								<File Id="189731322"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{08482FAD-9176-4DFE-BDDE-410C4FED5D39}">
+							<Media>
+								<File Id="519840127"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4097573723" Name="play_skid_ignition" ObjectPath="\Events\Default Work Unit\SFX\Kart\Skid\play_skid_ignition">
+					<IncludedMemoryFiles>
+						<File Id="642949619" Language="SFX">
+							<ShortName>skid_ignition.wav</ShortName>
+							<Path>SFX\skid_ignition_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3609174416" Name="play_slipstream" ObjectPath="\Events\Default Work Unit\SFX\Kart\Slipstream\play_slipstream">
+					<IncludedMemoryFiles>
+						<File Id="237181032" Language="SFX">
+							<ShortName>Slipstream.wav</ShortName>
+							<Path>SFX\Slipstream_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{48199F1A-AC68-4DA3-AA1C-E93155129D60}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{D333902A-D392-46DF-ADAD-E878979506D8}">
+							<Media>
+								<File Id="237181032"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1051A02E-C450-4FA7-B9D7-4D34A5E11B8B}">
+							<Media>
+								<File Id="237181032"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FE0FA8DF-A577-447E-BCD7-9295B6D1F3F7}">
+							<Media>
+								<File Id="237181032"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1760369021" Name="play_terrain" ObjectPath="\Events\Default Work Unit\SFX\Kart\Terrain\play_terrain">
+					<IncludedMemoryFiles>
+						<File Id="189731322" Language="SFX">
+							<ShortName>Terrain_Dirt.wav</ShortName>
+							<Path>SFX\Terrain_Dirt_46AE9C66.wem</Path>
+						</File>
+						<File Id="298409511" Language="SFX">
+							<ShortName>Terrain_Wood-cm_2.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_2_10C4C929.wem</Path>
+						</File>
+						<File Id="307533153" Language="SFX">
+							<ShortName>Terrain_Wood-cm_1.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_1_10C4C929.wem</Path>
+						</File>
+						<File Id="504215093" Language="SFX">
+							<ShortName>Terrain_Wood-cm_4.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_4_10C4C929.wem</Path>
+						</File>
+						<File Id="519840127" Language="SFX">
+							<ShortName>skid-asphalt-cobblestone.wav</ShortName>
+							<Path>SFX\skid-asphalt-cobblestone_213626A2.wem</Path>
+						</File>
+						<File Id="731744806" Language="SFX">
+							<ShortName>Terrain_Wood-cm.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_10C4C929.wem</Path>
+						</File>
+						<File Id="805696895" Language="SFX">
+							<ShortName>Terrain_Wood-cm_3.wav</ShortName>
+							<Path>SFX\Terrain_Wood-cm_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{1AB94222-29B6-49E1-829D-F89F3B1EEC83}">
+							<Media>
+								<File Id="519840127"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BA634345-9BFD-4CBC-ABC7-766267EA74C1}">
+							<Media>
+								<File Id="298409511"/>
+								<File Id="307533153"/>
+								<File Id="504215093"/>
+								<File Id="731744806"/>
+								<File Id="805696895"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8F972B4C-96C7-4BB4-9622-C68C41EE48D8}">
+							<Media>
+								<File Id="189731322"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A4841158-2899-43C2-84C2-447CE73D881F}">
+							<Media>
+								<File Id="189731322"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{08482FAD-9176-4DFE-BDDE-410C4FED5D39}">
+							<Media>
+								<File Id="519840127"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="37214798" Name="stop_engine" ObjectPath="\Events\Default Work Unit\SFX\Kart\Engine\stop_engine"/>
+				<Event Id="3860804282" Name="stop_kart" ObjectPath="\Events\Default Work Unit\SFX\Kart\stop_kart"/>
+				<Event Id="3825390024" Name="stop_nitro" ObjectPath="\Events\Default Work Unit\SFX\Kart\Nitro\stop_nitro"/>
+				<Event Id="796395057" Name="stop_skid" ObjectPath="\Events\Default Work Unit\SFX\Kart\Skid\stop_skid"/>
+				<Event Id="2383295434" Name="stop_slipstream" ObjectPath="\Events\Default Work Unit\SFX\Kart\Slipstream\stop_slipstream"/>
+				<Event Id="422983091" Name="stop_terrain" ObjectPath="\Events\Default Work Unit\SFX\Kart\Terrain\stop_terrain"/>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3519441192" Name="velocity" ObjectPath="\Game Parameters\Default Work Unit\player\velocity"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="354267144" Name="terrain" ObjectPath="\Switches\Default Work Unit\terrain" GUID="{048E34B7-58B7-4535-B919-5182E1871D40}">
+					<Switches>
+						<Switch Id="4169408098" Name="asphalt" ObjectPath="\Switches\Default Work Unit\terrain\asphalt" GUID="{1AB94222-29B6-49E1-829D-F89F3B1EEC83}"/>
+						<Switch Id="2383988601" Name="cobblestone" ObjectPath="\Switches\Default Work Unit\terrain\cobblestone" GUID="{08482FAD-9176-4DFE-BDDE-410C4FED5D39}"/>
+						<Switch Id="2195636714" Name="dirt" ObjectPath="\Switches\Default Work Unit\terrain\dirt" GUID="{A4841158-2899-43C2-84C2-447CE73D881F}"/>
+						<Switch Id="803837735" Name="sand" ObjectPath="\Switches\Default Work Unit\terrain\sand" GUID="{8F972B4C-96C7-4BB4-9622-C68C41EE48D8}"/>
+						<Switch Id="2058049674" Name="wood" ObjectPath="\Switches\Default Work Unit\terrain\wood" GUID="{BA634345-9BFD-4CBC-ABC7-766267EA74C1}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3377597412" Name="gear_ratio" ObjectPath="\Switches\Default Work Unit\gear_ratio" GUID="{3511835E-076D-44ED-8559-C99DD5BD0EE2}">
+					<Switches>
+						<Switch Id="678209053" Name="two" ObjectPath="\Switches\Default Work Unit\gear_ratio\two" GUID="{83495883-AE35-4345-902D-F8CE82FE0305}"/>
+						<Switch Id="1064933119" Name="one" ObjectPath="\Switches\Default Work Unit\gear_ratio\one" GUID="{ECC63A72-A84D-4B53-9C8B-84F84F29D76A}"/>
+						<Switch Id="912956111" Name="three" ObjectPath="\Switches\Default Work Unit\gear_ratio\three" GUID="{38E97FC5-BF67-4BF2-9943-8BD212970292}"/>
+						<Switch Id="1874288895" Name="Idle" ObjectPath="\Switches\Default Work Unit\gear_ratio\Idle" GUID="{71A0EB03-E1CC-4188-999C-798709DC9CC2}"/>
+						<Switch Id="2863728729" Name="four" ObjectPath="\Switches\Default Work Unit\gear_ratio\four" GUID="{4940E201-B9CF-4C18-B9CA-C6ECC6EA6311}"/>
+						<Switch Id="2611770117" Name="five" ObjectPath="\Switches\Default Work Unit\gear_ratio\five" GUID="{FC9069F5-E941-4B67-8A0A-5E8FD751BCAC}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3824012689" Name="engine_size" ObjectPath="\Switches\Default Work Unit\engine_size" GUID="{A0A685D3-2A2C-42E9-B6A2-BE880D051203}">
+					<Switches>
+						<Switch Id="4284352190" Name="large" ObjectPath="\Switches\Default Work Unit\engine_size\large" GUID="{F69548F2-F885-4465-8EE0-967A25F924AA}"/>
+						<Switch Id="1846755610" Name="small" ObjectPath="\Switches\Default Work Unit\engine_size\small" GUID="{87A4DFC3-5F4B-414C-B827-DE5DF7B45291}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4090128184" Name="kart_aesthetic" ObjectPath="\Switches\Default Work Unit\kart_aesthetic" GUID="{4EC8EEE7-45BF-4E6D-8618-840E6BB6F961}">
+					<Switches>
+						<Switch Id="3430491968" Name="hot_rod" ObjectPath="\Switches\Default Work Unit\kart_aesthetic\hot_rod" GUID="{34E44567-F867-4FF8-8CE7-99C4313BA6F5}"/>
+						<Switch Id="1189297449" Name="hovercraft" ObjectPath="\Switches\Default Work Unit\kart_aesthetic\hovercraft" GUID="{6CFED2DF-C6EB-4215-A246-5550E3AAAB5A}"/>
+						<Switch Id="1113099008" Name="imaginary" ObjectPath="\Switches\Default Work Unit\kart_aesthetic\imaginary" GUID="{185091E9-97E7-4180-A9F0-BB547BEEC344}"/>
+						<Switch Id="1784722732" Name="jalopy" ObjectPath="\Switches\Default Work Unit\kart_aesthetic\jalopy" GUID="{EE4F212F-8021-484F-861F-168C80DEAECB}"/>
+						<Switch Id="842138401" Name="just_frame" ObjectPath="\Switches\Default Work Unit\kart_aesthetic\just_frame" GUID="{F805DD88-3769-480E-8397-28D1995E4FC1}"/>
+						<Switch Id="2855864004" Name="racecar" ObjectPath="\Switches\Default Work Unit\kart_aesthetic\racecar" GUID="{30D5772A-DA0B-403C-BC2A-8D3BDB65CA24}"/>
+						<Switch Id="1296800905" Name="snow_mobile" ObjectPath="\Switches\Default Work Unit\kart_aesthetic\snow_mobile" GUID="{5CF86529-A9FA-4D0B-BC57-F09F83DB52A2}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4128517547" Name="slipstream" ObjectPath="\Switches\Default Work Unit\slipstream" GUID="{815B6F51-C225-4496-8E70-5A0AB0483A48}">
+					<Switches>
+						<Switch Id="729511006" Name="edge" ObjectPath="\Switches\Default Work Unit\slipstream\edge" GUID="{FE0FA8DF-A577-447E-BCD7-9295B6D1F3F7}"/>
+						<Switch Id="1778842195" Name="inner" ObjectPath="\Switches\Default Work Unit\slipstream\inner" GUID="{D333902A-D392-46DF-ADAD-E878979506D8}"/>
+						<Switch Id="1026627430" Name="middle" ObjectPath="\Switches\Default Work Unit\slipstream\middle" GUID="{1051A02E-C450-4FA7-B9D7-4D34A5E11B8B}"/>
+						<Switch Id="2405648188" Name="release" ObjectPath="\Switches\Default Work Unit\slipstream\release" GUID="{48199F1A-AC68-4DA3-AA1C-E93155129D60}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

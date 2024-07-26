@@ -178,6 +178,48 @@
 						<Switch Name="expletive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="ost" ID="{43993E01-1AB0-4694-9334-0F33F0A0148A}">
+					<ChildrenList>
+						<Switch Name="landing_in_gran_paradiso" ID="{F4CF506F-ECE9-42A9-97FF-333E400B837D}"/>
+						<Switch Name="demonhill" ID="{93ED4B24-039A-4638-90CB-682240D24B34}"/>
+						<Switch Name="theGreatFair_fast" ID="{B17D117E-590C-4FE4-98F9-2DD88EE469C9}"/>
+						<Switch Name="bay" ID="{217AFF31-0BA4-4F1E-B2F1-7519694AF7F2}"/>
+						<Switch Name="cocoa_river" ID="{E41F0C04-D905-47B3-B076-CB45688BB8B9}"/>
+						<Switch Name="overworld" ID="{CB9386F0-156F-4ED1-B8EA-DA325EBA0F07}"/>
+						<Switch Name="Boom_boom_boom" ID="{8B48C9FA-4153-45B2-9614-06BB55043B08}"/>
+						<Switch Name="celtic" ID="{3C0C7061-EF6A-4E5E-919D-D6C958BBB84B}"/>
+						<Switch Name="farm" ID="{9AD43359-E054-4B61-BF0C-D05CC1387C4C}"/>
+						<Switch Name="menutheme" ID="{70D2CC87-4226-4981-9F60-FA0582524D13}"/>
+						<Switch Name="lose_theme" ID="{1EA6C073-4642-4DEE-BFFD-E339C6EB73AE}"/>
+						<Switch Name="Lava" ID="{9B476696-4189-4D00-A1F2-7EAD30431DEB}"/>
+						<Switch Name="jumping_to_the_stars_remake" ID="{41631F30-2636-4A82-80EB-3EF50C066B10}"/>
+						<Switch Name="farm_f" ID="{F91F4D41-E4FF-435C-A5F5-F3BDB11BD308}"/>
+						<Switch Name="valley" ID="{7B3026E3-381B-4B79-9FBA-B2823A263D9D}"/>
+						<Switch Name="West" ID="{F3947D40-B4ED-44E1-8263-23BE51CA944A}"/>
+						<Switch Name="theGreatFair" ID="{5712D946-28E8-4378-A9C9-FE2F78C4A20F}"/>
+						<Switch Name="kart_grand_prix" ID="{BC71190A-B031-467A-B532-53B6963F8794}"/>
+						<Switch Name="jumping_to_the_stars_remake_fast" ID="{DE7C6DAD-AD40-49E1-8192-07B844A59118}"/>
+						<Switch Name="garden" ID="{A07BCC83-D751-4125-8541-409ADFC0BCA7}"/>
+						<Switch Name="cocoa_river_fast" ID="{F40694D8-1601-48C0-8987-2A79718B6D06}"/>
+						<Switch Name="klabauter_dance" ID="{5159FB6F-DEDD-487F-ACB8-7333D6236D01}"/>
+						<Switch Name="alien_signal" ID="{DCC64BC8-877E-4211-957A-D33CF33F2057}"/>
+						<Switch Name="egypt" ID="{935D13B9-85D5-4578-9E42-0E1F9677CADF}"/>
+						<Switch Name="SkyVibe_HighFrequency" ID="{ECF2E942-231D-4878-AAB5-2610CC19C2F1}"/>
+						<Switch Name="ravenbridge_mansion_fast" ID="{0BAF6929-9E34-44AF-8970-0486A15F9A58}"/>
+						<Switch Name="race_summary" ID="{1902D0A6-F791-4176-9EC7-E63004DF90D0}"/>
+						<Switch Name="win_theme" ID="{A63E7C45-D016-4F11-83E0-FCA999592800}"/>
+						<Switch Name="snowmountain" ID="{4341B818-5C94-48C1-98D6-08C66769BB1D}"/>
+						<Switch Name="Penguin_Party" ID="{F3F5BB59-A33A-4515-9307-F4759FFA524E}"/>
+						<Switch Name="celtic_fast" ID="{793C47D1-6E82-44FB-B4BB-E2A6B5355A9D}"/>
+						<Switch Name="hacienda" ID="{83104E6B-938C-424A-A227-D82535CAF1C0}"/>
+						<Switch Name="xeon6" ID="{8AA88799-8EE5-4757-865B-E88EB3D6AC3D}"/>
+						<Switch Name="subsea" ID="{BA95AAF4-E3A4-4377-AFEE-1B49EAAAC508}"/>
+						<Switch Name="Snowy" ID="{24FF1423-BEA2-4381-94D6-1F3B29EC0291}"/>
+						<Switch Name="landing_in_gran_paradiso_fast" ID="{C57EC82B-F57B-4D72-B1F4-1C0F868CCF91}"/>
+						<Switch Name="ravenbridge_mansion" ID="{69AB7CAA-75E2-46D4-9AC0-AE527AA4B707}"/>
+						<Switch Name="race_win_theme" ID="{7E757CA0-EC5F-4FAB-A04A-6EA18DB0F566}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

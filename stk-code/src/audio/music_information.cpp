@@ -31,6 +31,8 @@
 #include "utils/log.hpp"
 #include "utils/string_utils.hpp"
 
+#include "audio/wwise_init.hpp"
+
 /** A simple factory to create music information files without raising
  *  an exception on error, instead a NULL will be returned. This avoids
  *  resource freeing problems if the exception is raised, and simplifies
@@ -74,6 +76,7 @@ MusicInformation::MusicInformation(const XMLNode *root,
     m_mode              = SOUND_NORMAL;
     m_composer          = "";
     //m_numLoops          = LOOP_FOREVER;
+    m_filename_extensionless          = "";
     m_normal_filename   = "";
     m_fast_filename     = "";
     m_normal_music      = NULL;
@@ -97,6 +100,8 @@ MusicInformation::MusicInformation(const XMLNode *root,
     m_title = StringUtils::xmlDecode(title_raw);
     root->get("composer",        &composer_raw       );
     m_composer = StringUtils::xmlDecode(composer_raw);
+    root->get("file",            &m_filename_extensionless);
+    root->get("fast-file",       &m_fast_filename_extensionless);
     root->get("file",            &m_normal_filename  );
     root->get("gain",            &m_gain             );
     root->get("tracks",          &m_all_tracks       );
@@ -110,6 +115,10 @@ MusicInformation::MusicInformation(const XMLNode *root,
     // Get the path from the filename and add it to the ogg filename
     std::string path  = StringUtils::getPath(filename);
     m_normal_filename = path + "/" + m_normal_filename;
+
+    // Remove the .ogg file extension
+    std::string delimiter = ".";
+    m_filename_extensionless = m_filename_extensionless.substr(0, m_filename_extensionless.find(delimiter));
 
     // Get the path from the filename and add it to the ogg filename
     if (m_fast_filename != "")
@@ -200,7 +209,7 @@ void MusicInformation::startMusic()
 #ifdef ENABLE_SOUND
     if (UserConfigParams::m_enable_sound)
     {
-        m_normal_music = new MusicOggStream(m_normal_loop_start, m_normal_loop_end);
+        m_normal_music = new MusicDummy();
     }
     else
 #endif
@@ -221,6 +230,7 @@ void MusicInformation::startMusic()
     }
     m_normal_music->setVolume(m_gain);
     m_normal_music->playMusic();
+    wwise_manager->PostEventOST(getFilenameExtensionless().c_str(), WWise::Transport::PLAY);
 
     // Then (if available) load the music for the last track
     // -----------------------------------------------------
@@ -239,7 +249,7 @@ void MusicInformation::startMusic()
 #ifdef ENABLE_SOUND
     if (UserConfigParams::m_enable_sound)
     {
-        m_fast_music = new MusicOggStream(m_fast_loop_start, m_fast_loop_end);
+        m_fast_music = new MusicDummy();
     }
     else
 #endif
@@ -318,12 +328,14 @@ void MusicInformation::stopMusic()
     std::lock_guard<std::mutex> lock(m_music_mutex);
     if (m_normal_music != NULL)
     {
+        wwise_manager->PostEventOST(getFilenameExtensionless().c_str(), WWise::Transport::STOP);
         m_normal_music->stopMusic();
         delete m_normal_music;
         m_normal_music = NULL;
     }
     if (m_fast_music   != NULL)
     {
+        wwise_manager->PostEventOST(getFastFilenameExtensionless().c_str(), WWise::Transport::STOP);
         m_fast_music->stopMusic();
         delete m_fast_music;
         m_fast_music=NULL;
@@ -335,8 +347,14 @@ void MusicInformation::stopMusic()
 //-----------------------------------------------------------------------------
 void MusicInformation::pauseMusic()
 {
-    if (m_normal_music != NULL) m_normal_music->pauseMusic();
-    if (m_fast_music   != NULL) m_fast_music->pauseMusic();
+    if (m_normal_music != NULL) {
+        wwise_manager->PostEventOST(getFilenameExtensionless().c_str(), WWise::Transport::PAUSE);
+        m_normal_music->pauseMusic();
+    }
+    if (m_fast_music != NULL) {
+        wwise_manager->PostEventOST(getFastFilenameExtensionless().c_str(), WWise::Transport::PAUSE);
+        m_fast_music->pauseMusic();
+    }
 }   // pauseMusic
 //-----------------------------------------------------------------------------
 void MusicInformation::resumeMusic()
@@ -347,8 +365,14 @@ void MusicInformation::resumeMusic()
         m_music_waiting = false;
         return;
     }
-    if (m_normal_music != NULL) m_normal_music->resumeMusic();
-    if (m_fast_music   != NULL) m_fast_music->resumeMusic();
+    if (m_normal_music != NULL) {
+        wwise_manager->PostEventOST(getFilenameExtensionless().c_str(), WWise::Transport::RESUME);
+        m_normal_music->resumeMusic();
+    }
+    if (m_fast_music != NULL) {
+        wwise_manager->PostEventOST(getFastFilenameExtensionless().c_str(), WWise::Transport::RESUME);
+        m_fast_music->resumeMusic();
+    }
 }   // resumeMusic
 
 //-----------------------------------------------------------------------------
@@ -393,8 +417,10 @@ void MusicInformation::switchToFastMusic()
 bool MusicInformation::isPlaying() const
 {
     std::lock_guard<std::mutex> lock(m_music_mutex);
-    return (m_normal_music != NULL && m_normal_music->isPlaying())  ||
-           (m_fast_music   != NULL && m_fast_music->isPlaying());
+    return (m_normal_music != NULL && wwise_manager->IsOSTPlaying())  ||
+           (m_fast_music   != NULL && wwise_manager->IsOSTPlaying());
+    // return (m_normal_music != NULL && m_normal_music->isPlaying())  ||
+    //        (m_fast_music   != NULL && m_fast_music->isPlaying());
 }
 
 //-----------------------------------------------------------------------------

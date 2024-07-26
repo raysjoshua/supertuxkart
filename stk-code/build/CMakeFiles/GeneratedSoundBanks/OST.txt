@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	435196831	play_Boom_boom_boom			\Default Work Unit\OST\soundtrack\play_Boom_boom_boom	
+	1329990402	play_alien_signal			\Default Work Unit\OST\soundtrack\play_alien_signal	
+	2146806654	play_celtic			\Default Work Unit\OST\soundtrack\play_celtic	
+	3160320222	play_bay			\Default Work Unit\OST\soundtrack\play_bay	
+	3259048339	play_celtic_fast			\Default Work Unit\OST\soundtrack\play_celtic_fast	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	457202729	celtic_fast	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\celtic_fast_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\celtic_fast\celtic_fast\celtic_fast		10925408
+	546617322	celtic	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\celtic_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\celtic\celtic\celtic		11678900
+	581057278	bay	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\bay_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\bay\bay\bay		23357800
+	787493600	alien_signal	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\alien_signal_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\alien_signal\alien_signal\alien_signal		24320744
+	1071231626	Boom_boom_boom	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\Voices\English(US)\Boom_boom_boom_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Boom_boom_boom\Boom_boom_boom\Boom_boom_boom		6765504
+

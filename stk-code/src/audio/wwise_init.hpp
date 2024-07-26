@@ -12,6 +12,7 @@
 
 class WWise {
 public:
+	enum Transport { PLAY, STOP, RESUME, PAUSE };
 	bool InitSoundEngine();
 	void RegisterGameObject(int ID, const char* object);
 	void UnRegisterGameObject(int ID);
@@ -21,6 +22,11 @@ public:
 	void RegisterGameEmitterListener(const char* Emitter, AkGameObjectID EmitterID, const char* Listener, AkGameObjectID ListenerID);
 	void PostEvent(int ID, const char* Event);
 	void PostEventUI(const char* Event);
+
+	void PostEventOST(const char* Event, Transport Action);
+	bool IsOSTPlaying();
+	bool IsOSTPlaying(const char* Event);
+
 	void PostNegativeExpletive(const irr::core::stringw Event, AkGameObjectID ID);
 	void PostPositiveExpletive(const irr::core::stringw Event, AkGameObjectID ID);
 	void PostDialogue(const irr::core::stringw Event, const char* argPath[], const int pathDepth);
