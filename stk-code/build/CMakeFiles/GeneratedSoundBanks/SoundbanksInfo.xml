@@ -126,7 +126,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="190035946" Language="SFX" Hash="4176848915">
+		<SoundBank Id="190035946" Language="SFX" Hash="4212085942">
 			<ObjectPath>\SoundBanks\Default Work Unit\OST_2</ObjectPath>
 			<ShortName>OST_2</ShortName>
 			<Path>OST_2.bnk</Path>
@@ -556,7 +556,7 @@
 				<Event Id="3853522812" Name="stop_xeon6" ObjectPath="\Events\Default Work Unit\OST\soundtrack\stop\stop_xeon6"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="975145466" Language="English(US)" Hash="1784462633">
+		<SoundBank Id="975145466" Language="English(US)" Hash="4019825229">
 			<ObjectPath>\SoundBanks\Default Work Unit\vox_soundbank</ObjectPath>
 			<ShortName>vox_soundbank</ShortName>
 			<Path>English(US)\vox_soundbank.bnk</Path>
@@ -582,10 +582,6 @@
 				<DialogueEvent Id="644065429" Name="xue" ObjectPath="\Dynamic Dialogue\Characters\xue"/>
 			</IncludedDialogueEvents>
 			<IncludedMemoryFiles>
-				<File Id="43714991" Language="English(US)">
-					<ShortName>Print - Lover_02-06.wav</ShortName>
-					<Path>Voices\English(US)\Print - Lover_02-06_10C4C929.wem</Path>
-				</File>
 				<File Id="53848238" Language="English(US)">
 					<ShortName>Print - Saint_02-20.wav</ShortName>
 					<Path>Voices\English(US)\Print - Saint_02-20_10C4C929.wem</Path>
@@ -674,10 +670,6 @@
 					<ShortName>Print - Lover_02-02.wav</ShortName>
 					<Path>Voices\English(US)\Print - Lover_02-02_10C4C929.wem</Path>
 				</File>
-				<File Id="259677272" Language="English(US)">
-					<ShortName>Print - Saint_02-18.wav</ShortName>
-					<Path>Voices\English(US)\Print - Saint_02-18_10C4C929.wem</Path>
-				</File>
 				<File Id="259699931" Language="English(US)">
 					<ShortName>Print - Lover_02-24.wav</ShortName>
 					<Path>Voices\English(US)\Print - Lover_02-24_10C4C929.wem</Path>
@@ -690,10 +682,6 @@
 					<ShortName>Print - Saint_03-21.wav</ShortName>
 					<Path>Voices\English(US)\Print - Saint_03-21_10C4C929.wem</Path>
 				</File>
-				<File Id="297540154" Language="English(US)">
-					<ShortName>Print - Saint_02-12.wav</ShortName>
-					<Path>Voices\English(US)\Print - Saint_02-12_10C4C929.wem</Path>
-				</File>
 				<File Id="298970150" Language="English(US)">
 					<ShortName>Print - Lover_03-19.wav</ShortName>
 					<Path>Voices\English(US)\Print - Lover_03-19_10C4C929.wem</Path>
@@ -702,17 +690,9 @@
 					<ShortName>Print - Jerk_02-25.wav</ShortName>
 					<Path>Voices\English(US)\Print - Jerk_02-25_10C4C929.wem</Path>
 				</File>
-				<File Id="307109558" Language="English(US)">
-					<ShortName>Print - Saint_02-06.wav</ShortName>
-					<Path>Voices\English(US)\Print - Saint_02-06_10C4C929.wem</Path>
-				</File>
 				<File Id="347298584" Language="English(US)">
 					<ShortName>Print - Lover_03-05.wav</ShortName>
 					<Path>Voices\English(US)\Print - Lover_03-05_10C4C929.wem</Path>
-				</File>
-				<File Id="348842381" Language="English(US)">
-					<ShortName>Print - Lover_02-12.wav</ShortName>
-					<Path>Voices\English(US)\Print - Lover_02-12_10C4C929.wem</Path>
 				</File>
 				<File Id="369344127" Language="English(US)">
 					<ShortName>Print - Saint_03-27.wav</ShortName>
@@ -729,10 +709,6 @@
 				<File Id="397370907" Language="English(US)">
 					<ShortName>Print - Lover_03-13.wav</ShortName>
 					<Path>Voices\English(US)\Print - Lover_03-13_10C4C929.wem</Path>
-				</File>
-				<File Id="399463432" Language="English(US)">
-					<ShortName>Print - Jerk_01-18.wav</ShortName>
-					<Path>Voices\English(US)\Print - Jerk_01-18_10C4C929.wem</Path>
 				</File>
 				<File Id="447754127" Language="English(US)">
 					<ShortName>Print - Jerk_01-04.wav</ShortName>
@@ -757,10 +733,6 @@
 				<File Id="551243673" Language="English(US)">
 					<ShortName>Print - Lover_02-16.wav</ShortName>
 					<Path>Voices\English(US)\Print - Lover_02-16_10C4C929.wem</Path>
-				</File>
-				<File Id="556420769" Language="English(US)">
-					<ShortName>Print - Jerk_01-12.wav</ShortName>
-					<Path>Voices\English(US)\Print - Jerk_01-12_10C4C929.wem</Path>
 				</File>
 				<File Id="592214314" Language="English(US)">
 					<ShortName>Print - Saint_03-11.wav</ShortName>
@@ -793,10 +765,6 @@
 				<File Id="719909245" Language="English(US)">
 					<ShortName>Print - Saint_02-14.wav</ShortName>
 					<Path>Voices\English(US)\Print - Saint_02-14_10C4C929.wem</Path>
-				</File>
-				<File Id="721350005" Language="English(US)">
-					<ShortName>Print - Lover_02-18.wav</ShortName>
-					<Path>Voices\English(US)\Print - Lover_02-18_10C4C929.wem</Path>
 				</File>
 				<File Id="734127738" Language="English(US)">
 					<ShortName>Print - Jerk_01-10.wav</ShortName>
@@ -882,10 +850,6 @@
 					<ShortName>Print - Lover_02-10.wav</ShortName>
 					<Path>Voices\English(US)\Print - Lover_02-10_10C4C929.wem</Path>
 				</File>
-				<File Id="1059654171" Language="English(US)">
-					<ShortName>Print - Jerk_01-06.wav</ShortName>
-					<Path>Voices\English(US)\Print - Jerk_01-06_10C4C929.wem</Path>
-				</File>
 			</IncludedMemoryFiles>
 			<SwitchGroups>
 				<SwitchGroup Id="2803840768" Name="vocalization" ObjectPath="\Switches\Default Work Unit\vocalization" GUID="{E6EB84E4-B422-4484-B0B7-6ADE5097945D}">
@@ -900,10 +864,63 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="845841456">
+		<SoundBank Id="1229948536" Language="SFX" Hash="2584154018">
+			<ObjectPath>\SoundBanks\Default Work Unit\environment</ObjectPath>
+			<ShortName>environment</ShortName>
+			<Path>environment.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2203576590" Name="play_airplane_jetEngine" ObjectPath="\Events\Default Work Unit\Environment\play_airplane_jetEngine">
+					<IncludedMemoryFiles>
+						<File Id="121235622" Language="SFX">
+							<ShortName>airplane_jetEngine.wav</ShortName>
+							<Path>SFX\airplane_jetEngine_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2838936948" Name="play_rain" ObjectPath="\Events\Default Work Unit\Environment\play_rain">
+					<IncludedMemoryFiles>
+						<File Id="197826691" Language="SFX">
+							<ShortName>rain.wav</ShortName>
+							<Path>SFX\rain_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="994087705" Name="play_river_loop" ObjectPath="\Events\Default Work Unit\Environment\play_river_loop">
+					<IncludedMemoryFiles>
+						<File Id="185504317" Language="SFX">
+							<ShortName>river_loop.wav</ShortName>
+							<Path>SFX\river_loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2723203213" Name="play_sara_airport_pa" ObjectPath="\Events\Default Work Unit\Environment\play_sara_airport_pa">
+					<IncludedMemoryFiles>
+						<File Id="181860025" Language="SFX">
+							<ShortName>sara_airport_pa.wav</ShortName>
+							<Path>SFX\sara_airport_pa_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="660649362" Name="play_waterfall_loop_2" ObjectPath="\Events\Default Work Unit\Environment\play_waterfall_loop_2">
+					<IncludedMemoryFiles>
+						<File Id="887406281" Language="SFX">
+							<ShortName>waterfall_loop_2.wav</ShortName>
+							<Path>SFX\waterfall_loop_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1408633271">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="373392551" Name="New_Auxiliary_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New_Auxiliary_Bus"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="725232568" Name="dialogue_volume" ObjectPath="\Game Parameters\Default Work Unit\dialogue_volume"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="2454045173" Language="SFX" Hash="823310956">
 			<ObjectPath>\SoundBanks\Default Work Unit\ui_soundbank</ObjectPath>
@@ -940,11 +957,35 @@
 				<Event Id="3136720908" Name="stop_menu_sounds" ObjectPath="\Events\Default Work Unit\UI\Menu\stop_menu_sounds"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2641024368" Language="SFX" Hash="3321475098">
+		<SoundBank Id="2641024368" Language="SFX" Hash="2998763803">
 			<ObjectPath>\SoundBanks\Default Work Unit\sfx_soundbank</ObjectPath>
 			<ShortName>sfx_soundbank</ShortName>
 			<Path>sfx_soundbank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="63471576" Name="play_anvil" ObjectPath="\Events\Default Work Unit\SFX\other\play_anvil">
+					<IncludedMemoryFiles>
+						<File Id="474730916" Language="SFX">
+							<ShortName>anvil.wav</ShortName>
+							<Path>SFX\anvil_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4197639865" Name="play_appear" ObjectPath="\Events\Default Work Unit\SFX\other\play_appear">
+					<IncludedMemoryFiles>
+						<File Id="556604064" Language="SFX">
+							<ShortName>appear.wav</ShortName>
+							<Path>SFX\appear_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="129970848" Name="play_ball_bounce" ObjectPath="\Events\Default Work Unit\SFX\other\play_ball_bounce">
+					<IncludedMemoryFiles>
+						<File Id="876354807" Language="SFX">
+							<ShortName>ball_bounce.wav</ShortName>
+							<Path>SFX\ball_bounce_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3698997709" Name="play_boing" ObjectPath="\Events\Default Work Unit\SFX\Kart\Crashes\play_boing">
 					<IncludedMemoryFiles>
 						<File Id="286478457" Language="SFX">
@@ -954,6 +995,70 @@
 						<File Id="352309195" Language="SFX">
 							<ShortName>boing_1.wav</ShortName>
 							<Path>SFX\boing_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3581053796" Name="play_bowling_roll" ObjectPath="\Events\Default Work Unit\SFX\other\play_bowling_roll">
+					<IncludedMemoryFiles>
+						<File Id="609244807" Language="SFX">
+							<ShortName>bowling_roll.wav</ShortName>
+							<Path>SFX\bowling_roll_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1664153498" Name="play_bowling_shoot" ObjectPath="\Events\Default Work Unit\SFX\other\play_bowling_shoot">
+					<IncludedMemoryFiles>
+						<File Id="625004178" Language="SFX">
+							<ShortName>bowling_shoot.wav</ShortName>
+							<Path>SFX\bowling_shoot_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3908484415" Name="play_break" ObjectPath="\Events\Default Work Unit\SFX\other\play_break">
+					<IncludedMemoryFiles>
+						<File Id="735158052" Language="SFX">
+							<ShortName>break.wav</ShortName>
+							<Path>SFX\break_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1757752303" Name="play_bubblegum_explode" ObjectPath="\Events\Default Work Unit\SFX\other\play_bubblegum_explode">
+					<IncludedMemoryFiles>
+						<File Id="143708189" Language="SFX">
+							<ShortName>bubblegum_explode.wav</ShortName>
+							<Path>SFX\bubblegum_explode_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1539954924" Name="play_bzzt" ObjectPath="\Events\Default Work Unit\SFX\other\play_bzzt">
+					<IncludedMemoryFiles>
+						<File Id="74033253" Language="SFX">
+							<ShortName>bzzt.wav</ShortName>
+							<Path>SFX\bzzt_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="439080817" Name="play_car_accel" ObjectPath="\Events\Default Work Unit\SFX\other\play_car_accel">
+					<IncludedMemoryFiles>
+						<File Id="342140048" Language="SFX">
+							<ShortName>car_accel.wav</ShortName>
+							<Path>SFX\car_accel_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3968876357" Name="play_car_revup" ObjectPath="\Events\Default Work Unit\SFX\other\play_car_revup">
+					<IncludedMemoryFiles>
+						<File Id="994089418" Language="SFX">
+							<ShortName>car_revup.wav</ShortName>
+							<Path>SFX\car_revup_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4070979672" Name="play_clock" ObjectPath="\Events\Default Work Unit\SFX\other\play_clock">
+					<IncludedMemoryFiles>
+						<File Id="660417120" Language="SFX">
+							<ShortName>clock.wav</ShortName>
+							<Path>SFX\clock_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -970,6 +1075,38 @@
 						<File Id="1001570438" Language="SFX">
 							<ShortName>crash_1.wav</ShortName>
 							<Path>SFX\crash_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2228564942" Name="play_dark" ObjectPath="\Events\Default Work Unit\SFX\other\play_dark">
+					<IncludedMemoryFiles>
+						<File Id="77827253" Language="SFX">
+							<ShortName>dark.wav</ShortName>
+							<Path>SFX\dark_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2498286841" Name="play_dirt" ObjectPath="\Events\Default Work Unit\SFX\other\play_dirt">
+					<IncludedMemoryFiles>
+						<File Id="316973774" Language="SFX">
+							<ShortName>dirt.wav</ShortName>
+							<Path>SFX\dirt_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2657436176" Name="play_energy_bar_full" ObjectPath="\Events\Default Work Unit\SFX\other\play_energy_bar_full">
+					<IncludedMemoryFiles>
+						<File Id="305603951" Language="SFX">
+							<ShortName>energy_bar_full.wav</ShortName>
+							<Path>SFX\energy_bar_full_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="774789741" Name="play_energy_bar_unfull" ObjectPath="\Events\Default Work Unit\SFX\other\play_energy_bar_unfull">
+					<IncludedMemoryFiles>
+						<File Id="361430493" Language="SFX">
+							<ShortName>energy_bar_unfull.wav</ShortName>
+							<Path>SFX\energy_bar_unfull_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1078,6 +1215,110 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="903508944" Name="play_engine_large" ObjectPath="\Events\Default Work Unit\SFX\other\play_engine_large">
+					<IncludedMemoryFiles>
+						<File Id="138645577" Language="SFX">
+							<ShortName>engine_large.wav</ShortName>
+							<Path>SFX\engine_large_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2204863336" Name="play_engine_small" ObjectPath="\Events\Default Work Unit\SFX\other\play_engine_small">
+					<IncludedMemoryFiles>
+						<File Id="644532673" Language="SFX">
+							<ShortName>engine_small.wav</ShortName>
+							<Path>SFX\engine_small_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2993108401" Name="play_exotic_birds" ObjectPath="\Events\Default Work Unit\SFX\other\play_exotic_birds">
+					<IncludedMemoryFiles>
+						<File Id="366226948" Language="SFX">
+							<ShortName>exotic-birds.wav</ShortName>
+							<Path>SFX\exotic-birds_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1716382598" Name="play_exotic_birds_2" ObjectPath="\Events\Default Work Unit\SFX\other\play_exotic_birds_2">
+					<IncludedMemoryFiles>
+						<File Id="122895074" Language="SFX">
+							<ShortName>exotic-birds_2.wav</ShortName>
+							<Path>SFX\exotic-birds_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4030404899" Name="play_explosion" ObjectPath="\Events\Default Work Unit\SFX\other\play_explosion">
+					<IncludedMemoryFiles>
+						<File Id="176201716" Language="SFX">
+							<ShortName>explosion.wav</ShortName>
+							<Path>SFX\explosion_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2761848680" Name="play_fireworks_show" ObjectPath="\Events\Default Work Unit\SFX\other\play_fireworks_show">
+					<IncludedMemoryFiles>
+						<File Id="621472766" Language="SFX">
+							<ShortName>fireworks_show.wav</ShortName>
+							<Path>SFX\fireworks_show_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1403021813" Name="play_forcefield" ObjectPath="\Events\Default Work Unit\SFX\other\play_forcefield">
+					<IncludedMemoryFiles>
+						<File Id="596562602" Language="SFX">
+							<ShortName>forcefield.wav</ShortName>
+							<Path>SFX\forcefield_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2093336333" Name="play_gnu_flute" ObjectPath="\Events\Default Work Unit\SFX\other\play_gnu_flute">
+					<IncludedMemoryFiles>
+						<File Id="715400478" Language="SFX">
+							<ShortName>gnu_flute.wav</ShortName>
+							<Path>SFX\gnu_flute_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="942768780" Name="play_goal_scored" ObjectPath="\Events\Default Work Unit\SFX\other\play_goal_scored">
+					<IncludedMemoryFiles>
+						<File Id="344129647" Language="SFX">
+							<ShortName>goal_scored.wav</ShortName>
+							<Path>SFX\goal_scored_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2455218859" Name="play_goo" ObjectPath="\Events\Default Work Unit\SFX\other\play_goo">
+					<IncludedMemoryFiles>
+						<File Id="739267097" Language="SFX">
+							<ShortName>goo.wav</ShortName>
+							<Path>SFX\goo_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="499752277" Name="play_gp_end" ObjectPath="\Events\Default Work Unit\SFX\other\play_gp_end">
+					<IncludedMemoryFiles>
+						<File Id="933863159" Language="SFX">
+							<ShortName>gp_end.wav</ShortName>
+							<Path>SFX\gp_end_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="634835911" Name="play_grab_collectable" ObjectPath="\Events\Default Work Unit\SFX\other\play_grab_collectable">
+					<IncludedMemoryFiles>
+						<File Id="623428010" Language="SFX">
+							<ShortName>grab_collectable.wav</ShortName>
+							<Path>SFX\grab_collectable_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1747681752" Name="play_hammer" ObjectPath="\Events\Default Work Unit\SFX\other\play_hammer">
+					<IncludedMemoryFiles>
+						<File Id="774558726" Language="SFX">
+							<ShortName>hammer.wav</ShortName>
+							<Path>SFX\hammer_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2956245481" Name="play_horn" ObjectPath="\Events\Default Work Unit\SFX\Kart\Horn\play_horn">
 					<IncludedMemoryFiles>
 						<File Id="912990630" Language="SFX">
@@ -1124,11 +1365,115 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2554186261" Name="play_horn_01" ObjectPath="\Events\Default Work Unit\SFX\other\play_horn_01">
+					<IncludedMemoryFiles>
+						<File Id="90470169" Language="SFX">
+							<ShortName>horn.wav</ShortName>
+							<Path>SFX\horn_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2181694147" Name="play_inflate" ObjectPath="\Events\Default Work Unit\SFX\other\play_inflate">
+					<IncludedMemoryFiles>
+						<File Id="707489008" Language="SFX">
+							<ShortName>inflate.wav</ShortName>
+							<Path>SFX\inflate_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3689126666" Name="play_jump" ObjectPath="\Events\Default Work Unit\SFX\other\play_jump">
+					<IncludedMemoryFiles>
+						<File Id="388207445" Language="SFX">
+							<ShortName>jump.wav</ShortName>
+							<Path>SFX\jump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2367561285" Name="play_lenautile_restaurant" ObjectPath="\Events\Default Work Unit\SFX\other\play_lenautile_restaurant">
+					<IncludedMemoryFiles>
+						<File Id="434593061" Language="SFX">
+							<ShortName>lenautile_restaurant.wav</ShortName>
+							<Path>SFX\lenautile_restaurant_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4224511656" Name="play_locked" ObjectPath="\Events\Default Work Unit\SFX\other\play_locked">
+					<IncludedMemoryFiles>
+						<File Id="950095569" Language="SFX">
+							<ShortName>locked.wav</ShortName>
+							<Path>SFX\locked_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1268363653" Name="play_machine_sound" ObjectPath="\Events\Default Work Unit\SFX\other\play_machine_sound">
+					<IncludedMemoryFiles>
+						<File Id="929213406" Language="SFX">
+							<ShortName>machine_sound.wav</ShortName>
+							<Path>SFX\machine_sound_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2766521101" Name="play_metal_clang" ObjectPath="\Events\Default Work Unit\SFX\other\play_metal_clang">
+					<IncludedMemoryFiles>
+						<File Id="31104024" Language="SFX">
+							<ShortName>metal_clang.wav</ShortName>
+							<Path>SFX\metal_clang_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3869115962" Name="play_nitro" ObjectPath="\Events\Default Work Unit\SFX\Kart\Nitro\play_nitro">
 					<IncludedMemoryFiles>
 						<File Id="383516566" Language="SFX">
 							<ShortName>nitro-blast.wav</ShortName>
 							<Path>SFX\nitro-blast_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3559621048" Name="play_nitro_01" ObjectPath="\Events\Default Work Unit\SFX\other\play_nitro_01">
+					<IncludedMemoryFiles>
+						<File Id="593692934" Language="SFX">
+							<ShortName>nitro.wav</ShortName>
+							<Path>SFX\nitro_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="419517223" Name="play_parachute" ObjectPath="\Events\Default Work Unit\SFX\other\play_parachute">
+					<IncludedMemoryFiles>
+						<File Id="901966046" Language="SFX">
+							<ShortName>parachute.wav</ShortName>
+							<Path>SFX\parachute_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3191985117" Name="play_plopp" ObjectPath="\Events\Default Work Unit\SFX\other\play_plopp">
+					<IncludedMemoryFiles>
+						<File Id="861523388" Language="SFX">
+							<ShortName>plopp.wav</ShortName>
+							<Path>SFX\plopp_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="461315055" Name="play_plunger" ObjectPath="\Events\Default Work Unit\SFX\other\play_plunger">
+					<IncludedMemoryFiles>
+						<File Id="871587978" Language="SFX">
+							<ShortName>plunger.wav</ShortName>
+							<Path>SFX\plunger_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2424882924" Name="play_portal" ObjectPath="\Events\Default Work Unit\SFX\other\play_portal">
+					<IncludedMemoryFiles>
+						<File Id="334625494" Language="SFX">
+							<ShortName>portal.wav</ShortName>
+							<Path>SFX\portal_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2641650631" Name="play_shoot" ObjectPath="\Events\Default Work Unit\SFX\other\play_shoot">
+					<IncludedMemoryFiles>
+						<File Id="507274328" Language="SFX">
+							<ShortName>shoot.wav</ShortName>
+							<Path>SFX\shoot_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1196,6 +1541,14 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="4293784959" Name="play_skid_01" ObjectPath="\Events\Default Work Unit\SFX\other\play_skid_01">
+					<IncludedMemoryFiles>
+						<File Id="499420886" Language="SFX">
+							<ShortName>skid.wav</ShortName>
+							<Path>SFX\skid_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4097573723" Name="play_skid_ignition" ObjectPath="\Events\Default Work Unit\SFX\Kart\Skid\play_skid_ignition">
 					<IncludedMemoryFiles>
 						<File Id="642949619" Language="SFX">
@@ -1229,6 +1582,54 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="3461846542" Name="play_spaceship" ObjectPath="\Events\Default Work Unit\SFX\other\play_spaceship">
+					<IncludedMemoryFiles>
+						<File Id="356482871" Language="SFX">
+							<ShortName>spaceship.wav</ShortName>
+							<Path>SFX\spaceship_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3948925255" Name="play_splash" ObjectPath="\Events\Default Work Unit\SFX\other\play_splash">
+					<IncludedMemoryFiles>
+						<File Id="7828754" Language="SFX">
+							<ShortName>splash.wav</ShortName>
+							<Path>SFX\splash_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="642157848" Name="play_static_radio" ObjectPath="\Events\Default Work Unit\SFX\other\play_static_radio">
+					<IncludedMemoryFiles>
+						<File Id="419350365" Language="SFX">
+							<ShortName>static-radio.wav</ShortName>
+							<Path>SFX\static-radio_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2877831972" Name="play_strike" ObjectPath="\Events\Default Work Unit\SFX\other\play_strike">
+					<IncludedMemoryFiles>
+						<File Id="393625647" Language="SFX">
+							<ShortName>strike.wav</ShortName>
+							<Path>SFX\strike_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="299993131" Name="play_swap" ObjectPath="\Events\Default Work Unit\SFX\other\play_swap">
+					<IncludedMemoryFiles>
+						<File Id="827501291" Language="SFX">
+							<ShortName>swap.wav</ShortName>
+							<Path>SFX\swap_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2506523192" Name="play_swatter" ObjectPath="\Events\Default Work Unit\SFX\other\play_swatter">
+					<IncludedMemoryFiles>
+						<File Id="70125831" Language="SFX">
+							<ShortName>swatter.wav</ShortName>
+							<Path>SFX\swatter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1760369021" Name="play_terrain" ObjectPath="\Events\Default Work Unit\SFX\Kart\Terrain\play_terrain">
 					<IncludedMemoryFiles>
@@ -1293,6 +1694,70 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="3870462868" Name="play_thunder" ObjectPath="\Events\Default Work Unit\SFX\other\play_thunder">
+					<IncludedMemoryFiles>
+						<File Id="443159175" Language="SFX">
+							<ShortName>thunder.wav</ShortName>
+							<Path>SFX\thunder_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3193333848" Name="play_track_intro" ObjectPath="\Events\Default Work Unit\SFX\other\play_track_intro">
+					<IncludedMemoryFiles>
+						<File Id="390959124" Language="SFX">
+							<ShortName>track_intro.wav</ShortName>
+							<Path>SFX\track_intro_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="129073611" Name="play_tractor_beam" ObjectPath="\Events\Default Work Unit\SFX\other\play_tractor_beam">
+					<IncludedMemoryFiles>
+						<File Id="269591065" Language="SFX">
+							<ShortName>tractor_beam.wav</ShortName>
+							<Path>SFX\tractor_beam_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3124057874" Name="play_ugh" ObjectPath="\Events\Default Work Unit\SFX\other\play_ugh">
+					<IncludedMemoryFiles>
+						<File Id="559065115" Language="SFX">
+							<ShortName>ugh.wav</ShortName>
+							<Path>SFX\ugh_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2888877095" Name="play_wee" ObjectPath="\Events\Default Work Unit\SFX\other\play_wee">
+					<IncludedMemoryFiles>
+						<File Id="682914198" Language="SFX">
+							<ShortName>wee.wav</ShortName>
+							<Path>SFX\wee_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1583215645" Name="play_WilhelmScream" ObjectPath="\Events\Default Work Unit\SFX\other\play_WilhelmScream">
+					<IncludedMemoryFiles>
+						<File Id="442041349" Language="SFX">
+							<ShortName>WilhelmScream.wav</ShortName>
+							<Path>SFX\WilhelmScream_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1574178725" Name="play_wood" ObjectPath="\Events\Default Work Unit\SFX\other\play_wood">
+					<IncludedMemoryFiles>
+						<File Id="569929095" Language="SFX">
+							<ShortName>wood.wav</ShortName>
+							<Path>SFX\wood_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3175879416" Name="play_wooden_bridge" ObjectPath="\Events\Default Work Unit\SFX\other\play_wooden_bridge">
+					<IncludedMemoryFiles>
+						<File Id="932069568" Language="SFX">
+							<ShortName>wooden_bridge.wav</ShortName>
+							<Path>SFX\wooden_bridge_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="37214798" Name="stop_engine" ObjectPath="\Events\Default Work Unit\SFX\Kart\Engine\stop_engine"/>
 				<Event Id="3860804282" Name="stop_kart" ObjectPath="\Events\Default Work Unit\SFX\Kart\stop_kart"/>
 				<Event Id="3825390024" Name="stop_nitro" ObjectPath="\Events\Default Work Unit\SFX\Kart\Nitro\stop_nitro"/>
@@ -1349,6 +1814,69 @@
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2940432316" Language="SFX" Hash="3606428564">
+			<ObjectPath>\SoundBanks\Default Work Unit\stingers</ObjectPath>
+			<ShortName>stingers</ShortName>
+			<Path>stingers.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1634031626" Name="play_last_lap_fanfare" ObjectPath="\Events\Default Work Unit\Stingers\play_last_lap_fanfare">
+					<IncludedMemoryFiles>
+						<File Id="336709747" Language="SFX">
+							<ShortName>last_lap_fanfare.wav</ShortName>
+							<Path>SFX\last_lap_fanfare_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3969005960" Name="play_last_lap_fanfare_01" ObjectPath="\Events\Default Work Unit\Stingers\play_last_lap_fanfare_01">
+					<IncludedMemoryFiles>
+						<File Id="638131157" Language="SFX">
+							<ShortName>last_lap_fanfare.wav</ShortName>
+							<Path>SFX\last_lap_fanfare_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="31240748" Name="play_pre_start_race" ObjectPath="\Events\Default Work Unit\Stingers\play_pre_start_race">
+					<IncludedMemoryFiles>
+						<File Id="717700305" Language="SFX">
+							<ShortName>pre_start_race.wav</ShortName>
+							<Path>SFX\pre_start_race_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1270550521" Name="play_race_finish" ObjectPath="\Events\Default Work Unit\Stingers\play_race_finish">
+					<IncludedMemoryFiles>
+						<File Id="128482242" Language="SFX">
+							<ShortName>race_finish.wav</ShortName>
+							<Path>SFX\race_finish_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4025719894" Name="play_race_finish_victory" ObjectPath="\Events\Default Work Unit\Stingers\play_race_finish_victory">
+					<IncludedMemoryFiles>
+						<File Id="930731832" Language="SFX">
+							<ShortName>race_finish_victory.wav</ShortName>
+							<Path>SFX\race_finish_victory_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="917847474" Name="play_start_race" ObjectPath="\Events\Default Work Unit\Stingers\play_start_race">
+					<IncludedMemoryFiles>
+						<File Id="526653847" Language="SFX">
+							<ShortName>start_race.wav</ShortName>
+							<Path>SFX\start_race_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="229062544" Name="play_start_race_01" ObjectPath="\Events\Default Work Unit\Stingers\play_start_race_01">
+					<IncludedMemoryFiles>
+						<File Id="38577954" Language="SFX">
+							<ShortName>start_race.wav</ShortName>
+							<Path>SFX\start_race_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="3184165883" Language="SFX" Hash="2401059209">
 			<ObjectPath>\SoundBanks\Default Work Unit\OST_10</ObjectPath>

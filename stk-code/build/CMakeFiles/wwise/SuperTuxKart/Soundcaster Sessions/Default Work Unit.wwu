@@ -10,26 +10,34 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="slipstream" ID="{119F1378-5069-4509-A833-0C0578AD9075}" WorkUnitID="{8A079EC2-FB0E-489F-9287-8DCDCA42B55D}"/>
+							<ObjectRef Name="celtic_fast" ID="{644508FE-D58F-4B79-9781-E4125D528E43}" WorkUnitID="{29BF421B-D82B-4EED-8D51-ACA0A30DB905}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="pause_sfx" ID="{E5CF81AF-8056-4618-A26E-2CD2B5AE2D24}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}"/>
+							<ObjectRef Name="jason_lover_male_defeat_mid" ID="{93E5FB53-DD3C-4CBF-88E9-4BFF14834AEF}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="jason_saint_male_expletive_negative_high" ID="{7794354F-9713-47F7-A78D-AA8D3F06BF6C}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="resume_sfx" ID="{D4B7EB6A-2DE4-4B40-8909-9D2078384CD6}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}"/>
-							<Position X="2" Y="0"/>
+							<ObjectRef Name="jason_saint_male_defeat_high" ID="{C3F5FF34-8D4F-4F6C-B281-6B67B601BBE7}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}"/>
+							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="stop_kart" ID="{C3D5AD65-DEF7-450D-BA9D-F4B5CC6775C1}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}"/>
-							<Position X="3" Y="0"/>
+							<ObjectRef Name="jason_saint_male_expletive_positive_high" ID="{92B6C007-25F0-44A8-81D8-CCEECFC02618}" WorkUnitID="{CDFA3EEB-59C5-4DB1-9B99-43514ECFF67F}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="velocity" ID="{CAEAF9B1-482F-4239-99C6-88F258042DEF}"/>
 							<Value>1.9</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="dialogue_volume" ID="{3B90AC80-AE9E-4357-B56C-DEADFC4607FC}"/>
+							<Value>-2.69158878504673</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="character" ID="{71F3CBA5-0194-4864-A574-F28E5AFE545C}"/>
@@ -39,7 +47,7 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="large" ID="{F69548F2-F885-4465-8EE0-967A25F924AA}"/>
-						<CurrentSwitchRef Name="expletive_negative" ID="{35DC7774-8215-42DD-A327-7DC566937A5D}"/>
+						<CurrentSwitchRef Name="defeat" ID="{F900CE8E-AA35-4170-9AB3-4B6F04ABB148}"/>
 						<CurrentSwitchRef Name="edge" ID="{FE0FA8DF-A577-447E-BCD7-9295B6D1F3F7}"/>
 						<CurrentSwitchRef Name="five" ID="{FC9069F5-E941-4B67-8A0A-5E8FD751BCAC}"/>
 						<CurrentSwitchRef Name="asphalt" ID="{1AB94222-29B6-49E1-829D-F89F3B1EEC83}"/>

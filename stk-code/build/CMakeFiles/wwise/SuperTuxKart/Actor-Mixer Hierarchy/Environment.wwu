@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E0053DB3-1D22-472C-AD51-66570E283664}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Environment" ID="{E0053DB3-1D22-472C-AD51-66570E283664}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="airplane_jetEngine" ID="{89EEA5E2-E4D5-487F-87FB-B116CDC393B5}" ShortID="759983959">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="airplane_jetEngine" ID="{D63AC8A1-AC62-4D3D-96CC-5C3E6F38863F}">
+							<Language>SFX</Language>
+							<AudioFile>airplane_jetEngine.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="121235622"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="airplane_jetEngine" ID="{D63AC8A1-AC62-4D3D-96CC-5C3E6F38863F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="exotic-birds" ID="{D587DF38-6ADE-419D-B505-78DD20BE70F2}" ShortID="615753628">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2627D687-79C0-47DD-84A1-6E546D400618}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="exotic-birds" ID="{2F56AA21-9AA8-4653-999D-F915C8CE0104}">
+							<Language>SFX</Language>
+							<AudioFile>exotic-birds.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="366226948"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="exotic-birds" ID="{2F56AA21-9AA8-4653-999D-F915C8CE0104}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="exotic-birds_2" ID="{717FA67A-E833-4F37-954D-9B91051E80D0}" ShortID="915890939">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="exotic-birds_2" ID="{9C7B745A-B0C6-4DD2-BC26-DC5F046FD17C}">
+							<Language>SFX</Language>
+							<AudioFile>exotic-birds_2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="122895074"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="exotic-birds_2" ID="{9C7B745A-B0C6-4DD2-BC26-DC5F046FD17C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="fireworks_show" ID="{FA95E1B8-11D9-46E0-A5B4-B1ABF9AD722F}" ShortID="450901786">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{7005CCE0-CC02-406B-A391-EEE49A65746D}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="fireworks_show" ID="{F99AB9C7-DEE7-4A6F-AD68-AD86E3788E9F}">
+							<Language>SFX</Language>
+							<AudioFile>fireworks_show.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="621472766"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="fireworks_show" ID="{F99AB9C7-DEE7-4A6F-AD68-AD86E3788E9F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="last_lap_fanfare" ID="{5FBE2267-C4A7-4A88-AA0F-F1208DF15331}" ShortID="418973036">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="last_lap_fanfare" ID="{EFF2A075-9615-4D37-B651-197A205B280E}">
+							<Language>SFX</Language>
+							<AudioFile>last_lap_fanfare.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="336709747"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="last_lap_fanfare" ID="{EFF2A075-9615-4D37-B651-197A205B280E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="lenautile_restaurant" ID="{DF9FC540-730C-478D-8EEA-4FC107C70169}" ShortID="667685539">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="lenautile_restaurant" ID="{0CDAD8B3-2D77-4E71-A350-79DDD89D850D}">
+							<Language>SFX</Language>
+							<AudioFile>lenautile_restaurant.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="434593061"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="lenautile_restaurant" ID="{0CDAD8B3-2D77-4E71-A350-79DDD89D850D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sara_airport_pa" ID="{EEBEDF08-2D70-491F-ABF2-B2C9DEFAEBBD}" ShortID="772355988">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A45E9146-1931-44B5-BACB-09F0A6E1E457}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sara_airport_pa" ID="{F539139E-41F1-4417-B747-5522955FBE51}">
+							<Language>SFX</Language>
+							<AudioFile>sara_airport_pa.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="181860025"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="sara_airport_pa" ID="{F539139E-41F1-4417-B747-5522955FBE51}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="rain" ID="{89ACCD27-2B63-4263-88C6-6CE41F8829E3}" ShortID="667323655">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A5BEC2F4-105C-4F38-A77F-7E1547EBABFF}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="rain" ID="{C5617273-BDD7-43C8-941F-DE670D022059}">
+							<Language>SFX</Language>
+							<AudioFile>rain.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="197826691"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="rain" ID="{C5617273-BDD7-43C8-941F-DE670D022059}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="river_loop" ID="{2B77CF7C-5A28-4F63-A4EA-20E5D886898D}" ShortID="953187162">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C3F34E8A-A62B-4E49-B71C-180511602708}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="river_loop" ID="{FB5693F4-21EE-4682-A2C5-2825B7FBACBB}">
+							<Language>SFX</Language>
+							<AudioFile>river_loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="185504317"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="river_loop" ID="{FB5693F4-21EE-4682-A2C5-2825B7FBACBB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="waterfall_loop_2" ID="{A039D9C2-90F8-45F0-A3B9-50EF8E9F840E}" ShortID="805016008">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="waterfall_loop_2" ID="{1ACC1A3E-97A4-44D5-8107-58831AF8480E}">
+							<Language>SFX</Language>
+							<AudioFile>waterfall_loop_2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="887406281"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="waterfall_loop_2" ID="{1ACC1A3E-97A4-44D5-8107-58831AF8480E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="thunder" ID="{F6C8F35E-768E-4626-84D9-17437772C34F}" ShortID="179063757">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="thunder" ID="{8BAF22A5-095A-4826-87F6-E66A90A0F6E3}">
+							<Language>SFX</Language>
+							<AudioFile>thunder.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="443159175"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="thunder" ID="{8BAF22A5-095A-4826-87F6-E66A90A0F6E3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="spaceship" ID="{81751601-BBC5-4C23-8264-9F3CC8A73913}" ShortID="1004059635">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6376A41-1488-44A9-8AEA-1B63A3916AF4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{32897849-1F9E-45A1-9B2F-9D76942BE38D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="spaceship" ID="{5015E01D-D73F-4F85-82BD-95AD2A286DCE}">
+							<Language>SFX</Language>
+							<AudioFile>spaceship.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="356482871"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="spaceship" ID="{5015E01D-D73F-4F85-82BD-95AD2A286DCE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

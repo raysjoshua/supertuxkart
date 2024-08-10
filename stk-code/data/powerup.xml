@@ -156,15 +156,15 @@
            because the others are used for interpolation when
            there are two karts or more. -->
       <!--            bubble   cake  bowl zipper  plunger  switch swattr rubber para  anvil -->
-      <weight single  ="140      0   300   100      225      75     160     0     0     0"
+      <weight single  ="140      0   300   100      225      75     1600     0     0     0"
               multi   ="  0      0     0     0        0       0       0     0     0     0" />
-      <weight single  ="150      0   295   130      200      70     135     0     0     0"
+      <weight single  ="150      0   295   130      200      70     1350     0     0     0"
               multi   ="  0      0    20     0        0       0       0     0     0     0" />
-      <weight single  ="150      0   310   135      180      65     135     0     0     0"
+      <weight single  ="150      0   310   135      180      65     1350     0     0     0"
               multi   ="  0      0    25     0        0       0       0     0     0     0" />
-      <weight single  ="155      0   280   180      170      60     125     0     0     0"
+      <weight single  ="155      0   280   180      170      60     1250     0     0     0"
               multi   ="  0      0    30     0        0       0       0     0     0     0" />
-      <weight single  ="170      0   180   275      150      50      85     0     0     0"
+      <weight single  ="170      0   180   275      150      50      850     0     0     0"
               multi   ="  0      0    90     0        0       0       0     0     0     0" />
     </weights>
     <weights num-karts="5">

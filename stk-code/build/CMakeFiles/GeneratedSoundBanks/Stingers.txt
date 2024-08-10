@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	31240748	play_pre_start_race			\Default Work Unit\Stingers\play_pre_start_race	
+	229062544	play_start_race_01			\Default Work Unit\Stingers\play_start_race_01	
+	917847474	play_start_race			\Default Work Unit\Stingers\play_start_race	
+	1270550521	play_race_finish			\Default Work Unit\Stingers\play_race_finish	
+	1634031626	play_last_lap_fanfare			\Default Work Unit\Stingers\play_last_lap_fanfare	
+	3969005960	play_last_lap_fanfare_01			\Default Work Unit\Stingers\play_last_lap_fanfare_01	
+	4025719894	play_race_finish_victory			\Default Work Unit\Stingers\play_race_finish_victory	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	38577954	start_race	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\start_race_D79FB2B7.wem		\Interactive Music Hierarchy\Stingers\start_race\start_race		164688
+	128482242	race_finish	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\race_finish_D79FB2B7.wem		\Interactive Music Hierarchy\Stingers\race_finish\race_finish		1114984
+	336709747	last_lap_fanfare	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\last_lap_fanfare_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\last_lap_fanfare		580676
+	526653847	start_race	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\start_race_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\start_race		164688
+	638131157	last_lap_fanfare	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\last_lap_fanfare_D79FB2B7.wem		\Interactive Music Hierarchy\Stingers\last_lap_fanfare\last_lap_fanfare		580676
+	717700305	pre_start_race	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\pre_start_race_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pre_start_race		164688
+	930731832	race_finish_victory	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\race_finish_victory_D79FB2B7.wem		\Interactive Music Hierarchy\Stingers\race_finish_victory\race_finish_victory		632684
+

@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	660649362	play_waterfall_loop_2			\Default Work Unit\Environment\play_waterfall_loop_2	
+	994087705	play_river_loop			\Default Work Unit\Environment\play_river_loop	
+	2203576590	play_airplane_jetEngine			\Default Work Unit\Environment\play_airplane_jetEngine	
+	2723203213	play_sara_airport_pa			\Default Work Unit\Environment\play_sara_airport_pa	
+	2838936948	play_rain			\Default Work Unit\Environment\play_rain	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	121235622	airplane_jetEngine	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\airplane_jetEngine_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\airplane_jetEngine		460952
+	181860025	sara_airport_pa	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\sara_airport_pa_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\sara_airport_pa		6087522
+	185504317	river_loop	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\river_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Environment\river_loop		1493212
+	197826691	rain	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Environment\rain		664452
+	887406281	waterfall_loop_2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\waterfall_loop_2_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\waterfall_loop_2		1433394
+

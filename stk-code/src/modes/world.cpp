@@ -243,6 +243,7 @@ void World::init()
     if (hasTeam())
         setAITeam();
 
+    std::vector<std::shared_ptr<AbstractKart>> playerKarts;
     for(unsigned int i=0; i<num_karts; i++)
     {
         main_loop->renderGUI(7000, i, num_karts);
@@ -267,7 +268,21 @@ void World::init()
         }
         new_kart->setBoostAI(RaceManager::get()->hasBoostedAI(i));
         m_karts.push_back(new_kart);
+        if (local_player_id >= 0) {
+            playerKarts.push_back(new_kart);
+        }
     }  // for i
+
+    for (auto& player_kart : playerKarts)
+    {
+        for (auto& a_kart : m_karts)
+        {
+            // Register Player Karts as listeners to all kart sounds
+            wwise_manager->RegisterGameListener(a_kart->getWorldKartId(), player_kart->getWorldKartId());
+        }
+    }
+
+
 
     main_loop->renderGUI(7050);
     // Load other custom models if needed
@@ -499,7 +514,7 @@ std::shared_ptr<AbstractKart> World::createKart
     case RaceManager::KT_PLAYER:
     {
         int local_player_count = 99999;
-        wwise_manager->RegisterDefaultListener(new_kart->getWorldKartId());
+        //wwise_manager->RegisterDefaultListener(new_kart->getWorldKartId());
         if (NetworkConfig::get()->isNetworking() &&
             NetworkConfig::get()->isClient())
         {

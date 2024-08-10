@@ -1,19 +1,75 @@
 Event	ID	Name			Wwise Object Path	Notes
 	37214798	stop_engine			\Default Work Unit\SFX\Kart\Engine\stop_engine	
+	63471576	play_anvil			\Default Work Unit\SFX\other\play_anvil	
+	129073611	play_tractor_beam			\Default Work Unit\SFX\other\play_tractor_beam	
+	129970848	play_ball_bounce			\Default Work Unit\SFX\other\play_ball_bounce	
+	299993131	play_swap			\Default Work Unit\SFX\other\play_swap	
 	301964555	play_skid			\Default Work Unit\SFX\Kart\Skid\play_skid	
 	303595419	play_crash			\Default Work Unit\SFX\Kart\Crashes\play_crash	
+	419517223	play_parachute			\Default Work Unit\SFX\other\play_parachute	
 	422983091	stop_terrain			\Default Work Unit\SFX\Kart\Terrain\stop_terrain	
+	439080817	play_car_accel			\Default Work Unit\SFX\other\play_car_accel	
+	461315055	play_plunger			\Default Work Unit\SFX\other\play_plunger	
+	499752277	play_gp_end			\Default Work Unit\SFX\other\play_gp_end	
+	634835911	play_grab_collectable			\Default Work Unit\SFX\other\play_grab_collectable	
 	639345804	play_engine			\Default Work Unit\SFX\Kart\Engine\play_engine	
+	642157848	play_static_radio			\Default Work Unit\SFX\other\play_static_radio	
+	774789741	play_energy_bar_unfull			\Default Work Unit\SFX\other\play_energy_bar_unfull	
 	796395057	stop_skid			\Default Work Unit\SFX\Kart\Skid\stop_skid	
+	903508944	play_engine_large			\Default Work Unit\SFX\other\play_engine_large	
+	942768780	play_goal_scored			\Default Work Unit\SFX\other\play_goal_scored	
+	1268363653	play_machine_sound			\Default Work Unit\SFX\other\play_machine_sound	
+	1403021813	play_forcefield			\Default Work Unit\SFX\other\play_forcefield	
+	1539954924	play_bzzt			\Default Work Unit\SFX\other\play_bzzt	
+	1574178725	play_wood			\Default Work Unit\SFX\other\play_wood	
+	1583215645	play_WilhelmScream			\Default Work Unit\SFX\other\play_WilhelmScream	
+	1664153498	play_bowling_shoot			\Default Work Unit\SFX\other\play_bowling_shoot	
+	1716382598	play_exotic_birds_2			\Default Work Unit\SFX\other\play_exotic_birds_2	
+	1747681752	play_hammer			\Default Work Unit\SFX\other\play_hammer	
+	1757752303	play_bubblegum_explode			\Default Work Unit\SFX\other\play_bubblegum_explode	
 	1760369021	play_terrain			\Default Work Unit\SFX\Kart\Terrain\play_terrain	
+	2093336333	play_gnu_flute			\Default Work Unit\SFX\other\play_gnu_flute	
+	2181694147	play_inflate			\Default Work Unit\SFX\other\play_inflate	
+	2204863336	play_engine_small			\Default Work Unit\SFX\other\play_engine_small	
+	2228564942	play_dark			\Default Work Unit\SFX\other\play_dark	
+	2367561285	play_lenautile_restaurant			\Default Work Unit\SFX\other\play_lenautile_restaurant	
 	2383295434	stop_slipstream			\Default Work Unit\SFX\Kart\Slipstream\stop_slipstream	
+	2424882924	play_portal			\Default Work Unit\SFX\other\play_portal	
+	2455218859	play_goo			\Default Work Unit\SFX\other\play_goo	
+	2498286841	play_dirt			\Default Work Unit\SFX\other\play_dirt	
+	2506523192	play_swatter			\Default Work Unit\SFX\other\play_swatter	
+	2554186261	play_horn_01			\Default Work Unit\SFX\other\play_horn_01	
+	2641650631	play_shoot			\Default Work Unit\SFX\other\play_shoot	
+	2657436176	play_energy_bar_full			\Default Work Unit\SFX\other\play_energy_bar_full	
+	2761848680	play_fireworks_show			\Default Work Unit\SFX\other\play_fireworks_show	
+	2766521101	play_metal_clang			\Default Work Unit\SFX\other\play_metal_clang	
+	2877831972	play_strike			\Default Work Unit\SFX\other\play_strike	
+	2888877095	play_wee			\Default Work Unit\SFX\other\play_wee	
 	2956245481	play_horn			\Default Work Unit\SFX\Kart\Horn\play_horn	
+	2993108401	play_exotic_birds			\Default Work Unit\SFX\other\play_exotic_birds	
+	3124057874	play_ugh			\Default Work Unit\SFX\other\play_ugh	
+	3175879416	play_wooden_bridge			\Default Work Unit\SFX\other\play_wooden_bridge	
+	3191985117	play_plopp			\Default Work Unit\SFX\other\play_plopp	
+	3193333848	play_track_intro			\Default Work Unit\SFX\other\play_track_intro	
+	3461846542	play_spaceship			\Default Work Unit\SFX\other\play_spaceship	
+	3559621048	play_nitro_01			\Default Work Unit\SFX\other\play_nitro_01	
+	3581053796	play_bowling_roll			\Default Work Unit\SFX\other\play_bowling_roll	
 	3609174416	play_slipstream			\Default Work Unit\SFX\Kart\Slipstream\play_slipstream	
+	3689126666	play_jump			\Default Work Unit\SFX\other\play_jump	
 	3698997709	play_boing			\Default Work Unit\SFX\Kart\Crashes\play_boing	
 	3825390024	stop_nitro			\Default Work Unit\SFX\Kart\Nitro\stop_nitro	
 	3860804282	stop_kart			\Default Work Unit\SFX\Kart\stop_kart	
 	3869115962	play_nitro			\Default Work Unit\SFX\Kart\Nitro\play_nitro	
+	3870462868	play_thunder			\Default Work Unit\SFX\other\play_thunder	
+	3908484415	play_break			\Default Work Unit\SFX\other\play_break	
+	3948925255	play_splash			\Default Work Unit\SFX\other\play_splash	
+	3968876357	play_car_revup			\Default Work Unit\SFX\other\play_car_revup	
+	4030404899	play_explosion			\Default Work Unit\SFX\other\play_explosion	
+	4070979672	play_clock			\Default Work Unit\SFX\other\play_clock	
 	4097573723	play_skid_ignition			\Default Work Unit\SFX\Kart\Skid\play_skid_ignition	
+	4197639865	play_appear			\Default Work Unit\SFX\other\play_appear	
+	4224511656	play_locked			\Default Work Unit\SFX\other\play_locked	
+	4293784959	play_skid_01			\Default Work Unit\SFX\other\play_skid_01	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	354267144	terrain			\Default Work Unit\terrain	
@@ -52,27 +108,83 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3519441192	velocity			\Default Work Unit\player\velocity	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7828754	splash	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\splash_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\splash		176464
+	31104024	metal_clang	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\metal_clang_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\metal_clang		915928
 	40575190	crash_3	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\crash_3_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\crash\crash_3		145100
+	70125831	swatter	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\swatter_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\swatter		75152
+	74033253	bzzt	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\bzzt_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\bzzt		31228
+	77827253	dark	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\dark_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\dark		1084428
+	90470169	horn	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\horn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\horn		45504
+	122895074	exotic-birds_2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\exotic-birds_2_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\exotic-birds_2		1486144
+	138645577	engine_large	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\engine_large_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\engine_large		257808
+	143708189	bubblegum_explode	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\bubblegum_explode_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\bubblegum_explode		48752
+	176201716	explosion	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\explosion_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\explosion		144064
 	189731322	dirt	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Dirt_46AE9C66.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\dirt		585322
 	190544656	airburst	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Industry Tool Air Escaping From Air Compressor Quick Burst 36_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\gears shift\airburst		159652
 	237181032	outer	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Slipstream_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\slipstream\outer		288832
+	269591065	tractor_beam	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\tractor_beam_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\tractor_beam		1415648
 	274440068	fast	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Engine_Light_Fast_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\small\fast		745362
 	286478457	boing	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\boing_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\boing\boing		64492
 	298409511	Terrain_Wood-cm_2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_2_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\wood\Terrain_Wood-cm_2		12598
 	303444677	medium	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Engine_Heavy_Medium_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\large\medium		1044544
+	305603951	energy_bar_full	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\energy_bar_full_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\energy_bar_full		193818
 	307533153	Terrain_Wood-cm_1	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_1_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\wood\Terrain_Wood-cm_1		14098
+	316973774	dirt	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\dirt_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\dirt		46308
+	334625494	portal	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\portal_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\portal		44662
+	342140048	car_accel	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\car_accel_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\car_accel		250602
+	344129647	goal_scored	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\goal_scored_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\goal_scored		1640424
 	352309195	boing_1	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\boing_1_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\boing\boing_1		82166
+	356482871	spaceship	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\spaceship_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\spaceship		2731032
+	361430493	energy_bar_unfull	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\energy_bar_unfull_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\energy_bar_unfull		180032
+	366226948	exotic-birds	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\exotic-birds_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\exotic-birds		986430
 	373430340	crash_2	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\crash_2_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\crash\crash_2		149568
 	383516566	nitro-blast	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\nitro-blast_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\nitro\nitro-blast		242752
+	388207445	jump	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\jump_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\jump		25536
+	390959124	track_intro	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\track_intro_D79FB2B7.wem		\Interactive Music Hierarchy\Stingers\track_intro\track_intro		662852
+	393625647	strike	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\strike_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\strike		148612
+	419350365	static-radio	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\static-radio_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\static-radio		9044076
+	434593061	lenautile_restaurant	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\lenautile_restaurant_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\lenautile_restaurant		2515264
+	442041349	WilhelmScream	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\WilhelmScream_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\WilhelmScream		187696
+	443159175	thunder	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\thunder_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\thunder		212776
 	453377722	slow	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Engine_Heavy_Slow_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\large\slow		606184
+	474730916	anvil	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\anvil_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\anvil		39616
+	499420886	skid	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\skid_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\skid		288068
 	504215093	Terrain_Wood-cm_4	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_4_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\wood\Terrain_Wood-cm_4		14098
+	507274328	shoot	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\shoot_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\shoot		85622
 	510607462	medium	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Engine_Light_Medium_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\small\medium		749744
 	519840127	asphalt	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\skid-asphalt-cobblestone_213626A2.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\asphalt		223396
+	556604064	appear	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\appear_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\appear		44838
+	559065115	ugh	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\ugh_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\ugh		13082
+	569929095	wood	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\wood_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\wood		46308
+	593692934	nitro	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\nitro_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\nitro		679670
+	596562602	forcefield	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\forcefield_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\forcefield		97102
+	609244807	bowling_roll	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\bowling_roll_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\bowling_roll		259368
+	621472766	fireworks_show	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\fireworks_show_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\fireworks_show		755776
+	623428010	grab_collectable	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\grab_collectable_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\grab_collectable		27554
+	625004178	bowling_shoot	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\bowling_shoot_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\bowling_shoot		12608
 	642949619	skid_ignition	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\skid_ignition_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\skid_ignition		57400
+	644532673	engine_small	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\engine_small_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\engine_small		352864
+	660417120	clock	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\clock_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\clock		598138
+	682914198	wee	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\wee_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\wee		9792
+	707489008	inflate	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\inflate_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\inflate		115392
+	715400478	gnu_flute	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\gnu_flute_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\gnu_flute		4340800
 	731493536	fast	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Engine_Heavy_Fast_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\large\fast		753728
 	731744806	Terrain_Wood-cm	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\wood\Terrain_Wood-cm		12598
+	735158052	break	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\break_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\break		924232
+	739267097	goo	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\goo_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\goo		93608
+	774558726	hammer	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\hammer_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\hammer		73774
 	805696895	Terrain_Wood-cm_3	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Terrain_Wood-cm_3_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\terrain\wood\Terrain_Wood-cm_3		14840
+	827501291	swap	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\swap_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\swap		160474
+	861523388	plopp	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\plopp_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\plopp		71488
+	871587978	plunger	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\plunger_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\plunger		45634
+	876354807	ball_bounce	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\ball_bounce_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\ball_bounce		24768
+	901966046	parachute	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\parachute_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\parachute		21056
 	912990630	horn	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\honk_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\horn\horn		28608
+	929213406	machine_sound	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\machine_sound_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\machine_sound		148540
+	932069568	wooden_bridge	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\wooden_bridge_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\wooden_bridge		46308
+	933863159	gp_end	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\gp_end_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\gp_end		905462
+	950095569	locked	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\locked_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\locked		130848
+	994089418	car_revup	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\car_revup_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\pitch-varied\car_revup		520768
 	1001570438	crash_1	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\crash_1_10C4C929.wem		\Actor-Mixer Hierarchy\Karts\Kart\crash\crash_1		117632
 	1041486758	slow	D:\supertuxkart\stk-code\build\CMakeFiles\wwise\SuperTuxKart\.cache\Windows\SFX\Engine_Light_Slow_D79FB2B7.wem		\Actor-Mixer Hierarchy\Karts\Kart\engine\small\slow		617464
 

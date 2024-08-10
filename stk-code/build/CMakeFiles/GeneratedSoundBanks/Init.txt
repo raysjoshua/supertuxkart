@@ -29,22 +29,33 @@ Switch	ID	Name	Switch Group			Notes
 	2611770117	five	gear_ratio			
 	2863728729	four	gear_ratio			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	725232568	dialogue_volume			\Default Work Unit\dialogue_volume	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	611937389	OST			\Default Work Unit\Master Audio Bus\OST	
 	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
+	1229948536	Environment			\Default Work Unit\Master Audio Bus\Environment	
 	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
 	2199896603	Kart			\Default Work Unit\Master Audio Bus\SFX\Kart	
+	2376466361	Other			\Default Work Unit\Master Audio Bus\SFX\Other	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3930136735	Dialogue			\Default Work Unit\Master Audio Bus\Dialogue	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	373392551	New_Auxiliary_Bus			\Default Work Unit\Master Audio Bus\New_Auxiliary_Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
 	401525020	Wwise Meter (Custom)	Wwise Meter			
 	432196972	Wwise Meter (Custom)	Wwise Meter			
 	617532281	Wwise Meter (Custom)	Wwise Meter			
+	680443173	Wwise Meter (Custom)	Wwise Meter			
+	693812316	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	761303489	Wwise Gain (Custom)	Wwise Gain			
 	795595431	Wwise Meter (Custom)	Wwise Meter			
 	893526383	Wwise Peak Limiter (Custom)	Wwise Peak Limiter			
+	894753079	Wwise Meter (Custom)	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

@@ -11,9 +11,11 @@
 #include <AK/SoundEngine/Common/AkQueryParameters.h>
 #include <AK/SoundEngine/Common/AkDynamicDialogue.h>
 #include <AK/SoundEngine/Common/AkDynamicSequence.h>
+#include <AK/Plugin/AkMeterFXFactory.h>
+#include <AK/Plugin/AkPeakLimiterFXFactory.h>
 #include <assert.h>
 #include <irrString.h>
-
+#include "audio/sfx_base.hpp"
 #include "wwise_init.hpp"
 
 #ifndef AK_OPTIMIZED
@@ -21,6 +23,7 @@
 
 #endif // AK_OPTIMIZED
 #include <string>
+#include "sfx_buffer.hpp"
 
 AkGameObjectID MY_DEFAULT_LISTENER = 0;
 
@@ -40,6 +43,8 @@ AkGameObjectID MY_DEFAULT_LISTENER = 0;
 #define BANKNAME_VOX L"vox_soundbank.bnk"
 #define BANKNAME_UI L"ui_soundbank.bnk"
 #define BANKNAME_SFX L"sfx_soundbank.bnk"
+#define BANKNAME_ENVIRONMENT L"environment.bnk"
+#define BANKNAME_STINGERS L"stingers.bnk"
 
 const AkGameObjectID OST_EMITTER = 1000;
 const AkGameObjectID OST_LISTENER = 1001;
@@ -178,6 +183,12 @@ bool  WWise::InitSoundEngine() {
 	eResult = AK::SoundEngine::LoadBank(BANKNAME_SFX, bankID);
 	assert(eResult == AK_Success);
 
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_ENVIRONMENT, bankID);
+	assert(eResult == AK_Success);
+
+	eResult = AK::SoundEngine::LoadBank(BANKNAME_STINGERS, bankID);
+	assert(eResult == AK_Success);
+
 	// Register Game Emitter/Listeners
 
 	AK::SoundEngine::RegisterGameObj(MENU_LISTENER, "Menu-Listener");
@@ -202,6 +213,9 @@ void WWise::UnRegisterDefaultListener(AkGameObjectID ID) {
 	//AK::SoundEngine::RemoveDefaultListener(ID);
 }
 
+void WWise::RegisterGameListener( AkGameObjectID EmitterID, AkGameObjectID ListenerID) {
+	AK::SoundEngine::AddListener(EmitterID, ListenerID);
+}
 
 void WWise::RegisterGameEmitterListener(const char* Emitter, AkGameObjectID EmitterID, const char* Listener, AkGameObjectID ListenerID) {
 	AK::SoundEngine::RegisterGameObj(EmitterID, Emitter);
@@ -215,6 +229,31 @@ void WWise::RegisterGameObject(int ID, const char* object) {
 
 void WWise::UnRegisterGameObject(int ID) {
 	AK::SoundEngine::UnregisterGameObj(ID);
+}
+
+void WWise::PostEventSFX(int ID, SFXBase* Event, Transport Action) {
+	const SFXBuffer* temps = Event->getBuffer();
+	std::string event = temps->getFileNameExtensionless();
+	switch (Action) {
+	case Transport::PLAY:
+		event = "play_" + event;
+		break;
+	case Transport::STOP:
+		event = "stop_" + event;
+		break;
+	case Transport::RESUME:
+		event = "resume_" + event;
+		break;
+	case Transport::PAUSE:
+		event = "pause_" + event;
+		break;
+	default:
+		event = "play_" + event;
+		break;
+	}
+	AK::SoundEngine::PostEvent(event.c_str(), OST_LISTENER);
+
+
 }
 
 void WWise::PostEvent(int ID, const char* Event) {

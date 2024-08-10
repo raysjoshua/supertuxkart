@@ -36,6 +36,8 @@
 #include "physics/triangle_mesh.hpp"
 #include "tracks/track.hpp"
 #include "utils/string_utils.hpp"
+#include "audio/wwise_init.hpp"
+#include "audio/sfx_buffer.hpp"
 #include "utils/log.hpp" //TODO: remove after debugging is done
 
 //-----------------------------------------------------------------------------
@@ -295,7 +297,7 @@ void Powerup::use()
             if (!has_played_sound)
             {
                 m_sound_use->setPosition(m_kart->getXYZ());
-                m_sound_use->play();
+                wwise_manager->PostEventSFX(m_kart->getWorldKartId(), m_sound_use, WWise::PLAY);
             }
             break;
         }
@@ -308,7 +310,7 @@ void Powerup::use()
         if (!has_played_sound)
         {
             Powerup::adjustSound();
-            m_sound_use->play();
+            wwise_manager->PostEventSFX(m_kart->getWorldKartId(), m_sound_use, WWise::PLAY);
         }
         ProjectileManager::get()->newProjectile(m_kart, m_type);
         break ;
@@ -330,7 +332,7 @@ void Powerup::use()
             if (!has_played_sound)
             {
                 Powerup::adjustSound();
-                m_sound_use->play();
+                wwise_manager->PostEventSFX(m_kart->getWorldKartId(), m_sound_use, WWise::PLAY);
             }
         }
         else // if the kart is looking forward, use the bubblegum as a shield
@@ -384,7 +386,7 @@ void Powerup::use()
                 //In this case this is a workaround, since the bubblegum item has two different sounds.
 
                 Powerup::adjustSound();
-                m_sound_use->play();
+                wwise_manager->PostEventSFX(m_kart->getWorldKartId(), m_sound_use, WWise::PLAY);
             }
 
         }   // end of PowerupManager::POWERUP_BUBBLEGUM
@@ -416,7 +418,7 @@ void Powerup::use()
                     else
                         m_sound_use->setPosition(m_kart->getXYZ());
 
-                    m_sound_use->play();
+                    wwise_manager->PostEventSFX(m_kart->getWorldKartId(), m_sound_use, WWise::PLAY);
                 }
                 break;
             }
@@ -478,7 +480,8 @@ void Powerup::use()
                     m_sound_use->setPosition(m_kart->getXYZ());
                 else if(player_kart)
                     m_sound_use->setPosition(player_kart->getXYZ());
-                m_sound_use->play();
+                //m_sound_use->play();
+                wwise_manager->PostEventSFX(m_kart->getWorldKartId(), m_sound_use, WWise::PLAY);
             }
         }
         break;

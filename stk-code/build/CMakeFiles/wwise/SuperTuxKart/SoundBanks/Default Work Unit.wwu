@@ -3,20 +3,6 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{2208E7FB-BC03-4A23-A14B-93E77200003D}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="theme_music" ID="{94600884-5D29-4BA7-92AC-1D7A5248FD16}">
-					<ObjectInclusionList>
-						<ObjectRef Name="OST" ID="{30AC33E2-5F46-4C31-B6D5-E22F5FF349E6}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="kart_soundbank" ID="{7337883B-478F-48FF-A015-18668BDC76F7}">
-					<ObjectInclusionList>
-						<ObjectRef Name="SFX" ID="{3003AF65-B6D0-47B5-9C70-1A9AC4024480}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
 				<SoundBank Name="ui_soundbank" ID="{946CA421-B281-4F73-91B0-E63BB535BCF7}">
 					<ObjectInclusionList>
 						<ObjectRef Name="UI" ID="{0989D309-E917-4324-9D23-AF34DE392092}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
@@ -103,9 +89,12 @@
 				</SoundBank>
 				<SoundBank Name="OST_TRANSPORT" ID="{C9BCFCC6-3942-480C-97F8-E5BC775DFE0A}">
 					<ObjectInclusionList>
+						<ObjectRef Name="stop" ID="{E52A6C2E-02BB-4077-89A6-DBCD41664937}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="stop_ost" ID="{D5A1A0D7-DE35-4153-AD9F-DDA773F3CECD}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="pause" ID="{E0A40810-9770-47DB-9BAD-A9D093B715C9}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="pause_ost" ID="{D2BD2FE7-0275-495C-95C2-8E9290302048}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="resume_ost" ID="{A8D72FE4-57E6-4A35-8F20-5D42F768BF9B}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="resume" ID="{9097696F-B150-4E4D-9E17-F11A7A000F43}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -113,6 +102,20 @@
 				<SoundBank Name="sfx_soundbank" ID="{20526613-DC79-4340-B4FF-B8898A0B937E}">
 					<ObjectInclusionList>
 						<ObjectRef Name="SFX" ID="{3003AF65-B6D0-47B5-9C70-1A9AC4024480}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="stingers" ID="{19FC477E-5578-4B38-B4DE-DE0095605277}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stingers" ID="{30D6C153-AA33-4F06-ABE0-AF7FF454F72D}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="environment" ID="{DDAD4CB8-F4C0-4B48-8B4D-3A39A106BABB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Environment" ID="{A5FE6BB0-783C-46B4-8EBD-839984E7020A}" WorkUnitID="{B3541936-2072-4E56-8DD0-1FA5D6A5BF0B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

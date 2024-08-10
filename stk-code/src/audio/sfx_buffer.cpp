@@ -23,6 +23,7 @@
 #include "utils/constants.hpp"
 #include "utils/file_utils.hpp"
 #include "utils/log.hpp"
+#include "utils/string_utils.hpp"
 
 #ifdef ENABLE_SOUND
 #  include <vorbis/codec.h>
@@ -51,6 +52,9 @@ SFXBuffer::SFXBuffer(const std::string& file,
     m_duration    = -1.0f;
     m_file        = file;
 
+    m_filename_extensionless = StringUtils::getBasename(m_file);
+    m_filename_extensionless = StringUtils::removeExtension(m_filename_extensionless);
+
     m_rolloff     = rolloff;
     m_positional  = positional;
     m_gain        = gain;
@@ -72,6 +76,9 @@ SFXBuffer::SFXBuffer(const std::string& file,
     m_positional  = false;
     m_loaded      = false;
     m_file        = file;
+
+    m_filename_extensionless = StringUtils::getBasename(m_file);
+    m_filename_extensionless = StringUtils::removeExtension(m_filename_extensionless);
 
     node->get("rolloff",     &m_rolloff    );
     node->get("positional",  &m_positional );

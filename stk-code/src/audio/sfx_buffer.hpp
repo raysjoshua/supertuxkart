@@ -51,6 +51,7 @@ private:
 
     /** The file that contains the OGG audio data */
     std::string m_file;
+    std::string m_filename_extensionless;
 
     /** The openal buffer id. */
     ALuint   m_buffer;
@@ -111,6 +112,8 @@ public:
     // ------------------------------------------------------------------------
     /** Returns the file name of this buffer. */
     const std::string& getFileName() const { return m_file; }
+    /** Returns the file name of this buffer. */
+    const std::string& getFileNameExtensionless() const { return m_filename_extensionless; }
     // ------------------------------------------------------------------------
     /** Sets if this buffer is positional or not. */
     void  setPositional(bool positional) { m_positional = positional; }

@@ -28,6 +28,7 @@
 
 #include "achievements/achievements_status.hpp"
 #include "audio/sfx_base.hpp"
+#include "audio/sfx_buffer.hpp"
 #include "audio/sfx_manager.hpp"
 #include "config/player_manager.hpp"
 #include "graphics/explosion.hpp"
@@ -42,8 +43,8 @@
 #include "modes/capture_the_flag.hpp"
 #include "network/network_string.hpp"
 #include "network/rewind_manager.hpp"
-
 #include <IAnimatedMeshSceneNode.h>
+#include "audio/wwise_init.hpp"
 
 #define SWAT_POS_OFFSET        core::vector3df(0.0, 0.2f, -0.4f)
 #define SWAT_ANGLE_MIN  45
@@ -212,7 +213,8 @@ void Swatter::updateGraphics(float dt)
                         Vec3 swatter_pos =
                             m_kart->getTrans()(Vec3(SWAT_POS_OFFSET));
                         m_swat_sound->setPosition(swatter_pos);
-                        m_swat_sound->play();
+                        wwise_manager->PostEventSFX(m_kart->getWorldKartId(), m_swat_sound, WWise::PLAY);
+
                     }
                     pointToTarget();
                 }

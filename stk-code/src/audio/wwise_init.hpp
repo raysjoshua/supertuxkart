@@ -6,6 +6,7 @@
 #include <AkFilePackageLowLevelIOBlocking.h>
 #include <AK/MusicEngine/Common/AkMusicEngine.h>
 #include <AK/SpatialAudio/Common/AkSpatialAudio.h> 
+#include "audio/sfx_base.hpp"
 #include <assert.h>
 #include <string>
 #include <irrString.h>
@@ -18,10 +19,12 @@ public:
 	void UnRegisterGameObject(int ID);
 	void SetGameObjectPosition(const int ID, const float X, const float Y, const float Z);
 	void RegisterDefaultListener(AkGameObjectID ID);
+	void RegisterGameListener(AkGameObjectID EmitterID, AkGameObjectID ListenerID);
 	void UnRegisterDefaultListener(AkGameObjectID ID);
 	void RegisterGameEmitterListener(const char* Emitter, AkGameObjectID EmitterID, const char* Listener, AkGameObjectID ListenerID);
 	void PostEvent(int ID, const char* Event);
-	void PostEventUI(const char* Event);
+	void PostEventSFX(int ID, SFXBase* Event, Transport Action);
+ 	void PostEventUI(const char* Event);
 
 	void PostEventOST(const char* Event, Transport Action);
 	bool IsOSTPlaying();

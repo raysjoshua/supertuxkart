@@ -43,12 +43,22 @@
 							<ReferenceList>
 								<Reference Name="Effect0">
 									<Custom>
-										<Effect Name="Wwise Meter (Custom)" ID="{C0361DD0-41D3-4C1D-88BB-490ACE658603}" ShortID="432196972" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+										<Effect Name="Wwise Meter (Custom)" ID="{C0361DD0-41D3-4C1D-88BB-490ACE658603}" ShortID="432196972" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">											<PluginData>
+	<GameParameter Name="dialogue_volume" ID="{3B90AC80-AE9E-4357-B56C-DEADFC4607FC}"/>
+</PluginData>
+										</Effect>
 									</Custom>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="Kart" ID="{FAEC4812-B9F6-439E-84BE-B5EB49BE44F6}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Effect0">
 											<Custom>
@@ -58,38 +68,99 @@
 									</ReferenceList>
 									<ObjectLists/>
 								</Bus>
+								<Bus Name="Other" ID="{8D71B6AA-AB96-4171-AC57-F029F810E29A}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise Meter (Custom)" ID="{AE3D2F36-27C3-4665-84FF-772ACB1370AE}" ShortID="680443173" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</Bus>
 							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="OST" ID="{8CD172B3-174C-450F-9605-8C864E979F7D}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{D8039E8C-793D-40D3-9D23-C30E43AEDB8B}" ShortID="259527909">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="dialogue_volume" ID="{3B90AC80-AE9E-4357-B56C-DEADFC4607FC}" WorkUnitID="{1446A205-8C66-48FA-B3B4-8A5F97723F5A}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D6C98FD9-6CBD-4700-A16D-2186634455D9}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>SCurve</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-3.85538</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0">
 									<Custom>
 										<Effect Name="Wwise Meter (Custom)" ID="{D1DA2BB7-C58E-4153-B342-D5DEB40E6CB3}" ShortID="617532281" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
 									</Custom>
 								</Reference>
-							</ReferenceList>
-							<ObjectLists/>
-						</Bus>
-						<Bus Name="Dialogue" ID="{D34B238A-64F4-492C-91C9-4C414170E021}">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Effect0">
-									<Custom>
-										<Effect Name="Wwise Meter (Custom)" ID="{DE46FC5F-F948-4AD0-8E65-EA463F16640B}" ShortID="795595431" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
-									</Custom>
-								</Reference>
 								<Reference Name="Effect1">
 									<Custom>
-										<Effect Name="Wwise Gain (Custom)" ID="{43DEADCD-FC55-4D78-8CB8-997AE0FE57A6}" ShortID="761303489" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+										<Effect Name="Wwise Parametric EQ (Custom)" ID="{218DAB90-18FB-47B3-A8F1-050CF7EA4F05}" ShortID="693812316" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 											<PropertyList>
-												<Property Name="FullBandGain" Type="Real32" Value="12"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="2000"/>
+												<Property Name="GainBand2" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{9B677B6D-9253-46A2-A3CD-AE7C6E662FA7}" ShortID="438513958">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="dialogue_volume" ID="{3B90AC80-AE9E-4357-B56C-DEADFC4607FC}" WorkUnitID="{1446A205-8C66-48FA-B3B4-8A5F97723F5A}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{FFDC0482-BF6E-4771-81BA-4DF80FB986A4}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-30</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-2</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 											</PropertyList>
 										</Effect>
 									</Custom>
@@ -97,6 +168,37 @@
 							</ReferenceList>
 							<ObjectLists/>
 						</Bus>
+						<Bus Name="Dialogue" ID="{D34B238A-64F4-492C-91C9-4C414170E021}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Meter (Custom)" ID="{DE46FC5F-F948-4AD0-8E65-EA463F16640B}" ShortID="795595431" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">											<PluginData>
+	<GameParameter Name="dialogue_volume" ID="{3B90AC80-AE9E-4357-B56C-DEADFC4607FC}"/>
+</PluginData>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Gain (Custom)" ID="{43DEADCD-FC55-4D78-8CB8-997AE0FE57A6}" ShortID="761303489" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Environment" ID="{EA97B8A2-64D6-4EF3-A77B-197D40CF6B29}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Meter (Custom)" ID="{2FC36F9D-6EDD-4312-ABFA-E08F123D7960}" ShortID="894753079" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</Bus>
+						<AuxBus Name="New_Auxiliary_Bus" ID="{C46FAF47-7305-491D-98C7-2A900804BCCD}">
+							<ObjectLists/>
+						</AuxBus>
 					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
